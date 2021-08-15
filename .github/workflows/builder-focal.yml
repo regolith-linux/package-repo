@@ -1,0 +1,71 @@
+name: build-focal
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Checkout dependencies
+        run: |
+          git clone -b release https://github.com/regolith-linux/regolith-creche.git lib/creche/
+      - name: Generate Model
+        run: |
+          jq -s '.[0] * .[1]' ./lib/creche/regolith-2.0.pkgmodel.json focal-model.json > model.json
+          
+      - name: Generate Manifest
+        run: |
+          [ -e ./focal-manifest.txt ] && rm ./focal-manifest.txt
+          cat model.json | ./lib/creche/build-manifest.sh ./manifest-raw.txt /tmp/manifest
+          sort ./manifest-raw.txt > ./focal-manifest.txt
+          rm ./manifest-raw.txt
+          echo "Generated manifest:"
+          cat ./focal-manifest.txt
+      
+      - name: Check if there are changes
+        id: changes
+        uses: UnicornGlobal/has-changes-action@v1.0.11
+      
+      - name: Configure GPG Key
+        if: steps.changes.outputs.changed == 1
+        run: |
+          mkdir -p ~/.gnupg/
+          printf "$GPG_SIGNING_KEY" | base64 --decode > ~/.gnupg/private.key
+          gpg --batch --import ~/.gnupg/private.key
+        env:
+          GPG_SIGNING_KEY: ${{ secrets.DEB_REPO_KEY }}
+
+      - name: Generate Package Repository
+        if: steps.changes.outputs.changed == 1
+        run: |
+          export DEBEMAIL="regolith.linux@gmail.com"
+          export DEBFULLNAME="Regolith Linux"
+          sudo apt install devscripts reprepro
+          ./lib/creche/build-deb-repo.sh ./model.json ./docs /tmp/reprepro focal
+          rm ./model.json
+
+#      - name: Test Install
+#        if: steps.changes.outputs.changed == 1
+#        run: |
+#          echo "deb [trusted=yes] file:/tmp/reprepro ./" > /etc/apt/sources.list.d/regolith-test.list
+#          apt update
+#          apt install regolith-desktop-small
+
+      - name: Commit Files
+        if: steps.changes.outputs.changed == 1
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./docs/*
+          git add ./focal-manifest.txt
+          git commit -am "Automated repo update"
+          
+      - name: Push Changes
+        if: steps.changes.outputs.changed == 1
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
