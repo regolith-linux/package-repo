@@ -4,5 +4,5 @@ Codename: focal
 Architectures: amd64 source
 Components: main
 Description: Regolith packages for Ubuntu Focal
-SignWith: 0F71F62C2C031233
+SignWith: CB863C9234C41BD2C85AC7D4FC05A3C9310D19F7
 

@@ -37,14 +37,16 @@ jobs:
           printf "$GPG_SIGNING_KEY" | base64 --decode > ~/.gnupg/private.key
           gpg --batch --import ~/.gnupg/private.key
         env:
-          GPG_SIGNING_KEY: ${{ secrets.DEB_REPO_KEY }}
+          GPG_SIGNING_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}
 
       - name: Generate Package Repository
         if: steps.changes.outputs.changed == 1
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          sudo apt install devscripts reprepro
+          sudo apt update
+          sudo apt install -y devscripts
+          sudo apt install -y reprepro
           ./lib/creche/build-deb-repo.sh ./model.json ./docs/ubuntu/hirsute /tmp/reprepro hirsute
           rm ./model.json
 
