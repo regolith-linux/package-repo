@@ -44,7 +44,9 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          sudo apt install devscripts reprepro
+          sudo apt update
+          sudo apt install -y devscripts
+          sudo apt install -y reprepro
           ./lib/creche/build-deb-repo.sh ./model.json ./docs/ubuntu/focal /tmp/reprepro focal
           rm ./model.json
 

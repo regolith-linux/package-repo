@@ -1,0 +1,8 @@
+Origin: regolith-linux.github.io/repo-ubuntu-focal
+Label: Regolith Desktop Environment
+Codename: focal
+Architectures: amd64 source
+Components: main
+Description: Regolith packages for Ubuntu Focal
+SignWith: 0F71F62C2C031233
+
