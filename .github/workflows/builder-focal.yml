@@ -45,7 +45,7 @@ jobs:
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
           sudo apt install devscripts reprepro
-          ./lib/creche/build-deb-repo.sh ./model.json ./docs /tmp/reprepro focal
+          ./lib/creche/build-deb-repo.sh ./model.json ./docs/ubuntu/focal /tmp/reprepro focal
           rm ./model.json
 
 #      - name: Test Install
@@ -60,7 +60,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add ./docs/*
+          git add ./docs/ubuntu/focal/*
           git add ./focal-manifest.txt
           git commit -am "Automated repo update"
           
