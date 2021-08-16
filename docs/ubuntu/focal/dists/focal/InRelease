@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: regolith-linux.github.io/repo-ubuntu-focal
+Label: Regolith Desktop Environment
+Codename: focal
+Date: Mon, 16 Aug 2021 00:10:46 UTC
+Architectures: amd64
+Components: main
+Description: Regolith packages for Ubuntu Focal
+MD5Sum:
+ bb35bdf42cc5380a93d1979c0fecfe1c 53005 main/binary-amd64/Packages
+ 078d02c347f2c2f4129ddce851c58074 13413 main/binary-amd64/Packages.gz
+ 9a72b6fc769478126b614aa4d470a360 171 main/binary-amd64/Release
+ 932c002e10e6599ef5a7e5f0acfd6f36 43637 main/source/Sources
+ 73b4b7bdd268931dd33117504529ddf0 11012 main/source/Sources.gz
+ fd9bc47a963226463b2e3e34fdf79e8d 172 main/source/Release
+SHA1:
+ 31496fe47bb15d37e226be6f2ab4cccb8cdddb0b 53005 main/binary-amd64/Packages
+ d52eeb751363ebc88cd8b3d9a5d3f2f6e4aa3e23 13413 main/binary-amd64/Packages.gz
+ 71b39f877f8768cc7e65eb9e3e67887425372057 171 main/binary-amd64/Release
+ 2bea12e693b3d06281efd618e9c9b839f145eece 43637 main/source/Sources
+ c27f9cc38237131c19ed745d5383f99fa83884ce 11012 main/source/Sources.gz
+ a3b9da361f87973c5b292cbd7cb0f8da9bf5f429 172 main/source/Release
+SHA256:
+ af6d6460dd31631a05e080f3ec033fc9104b050f7c8c2cd611a5279a486676c4 53005 main/binary-amd64/Packages
+ 164298959bb53d790ac2f5a14dfc239f2e5569c419cc5bbcda068b53e5c77ecd 13413 main/binary-amd64/Packages.gz
+ a523ab7a3bfb72719545d17c39bda02fc5921b895a3b23c7a926024e18504131 171 main/binary-amd64/Release
+ 3ebe28666924145d9deac88964d0cbd5c44399741f4bcc7afd031783026ef6d9 43637 main/source/Sources
+ 37f9525de9c550487aaaf925d4c3db13a486a53723bd8fa0832f7d8151d45293 11012 main/source/Sources.gz
+ f12066cb53460902f4e0e4fc92fd1be52a5853136c758b517351b3194934b864 172 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmEZrQYACgkQv+cXZJpc
+PQi2zAv+PtZmQm1AB7TIHPgDIyJ5FGCNUS6jXHF/nUexM0J10zEjMayBm3ls28uD
+vjUHX5jK0LqWuvDZrfAys6wMN/B1n9CLKdS87zz2Ua0y6rCxaQjTaUh73xd31gYa
+ojkcpKojZ0Wjwid+WuiP6mzcO/KQIq8JH4p+tmi8DAsNP3vGG3pzEEb3rT6K2zws
+kxbZc7eRoRStnitHCZh/n4E+o+K5/zZmCwUWMmiPRg/1rDP4FP4y5kojAm3oTz6T
+kmGkA9+EZllR+Ucx/oloZVF2wyLrN7OrErcHH9g8ZsX2nEOZqCgbN9p6VgNhcvJa
+tQVXwoHR8Ghtb5UyAPwsD3xYJVJoUwj4sQlJnUoKFQtO8yJ65aWrml+TTqL/RYXi
+1h+nv2L4FYRLAeimnKVwbeqLe9cbSReIT17CktPhLX0SkFPjC4PrKxf+oEqCUBVS
+pw9k74TjMoaAjh9Ztax00azNSQC8pCmQ4TC6Lsn2V4JI7zhtqkPBJBwoWC/ujwLS
+gQ6jjBf7
+=kJVp
+-----END PGP SIGNATURE-----
