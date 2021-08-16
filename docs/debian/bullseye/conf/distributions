@@ -1,6 +1,6 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
-Codename: buster
+Codename: bullseye
 Architectures: amd64 source
 Components: main
 Description: Regolith Debian
