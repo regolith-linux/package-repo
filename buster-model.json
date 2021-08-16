@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "json-glib": {
+      "source": "https://salsa.debian.org/gnome-team/json-glib.git",
+      "branch": "debian/1.5.2-1"
+    }
+  }
+}
