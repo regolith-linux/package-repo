@@ -12,7 +12,7 @@ regolith-compositor-compton-glx master eebe813
 regolith-compositor-none master 2391653
 regolith-compositor-picom-glx master 9fe5b87
 regolith-compositor-xcompmgr master c17985c
-regolith-default-settings i3cp 3111b48
+regolith-default-settings debian/buster 3dbacf2
 regolith-desktop ubuntu/focal-i3cp 6efbe16
 regolith-ftue i3cp fc3e9ac
 regolith-i3-config master 02f3932
