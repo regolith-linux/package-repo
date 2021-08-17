@@ -6,7 +6,7 @@
     },
     "regolith-default-settings": {
       "source": "https://github.com/regolith-linux/regolith-default-settings.git",
-      "branch": "ubuntu/bionic"
+      "branch": "debian/buster"
     }
   }
 }
