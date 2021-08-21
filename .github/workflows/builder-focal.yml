@@ -25,12 +25,12 @@ jobs:
           git clone -b release https://github.com/regolith-linux/regolith-creche.git lib/creche/
       - name: Generate Model
         run: |
-          jq -s '.[0] * .[1]' ./lib/creche/regolith-2.0.pkgmodel.json ${{ steps.init.outputs.model_path }} > model.json
+          jq -s '.[0] * .[1]' ./lib/creche/regolith-2.0.pkgmodel.json ${{ steps.init.outputs.model_path }} > /tmp/model.json
           
       - name: Generate Manifest
         run: |
           [ -e ${{ steps.init.outputs.manifest_path }} ] && rm ${{ steps.init.outputs.manifest_path }}
-          cat model.json | ./lib/creche/build-manifest.sh ./manifest-raw.txt /tmp/manifest
+          cat /tmp/model.json | ./lib/creche/build-manifest.sh ./manifest-raw.txt /tmp/manifest
           sort ./manifest-raw.txt > ${{ steps.init.outputs.manifest_path }}
           rm ./manifest-raw.txt
           echo "Generated manifest:"
@@ -41,8 +41,10 @@ jobs:
         run: |
           if [[ -z "$(git status --porcelain)" ]];
             then
+              echo "No changes found"
               echo ::set-output name=changed::0
             else
+              echo "Changes found"
               echo ::set-output name=changed::1
             fi
       
@@ -63,8 +65,7 @@ jobs:
           sudo apt update
           sudo apt install -y devscripts
           sudo apt install -y reprepro
-          ./lib/creche/build-deb-repo.sh ./model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}
-          rm ./model.json
+          ./lib/creche/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
 
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
