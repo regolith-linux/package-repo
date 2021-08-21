@@ -26,6 +26,8 @@ jobs:
       - name: Generate Model
         run: |
           jq -s '.[0] * .[1]' /tmp/creche/regolith-2.0.pkgmodel.json ${{ steps.init.outputs.model_path }} > /tmp/model.json
+          echo "Generated model:"
+          cat /tmp/model.json
           
       - name: Generate Manifest
         run: |
