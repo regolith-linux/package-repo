@@ -12,6 +12,7 @@ jobs:
       - name: Set Job Parameters
         id: init
         env:
+          DISTRO: ubuntu
           CODENAME: focal
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
@@ -37,7 +38,13 @@ jobs:
       
       - name: Check if there are changes
         id: changes
-        uses: UnicornGlobal/has-changes-action@v1.0.11
+        run: |
+          if [[ -z "$(git status --porcelain)" ]];
+            then
+              echo ::set-output name=changed::0
+            else
+              echo ::set-output name=changed::1
+            fi
       
       - name: Configure GPG Key
         if: steps.changes.outputs.changed == 1
@@ -58,13 +65,6 @@ jobs:
           sudo apt install -y reprepro
           ./lib/creche/build-deb-repo.sh ./model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}
           rm ./model.json
-
-#      - name: Test Install
-#        if: steps.changes.outputs.changed == 1
-#        run: |
-#          echo "deb [trusted=yes] file:/tmp/reprepro ./" > /etc/apt/sources.list.d/regolith-test.list
-#          apt update
-#          apt install regolith-desktop-small
 
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
