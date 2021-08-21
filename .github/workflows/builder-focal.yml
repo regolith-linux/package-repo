@@ -39,6 +39,7 @@ jobs:
       - name: Check if there are changes
         id: changes
         run: |
+          git status --porcelain
           if [[ -z "$(git status --porcelain)" ]];
             then
               echo "No changes found"
