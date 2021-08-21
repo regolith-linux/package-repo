@@ -857,7 +857,7 @@ Description: Regolith default settings
 
 Package: regolith-desktop-core
 Source: regolith-desktop
-Version: 3.0.9-1-1regolith-1629072426
+Version: 3.0.10-1focal-1regolith-1629588920
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 16
@@ -867,17 +867,17 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop-core_3.0.9-1-1regolith-1629072426_amd64.deb
-Size: 5440
-SHA256: 1770ba8a3c3c89cfb1806fc7fd2fdc582f3da07bce21bbe1a04fd2e31aee47b7
-SHA1: 90fd71f944a8ded0602a086d08f2780f9cc75b4a
-MD5sum: ab798d992e0f5b444d5a1ccb00fbdf9e
+Filename: pool/main/r/regolith-desktop/regolith-desktop-core_3.0.10-1focal-1regolith-1629588920_amd64.deb
+Size: 5576
+SHA256: f0f8eee2dbf1b6f1502c0bbde2521e837b0da811d0cf3d7cf1f58c442aac4e2b
+SHA1: 664c63f78da46ab48147ed7d531b4ecbae5318b3
+MD5sum: dd0d6de4e38c9dd6cb1972f6d615a153
 Description: metapackage for minimal Regolith desktop environment
  This package does not provide a functional desktop environment.
 
 Package: regolith-desktop-small
 Source: regolith-desktop
-Version: 3.0.9-1-1regolith-1629072426
+Version: 3.0.10-1focal-1regolith-1629588920
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 12
@@ -891,11 +891,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop-small_3.0.9-1-1regolith-1629072426_amd64.deb
-Size: 5432
-SHA256: 89d3b377972801d3f9a6f3c8034f120a8e3236d63efc6bb7f9a0f6c880b896c7
-SHA1: dfbe8d77aa580bd569a6f0875bb5b797ab3b3e71
-MD5sum: df24efb606b1c97814d89acd8bab0cf6
+Filename: pool/main/r/regolith-desktop/regolith-desktop-small_3.0.10-1focal-1regolith-1629588920_amd64.deb
+Size: 5564
+SHA256: 1758830e385684bda766fe1b9ad32dc057d3f8a64291204af9811a7270e4d66a
+SHA1: 9387dc70fdb1633c494568a352e1a0cab8c13661
+MD5sum: cfae6c0b36808b827ba33c43e596f052
 Description: metapackage for a light but functional Regolith desktop environment
  This package contains minimal packages for a functional desktop.
 
