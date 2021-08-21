@@ -264,364 +264,400 @@ Description: i3blocks with Xresources and conf.d configuration
  i3xrocks is a tracking fork of i3blocks that adds a few features
  for the Regolith Desktop Environment.
 
-Package: i3xrocks-battery
+Package: i3xrocks-app-launcher
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 25
+Installed-Size: 24
+Depends: regolith-i3xrocks-config, rofi
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-app-launcher_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9208
+SHA256: 004940b5716030040378ea84314d83120d37d39d902cc90e7be115e3da828b2f
+SHA1: 0f2432b8a9be6c9b3a8fc5198be7778d456c8818
+MD5sum: db77180a7c4c7ca119e984f3533d6b28
+Description: Button to open app launcher.
+ An i3xrocks widget to open app launcher dialog.
+
+Package: i3xrocks-battery
+Source: regolith-i3xrocks-config
+Version: 4.0.1-1-1regolith-1629580406
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 26
 Depends: regolith-i3xrocks-config, upower
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-battery_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9368
-SHA256: 814c7c918e7e3f343226dbf64b7ff984596df18c48f510470b34dacec9965776
-SHA1: 55e8f8a21234a6ac6d631810a8edf70f6b0803e7
-MD5sum: 030992b7391a7cc1f5679e750aed4196
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-battery_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9764
+SHA256: 9da800e8126b441d443129daef9302158d93ff7ceac460a1bf3765268ed28b1c
+SHA1: 8557c27fb7d1ae7f7b835e10dcd4a71db5f3e3be
+MD5sum: d581d88f05ad88ab3cde4cf4f64f06f7
 Description: Indicator to show battery status.
  An i3xrocks indicator to show the current battery status.
 
 Package: i3xrocks-bluetooth
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 26
+Installed-Size: 27
 Depends: python3 (>= 3.5), python3-dbus, regolith-i3xrocks-config
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-bluetooth_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9752
-SHA256: 60114684b3af88a9b70dc8a178092172c12103aa2c4f3466a17ccf15d2bc00a3
-SHA1: 5a8ff039661b8a90e654ffc6c5f74126914c3d06
-MD5sum: 1f38960ed5793969323bd08c5c854452
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-bluetooth_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 10116
+SHA256: 6d4eabf8dce1b7e1c0a85b006e6d32b102b662764de699afa24526a4b12166b5
+SHA1: e207a8d751b3a40e420eb52b1feede8e2376ffae
+MD5sum: 6687ed94f39334b8b286ed6fa3be4534
 Description: Indicator to show currently connected Bluetooth devices.
  An i3xrocks indicator to show the currently connected Bluetooth devices.
 
 Package: i3xrocks-cpu-usage
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 24
+Installed-Size: 25
 Depends: regolith-i3xrocks-config, gnome-system-monitor, sysstat
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-cpu-usage_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9372
-SHA256: c63f32941a52d0a16019ec0c31c7830db708fbda17494c4655471c6b5766c701
-SHA1: d157fc7c7cdaeb85adf33a33a03b853bfe594e18
-MD5sum: b0fbec8d36e808b42c00fc6807e58e66
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-cpu-usage_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9736
+SHA256: f62e50969ceb73d65a3cf3fab63ba3a68dbf413a80d51115c5e153f845755003
+SHA1: 8bfa44a4ec68f25d5436fe2bf40bfff16c8a7474
+MD5sum: 28dfe11bd6f886e95ff957064f001c37
 Description: Indicator to show CPU load.
  An i3xrocks indicator to show CPU load.
 
 Package: i3xrocks-disk-capacity
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 24
+Installed-Size: 25
 Depends: gnome-disk-utility, regolith-i3xrocks-config, bash (>= 3), coreutils (>= 8)
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-disk-capacity_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9020
-SHA256: 9d21161a4b80c4b2d89dd0db759c2fb9f8a41ecbb0d84d9fb877343846f7a307
-SHA1: 258554f0a05b7826d2f9de629f0c5cda3f0c4096
-MD5sum: 482e19ee8f5720ffdff746122e94c077
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-disk-capacity_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9384
+SHA256: 93cd3ac9aec9ae4fbebfb7d081b65ef152d3cfb87562d2bf06c4c09c8647700b
+SHA1: ddff18f12d47b31ea817e81e1fa95f134db33b82
+MD5sum: 8da7174ee411ec66b5caff4b05f9ac7c
 Description: Indicator for disk capacity.
  An i3xrocks indicator for disk capacity.
 
 Package: i3xrocks-focused-window-name
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 26
+Installed-Size: 27
 Depends: python3 (>= 3.5), regolith-i3xrocks-config, python3-i3ipc
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-focused-window-name_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9576
-SHA256: 69724edcab977ff794df84670ca93edc764257c4b55126de80a1f4600bfcb6c9
-SHA1: 4c7b47a1e4694532254e7e4480d3ae83b0dc8edc
-MD5sum: 9fe6d1dd17f45429dc29af2655837303
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-focused-window-name_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9948
+SHA256: 272abaa388970a90688fb9aeddf4b3c72149e8373bf23e14b1003e85c9d9d213
+SHA1: 3cf59bf7b78509a67821622d4aaad7c138741dfb
+MD5sum: 26cbb7b69e5370a56007b0f0805d2025
 Description: Indicator to show focused window name.
  An i3xrocks indicator to show the name of the focused window.
 
 Package: i3xrocks-info
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 21
+Installed-Size: 22
 Depends: regolith-i3xrocks-config, remontoire, regolith-ftue
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-info_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 8500
-SHA256: 3ecaaf6e9109c5720d6ff88746acb3a54bb8b13fdb21c0e82a7746375ebeb71f
-SHA1: 561e8930dba01cae6dfae141c8bfeca11fcd88d1
-MD5sum: 7eac6e88bad77acc2e592eeddbec278a
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-info_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 8868
+SHA256: c292e405d2bfa6a12c818180db7aa4db5906e037efbde9210f02e34c5144263c
+SHA1: 2bb3b62ecbf615a1b631e3eb2c87b3aab092cce8
+MD5sum: 200fbab544cb3a2d1510b7325abf2d63
 Description: Indicator launch Remontoire.
  An i3xrocks indicator to launch Remontoire.
 
 Package: i3xrocks-key-indicator
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 24
+Installed-Size: 25
 Depends: regolith-i3xrocks-config, x11-xserver-utils
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-key-indicator_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 8896
-SHA256: 2e25420a0c191745538861604043ae586aed3fbc059b1441358cacd2d515b6c4
-SHA1: dc039d20a44bb90bad82bcfd1dd1384990058cb7
-MD5sum: 514e8b38ff86e1693145d627db8a5dc9
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-key-indicator_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9268
+SHA256: 39718b6e28be3e6fdbf6028baac43a700da935a6a719ecd48c8de7617b2a00dd
+SHA1: 5b449111b4af1395cb40daa5cb59bfcbdf4e382f
+MD5sum: 0015c6b8e485127907af9c4ac64da718
 Description: Indicator for caps and num lock status.
  An i3xrocks indicator for showing the current caps- and num-lock status.
 
 Package: i3xrocks-keyboard-layout
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 25
+Installed-Size: 26
 Depends: regolith-i3xrocks-config, libglib2.0-bin
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-keyboard-layout_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9396
-SHA256: 25883bc0e34fcc68ea99187ead12a685a5e1c019bbd7fca71776bef4fd9d2699
-SHA1: d612911ae5d786219589442e2c00639c1a52f285
-MD5sum: ba971fc43dff0f3ce99daa9235cac4f9
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-keyboard-layout_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9796
+SHA256: f614bf7f4d591a71d5ad7e319d54e418c620b86efec994b0ff1ff41ae548ff09
+SHA1: efe0a312231d7482b6cdfa67652304f4b9ce2c02
+MD5sum: ad53dbda56a847b309b15d36f5a47f31
 Description: Indicator to show keyboard layout.
  An i3xrocks indicator to show the current keyboard layout.
 
 Package: i3xrocks-media-player
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 25
+Installed-Size: 26
 Depends: regolith-i3xrocks-config, playerctl
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-media-player_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9484
-SHA256: b347b830b266ad47b40d700b1db52d0b7c38c6ded59ea29103f0611f5756cbf5
-SHA1: 0880a458ee2acfea3d9fb0b2c387b7c08a91b2d1
-MD5sum: 6124e9ccc851780eb168aea5a884b54e
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-media-player_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9876
+SHA256: b6e84697d5dd4b90ccca895bf44d40c3dbc56fc3181385eadd96111c1d58a371
+SHA1: 6cb97d62796c0e424672044eb9fe21fd162db564
+MD5sum: c24c7e40cf851b2cd0a27e5f9e154c54
 Description: Indicator for managing media playback.
  An i3xrocks indicator for managing media playback.
 
 Package: i3xrocks-memory
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 25
+Installed-Size: 26
 Depends: regolith-i3xrocks-config, gnome-system-monitor
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-memory_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9260
-SHA256: f003213a5514fd0adb09c5907f7e162722a229cbf913aa6825fe12793044ce7c
-SHA1: 91f14a45fdf2a05d01849b56a38f63c4e383bcec
-MD5sum: 1c284db989cdb509a39c138b9f4e2c0e
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-memory_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9632
+SHA256: c19509cea8aa3b5292287138cfbcbb36d6421b05627e70acf1d2da980f0058c6
+SHA1: 718ca483418fecd2f549dfdcea12df2a76058666
+MD5sum: a77d0d0cbd77368792a6eae7a82f4ca2
 Description: Indicator to show memory utilization.
  An i3xrocks indicator to show memory utilization.
 
-Package: i3xrocks-net-traffic
+Package: i3xrocks-microphone
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 25
-Depends: bc, regolith-i3xrocks-config
+Installed-Size: 27
+Depends: regolith-i3xrocks-config, alsa-utils
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-microphone_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 10176
+SHA256: 7f02c407208d46c15fe7133f181d4303c3553c4ad139d113211a4a61f572fe2f
+SHA1: 18bfbdf40d125d9e33c7f722e35128df01d43b79
+MD5sum: 1c1dc073b2087494a687575b71010dd9
+Description: Indicator to show microphone level.
+ An i3xrocks indicator for showing the current microphone level.
+
+Package: i3xrocks-net-traffic
+Source: regolith-i3xrocks-config
+Version: 4.0.1-1-1regolith-1629580406
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 26
+Depends: bc, regolith-i3xrocks-config, iproute2
 Recommends: gnome-control-center
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-net-traffic_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9484
-SHA256: 13689b1d9514c4e33686c876dae022fc69098cf40809a91ad7b9186f43c8038e
-SHA1: 671c3770cf3fe1be94c8695c1f9f4650d5d3e802
-MD5sum: 3a37fd61d78053c7772fe51a779645cf
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-net-traffic_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9892
+SHA256: e361f0e42ceafb13776d8f03ce040f31158a8bdae69c8b34f32b97f6c16d0228
+SHA1: e17409ca5165053d3db031bfb09e0cdcb215a148
+MD5sum: 294423c83c14efe46792151b2956b90b
 Description: Indicator to show network I/O status.
  An i3xrocks indicator to show network I/O status.
 
 Package: i3xrocks-next-workspace
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 23
+Installed-Size: 24
 Depends: python3 (>= 3.5), regolith-i3xrocks-config, i3-next-workspace, python3-i3ipc
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-next-workspace_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 8812
-SHA256: 1f8e985da468dce8ad6b5c737425c932aa545eb6450bc3f26fd23e6a0c463a9d
-SHA1: 15e159dfe83b6e7eb2e6f45f48a81d7c354f9b39
-MD5sum: 823ec4bcbd9ffab368010f777dc0b275
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-next-workspace_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9176
+SHA256: bc84d7a66f6177cec88c9091a245c1759b182bb58f43bcffcc4ca35bf99b3cdc
+SHA1: 18796751c2a4d2056c3e6619a6e0778b325ead6c
+MD5sum: 395b19459ba89427bd7c0e3c7045338f
 Description: Button to open next workspace.
  An i3xrocks widget to open next available empty workspace.
 
 Package: i3xrocks-nm-vpn
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 23
+Installed-Size: 24
 Depends: regolith-i3xrocks-config, network-manager
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-nm-vpn_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 8860
-SHA256: e8ade66677d544fe0bf263ad5ac16a10e90879bb2e0d1af53ab2f09c2ebedd06
-SHA1: 42e1bcc69c54267ef0256308253ebb6de51d3f28
-MD5sum: 28b8691a52f942ab7b316980b708a0ba
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-nm-vpn_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9228
+SHA256: cf1318007c04a8ad997296900acbdbdedc51d2d2c0d1268b575387dfae01312c
+SHA1: 066fb3ad261893978920e51ed34e8aca4e5601c1
+MD5sum: ffd3a5fe98a7f1ec6efd7777a7adc72b
 Description: Network-Manager VPN indicator.
  A i3xrocks indicator for showing the Network-Manager VPN status.
 
 Package: i3xrocks-openvpn
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 27
+Installed-Size: 28
 Depends: regolith-i3xrocks-config, perl
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-openvpn_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9932
-SHA256: 991d5caaa2dbec96e35438e5300fed9f8b9fe649950a1e00fb0b0a2acf7db5b6
-SHA1: ec744978e519f46fa3593bb648393c7d6b562004
-MD5sum: 9ca57c3cba52db88c13b418cd2cb66ed
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-openvpn_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 10304
+SHA256: c4f81465edc49947bc5bcea73998f75ec570bfdc0583ad5dcb88ab80593cb39f
+SHA1: af41a0e44ae08c931ff54002c508892ab24c082f
+MD5sum: ec5361dbee984402d905176cf29ef7a7
 Description: Indicator to show openvpn status.
  A i3xrocks indicator for showing the current OpenVPN status.
 
 Package: i3xrocks-rofication
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 21
+Installed-Size: 22
 Depends: i3xrocks, regolith-rofication, regolith-i3xrocks-config
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-rofication_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 8468
-SHA256: 9f228f6e4d807aaa7b13877f8775f0068d192b1bc9ac6f66e09bbd11d98b4b48
-SHA1: 611f1ed8578e3fb9032ca406eb1277a83148c0f8
-MD5sum: 260bb7ab3a523ce84796df688a93df2f
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-rofication_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 8844
+SHA256: 339606ac648fa833da50bd3bd5af8a03699be41c3f8d253791270e9c95ba97a1
+SHA1: 07daadd3d93fdf75734b81cd2e4e7b9853431819
+MD5sum: 6a843f558be6ebc61d18cf0d966fe832
 Description: Status indicator for rofication
  See active system notifications on the bar.
 
 Package: i3xrocks-temp
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 23
+Installed-Size: 24
 Depends: regolith-i3xrocks-config, lm-sensors
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-temp_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 8920
-SHA256: e54ba9de5551a0a5d97f5c43615150f48b7af0c97285872753e119854dbaac17
-SHA1: a4ebb831653c4c330319356900063a8fca0b347c
-MD5sum: 8c95ed062b376bed904af204ec20db97
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-temp_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9288
+SHA256: 6f04d931a2a674e4484860831abdbb095c0b6e865fcdfd642955c6286da1e361
+SHA1: 09ce98e94356b9ff6cad43a05cec9758edc178c9
+MD5sum: cca8cb98a922997f66d8198a5b2fb611
 Description: Indicator for system temperature.
  An i3xrocks indicator for displaying the system temperature.
 
 Package: i3xrocks-time
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 24
+Installed-Size: 25
 Depends: regolith-i3xrocks-config, gnome-control-center
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-time_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9176
-SHA256: ccc66fefee60f92b54b115cb587a60363528d042b34b1f9f7f6afed68a8995d7
-SHA1: d2a37aeef1d510fa58e82f0d81383717ebd2c065
-MD5sum: 967d9989ccaa695d0090f051b0b38695
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-time_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9540
+SHA256: 5aca4625ecf8510d4ea0c85be116cdada0aa0f356986d222936e367394759bc8
+SHA1: dae5d1b47ca832b1617aeec1dec95c838e6323ef
+MD5sum: be72c29e7dfc220bbeb1882ea0287d57
 Description: Indicator to show date and time.
  An i3xrocks indicator to show date and time.
 
 Package: i3xrocks-volume
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 26
+Installed-Size: 27
 Depends: regolith-i3xrocks-config, alsa-utils
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-volume_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9788
-SHA256: b4398421df740bbeadfefe9def27acb173e00e3cdff925574099178876dd36ea
-SHA1: cb52b8d903bbb3a70c79f4a4d401ac1869e69b60
-MD5sum: b0925d4e032dbc88bb8e649c1ee200a3
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-volume_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 10156
+SHA256: ec7ad3e2e1740bd368ec0efa5af103a4b1fbdf56a151c2699fd875025eead787
+SHA1: 514fde7fe3f4dce4de682b169500b8e113dbac64
+MD5sum: b12bfb28f89fda9437d8bfe642e43dae
 Description: Indicator to show volume.
  An i3xrocks indicator for showing the current sound volume.
 
 Package: i3xrocks-weather
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 24
+Installed-Size: 25
 Depends: regolith-i3xrocks-config, curl, fonts-noto-color-emoji, xdg-utils
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-weather_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9104
-SHA256: 15fed47ae5686541ad8fa8170c7789d96607fb6717472e786c28cef303548771
-SHA1: 1986ed018be204e93e807e02e81b8a5c058e61d9
-MD5sum: 7df1b29c356b645e6a442beb6ca49e29
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-weather_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9484
+SHA256: d5fa40a7cb9c573be495635346a977463ac14dcc44938ac3b223e5ae5ab32062
+SHA1: a753260e0840385e13b4e0bfac9c9faaf279462d
+MD5sum: 4d2fb02740f71d495ce74d6af72b05f8
 Description: Indicator to show local weather.
  An i3xrocks indicator for showing the local weather.
 
 Package: i3xrocks-wifi
 Source: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 23
+Installed-Size: 24
 Depends: regolith-i3xrocks-config, network-manager
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-wifi_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 8940
-SHA256: 436de6a3cf39e40522fef27b5e02050d23fc0a6f26406f2929eb5cb57f1d221a
-SHA1: 458b5c0253e5924b8e660afeeffa25754df39b76
-MD5sum: 8face8bfed61ef82818f2d4b3dac4b5e
+Filename: pool/main/r/regolith-i3xrocks-config/i3xrocks-wifi_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9304
+SHA256: c4cf9b391a0bd97775367ddb63422b304b52424126198ef73cd59df80eec049c
+SHA1: 41ffefe03b0a92f0d98940cec4b774e7aa99ac24
+MD5sum: ac7209bef4ae5b33824f3e7cc90949a6
 Description: Indicator to display the current Wi-Fi network name.
  An i3xrocks indicator for displaying the name of the
  currently connect Wi-Fi network.
@@ -864,7 +900,7 @@ Description: metapackage for a light but functional Regolith desktop environment
  This package contains minimal packages for a functional desktop.
 
 Package: regolith-ftue
-Version: 2.0.3-1-1regolith-1629072438
+Version: 2.0.4-1-1regolith-1629580384
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 30
@@ -875,11 +911,11 @@ Replaces: regolith-conky-config
 Homepage: https://github.com/regolith-linux/regolith-ftue
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-ftue/regolith-ftue_2.0.3-1-1regolith-1629072438_amd64.deb
-Size: 7756
-SHA256: 46a9b4906161c09400117eadf62e5d5af8bfa7428cf4ace3ce5000fcff30c87b
-SHA1: 820ab8fb4b634f6b5f2812def8f5a81cf989bc56
-MD5sum: eb3bf27ca4d9d250593e31702a2283d6
+Filename: pool/main/r/regolith-ftue/regolith-ftue_2.0.4-1-1regolith-1629580384_amd64.deb
+Size: 7864
+SHA256: 4c08e4dd1d10f6c0940573df7375e95b2386c8fdb79822a8dd0894b1fe322dad
+SHA1: ed27dbd62813b65c1acf050fef3542e89e0a2b5b
+MD5sum: 2bc7e3b082ff3132188ea847b9295316
 Description: Regolith first time user experience
  This package includes scripts and configuration to provide help for
  first time users.
@@ -1108,19 +1144,19 @@ MD5sum: 0d698e16a8444c3176f6219c019dae27
 Description: Hide the mouse cursor if not used
 
 Package: regolith-i3xrocks-config
-Version: 3.6.0-1-1regolith-1629072467
+Version: 4.0.1-1-1regolith-1629580406
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 24
+Installed-Size: 25
 Depends: xrescat
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3xrocks-config/regolith-i3xrocks-config_3.6.0-1-1regolith-1629072467_amd64.deb
-Size: 9148
-SHA256: 2bd30aad4eafbe13dc8a3e7f0194fda58627a685f02116614b8d258142bae7da
-SHA1: d2dbd2166c2ac43ef383d94e8efc8f90fa07b55f
-MD5sum: b402829adca2861ac2c7144bcbca96c5
+Filename: pool/main/r/regolith-i3xrocks-config/regolith-i3xrocks-config_4.0.1-1-1regolith-1629580406_amd64.deb
+Size: 9548
+SHA256: eaeab0e38f8b41c3786b64762be0be60e1cbbec560a91ca2fb6dd9f3e602f4b4
+SHA1: 7b93e2876daef75d053cab7d4ee1d579adb8f585
+MD5sum: 4e8e28dafd7c0574c652f719d22afe97
 Description: Regolith configuration for i3xrocks launcher
  A Regolith configuration for the i3xrocks launcher
 
