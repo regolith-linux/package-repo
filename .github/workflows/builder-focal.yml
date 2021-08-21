@@ -24,16 +24,16 @@ jobs:
           git clone -b release https://github.com/regolith-linux/regolith-creche.git lib/creche/
       - name: Generate Model
         run: |
-          jq -s '.[0] * .[1]' ./lib/creche/regolith-2.0.pkgmodel.json ${{ steps.init.model_path }} > model.json
+          jq -s '.[0] * .[1]' ./lib/creche/regolith-2.0.pkgmodel.json ${{ steps.init.outputs.model_path }} > model.json
           
       - name: Generate Manifest
         run: |
-          [ -e ${{ steps.init.manifest_path }} ] && rm ${{ steps.init.manifest_path }}
+          [ -e ${{ steps.init.outputs.manifest_path }} ] && rm ${{ steps.init.outputs.manifest_path }}
           cat model.json | ./lib/creche/build-manifest.sh ./manifest-raw.txt /tmp/manifest
-          sort ./manifest-raw.txt > ${{ steps.init.manifest_path }}
+          sort ./manifest-raw.txt > ${{ steps.init.outputs.manifest_path }}
           rm ./manifest-raw.txt
           echo "Generated manifest:"
-          cat ${{ steps.init.manifest_path }}
+          cat ${{ steps.init.outputs.manifest_path }}
       
       - name: Check if there are changes
         id: changes
@@ -56,7 +56,7 @@ jobs:
           sudo apt update
           sudo apt install -y devscripts
           sudo apt install -y reprepro
-          ./lib/creche/build-deb-repo.sh ./model.json ${{ steps.init.repo_root }} /tmp/reprepro ${{ steps.init.codename }}
+          ./lib/creche/build-deb-repo.sh ./model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}
           rm ./model.json
 
 #      - name: Test Install
@@ -71,8 +71,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add ${{ steps.init.repo_root }}/*
-          git add ${{ steps.init.manifest_path }}
+          git add ${{ steps.init.outputs.repo_root }}/*
+          git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"
           
       - name: Push Changes
