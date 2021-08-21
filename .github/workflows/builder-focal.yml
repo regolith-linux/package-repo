@@ -16,8 +16,8 @@ jobs:
           CODENAME: focal
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
-          echo ::set-output name=model_path::"./${{ env.CODENAME }}-model.json"
-          echo ::set-output name=manifest_path::"./${{ env.CODENAME }}-manifest.txt"
+          echo ::set-output name=model_path::"./${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
+          echo ::set-output name=manifest_path::"./${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-manifest.txt"
           echo ::set-output name=repo_root::"./docs/ubuntu/${{ env.CODENAME }}"
       - uses: actions/checkout@v2
       - name: Checkout dependencies
