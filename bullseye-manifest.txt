@@ -13,9 +13,9 @@ regolith-compositor-picom-glx master 9fe5b87
 regolith-compositor-xcompmgr master c17985c
 regolith-default-settings i3cp 3111b48
 regolith-desktop ubuntu/focal-i3cp 6efbe16
-regolith-ftue i3cp fc3e9ac
+regolith-ftue i3cp 30b37f3
 regolith-i3-config master 02f3932
-regolith-i3xrocks-config i3cp fa58745
+regolith-i3xrocks-config i3cp e1bd956
 regolith-look-minimal master eefc5fd
 regolith-rofi-config i3cp 80f2698
 regolith-rofication master 02329b5
