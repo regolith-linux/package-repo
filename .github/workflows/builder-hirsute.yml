@@ -1,4 +1,4 @@
-name: build-focal
+name: Ubuntu/Hirsute Repository
 
 on:
   repository_dispatch:

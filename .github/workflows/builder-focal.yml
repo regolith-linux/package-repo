@@ -1,4 +1,4 @@
-name: build-focal
+name: Ubuntu/Focal Repository
 
 on:
   repository_dispatch:

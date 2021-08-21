@@ -1,4 +1,4 @@
-name: build-focal
+name: Debian/Bullseye Repository
 
 on:
   repository_dispatch:

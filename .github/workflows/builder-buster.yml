@@ -1,4 +1,4 @@
-name: build-focal
+name: Debian/Buster Repository
 
 on:
   repository_dispatch:
