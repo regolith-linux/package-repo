@@ -1,4 +1,4 @@
-name: build-hirsute
+name: build-focal
 
 on:
   repository_dispatch:
@@ -9,26 +9,47 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
+      - name: Set Job Parameters
+        id: init
+        env:
+          DISTRO: ubuntu
+          CODENAME: hirsute
+        run: |
+          echo ::set-output name=codename::${{ env.CODENAME }}
+          echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
+          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-manifest.txt"
+          echo ::set-output name=repo_root::"./docs/ubuntu/${{ env.CODENAME }}"
       - uses: actions/checkout@v2
       - name: Checkout dependencies
         run: |
-          git clone -b release https://github.com/regolith-linux/regolith-creche.git lib/creche/
+          git clone -b release https://github.com/regolith-linux/regolith-creche.git /tmp/creche/
       - name: Generate Model
         run: |
-          jq -s '.[0] * .[1]' ./lib/creche/regolith-2.0.pkgmodel.json hirsute-model.json > model.json
+          jq -s '.[0] * .[1]' /tmp/creche/regolith-2.0.pkgmodel.json ${{ steps.init.outputs.model_path }} > /tmp/model.json
+          echo "Generated model:"
+          cat /tmp/model.json
           
       - name: Generate Manifest
         run: |
-          [ -e ./hirsute-manifest.txt ] && rm ./hirsute-manifest.txt
-          cat model.json | ./lib/creche/build-manifest.sh ./manifest-raw.txt /tmp/manifest
-          sort ./manifest-raw.txt > ./hirsute-manifest.txt
+          [ -e ${{ steps.init.outputs.manifest_path }} ] && rm ${{ steps.init.outputs.manifest_path }}
+          cat /tmp/model.json | /tmp/creche/build-manifest.sh ./manifest-raw.txt /tmp/manifest
+          sort ./manifest-raw.txt > ${{ steps.init.outputs.manifest_path }}
           rm ./manifest-raw.txt
           echo "Generated manifest:"
-          cat ./hirsute-manifest.txt
+          cat ${{ steps.init.outputs.manifest_path }}
       
       - name: Check if there are changes
         id: changes
-        uses: UnicornGlobal/has-changes-action@v1.0.11
+        run: |
+          git status --porcelain
+          if [[ -z "$(git status --porcelain)" ]];
+            then
+              echo "No changes found"
+              echo ::set-output name=changed::0
+            else
+              echo "Changes found"
+              echo ::set-output name=changed::1
+            fi
       
       - name: Configure GPG Key
         if: steps.changes.outputs.changed == 1
@@ -47,23 +68,15 @@ jobs:
           sudo apt update
           sudo apt install -y devscripts
           sudo apt install -y reprepro
-          ./lib/creche/build-deb-repo.sh ./model.json ./docs/ubuntu/hirsute /tmp/reprepro hirsute
-          rm ./model.json
-
-#      - name: Test Install
-#        if: steps.changes.outputs.changed == 1
-#        run: |
-#          echo "deb [trusted=yes] file:/tmp/reprepro ./" > /etc/apt/sources.list.d/regolith-test.list
-#          apt update
-#          apt install regolith-desktop-small
+          /tmp/creche/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
 
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add ./docs/ubuntu/hirsute/*
-          git add ./hirsute-manifest.txt
+          git add ${{ steps.init.outputs.repo_root }}/*
+          git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"
           
       - name: Push Changes
