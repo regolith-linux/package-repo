@@ -22,15 +22,15 @@ jobs:
       - uses: actions/checkout@v2
       - name: Checkout dependencies
         run: |
-          git clone -b release https://github.com/regolith-linux/regolith-creche.git lib/creche/
+          git clone -b release https://github.com/regolith-linux/regolith-creche.git /tmp/creche/
       - name: Generate Model
         run: |
-          jq -s '.[0] * .[1]' ./lib/creche/regolith-2.0.pkgmodel.json ${{ steps.init.outputs.model_path }} > /tmp/model.json
+          jq -s '.[0] * .[1]' /tmp/creche/regolith-2.0.pkgmodel.json ${{ steps.init.outputs.model_path }} > /tmp/model.json
           
       - name: Generate Manifest
         run: |
           [ -e ${{ steps.init.outputs.manifest_path }} ] && rm ${{ steps.init.outputs.manifest_path }}
-          cat /tmp/model.json | ./lib/creche/build-manifest.sh ./manifest-raw.txt /tmp/manifest
+          cat /tmp/model.json | /tmp/creche/build-manifest.sh ./manifest-raw.txt /tmp/manifest
           sort ./manifest-raw.txt > ${{ steps.init.outputs.manifest_path }}
           rm ./manifest-raw.txt
           echo "Generated manifest:"
@@ -66,7 +66,7 @@ jobs:
           sudo apt update
           sudo apt install -y devscripts
           sudo apt install -y reprepro
-          ./lib/creche/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
+          /tmp/creche/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
 
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
