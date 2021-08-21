@@ -11,12 +11,13 @@ jobs:
     steps:
       - name: Set Job Parameters
         id: init
+        env:
+          CODENAME: focal
         run: |
-          export CODENAME=focal
-          echo ::set-output name=codename::"$CODENAME"
-          echo ::set-output name=model_path::"./$CODENAME-model.json"
-          echo ::set-output name=manifest_path::"./$CODENAME-manifest.txt"
-          echo ::set-output name=repo_root::"./docs/ubuntu/$CODENAME"
+          echo ::set-output name=codename::${{ env.CODENAME }}
+          echo ::set-output name=model_path::"./${{ env.CODENAME }}-model.json"
+          echo ::set-output name=manifest_path::"./${{ env.CODENAME }}-manifest.txt"
+          echo ::set-output name=repo_root::"./docs/ubuntu/${{ env.CODENAME }}"
       - uses: actions/checkout@v2
       - name: Checkout dependencies
         run: |
