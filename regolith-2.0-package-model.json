@@ -1,0 +1,111 @@
+{
+  "description": {
+    "title": "Package metadata for Regolith Desktop 2.0"
+  },
+  "packages": {
+    "regolith-session": {
+      "source": "https://github.com/regolith-linux/regolith-session.git",
+      "branch": "ubuntu/focal"
+    },
+    "xcb-util": {
+      "source": "https://git.launchpad.net/ubuntu/+source/xcb-util",
+      "branch": "applied/ubuntu/groovy"
+    },
+    "i3-snapshot": {
+      "source": "https://github.com/regolith-linux/i3-snapshot.git",
+      "branch": "master"
+    },
+    "python3-i3ipc": {
+      "source": "https://github.com/regolith-linux/python3-i3ipc",
+      "branch": "master"
+    },
+    "fonts-jetbrains-mono": {
+      "source": "https://github.com/regolith-linux/fonts-jetbrains-mono.git",
+      "branch": "master"
+    },
+    "fonts-materialdesignicons-webfont": {
+      "source": "https://github.com/regolith-linux/fonts-materialdesignicons-webfont.git",
+      "branch": "master"
+    },
+    "i3-wm": {
+      "source": "https://github.com/regolith-linux/i3-wm.git",
+      "branch": "next"
+    },
+    "i3-gaps-wm": {
+      "source": "https://github.com/regolith-linux/i3-gaps-wm.git",
+      "branch": "ubuntu/focal-next"
+    },
+    "regolith-i3-config": {
+      "source": "https://github.com/regolith-linux/regolith-i3-config.git",
+      "branch": "master"
+    },
+    "ayu-theme": {
+      "source": "https://github.com/regolith-linux/ayu-theme.git",
+      "branch": "master"
+    },
+    "regolith-look-minimal": {
+      "source": "https://github.com/regolith-linux/regolith-look-minimal.git",
+      "branch": "master"
+    },
+    "i3-next-workspace": {
+      "source": "https://github.com/regolith-linux/i3-next-workspace.git",
+      "branch": "main"
+    },
+    "i3xrocks": {
+      "source": "https://github.com/regolith-linux/i3xrocks.git",
+      "branch": "master"
+    },
+    "regolith-i3xrocks-config": {
+      "source": "https://github.com/regolith-linux/regolith-i3xrocks-config.git",
+      "branch": "i3cp"
+    },
+    "regolith-desktop": {
+      "source": "https://github.com/regolith-linux/regolith-desktop.git",
+      "branch": "ubuntu/focal-i3cp"
+    },
+    "regolith-ftue": {
+      "source": "https://github.com/regolith-linux/regolith-ftue.git",
+      "branch": "i3cp"
+    },
+    "regolith-compositor-none": {
+      "source": "https://github.com/regolith-linux/regolith-compositor-none.git",
+      "branch": "master"
+    },
+    "regolith-compositor-xcompmgr": {
+      "source": "https://github.com/regolith-linux/regolith-compositor-xcompmgr.git",
+      "branch": "master"
+    },
+    "regolith-compositor-compton-glx": {
+      "source": "https://github.com/regolith-linux/regolith-compositor-compton-glx.git",
+      "branch": "master"
+    },
+    "regolith-compositor-picom-glx": {
+      "source": "https://github.com/regolith-linux/regolith-compositor-picom-glx.git",
+      "branch": "master"
+    },
+    "remontoire": {
+      "source": "https://github.com/regolith-linux/remontoire.git",
+      "branch": "master"
+    },
+    "regolith-rofi-config": {
+      "source": "https://github.com/regolith-linux/regolith-rofi-config.git",
+      "branch": "i3cp"
+    },
+    "regolith-rofication": {
+      "source": "https://github.com/regolith-linux/regolith-rofication.git",
+      "branch": "master"
+    },
+    "regolith-default-settings": {
+      "source": "https://github.com/regolith-linux/regolith-default-settings.git",
+      "branch": "i3cp"
+    },
+    "xrescat": {
+      "source": "https://github.com/regolith-linux/xrescat.git",
+      "branch": "master"
+    },
+    "regolith-unclutter-xfixes": {
+      "source": "https://github.com/regolith-linux/regolith-unclutter-xfixes.git",
+      "branch": "master"
+    }
+  }
+}
