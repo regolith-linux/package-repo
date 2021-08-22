@@ -43,8 +43,8 @@
       "source": "https://github.com/regolith-linux/ayu-theme.git",
       "branch": "master"
     },
-    "regolith-look-minimal": {
-      "source": "https://github.com/regolith-linux/regolith-look-minimal.git",
+    "regolith-look-default": {
+      "source": "https://github.com/regolith-linux/regolith-look-default.git",
       "branch": "master"
     },
     "i3-next-workspace": {
