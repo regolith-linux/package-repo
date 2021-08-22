@@ -1,4 +1,4 @@
-name: Build Repository
+name: Build AMD64 Repository
 
 on:
   repository_dispatch:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-debian-bullseye:
-    runs-on: ubuntu-20.04
+    runs-on: [self-hosted, linux, ARM64]
 
     steps:
       - name: Set Job Parameters
