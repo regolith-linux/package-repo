@@ -3,14 +3,6 @@
         "regolith-desktop": {
             "source": "https://github.com/regolith-linux/regolith-desktop.git",
             "branch": "ubuntu/hirsute"
-        },
-        "json-glib": {
-            "source": "https://salsa.debian.org/gnome-team/json-glib.git",
-            "branch": "debian/1.5.2-1"
-        },
-        "regolith-default-settings": {
-            "source": "https://github.com/regolith-linux/regolith-default-settings.git",
-            "branch": "debian/buster"
         }
     }
 }
