@@ -1,4 +1,4 @@
-name: Build AMD64 Repository
+name: Build ARM64 Repository
 
 on:
   repository_dispatch:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-debian-bullseye:
-    runs-on: ubuntu-20.04
+    runs-on: [self-hosted, linux, ARM64]
 
     steps:
       - name: Set Job Parameters
@@ -86,7 +86,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   build-debian-buster:
-    runs-on: ubuntu-20.04
+    runs-on: [self-hosted, linux, ARM64]
     needs: build-debian-bullseye
     steps:
       - name: Set Job Parameters
@@ -166,7 +166,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   build-ubuntu-hirsute:
-    runs-on: ubuntu-20.04
+    runs-on: [self-hosted, linux, ARM64]
     needs: build-debian-buster
     steps:
       - name: Set Job Parameters
@@ -246,7 +246,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   build-ubuntu-focal:
-    runs-on: ubuntu-20.04
+    runs-on: [self-hosted, linux, ARM64]
     needs: build-ubuntu-hirsute
     steps:
       - name: Set Job Parameters
