@@ -87,7 +87,7 @@ jobs:
 
   build-debian-buster:
     runs-on: ubuntu-20.04
-
+    needs: build-debian-bullseye
     steps:
       - name: Set Job Parameters
         id: init
@@ -167,7 +167,7 @@ jobs:
 
   build-ubuntu-hirsute:
     runs-on: ubuntu-20.04
-
+    needs: build-debian-buster
     steps:
       - name: Set Job Parameters
         id: init
@@ -247,7 +247,7 @@ jobs:
 
   build-ubuntu-focal:
     runs-on: ubuntu-20.04
-
+    needs: build-ubuntu-hirsute
     steps:
       - name: Set Job Parameters
         id: init
