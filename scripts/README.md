@@ -137,7 +137,7 @@ $ cat <<EOT >> docs/conf/distributions
 Origin: regolith-linux.github.io/REPO-NAME-HERE
 Label: Regolith Desktop Environment
 Codename: CODENAME-HERE
-Architectures: amd64 source
+Architectures: amd64 arm64 source
 Components: main
 Description: Regolith DETAILS-HERE
 SignWith: KEY-ID-HERE

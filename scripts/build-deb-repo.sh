@@ -89,7 +89,7 @@ publish_deb() {
         reprepro --basedir "$REPO_PATH" include "$DIST_CODENAME" "$DEB_SRC_PKG_PATH"
     fi
 
-    PKG_ARCH="amd64,all"
+    PKG_ARCH="amd64,arm64,all"
     DEB_CONTROL_FILE="$BUILD_DIR/${packageModel[name]}/debian/control"
 
     for target_arch in $(echo $PKG_ARCH | sed "s/,/ /g"); do        

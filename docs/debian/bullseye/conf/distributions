@@ -1,7 +1,7 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Architectures: amd64 source
+Architectures: amd64 arm64 source
 Components: main
 Description: Regolith Debian
 SignWith: CB863C9234C41BD2C85AC7D4FC05A3C9310D19F7
