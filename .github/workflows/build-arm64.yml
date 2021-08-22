@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-debian-bullseye:
-    runs-on: self-hosted
+    runs-on: [self-hosted, Linux, ARM64]
 
     steps:
       - name: Set Job Parameters
