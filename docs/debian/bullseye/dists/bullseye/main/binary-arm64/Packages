@@ -1,0 +1,44 @@
+Package: regolith-desktop-core
+Source: regolith-desktop
+Version: 3.0.1-1bullseye-1regolith-1629686612
+Architecture: arm64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 16
+Depends: regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
+Conflicts: unclutter-startup
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-desktop-core_3.0.1-1bullseye-1regolith-1629686612_arm64.deb
+Size: 5172
+SHA256: e2b33d3bec48d98813779bff6a04b73e22ea59b05d9a6d3a8b0e1a09dc5b5ad4
+SHA1: 7588151bd7b154f1f61151ee2522bdd35cd390aa
+MD5sum: 8f873f3f0ed7dbec96d7943ff80e85fc
+Description: metapackage for minimal Regolith desktop environment
+ This package does not provide a functional desktop environment.
+
+Package: regolith-desktop-small
+Source: regolith-desktop
+Version: 3.0.1-1bullseye-1regolith-1629686612
+Architecture: arm64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 12
+Depends: regolith-desktop-core, mutter-common
+Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-remontoire, regolith-i3-rofi, regolith-i3-rofication, regolith-i3xrocks-config
+Suggests: update-manager, software-properties-gtk
+Conflicts: regolith-desktop-meta
+Replaces: regolith-desktop-meta
+Provides: regolith-desktop-meta
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-desktop-small_3.0.1-1bullseye-1regolith-1629686612_arm64.deb
+Size: 5164
+SHA256: c3fbf1fbaff356c02bf964bcaca582c999ecb6d36749b34f91830b6589c36fab
+SHA1: b268b20e99f8734e5d7a8b314c55d767eab2bae7
+MD5sum: 341402bdd17308b062a847e4fc9e9403
+Description: metapackage for a light but functional Regolith desktop environment
+ This package contains minimal packages for a functional desktop.
+
