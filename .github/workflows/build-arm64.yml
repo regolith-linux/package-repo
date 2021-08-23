@@ -34,7 +34,7 @@ jobs:
         run: |
           jq -s '.[0] * .[1]' ${{ steps.init.outputs.root_model_path }} ${{ steps.init.outputs.model_path }} > /tmp/model.json
           echo "Generated model:"
-          cat /tmp/model.json          
+          cat /tmp/model.json
       - name: Generate Manifest
         run: |
           [ -e ${{ steps.init.outputs.manifest_path }} ] && rm ${{ steps.init.outputs.manifest_path }}
@@ -42,7 +42,7 @@ jobs:
           sort ./manifest-raw.txt > ${{ steps.init.outputs.manifest_path }}
           rm ./manifest-raw.txt
           echo "Generated manifest:"
-          cat ${{ steps.init.outputs.manifest_path }}      
+          cat ${{ steps.init.outputs.manifest_path }}
       - name: Check if there are changes
         id: changes
         run: |
@@ -54,7 +54,7 @@ jobs:
             else
               echo "Changes found"
               echo ::set-output name=changed::1
-          fi      
+          fi
       - name: Configure GPG Key
         if: steps.changes.outputs.changed == 1
         run: |
@@ -68,15 +68,17 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
+          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"          
+          git commit -am "Automated repo update"
+          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -111,7 +113,7 @@ jobs:
         run: |
           jq -s '.[0] * .[1]' ${{ steps.init.outputs.root_model_path }} ${{ steps.init.outputs.model_path }} > /tmp/model.json
           echo "Generated model:"
-          cat /tmp/model.json          
+          cat /tmp/model.json
       - name: Generate Manifest
         run: |
           [ -e ${{ steps.init.outputs.manifest_path }} ] && rm ${{ steps.init.outputs.manifest_path }}
@@ -119,7 +121,7 @@ jobs:
           sort ./manifest-raw.txt > ${{ steps.init.outputs.manifest_path }}
           rm ./manifest-raw.txt
           echo "Generated manifest:"
-          cat ${{ steps.init.outputs.manifest_path }}      
+          cat ${{ steps.init.outputs.manifest_path }}
       - name: Check if there are changes
         id: changes
         run: |
@@ -131,7 +133,7 @@ jobs:
             else
               echo "Changes found"
               echo ::set-output name=changed::1
-          fi      
+          fi
       - name: Configure GPG Key
         if: steps.changes.outputs.changed == 1
         run: |
@@ -145,15 +147,17 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
+          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"          
+          git commit -am "Automated repo update"
+          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -188,7 +192,7 @@ jobs:
         run: |
           jq -s '.[0] * .[1]' ${{ steps.init.outputs.root_model_path }} ${{ steps.init.outputs.model_path }} > /tmp/model.json
           echo "Generated model:"
-          cat /tmp/model.json          
+          cat /tmp/model.json
       - name: Generate Manifest
         run: |
           [ -e ${{ steps.init.outputs.manifest_path }} ] && rm ${{ steps.init.outputs.manifest_path }}
@@ -196,7 +200,7 @@ jobs:
           sort ./manifest-raw.txt > ${{ steps.init.outputs.manifest_path }}
           rm ./manifest-raw.txt
           echo "Generated manifest:"
-          cat ${{ steps.init.outputs.manifest_path }}      
+          cat ${{ steps.init.outputs.manifest_path }}
       - name: Check if there are changes
         id: changes
         run: |
@@ -208,7 +212,7 @@ jobs:
             else
               echo "Changes found"
               echo ::set-output name=changed::1
-          fi      
+          fi
       - name: Configure GPG Key
         if: steps.changes.outputs.changed == 1
         run: |
@@ -222,15 +226,17 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
+          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"          
+          git commit -am "Automated repo update"
+          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -265,7 +271,7 @@ jobs:
         run: |
           jq -s '.[0] * .[1]' ${{ steps.init.outputs.root_model_path }} ${{ steps.init.outputs.model_path }} > /tmp/model.json
           echo "Generated model:"
-          cat /tmp/model.json          
+          cat /tmp/model.json
       - name: Generate Manifest
         run: |
           [ -e ${{ steps.init.outputs.manifest_path }} ] && rm ${{ steps.init.outputs.manifest_path }}
@@ -273,7 +279,7 @@ jobs:
           sort ./manifest-raw.txt > ${{ steps.init.outputs.manifest_path }}
           rm ./manifest-raw.txt
           echo "Generated manifest:"
-          cat ${{ steps.init.outputs.manifest_path }}      
+          cat ${{ steps.init.outputs.manifest_path }}
       - name: Check if there are changes
         id: changes
         run: |
@@ -285,7 +291,7 @@ jobs:
             else
               echo "Changes found"
               echo ::set-output name=changed::1
-          fi      
+          fi
       - name: Configure GPG Key
         if: steps.changes.outputs.changed == 1
         run: |
@@ -299,15 +305,17 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
+          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"          
+          git commit -am "Automated repo update"
+          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
