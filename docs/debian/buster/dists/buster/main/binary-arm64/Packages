@@ -1,0 +1,44 @@
+Package: regolith-desktop-core
+Source: regolith-desktop
+Version: 3.0.1-1buster-1regolith-1629688696
+Architecture: arm64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 16
+Depends: regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
+Conflicts: unclutter-startup
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-desktop-core_3.0.1-1buster-1regolith-1629688696_arm64.deb
+Size: 5156
+SHA256: dde74a253fcad0669dd2fd3bcd7b8c0ca2bafde4c796f6163ff222be9963d46d
+SHA1: e0f2bc8b1eb122bdae4587955dae92d3017ca636
+MD5sum: cb55efd52bae69515270c08f8129b227
+Description: metapackage for minimal Regolith desktop environment
+ This package does not provide a functional desktop environment.
+
+Package: regolith-desktop-small
+Source: regolith-desktop
+Version: 3.0.1-1buster-1regolith-1629688696
+Architecture: arm64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 12
+Depends: regolith-desktop-core, mutter-common
+Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-remontoire, regolith-i3-rofi, regolith-i3-rofication, regolith-i3xrocks-config
+Suggests: update-manager, software-properties-gtk
+Conflicts: regolith-desktop-meta
+Replaces: regolith-desktop-meta
+Provides: regolith-desktop-meta
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-desktop-small_3.0.1-1buster-1regolith-1629688696_arm64.deb
+Size: 5144
+SHA256: 4bb8badc083d76fd31f857e992cc5d025bcf14c1d30bb42ce1898237d9d6d8ce
+SHA1: 9b1c15c143edf844ba97bb509e1706ffcd2eb9d0
+MD5sum: aa58cc57424fbfffb30db332941e8bed
+Description: metapackage for a light but functional Regolith desktop environment
+ This package contains minimal packages for a functional desktop.
+
