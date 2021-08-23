@@ -68,9 +68,6 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          sudo apt update
-          sudo apt install -y devscripts
-          sudo apt install -y reprepro
           scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
@@ -148,9 +145,6 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          sudo apt update
-          sudo apt install -y devscripts
-          sudo apt install -y reprepro
           scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
@@ -228,9 +222,6 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          sudo apt update
-          sudo apt install -y devscripts
-          sudo apt install -y reprepro
           scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
@@ -308,9 +299,6 @@ jobs:
         run: |
           export DEBEMAIL="regolith.linux@gmail.com"
           export DEBFULLNAME="Regolith Linux"
-          sudo apt update
-          sudo apt install -y devscripts
-          sudo apt install -y reprepro
           scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
