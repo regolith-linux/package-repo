@@ -1,4 +1,4 @@
-name: Build AMD64 Repository
+name: Build amd64 Repository
 
 on:
   repository_dispatch:
@@ -156,11 +156,13 @@ jobs:
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"          
+          git commit -am "Automated repo update"  
+          git status        
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -237,11 +239,13 @@ jobs:
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"          
+          git commit -am "Automated repo update"      
+          git status    
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -318,11 +322,13 @@ jobs:
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"          
+          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master

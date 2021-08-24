@@ -1,4 +1,4 @@
-name: Build ARM64 Repository
+name: Build arm64 Repository
 
 on:
   repository_dispatch:
