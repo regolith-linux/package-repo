@@ -14,7 +14,7 @@ MD5sum: 9f245ef9bdc05b855275aa9e9802e87e
 Description: Ayu Themes for GNOME 3.22
 
 Package: fonts-jetbrains-mono
-Version: 1.0.1-1regolith1-1regolith-1629086735
+Version: 1.0.1-1regolith1-1regolith-1629782031
 Architecture: all
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Installed-Size: 3848
@@ -22,11 +22,11 @@ Multi-Arch: foreign
 Homepage: https://jetbrains.com/lp/mono
 Priority: optional
 Section: fonts
-Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1629086735_all.deb
-Size: 420288
-SHA256: d4785d0068b06d20e545da8676fa462824b271fea8304ec50616e53e1b2ae1f8
-SHA1: e4a599e2eca872c3637f2c73d0267606a6b1d8e3
-MD5sum: 41093e872c48f65c50aed52d24a4b9e1
+Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1629782031_all.deb
+Size: 420472
+SHA256: e27dd5b2627b801c2ebcc38e2269cf79f838b0baa27677998f84c5392727de7d
+SHA1: 4b6078984dcf86064f0d1e234333ee32fa5e21fa
+MD5sum: 9f4f336b2d8f24bed3ee49698f1c3e56
 Description: Jetbrains Monon Typeface
  See https://www.jetbrains.com/lp/mono/
  .
@@ -39,7 +39,7 @@ Description: Jetbrains Monon Typeface
  it over as well.
 
 Package: fonts-materialdesignicons-webfont
-Version: 1.6.50-3regolith1-1regolith-1629086748
+Version: 1.6.50-3regolith1-1regolith-1629782064
 Architecture: all
 Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
 Installed-Size: 2781
@@ -47,11 +47,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/Templarian/MaterialDesign-Webfont
 Priority: optional
 Section: fonts
-Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1629086748_all.deb
-Size: 552656
-SHA256: 203b9198cb2bac37eb6b713d4bcdce57b0f7dfceaec85a95209d4fe4bc541946
-SHA1: ec1e1a967e49b409fbebd74dc2527354d57d04c0
-MD5sum: f86b21c02702b05b6c335dbeccc8c500
+Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1629782064_all.deb
+Size: 552664
+SHA256: a77313e4e9f2f9f2fe22e27faed3b2745232dae7921ef20fc54efcccac5fabbd
+SHA1: 825463c70db5d1f00437e604e653cb712c01cd46
+MD5sum: 202c509955be8b2c846f2c77c718c376
 Description: font containing Material Design Icons
  Material Design Icons' growing icon collection allows designers and developers
  targeting various platforms to download icons in the format, color and size
