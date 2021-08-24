@@ -82,8 +82,7 @@ publish_deb() {
     fi
 
     if source_pkg_exists "${packageModel[name]}" "$version"; then
-        echo "Ignoring source package, already exists in target repository"
-        return
+        echo "Ignoring source package, already exists in target repository"        
     else 
         print_banner "Ingesting source package ${packageModel[name]} into $REPO_PATH"
         reprepro --basedir "$REPO_PATH" include "$DIST_CODENAME" "$DEB_SRC_PKG_PATH"

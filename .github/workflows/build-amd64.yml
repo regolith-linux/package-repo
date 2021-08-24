@@ -96,10 +96,11 @@ jobs:
           DISTRO: debian
           CODENAME: buster
           PACKAGE_MODEL: regolith-2.0-package-model.json
+          CPU_ARCH: amd64
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
-          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-manifest.txt"
+          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}-manifest.txt"
           echo ::set-output name=setup_script_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/setup.sh"
           echo ::set-output name=repo_root::"./docs/${{ env.DISTRO }}/${{ env.CODENAME }}"
           echo ::set-output name=root_model_path::"${{ env.PACKAGE_MODEL }}"
@@ -176,10 +177,11 @@ jobs:
           DISTRO: ubuntu
           CODENAME: hirsute
           PACKAGE_MODEL: regolith-2.0-package-model.json
+          CPU_ARCH: amd64
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
-          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-manifest.txt"
+          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}-manifest.txt"
           echo ::set-output name=setup_script_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/setup.sh"
           echo ::set-output name=repo_root::"./docs/${{ env.DISTRO }}/${{ env.CODENAME }}"
           echo ::set-output name=root_model_path::"${{ env.PACKAGE_MODEL }}"
@@ -256,10 +258,11 @@ jobs:
           DISTRO: ubuntu
           CODENAME: focal
           PACKAGE_MODEL: regolith-2.0-package-model.json
+          CPU_ARCH: amd64
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
-          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-manifest.txt"
+          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}-manifest.txt"
           echo ::set-output name=setup_script_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/setup.sh"
           echo ::set-output name=repo_root::"./docs/${{ env.DISTRO }}/${{ env.CODENAME }}"
           echo ::set-output name=root_model_path::"${{ env.PACKAGE_MODEL }}"

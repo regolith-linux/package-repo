@@ -95,6 +95,7 @@ jobs:
           DISTRO: debian
           CODENAME: buster
           PACKAGE_MODEL: regolith-2.0-package-model.json
+          CPU_ARCH: arm64
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
@@ -174,6 +175,7 @@ jobs:
           DISTRO: ubuntu
           CODENAME: hirsute
           PACKAGE_MODEL: regolith-2.0-package-model.json
+          CPU_ARCH: arm64
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
@@ -253,6 +255,7 @@ jobs:
           DISTRO: ubuntu
           CODENAME: focal
           PACKAGE_MODEL: regolith-2.0-package-model.json
+          CPU_ARCH: arm64
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
