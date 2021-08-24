@@ -14,7 +14,7 @@ MD5sum: 18f05c0196acc38e86032d03186c5eca
 Description: Ayu Themes for GNOME 3.22
 
 Package: fonts-jetbrains-mono
-Version: 1.0.1-1regolith1-1regolith-1629777215
+Version: 1.0.1-1regolith1-1regolith-1629783328
 Architecture: all
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Installed-Size: 3848
@@ -22,11 +22,11 @@ Multi-Arch: foreign
 Homepage: https://jetbrains.com/lp/mono
 Priority: optional
 Section: fonts
-Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1629777215_all.deb
-Size: 420476
-SHA256: 4c3e004b267eae9749e07c5a6e365e75289c930a6073cf88bd75f0363bec9178
-SHA1: 5d9056452f73695580283c9b2682beed63382894
-MD5sum: 77d82881d04d016a31e07ebfcd80f030
+Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1629783328_all.deb
+Size: 420128
+SHA256: 59cd08000f4f9d57a43e1c3138a34866f2f41fe111d1ed836f8392f226a9de4f
+SHA1: 4c8a9943c1b49ff1747f566251b66a4d6509900d
+MD5sum: a6b36ced03345ae2a178438d3c49e985
 Description: Jetbrains Monon Typeface
  See https://www.jetbrains.com/lp/mono/
  .
@@ -39,7 +39,7 @@ Description: Jetbrains Monon Typeface
  it over as well.
 
 Package: fonts-materialdesignicons-webfont
-Version: 1.6.50-3regolith1-1regolith-1629777248
+Version: 1.6.50-3regolith1-1regolith-1629783362
 Architecture: all
 Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
 Installed-Size: 2781
@@ -47,11 +47,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/Templarian/MaterialDesign-Webfont
 Priority: optional
 Section: fonts
-Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1629777248_all.deb
-Size: 552600
-SHA256: 2b7f158b4dc9e0e17a80a6df0e2d8438c0f9ea6fa73086608c2d6c3f680acb51
-SHA1: 7b79f8835d167cd2f889f14379c62405ad0e6cb7
-MD5sum: bd378f1c12efd58cebca11d953eecb77
+Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1629783362_all.deb
+Size: 552508
+SHA256: 7321dfa9c792a48208b124aa702e7d183b3184e5da22f9c953bca658ddb2b608
+SHA1: 3e2c3b49c5fb420f18640fa944ed7ee5a617d778
+MD5sum: 20eb2e9510b0037ea3d0fbbb5fa03aa6
 Description: font containing Material Design Icons
  Material Design Icons' growing icon collection allows designers and developers
  targeting various platforms to download icons in the format, color and size
@@ -741,7 +741,7 @@ Description: GLib JSON manipulation library
 
 Package: libjson-glib-1.0-common
 Source: json-glib
-Version: 1.5.2-1-1regolith-1629777638
+Version: 1.5.2-1-1regolith-1629783754
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 455
@@ -749,11 +749,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/JsonGlib
 Priority: optional
 Section: libs
-Filename: pool/main/j/json-glib/libjson-glib-1.0-common_1.5.2-1-1regolith-1629777638_all.deb
-Size: 55516
-SHA256: 1f29b93a579af21fe39c68ef41f799c41049b63124e9c48e50514fb2f6f0118c
-SHA1: f896ce5cd58f7182a8c8e66f37554587df901509
-MD5sum: 0a34c27de6b7d5ef1626611ca686c193
+Filename: pool/main/j/json-glib/libjson-glib-1.0-common_1.5.2-1-1regolith-1629783754_all.deb
+Size: 55568
+SHA256: a8a45513e21a76ba21577938c07b6200b1d5c98362d28a6fefda0657000f54bd
+SHA1: 6166cec86cc657a4730961666ea828272207891e
+MD5sum: 2fb7364d10beab1d3c17bed9293056bb
 Description: GLib JSON manipulation library (common files)
  JSON-GLib is a library for parsing, generating and manipulating JavaScript
  Object Notation (JSON) data streams using the GLib type system. It allows
@@ -791,7 +791,7 @@ Description: GLib JSON manipulation library (development files)
 
 Package: libjson-glib-doc
 Source: json-glib
-Version: 1.5.2-1-1regolith-1629777638
+Version: 1.5.2-1-1regolith-1629783754
 Architecture: all
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Installed-Size: 900
@@ -800,11 +800,11 @@ Multi-Arch: foreign
 Homepage: https://wiki.gnome.org/Projects/JsonGlib
 Priority: optional
 Section: doc
-Filename: pool/main/j/json-glib/libjson-glib-doc_1.5.2-1-1regolith-1629777638_all.deb
+Filename: pool/main/j/json-glib/libjson-glib-doc_1.5.2-1-1regolith-1629783754_all.deb
 Size: 59684
-SHA256: cacc42e56d843a1697bc70dbb9edbf03bd7af574afa597f07a7f469065796fe4
-SHA1: a02733554d73ea5068be29b876410d1e283b7513
-MD5sum: fd4d9ff3d86740908858b9dc26d390de
+SHA256: df76bbde35ca60dbaf4ea6b7193136f0885bea6ac118ee4d011fbc294b91b799
+SHA1: 263c818442097dbf7655bf3864e233ce3bb2f392
+MD5sum: fad658f1fc5b3e8a2606a25bf1adeb25
 Description: GLib JSON manipulation library (documentation)
  JSON-GLib is a library for parsing, generating and manipulating JavaScript
  Object Notation (JSON) data streams using the GLib type system. It allows
