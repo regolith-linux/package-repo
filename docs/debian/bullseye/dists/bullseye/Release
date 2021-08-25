@@ -1,37 +1,37 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Tue, 24 Aug 2021 05:32:07 UTC
+Date: Wed, 25 Aug 2021 14:54:37 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Regolith Debian
 MD5Sum:
- e95221392e1e799c9991290846689cff 55164 main/binary-amd64/Packages
- 825af48ce1248c1687eddb5fdf21af9c 13828 main/binary-amd64/Packages.gz
+ 4d210cd2a9c32cba16b4eeef0eb5feac 55164 main/binary-amd64/Packages
+ 0164f89b56052755a90826564dd8653f 13837 main/binary-amd64/Packages.gz
  c3adf1e0fcbadc1a818757bc8a4fd0bb 147 main/binary-amd64/Release
- 0a88ef064a913f4d08d0b6fea73f9dc3 54548 main/binary-arm64/Packages
- cc8a0180b7ac0e14cd2f1b8309d5e320 13723 main/binary-arm64/Packages.gz
+ 8f2f409fc0b5d7081e3f31ad2e901ca1 54548 main/binary-arm64/Packages
+ d721eb85e417795131442f0cea7494ad 13733 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- df2582fd8e44d27adccaa14fb00f657c 45323 main/source/Sources
- 2ae024f8968ca414f83323efa0f0d795 11386 main/source/Sources.gz
+ 30dd641f5eea9db0cc0d7aea384738bc 45323 main/source/Sources
+ 96c14f19786ba31e41898fc5ee6c5862 11398 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
- 5b03bf98b8a75ca31064cbeca1e34d7cd261ed2e 55164 main/binary-amd64/Packages
- 3aa525e1e41eea136047b3b7a340795f0ff52247 13828 main/binary-amd64/Packages.gz
+ 17d2ecbc9024db8900e457df0577f81397e67542 55164 main/binary-amd64/Packages
+ d22d43991fa565d42bd04d687eb617fe99b25b90 13837 main/binary-amd64/Packages.gz
  e80c44b3d00c51e01b1640169c9e19b7afa153c5 147 main/binary-amd64/Release
- 40f1135f558e9970a4fc19ef61830f8c8bc65e93 54548 main/binary-arm64/Packages
- f5bcdd0e683cda17417855003d9fc309970ce2e7 13723 main/binary-arm64/Packages.gz
+ 7f93806fb42ff65f3ae8915b45bd085d21eabddc 54548 main/binary-arm64/Packages
+ 5a199398e15b9b931e025a40e65a2aca2500894b 13733 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- 74b33b55a3595d4e80c865eb25e6be4ae726fe1a 45323 main/source/Sources
- 0f74121aa05ea16de32f36b1fa659aa564614f6b 11386 main/source/Sources.gz
+ 77db3dbb5958470dfa1777fd9e182360dff6362c 45323 main/source/Sources
+ 4308be87c419cba12af716f9b51b679fd86a7fe1 11398 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
- 9314916ab75e31db289eca953a0c0fcbdcd6cf3238e955106ee5c7188191f1dd 55164 main/binary-amd64/Packages
- 1482df12f2a1b385ab9c345bdabbc449f54fe187963695c656d67c147c8b91ad 13828 main/binary-amd64/Packages.gz
+ c47f8ee9b99be55195bb361bd6e9a0e37392e22e5a6e8d71eb6e4c40c1b82738 55164 main/binary-amd64/Packages
+ 14fa6b2019109a7c03ab149bfc41a41641307cf0ee78651600c3c6cb54025c7b 13837 main/binary-amd64/Packages.gz
  b59d7cf8062b167d940ebae14925a73b602ca55302ac19ee821b33bd17aaec86 147 main/binary-amd64/Release
- dae2da7c46c9efd4bd3d9966a011f5f52135ba56e3d5fd31ae4a412c04e73eec 54548 main/binary-arm64/Packages
- 8ee490ec8f1c69852de91b8acb6611add3533b2308eaa8e0c769ffbb53b20d39 13723 main/binary-arm64/Packages.gz
+ c10d1f011dbfd55e0ca3c8369901bc09ce09b5c662527977db1b6206e5eb2a43 54548 main/binary-arm64/Packages
+ ec9611df23cac925551f847875d33b5b6962109243a50fc85350dbfa1e1e6752 13733 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- 346a8ba866e7d3e291a40ab5b5ee967cfbb92603f8b7129cac9cdd18d6000a17 45323 main/source/Sources
- 62344a395daea30aaafa73c4f0989791a5ba964911d9abcd0a810dd322f54414 11386 main/source/Sources.gz
+ 89df29bd12096aae004a29979adf901b0b11f41d2cc6dae5a29f6b4e23728e92 45323 main/source/Sources
+ e1622ab9e8bd77e6ca35ab3bee3ae3b1388faf90769e0e9cb31966851f07d925 11398 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
