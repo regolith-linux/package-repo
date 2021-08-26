@@ -1,7 +1,0 @@
-Origin: regolith-linux.github.io/package-repo
-Label: Regolith Desktop Environment
-Codename: hirsute
-Architectures: amd64 arm64 source
-Components: main
-Description: Regolith packages for Ubuntu hirsute
-SignWith: CB863C9234C41BD2C85AC7D4FC05A3C9310D19F7

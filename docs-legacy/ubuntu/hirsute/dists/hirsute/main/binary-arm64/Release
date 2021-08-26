@@ -1,5 +1,0 @@
-Component: main
-Origin: regolith-linux.github.io/package-repo
-Label: Regolith Desktop Environment
-Architecture: arm64
-Description: Regolith packages for Ubuntu hirsute
