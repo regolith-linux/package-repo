@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: bullseye
+Date: Thu, 26 Aug 2021 15:50:11 UTC
+Architectures: arm64
+Components: main
+Description: Regolith Debian
+MD5Sum:
+ f1b9d2a6c0da5348e38fb12e0e17933f 54548 main/binary-arm64/Packages
+ b5d73eb447fcfb6f1d32ff375f1d91ac 13712 main/binary-arm64/Packages.gz
+ eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
+ 46d2a77f44d8365a6fe58db3435dbf39 43857 main/source/Sources
+ c53ccc4e5cb4e2e6e88528984fe4ab81 11030 main/source/Sources.gz
+ de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
+SHA1:
+ 78e8bef28b24fac04d1408abf3531def6360c69a 54548 main/binary-arm64/Packages
+ 12b34f9057e97cba56812756178c870a2fcf8c5a 13712 main/binary-arm64/Packages.gz
+ 448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
+ cdc322bac7cea54674169fa1891e4dc45a4ada79 43857 main/source/Sources
+ 06eb3332348afaf73f72d15145e8b4433c6a9bcc 11030 main/source/Sources.gz
+ 450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
+SHA256:
+ 340be3228ade3e7b2212042f57e4ca8c9e34ad674635938fb42e7c94c5517a60 54548 main/binary-arm64/Packages
+ 941a45ec2f6c772e36b0b119c6012b6b9c8e77ce36598c56c37cf20e0d62141f 13712 main/binary-arm64/Packages.gz
+ 663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
+ 55ea11526a5392dd619cbfad4e760a4d43bc9141b5a724c880a9b5d14e5e6d22 43857 main/source/Sources
+ c0b61d2754a8728478b0659d01381dc3300c8839c93ca6a945bd9c52b95bc7d8 11030 main/source/Sources.gz
+ 538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmEnuDMACgkQv+cXZJpc
+PQhIfgwAnOq9PXmXrNZHVT97S35FhivRm5WFJSJKGv2O7lJyvpYw6WUjGAxfkmoe
+etWwnGQcqOLlv7O0p8btk050l3jN7Z3p38SWRMhnp1V69IkVQacvYxmtblZNkqHq
+FYM57GINK+tnysLPnZanDbxoKBj6B2vsjxMDfSZy1urAZzb5g3L/wAZslWXsck4s
+9AUbS/eU+OD0dLoUTQVKbPhTIeQKMTDwUBUsl2dGVRurQEIlejAb/DDGpGkwbB8/
+eq3QHM1zdKtg+gusSG3ILDvi7CBexSFEkjqJDzBtCgZ3tcc1q1ywM5O3qopF5MVF
+GTIZss+hDga8Jn/B0kEGIUe3RgeKuSh5JMTIy+NHcmK+zIo6Gp3/qzy/EhSTGZGC
+fi8vp2+Gc/cnluw77jvu2qOLcQUsp5H2apzMA/youyzJh22opA9Xb2ae8eWdIPJD
+oJmXbZMZqnFCbKw3PfEOlPkSV5yWCY5xW/A5A6MKij7YFKhni7bNMoaVM9+mlEEV
+TtK65BRh
+=oHMP
+-----END PGP SIGNATURE-----
