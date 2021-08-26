@@ -1,6 +1,8 @@
 name: Build amd64 Repository
 
 on:
+  push:
+    branches: master
   repository_dispatch:
   workflow_dispatch:
 
@@ -75,6 +77,7 @@ jobs:
       - name: Commit Files
         if: steps.changes.outputs.changed == 1
         run: |
+          git pull
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
@@ -161,8 +164,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"  
-          git status        
+          git commit -am "Automated repo update"        
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -245,7 +247,6 @@ jobs:
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"      
-          git status    
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -327,8 +328,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"          
-          git status
+          git commit -am "Automated repo update"                    
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master

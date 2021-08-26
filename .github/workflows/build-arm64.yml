@@ -1,6 +1,8 @@
 name: Build arm64 Repository
 
 on:
+  push:
+    branches: master
   repository_dispatch:
   workflow_dispatch:
 
@@ -78,7 +80,6 @@ jobs:
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"
-          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -158,7 +159,6 @@ jobs:
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"
-          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -238,7 +238,6 @@ jobs:
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"
-          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
@@ -318,7 +317,6 @@ jobs:
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"
-          git status
       - name: Push Changes
         if: steps.changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
