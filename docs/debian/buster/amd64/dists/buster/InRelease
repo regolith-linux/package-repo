@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: buster
+Date: Thu, 26 Aug 2021 05:16:06 UTC
+Architectures: amd64
+Components: main
+Description: Regolith Debian
+MD5Sum:
+ 18902b71d9d9bb156c13bdff071ba4bb 61126 main/binary-amd64/Packages
+ 04c309992b98308dea050e41347b9168 14968 main/binary-amd64/Packages.gz
+ c3adf1e0fcbadc1a818757bc8a4fd0bb 147 main/binary-amd64/Release
+ a236050e73f3f4f23721d9b9ba6f18c1 46142 main/source/Sources
+ c74a5d39e23ead5b0df506066990d460 11752 main/source/Sources.gz
+ de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
+SHA1:
+ d6f863e017ae3d6196a495accfa3a6984f341ef1 61126 main/binary-amd64/Packages
+ ca21951b17460fe55e585e2e59ca016c8920d53f 14968 main/binary-amd64/Packages.gz
+ e80c44b3d00c51e01b1640169c9e19b7afa153c5 147 main/binary-amd64/Release
+ 758ac9660938182f0434b5ca5f80a4aaa77ced2b 46142 main/source/Sources
+ bc7cd4d4280dec328d5199b4e3b6776582f2e495 11752 main/source/Sources.gz
+ 450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
+SHA256:
+ 11a79f3139bd46d09f1d31acadbca728d4764ae3da03e0264a490f960d0bbedd 61126 main/binary-amd64/Packages
+ 830ca816e70dcfc394cd5108cc9159b709112b0620ca3d1f5f2a4c728136e30a 14968 main/binary-amd64/Packages.gz
+ b59d7cf8062b167d940ebae14925a73b602ca55302ac19ee821b33bd17aaec86 147 main/binary-amd64/Release
+ f5a215a761406b8ace6ca651a94d60f067e5eaac619a7843e5609f700e9d331d 46142 main/source/Sources
+ af8b5b3f6e45596a332689b8a105bb550d5cacffca74a664bd6ab52b5a197562 11752 main/source/Sources.gz
+ 538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmEnI5YACgkQv+cXZJpc
+PQj47Av/fyQdZ6hpi53HSTXaJO4uA+z2NSn5LaV7Am8CpUICqsxx54OtuTBQWxg9
+6FkRUH+dH7kCrthvzC4vBvlCoki0Q/a2CO9A6Hs5HCe9rM4wfBnSaI8+NASgVTww
+2iatScmQ8OabnuvdhcEEJG10QVN0rlHZiOdPRL74irRPj6f7cDcJvWv24ASTD2hJ
+BQfUvMlwif4YCVFt+aaeAUIshp3dFzCQq7P5saSHQT3Xb4nxuV8ew1fF4RrbZSEd
+v2BEZ8biHR09LURi/N4r8JLJ90oHa3xQSND+yrcUawDj8fId9dyKAmzKZo1HUchl
+Sdh/vVM4vD97mFgE5vqVJi9viRjHmfp6ZTVSj/+7RbUBQ5Cd1z1xLrAOX2l9mAr7
+DBXRyCQMRJTC416en0Z6vusAoVLeRERbrjZ/CXwAB1HLiDizOOxiQ+D2LDE/qVS7
+0TBRYZJFhGhJSJC9QTEP5iU5dMsLvAeeMjamikQCaEIc4YL3gPU5I+sfyA4pKVC3
+0jYQAk9G
+=LYj9
+-----END PGP SIGNATURE-----
