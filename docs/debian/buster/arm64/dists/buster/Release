@@ -1,0 +1,28 @@
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: buster
+Date: Thu, 26 Aug 2021 16:14:09 UTC
+Architectures: arm64
+Components: main
+Description: Regolith Debian
+MD5Sum:
+ 5dcd4316194215c5e68ed6cce98957ce 61133 main/binary-arm64/Packages
+ b1c8ccb64d38247ef7c72dce90b01675 14964 main/binary-arm64/Packages.gz
+ eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
+ 7c3d6c6f2fbcdb8e3ec0bf7ca269fb86 46142 main/source/Sources
+ 58c06aef5bc707a7ef18bbcda25672b5 11755 main/source/Sources.gz
+ de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
+SHA1:
+ 2217083741219cb6d7c95303dd665cec68310f8a 61133 main/binary-arm64/Packages
+ 9aad0c7a8fd50b1dd9b35153b9e1551d121418f8 14964 main/binary-arm64/Packages.gz
+ 448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
+ 9e27592c75af17f47540a0cdeefb5c751eb25b74 46142 main/source/Sources
+ ee5fb09a18844cdc16be595aca02398e349e4936 11755 main/source/Sources.gz
+ 450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
+SHA256:
+ fa0d1b8199a6fb010d863547316c0f8beeaed8272aadebe37a375aa135ac3dd2 61133 main/binary-arm64/Packages
+ 692fadc57029a5aae910ef74827b98599b1940b77b5ca4cc050009eb670a791b 14964 main/binary-arm64/Packages.gz
+ 663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
+ 3e733b07e0e09364e57173bb1d11a57ac5616841fc80fd5404bf949b2e548a6e 46142 main/source/Sources
+ aae6979741ac2367e52ce4635f212b4a254a938e9faf2124c2ce3160be86a22d 11755 main/source/Sources.gz
+ 538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
