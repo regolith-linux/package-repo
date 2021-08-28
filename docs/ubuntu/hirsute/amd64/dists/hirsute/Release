@@ -1,27 +1,27 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: hirsute
-Date: Thu, 26 Aug 2021 05:29:15 UTC
+Date: Sat, 28 Aug 2021 17:00:08 UTC
 Architectures: amd64
 Components: main
 Description: Regolith packages for Ubuntu Focal
 MD5Sum:
- 7e22d32da947804fed5b0b691e57f0d4 54540 main/binary-amd64/Packages
- fb41f587a34c629cfcd69146b773410f 13722 main/binary-amd64/Packages.gz
+ 4a56dd39d7c2367cd549119f4b44ed1f 54540 main/binary-amd64/Packages
+ b70952f81c68556bc68ef9e6d449557f 13714 main/binary-amd64/Packages.gz
  862f9231577ed5d6a4a4be2d97ef21eb 166 main/binary-amd64/Release
  cff0f831e093942f4ea489b7f9bb7cfa 43847 main/source/Sources
  8d770a74335ac318b8e3c4c6023a7537 11044 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
- 9f6fb2651976cad9e72216930b2ba64627432bab 54540 main/binary-amd64/Packages
- df8d4d68be8958af7b43712fdff49f2528bd8f6d 13722 main/binary-amd64/Packages.gz
+ 85759d121f40e5b6bc8e488c4c7e78a6449d12ca 54540 main/binary-amd64/Packages
+ c91bc397af608d53ea5cac78dd4a48ceb6530cf6 13714 main/binary-amd64/Packages.gz
  36ee7ad4672d71dccff2439b00f9837bd947968f 166 main/binary-amd64/Release
  bac25ed431ea4c7949c3cb14dc18a60236e858b4 43847 main/source/Sources
  2752840a9d3a1d2398ddc4e42f1e82e7bf825d09 11044 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
- 9f21af6a6b5c88d231cb6297637ffbdad68089e18bc511ff7f4bd9c041dce31a 54540 main/binary-amd64/Packages
- 4baa5c06e92400ce5148291e1d6ffa6eeddc230998f78eaca1c1764992380850 13722 main/binary-amd64/Packages.gz
+ f7e57208968a177531ff8ff2a052b95339807363d1816761ac3b88785cd4b2eb 54540 main/binary-amd64/Packages
+ a101b745bc54b1ac85239591fc0a80df9b2b0d95c9e70ddefa3c71df2b3a1097 13714 main/binary-amd64/Packages.gz
  214e19052c889b0376dc3b50f970845fe2a226b9386e973d1864da1ba5b40d24 166 main/binary-amd64/Release
  e137b928dd38be29fcc7c255bb0c11f935a0abb80f3641fad8b438aecdf03b4b 43847 main/source/Sources
  2276288a487881c0d42c3a3d2c5a076f93ff75a014a71f69f71944137163dcf4 11044 main/source/Sources.gz
