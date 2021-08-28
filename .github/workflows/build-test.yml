@@ -1,0 +1,82 @@
+name: Build Ubuntu Hirsute amd64 Repository
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+
+    steps:
+      - name: Set Job Parameters
+        id: init
+        env:
+          DISTRO: ubuntu
+          CODENAME: hirsute
+          PACKAGE_MODEL: regolith-2.0-package-model.json
+          CPU_ARCH: amd64
+        run: |
+          echo ::set-output name=codename::${{ env.CODENAME }}
+          echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
+          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}-manifest.txt"
+          echo ::set-output name=setup_script_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/setup.sh"
+          echo ::set-output name=repo_root::"./docs/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}"
+          echo ::set-output name=root_model_path::"${{ env.PACKAGE_MODEL }}"
+      - uses: actions/checkout@v2
+      - name: Optional Setup
+        run: |
+          if [[ -f ${{ steps.init.outputs.setup_script_path }} ]]; then
+            echo "Running custom script ${{ steps.init.outputs.setup_script_path }}"
+            source ${{ steps.init.outputs.setup_script_path }}
+          fi
+      - id: generate-model-manifest
+        uses: kgilmer/build-model-manifest-action@v0.1
+        with:
+          common-model-path: ${{ steps.init.outputs.root_model_path }}
+          custom-model-path: ${{ steps.init.outputs.model_path }}
+          generated-manifest-path: ${{ steps.init.outputs.manifest_path }}
+          generated-model-path: /tmp/model.json
+      - name: Check if there are changes
+        id: changes
+        run: |
+          git status --porcelain
+          if [[ -z "$(git status --porcelain)" ]];
+            then
+              echo "No changes found"
+              echo ::set-output name=changed::0
+            else
+              echo "Changes found"
+              echo ::set-output name=changed::1
+          fi      
+      - name: Configure GPG Key
+        if: steps.changes.outputs.changed == 1
+        run: |
+          mkdir -p ~/.gnupg/
+          printf "$GPG_SIGNING_KEY" | base64 --decode > ~/.gnupg/private.key
+          gpg --batch --import ~/.gnupg/private.key
+        env:
+          GPG_SIGNING_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}
+      - name: Generate Package Repository
+        if: steps.changes.outputs.changed == 1
+        run: |
+          export DEBEMAIL="regolith.linux@gmail.com"
+          export DEBFULLNAME="Regolith Linux"
+          sudo apt update
+          sudo apt install -y devscripts
+          sudo apt install -y reprepro
+          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
+      - name: Commit Files
+        if: steps.changes.outputs.changed == 1
+        run: |
+          git pull
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ${{ steps.init.outputs.repo_root }}/*
+          git add ${{ steps.init.outputs.manifest_path }}
+          git commit -am "Automated repo update"          
+      - name: Push Changes
+        if: steps.changes.outputs.changed == 1
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
