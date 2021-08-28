@@ -31,7 +31,7 @@ jobs:
             source ${{ steps.init.outputs.setup_script_path }}
           fi
       - id: generate-model-manifest
-        uses: kgilmer/build-model-manifest-action@v0.1
+        uses: kgilmer/build-model-manifest-action@v0.2
         with:
           common-model-path: ${{ steps.init.outputs.root_model_path }}
           custom-model-path: ${{ steps.init.outputs.model_path }}
