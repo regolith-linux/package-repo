@@ -40,7 +40,7 @@ jobs:
           fi
       - id: generate-model-manifest
         name: Generate Model and Manifest
-        uses: kgilmer/build-model-manifest-action@v0.3
+        uses: kgilmer/build-model-manifest-action@v0.4
         with:
           common-model-path: ${{ steps.init.outputs.root_model_path }}
           custom-model-path: ${{ steps.init.outputs.model_path }}
