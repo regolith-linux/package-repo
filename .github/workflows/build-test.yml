@@ -40,7 +40,7 @@ jobs:
           generated-model-path: /tmp/model.json
       - id: git-changes
         name: Check for Changes
-        uses: kgilmer/simple-git-has-changes-action@v0.2
+        uses: kgilmer/simple-git-has-changes-action@v0.3
       - name: Configure GPG Key
         if: steps.git-changes.outputs.changed == 1
         run: |
