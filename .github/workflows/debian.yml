@@ -1,21 +1,29 @@
-name: Build Ubuntu Hirsute amd64 Repository
+name: Debian
 
 on:
+  push:
+    branches: master
+    paths:
+      - 'regolith-2.0-package-model.json'
   repository_dispatch:
   workflow_dispatch:
 
 jobs:
   build:
+    concurrency: package_build
     runs-on: ubuntu-20.04
-
+    strategy:
+    matrix:
+      codename: [buster, bullseye]
+      arch: [amd64, arm64]
     steps:
       - name: Set Job Parameters
         id: init
         env:
-          DISTRO: ubuntu
-          CODENAME: hirsute
+          DISTRO: debian
+          CODENAME: ${{ matrix.codename }}
           PACKAGE_MODEL: regolith-2.0-package-model.json
-          CPU_ARCH: amd64
+          CPU_ARCH: ${{ matrix.arch }}
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
