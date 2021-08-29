@@ -39,7 +39,8 @@ jobs:
           generated-manifest-path: ${{ steps.init.outputs.manifest_path }}
           generated-model-path: /tmp/model.json
       - id: git-changes
-        uses: kgilmer/build-model-manifest-action@v0.3
+        name: Check for Changes
+        uses: kgilmer/simple-git-has-changes-action@v0.2
       - name: Configure GPG Key
         if: steps.git-changes.outputs.changed == 1
         run: |
