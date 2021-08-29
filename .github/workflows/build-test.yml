@@ -19,7 +19,7 @@ jobs:
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
-          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}-manifest-test.txt"
+          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}-manifest.txt"
           echo ::set-output name=setup_script_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/setup.sh"
           echo ::set-output name=repo_root::"./docs/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}"
           echo ::set-output name=root_model_path::"${{ env.PACKAGE_MODEL }}"
@@ -41,23 +41,15 @@ jobs:
       - id: git-changes
         name: Check for Changes
         uses: kgilmer/simple-git-has-changes-action@v0.3
-      - name: Configure GPG Key
+      - name: Update Repo
         if: steps.git-changes.outputs.changed == 1
-        run: |
-          mkdir -p ~/.gnupg/
-          printf "$GPG_SIGNING_KEY" | base64 --decode > ~/.gnupg/private.key
-          gpg --batch --import ~/.gnupg/private.key
-        env:
-          GPG_SIGNING_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}
-      - name: Generate Package Repository
-        if: steps.git-changes.outputs.changed == 1
-        run: |
-          export DEBEMAIL="regolith.linux@gmail.com"
-          export DEBFULLNAME="Regolith Linux"
-          sudo apt update
-          sudo apt install -y devscripts
-          sudo apt install -y reprepro
-          scripts/build-deb-repo.sh /tmp/model.json ${{ steps.init.outputs.repo_root }} /tmp/reprepro ${{ steps.init.outputs.codename }}          
+        uses: kgilmer/ingest-debian-reprepro-action@v0.1
+        with: 
+          package-model-path: /tmp/model.json
+          repo-root: ${{ steps.init.outputs.repo_root }}
+          builder-email: regolith.linux@gmail.com
+          builder-name: Regolith Linux
+          repo-codename: ${{ steps.init.outputs.codename }}
       - name: Commit Files
         if: steps.git-changes.outputs.changed == 1
         run: |
