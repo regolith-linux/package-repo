@@ -13,9 +13,9 @@ jobs:
     concurrency: package_build
     runs-on: ubuntu-20.04
     strategy:
-    matrix:
-      codename: [buster, bullseye]
-      arch: [amd64, arm64]
+      matrix:
+        codename: [buster, bullseye]
+        arch: [amd64, arm64]
     steps:
       - name: Set Job Parameters
         id: init
