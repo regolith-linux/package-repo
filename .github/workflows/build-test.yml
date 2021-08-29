@@ -43,13 +43,14 @@ jobs:
         uses: kgilmer/simple-git-has-changes-action@v0.3
       - name: Update Repo
         if: steps.git-changes.outputs.changed == 1
-        uses: kgilmer/ingest-debian-reprepro-action@v0.1
+        uses: kgilmer/ingest-debian-reprepro-action@v0.2
         with: 
           package-model-path: /tmp/model.json
           repo-root: ${{ steps.init.outputs.repo_root }}
           builder-email: regolith.linux@gmail.com
           builder-name: Regolith Linux
           repo-codename: ${{ steps.init.outputs.codename }}
+          private-key: ${{ secrets.PACKAGE_PRIVATE_KEY }}
       - name: Commit Files
         if: steps.git-changes.outputs.changed == 1
         run: |
