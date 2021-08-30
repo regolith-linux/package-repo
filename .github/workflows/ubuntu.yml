@@ -52,7 +52,7 @@ jobs:
       - id: find-changed-packages
         name: Find changed packages
         run: |
-          PKG_LIST = $(git diff --diff-filter=AM | grep '^[+|-][^+|-]' | cut -d" " -f1 | cut -c2- | uniq | sort)
+          PKG_LIST=$(git diff --diff-filter=AM | grep '^[+|-][^+|-]' | cut -d" " -f1 | cut -c2- | uniq | sort)
           echo ::set-output name=package_build_list::$PKG_LIST
           echo $PKG_LIST
       - name: Update Repo
