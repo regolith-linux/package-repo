@@ -5,6 +5,7 @@ on:
     branches: master
     paths:
       - 'regolith-2.0-package-model.json'
+      - '.github/workflows/debian.yml'
   repository_dispatch:
   workflow_dispatch:
 
@@ -49,9 +50,14 @@ jobs:
       - id: git-changes
         name: Check for Changes
         uses: kgilmer/simple-git-has-changes-action@v0.3
+      - id: find-changed-packages
+        name: Find changed packages
+        run: |
+          PKG_LIST=$(git diff --diff-filter=AM | grep '^[+|-][^+|-]' | cut -d" " -f1 | cut -c2- | uniq | sort)
+          echo ::set-output name=package_build_list::$PKG_LIST
       - name: Update Repo
         if: steps.git-changes.outputs.changed == 1
-        uses: kgilmer/ingest-debian-reprepro-action@v0.6
+        uses: kgilmer/ingest-debian-reprepro-action@v0.7
         with: 
           package-model-path: /tmp/model.json
           repo-root: ${{ steps.init.outputs.repo_root }}
@@ -60,6 +66,7 @@ jobs:
           repo-codename: ${{ steps.init.outputs.codename }}
           private-key: ${{ secrets.PACKAGE_PRIVATE_KEY }}
           package-arch: ${{ matrix.arch }},all
+          package-list: ${{ steps.find-changed-packages.outputs.package_build_list }}
       - name: Commit Files
         if: steps.git-changes.outputs.changed == 1
         run: |

@@ -5,6 +5,7 @@ on:
     branches: master
     paths:
       - 'regolith-2.0-package-model.json'
+      - '.github/workflows/ubuntu.yml'
   repository_dispatch:
   workflow_dispatch:
 
@@ -54,7 +55,6 @@ jobs:
         run: |
           PKG_LIST=$(git diff --diff-filter=AM | grep '^[+|-][^+|-]' | cut -d" " -f1 | cut -c2- | uniq | sort)
           echo ::set-output name=package_build_list::$PKG_LIST
-          echo $PKG_LIST
       - name: Update Repo
         if: steps.git-changes.outputs.changed == 1
         uses: kgilmer/ingest-debian-reprepro-action@v0.7
