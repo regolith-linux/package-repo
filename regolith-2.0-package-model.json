@@ -65,7 +65,7 @@
     },
     "regolith-ftue": {
       "source": "https://github.com/regolith-linux/regolith-ftue.git",
-      "branch": "i3cp"
+      "branch": "main"
     },
     "regolith-compositor-none": {
       "source": "https://github.com/regolith-linux/regolith-compositor-none.git",
