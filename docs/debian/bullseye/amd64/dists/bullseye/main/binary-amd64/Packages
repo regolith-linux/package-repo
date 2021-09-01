@@ -1221,10 +1221,10 @@ Description: Rofication notification system
 
 Package: regolith-session-flashback
 Source: regolith-session
-Version: 0.2.13-1-1regolith-1629954172
+Version: 0.3.0-1-1regolith-1630511335
 Architecture: amd64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
-Installed-Size: 31
+Installed-Size: 36
 Depends: dbus, gnome-flashback, gnome-session-bin, mutter-common, regolith-i3-config, x11-xserver-utils, regolith-look-default | regolith-look, xorg, xrescat
 Suggests: update-manager, software-properties-gtk
 Conflicts: regolith-desktop-session, session-shortcuts
@@ -1233,11 +1233,11 @@ Provides: regolith-desktop-session
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-session/regolith-session-flashback_0.2.13-1-1regolith-1629954172_amd64.deb
-Size: 6180
-SHA256: 8f1bcc7e199eb67d155ba0f6dc163c0f993f37b1d20bfad2ef0ee0f2bb1c3771
-SHA1: 2ff79b5f15f1c893e9c9e4b06c40db87606c989e
-MD5sum: d88daf6457bbbd23f742114bf02edac4
+Filename: pool/main/r/regolith-session/regolith-session-flashback_0.3.0-1-1regolith-1630511335_amd64.deb
+Size: 7088
+SHA256: 9a69d6bf2b1f43d9f22d9303fec34ce7346a9ee2d0c22eab02bd5f4090b73fd0
+SHA1: 92fa6ff09419a4144bb3c0994e4e09e88219e217
+MD5sum: f6a856bcf0dfe999b568edb935e17cf7
 Description: Regolith customized gnome-flashback session
  This package contains the desktop and xsession configuration
  necessary to start a Regolith gnome-flashback / i3 desktop session.
