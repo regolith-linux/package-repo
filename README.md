@@ -21,7 +21,8 @@ $ wget -qO - https://regolith-linux.github.io/package-repo/regolith.key | sudo a
 ```bash
 $ export DISTRO=ubuntu    # choose either 'ubuntu' or 'debian' here depending on system installing into
 $ export CODENAME=hirsute # choose either 'focal' or 'hirsute' for ubuntu or 'buster' or 'bullseye' for debian
-$ echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/$DISTRO/$CODENAME $CODENAME main | sudo tee /etc/apt/sources.list.d/regolith.list
+$ export ARCH=amd64       # choose either amd64 or arm64
+$ echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/$DISTRO/$CODENAME/$ARCH $CODENAME main | sudo tee /etc/apt/sources.list.d/regolith.list
 ```
 
 ### Install Regolith
