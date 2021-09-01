@@ -20,7 +20,7 @@ regolith-i3xrocks-config i3cp e1bd956
 regolith-look-default master 73eca0e
 regolith-rofi-config i3cp 80f2698
 regolith-rofication master 02329b5
-regolith-session ubuntu/focal 06f8c79
+regolith-session ubuntu/focal 614f6e3
 regolith-unclutter-xfixes master e4bbaba
 remontoire master 82a5613
 xcb-util applied/ubuntu/groovy 1c1982a
