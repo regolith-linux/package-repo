@@ -61,7 +61,7 @@
     },
     "regolith-desktop": {
       "source": "https://github.com/regolith-linux/regolith-desktop.git",
-      "branch": "ubuntu/focal-i3cp"
+      "branch": "main"
     },
     "regolith-ftue": {
       "source": "https://github.com/regolith-linux/regolith-ftue.git",

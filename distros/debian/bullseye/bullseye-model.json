@@ -1,8 +1,1 @@
-{
-    "packages": {
-        "regolith-desktop": {
-            "source": "https://github.com/regolith-linux/regolith-desktop.git",
-            "branch": "debian/bullseye"
-        }
-    }
-}
+{ }
