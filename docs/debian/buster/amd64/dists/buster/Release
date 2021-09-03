@@ -1,28 +1,28 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: buster
-Date: Wed, 01 Sep 2021 15:51:24 UTC
+Date: Fri, 03 Sep 2021 05:15:39 UTC
 Architectures: amd64
 Components: main
 Description: Regolith Debian
 MD5Sum:
- 29155ca9dc9576725631c36c0f999cc7 61138 main/binary-amd64/Packages
- ccd839f6546ef4c3f06749171fd35df8 14976 main/binary-amd64/Packages.gz
+ dcdb325eaa7eed610d5d97976318ec6e 63131 main/binary-amd64/Packages
+ 838f56dbc80ca7189fe59c515be3166d 15309 main/binary-amd64/Packages.gz
  c3adf1e0fcbadc1a818757bc8a4fd0bb 147 main/binary-amd64/Release
- a972bbcd0030751948100b50caa24518 46132 main/source/Sources
- f783589479186f329fef9c78f7e3c40b 11759 main/source/Sources.gz
+ 9ad161bc4c86fb63b770b89bd009e211 46048 main/source/Sources
+ a149477022e65ce5ae4dd8aaa7cd5cbc 11752 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
- 84fa86f648a90b1b5a709c6f1a2ea8b3b79bf643 61138 main/binary-amd64/Packages
- 81104153ea4a88b5668ca0e3cd8dd7e58c8757b8 14976 main/binary-amd64/Packages.gz
+ c052cc8572472e3962bff73f9b97bd611290943c 63131 main/binary-amd64/Packages
+ 3af3b6204c3e03c8e908451e6938e38a6f590bc6 15309 main/binary-amd64/Packages.gz
  e80c44b3d00c51e01b1640169c9e19b7afa153c5 147 main/binary-amd64/Release
- a4d35dd1ae7405c818fa659fbbb29f5fca73ef70 46132 main/source/Sources
- 449abac6f0a4ca04d7478ac36d3a91eb02839d83 11759 main/source/Sources.gz
+ 6af7a734c8124168f85c35e76f17321cac368aca 46048 main/source/Sources
+ 99b4ed073b342365bf372e62115397f0bed16203 11752 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
- 52e4a6f7d20101751bcb041c5432a71e0a85593c8bafb4344a39cd34d4bf6887 61138 main/binary-amd64/Packages
- eb9a1bfe118e329b7650fe6548980d5c19e6aeffc498d9b18611e207cc147bc1 14976 main/binary-amd64/Packages.gz
+ 40aea5a40e23a740b4154df11364a809ef446d09de90cc38dda71d195d98024f 63131 main/binary-amd64/Packages
+ 210c9a646d55e4057d791e8023a549f80539eee79d853f5724c85ce96060c4ad 15309 main/binary-amd64/Packages.gz
  b59d7cf8062b167d940ebae14925a73b602ca55302ac19ee821b33bd17aaec86 147 main/binary-amd64/Release
- 1a4ab633553bd807218740b5e027d0806ece685240826c87bf514c1e170a004f 46132 main/source/Sources
- 81e4bf8888b7ba4a3e227fb2551ba83eae5e712ec75b66676e5e8aee0a9f57d2 11759 main/source/Sources.gz
+ dd9d528f687646736e2e3111fa9b481e21508f03f506c71132bdee487a6eeaf2 46048 main/source/Sources
+ 9a63e9ba01b4fded6ca103c25143f0535a097a5294c6c7a2c1137a6b3a17abf5 11752 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
