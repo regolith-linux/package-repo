@@ -19,7 +19,7 @@ wget -qO - https://regolith-linux.github.io/package-repo/regolith.key | sudo apt
 Choose the OS, Version, and CPU architecture of the machine that's going to be running Regolith, and paste the contents of the `Paste in Terminal` column and run it to add the appropriate repository to your configuration.
 
 | OS  | Version | Architecture | Paste in Terminal  |
-|---|---|---|
+|---|---|---|---|
 | Ubuntu  | Focal/20.04   | amd64 | `echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/ubuntu/focal/amd64 focal main | sudo tee /etc/apt/sources.list.d/regolith.list`  |
 |         |               | arm64 | `echo deb [arch=arm64] https://regolith-linux.github.io/package-repo/ubuntu/focal/arm64 focal main | sudo tee /etc/apt/sources.list.d/regolith.list`  |
 |         | Hirsute/21.04 | amd64 | `echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/ubuntu/hirsute/amd64 hirsute main | sudo tee /etc/apt/sources.list.d/regolith.list` |
