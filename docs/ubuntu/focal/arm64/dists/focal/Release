@@ -1,7 +1,7 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: focal
-Date: Wed, 01 Sep 2021 15:50:20 UTC
+Date: Fri, 03 Sep 2021 04:53:31 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Focal
@@ -9,20 +9,20 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
  68450eba271898e3ecd0b004064bc46e 166 main/binary-arm64/Release
- 75d7b30134430899f3dfa39e8cd9b231 2865 main/source/Sources
- 56b8a8df2bfc8651de36615ec14c1cad 1022 main/source/Sources.gz
+ f3071af1ed0c04f0521a1ac81dd1d0bd 4392 main/source/Sources
+ 17cce944d1df877fab306f6afc6d4e1d 1372 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
  24f2f443a3a8dc1cee758be572d977e659993f8a 166 main/binary-arm64/Release
- d5b1e4a26cfde6787d3625e3d66d5ba75eb453cc 2865 main/source/Sources
- 96045633453465c5f6486cf9dbef1bc552708b55 1022 main/source/Sources.gz
+ d6052160997ef37eae1528360bb52561a0a27564 4392 main/source/Sources
+ 7b95248856a02c1ed0bbf297b5a865ce305e7582 1372 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
  2092acb604b797cb553c5455a3e4c4ae70b6f86b53af93fc396c349e0b000d79 166 main/binary-arm64/Release
- 833e21955cb52e3b836b3dfef0319f662a336edd1446ad9df9ea5454cdfbde7c 2865 main/source/Sources
- 6bb45987fd3bbcdf71ea1205991ecabb8cfa2a7966eea0d797cc7da6e5db1904 1022 main/source/Sources.gz
+ 9d7ac7acc3a172ea49a99825723f61e225f159c2a4d57f2d075f3e794054b16b 4392 main/source/Sources
+ 0794350332263739d5612d1d60889d19530cc04c41dd58001dc953f49c50b337 1372 main/source/Sources.gz
  33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release
