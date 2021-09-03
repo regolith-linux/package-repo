@@ -74,7 +74,8 @@ jobs:
           git config --local user.name "GitHub Action"
           git add ${{ steps.init.outputs.repo_root }}/*
           git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"          
+          git commit -am "Automated repo update"
+          git pull --rebase
       - name: Push Changes
         if: steps.git-changes.outputs.changed == 1
         uses: ad-m/github-push-action@master
