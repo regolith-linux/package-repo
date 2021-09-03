@@ -12,7 +12,7 @@ regolith-compositor-none master 2391653
 regolith-compositor-picom-glx master 9fe5b87
 regolith-compositor-xcompmgr master c17985c
 regolith-default-settings i3cp 3111b48
-regolith-desktop ubuntu/hirsute 4e703cd
+regolith-desktop main f2f4435
 regolith-ftue main eefcb55
 regolith-i3-config master 02f3932
 regolith-i3xrocks-config i3cp e1bd956
