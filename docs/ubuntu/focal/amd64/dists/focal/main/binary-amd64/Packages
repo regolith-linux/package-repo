@@ -855,6 +855,29 @@ SHA1: a6c7cc51bef1e17ad700cefb8d9df46fffacfe1f
 MD5sum: de783b177e6df649540d327b7787bbe3
 Description: Regolith default settings
 
+Package: regolith-desktop
+Version: 4.0.0-1-1regolith-1630644668
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 16
+Depends: mutter-common, regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
+Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-remontoire, regolith-i3-rofi, regolith-i3-rofication, regolith-i3xrocks-config
+Suggests: update-manager, software-properties-gtk
+Conflicts: regolith-desktop-meta, unclutter-startup
+Replaces: regolith-desktop-meta
+Provides: regolith-desktop-meta
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-desktop_4.0.0-1-1regolith-1630644668_amd64.deb
+Size: 5420
+SHA256: ee62de6001cc889f13c3ea19739df975a4fb16b4f6cb5840bc4e9e698aba409e
+SHA1: 5d1dab33a3219701518827139d923b885a13396d
+MD5sum: 07f276488fb50b05d6d217679275dbe2
+Description: metapackage for Regolith desktop environment
+ This package contains a minimal set of packages for a functional desktop.
+
 Package: regolith-desktop-core
 Source: regolith-desktop
 Version: 3.0.10-1focal-1regolith-1629956314
@@ -1179,6 +1202,26 @@ SHA1: 61b7c064f5b860d4f62b068698f8ace4ef63e393
 MD5sum: f27831ada65b8c90e79195ba6e9ba165
 Description: Default Look for Regolith with minimal dependencies
  A basic Regolith look optimized for minimal dependencies.
+
+Package: regolith-mobile
+Source: regolith-desktop
+Version: 4.0.0-1-1regolith-1630644668
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 12
+Depends: regolith-desktop
+Recommends: i3xrocks-battery
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-mobile_4.0.0-1-1regolith-1630644668_amd64.deb
+Size: 5080
+SHA256: 6b7a24243b90d178438cfb29aa2620ede7f23df3ff01b1df985eb4f7fcd96d22
+SHA1: f28630fb58ee5016447dda370c841130ffafc5e3
+MD5sum: 75c682a660c54b5ed994ddc2c7796169
+Description: A package for Regolith on mobile devices
+ This package extends regolith-desktop to provide additional functionality for laptops.
 
 Package: regolith-rofi-config
 Version: 1.4.1-1-1regolith-1629956382
