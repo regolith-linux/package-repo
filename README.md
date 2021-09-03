@@ -31,7 +31,7 @@ echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/$DISTRO/$COD
 
 ```bash
 sudo apt update
-sudo apt install regolith-desktop-small
+sudo apt install regolith-desktop
 ```
 
 2. Reboot your computer for the changes to take effect.  In the login screen you should see a new session, Regolith.  That will need to be selected manually the first time that you login to the Regolith session.
