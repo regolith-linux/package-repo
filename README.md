@@ -16,32 +16,28 @@ wget -qO - https://regolith-linux.github.io/package-repo/regolith.key | sudo apt
 
 ### Add Repo to Apt's Sources
 
-1. Add this repository to your apt sources:
+Choose the OS, Version, and CPU architecture of the machine that's going to be running Regolith, and paste the contents of the `Paste in Terminal` column and run it to add the appropriate repository to your configuration.
 
-```bash
-export DISTRO=ubuntu    # choose either 'ubuntu' or 'debian' here depending on system installing into
-export CODENAME=hirsute # choose either 'focal' or 'hirsute' for ubuntu or 'buster' or 'bullseye' for debian
-export ARCH=amd64       # choose either amd64 or arm64
-echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/$DISTRO/$CODENAME/$ARCH $CODENAME main | sudo tee /etc/apt/sources.list.d/regolith.list
-```
+| OS  | Version | Architecture | Paste in Terminal  |
+|---|---|---|
+| Ubuntu  | Focal/20.04   | amd64 | `echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/ubuntu/focal/amd64 focal main | sudo tee /etc/apt/sources.list.d/regolith.list`  |
+|         |               | arm64 | `echo deb [arch=arm64] https://regolith-linux.github.io/package-repo/ubuntu/focal/arm64 focal main | sudo tee /etc/apt/sources.list.d/regolith.list`  |
+|         | Hirsute/21.04 | amd64 | `echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/ubuntu/hirsute/amd64 hirsute main | sudo tee /etc/apt/sources.list.d/regolith.list` |
+|         |               | arm64 | `echo deb [arch=arm64] https://regolith-linux.github.io/package-repo/ubuntu/hirsute/arm64 hirsute main | sudo tee /etc/apt/sources.list.d/regolith.list` |
+| Debian  | Buster        | amd64 | `echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/debian/buster/amd64 buster main | sudo tee /etc/apt/sources.list.d/regolith.list` |
+|         |               | arm64 | `echo deb [arch=arm64] https://regolith-linux.github.io/package-repo/debian/buster/arm64 buster main | sudo tee /etc/apt/sources.list.d/regolith.list` |
+|         | Bullseye      | amd64 | `echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/debian/bullseye/amd64 bullseye main | sudo tee /etc/apt/sources.list.d/regolith.list` |
+|         |               | arm64 | `echo deb [arch=arm64] https://regolith-linux.github.io/package-repo/debian/bullseye/arm64 bullseye main | sudo tee /etc/apt/sources.list.d/regolith.list` |
 
 ### Install Regolith
 
-1. Update your apt state:
+1. Update your apt state and Install Regolith
 
 ```bash
 sudo apt update
-```
-
-2. Install Regolith desktop
-
-```bash
 sudo apt install regolith-desktop-small
 ```
 
-
-
-
-
+2. Reboot your computer for the changes to take effect.  In the login screen you should see a new session, Regolith.  That will need to be selected manually the first time that you login to the Regolith session.
 
 
