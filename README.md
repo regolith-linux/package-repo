@@ -1,6 +1,10 @@
 # Regolith 2.0 Package Repository
 
-This repository hosts scripts to generate package repositories as well as the repositories themselves, hosted by github-pages.
+This repository hosts repositories containing Regolith packages for Ubuntu and Debian.  It uses GitHub workflows to update the repositories when changes are available.  Packages consumed from these repositories are untested and may break your system if you install them.
+
+## Status
+
+This repository and the packages it hosts are in active development.  We appriciate bug reports if issues are found.  If you are looking for the stable or release version of Regolith go to https://regolith-linux.org/download.
 
 ## How To Install Packages - Debian and Ubuntu
 
