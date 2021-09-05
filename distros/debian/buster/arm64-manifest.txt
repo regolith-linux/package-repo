@@ -17,7 +17,7 @@ regolith-desktop main f2f4435
 regolith-ftue main eefcb55
 regolith-i3-config master 02f3932
 regolith-i3xrocks-config i3cp e1bd956
-regolith-look-default master 73eca0e
+regolith-look-default master 5cabe6e
 regolith-rofi-config i3cp 80f2698
 regolith-rofication master 02329b5
 regolith-session ubuntu/focal 614f6e3
