@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: regolith-i3-config
 Binary: regolith-i3-config, regolith-i3-gaps-partial, regolith-i3-snapshot, regolith-i3-ftue, regolith-i3-remontoire, regolith-i3-compositor, regolith-i3-unclutter, regolith-i3-rofi, regolith-i3-rofication, regolith-i3-gnome, regolith-i3-next-workspace, regolith-i3-i3xrocks, regolith-i3-networkmanager
 Architecture: any
-Version: 3.0.11-1-1regolith-1629954097
+Version: 3.1.0-1-1regolith-1630886134
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Standards-Version: 4.1.3
@@ -25,26 +25,26 @@ Package-List:
  regolith-i3-snapshot deb x11 optional arch=any
  regolith-i3-unclutter deb x11 optional arch=any
 Checksums-Sha1:
- 28bfb74d34916a20cef8f67225e9e66edaac28e3 12299 regolith-i3-config_3.0.11-1-1regolith.orig.tar.gz
- ff2a050bdec7fbe7cfa9a53cc986e0a86d4702cb 6212 regolith-i3-config_3.0.11-1-1regolith-1629954097.debian.tar.xz
+ faa2bfdef3355e3b2b6478f15ea15b155a6dffce 8112 regolith-i3-config_3.1.0-1-1regolith.orig.tar.gz
+ 03453b8a17a51f7340320231aa888443831b7292 6244 regolith-i3-config_3.1.0-1-1regolith-1630886134.debian.tar.xz
 Checksums-Sha256:
- a9b1d600abc347853d8d800cfe3e3529a8537b51c30ae62c6a1563f6be8fff4f 12299 regolith-i3-config_3.0.11-1-1regolith.orig.tar.gz
- 808df771f281dcc73b45e7d0d263c69ab55f51623262f3fef45410275f75e10e 6212 regolith-i3-config_3.0.11-1-1regolith-1629954097.debian.tar.xz
+ 4366f45700774edde2b198bcfe176eb09201ec7bb35c9b88430a08a5598f5f52 8112 regolith-i3-config_3.1.0-1-1regolith.orig.tar.gz
+ e478ae155eba18285211ca361a2f3f5d5461a9517959ab15ae8d34d0af05dbed 6244 regolith-i3-config_3.1.0-1-1regolith-1630886134.debian.tar.xz
 Files:
- f0365ecc843554298291c5df7f7b0747 12299 regolith-i3-config_3.0.11-1-1regolith.orig.tar.gz
- 0f46ec8f1a32d9727335bf52e43c881f 6212 regolith-i3-config_3.0.11-1-1regolith-1629954097.debian.tar.xz
+ 78e55be9c26edfffe3619097622de619 8112 regolith-i3-config_3.1.0-1-1regolith.orig.tar.gz
+ e307c1691c5dcfd1b6109c575adf2287 6244 regolith-i3-config_3.1.0-1-1regolith-1630886134.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQHNBAEBCgA3FiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmEnIDYZHHJlZ29saXRo
-LmxpbnV4QGdtYWlsLmNvbQAKCRC/5xdkmlw9CIHaC/9Vx2xHc6Mvcv0FcO57/00g
-Y8xZAkHQdg1g0g19nbYHrHiVN01wYF6M3/w7DaEoZ7u5BiVrnh4Lmx7Ol/AdQti3
-v1K7U4MbhrixyFCUM+PsU43Tptqo/nOT3OkFKXIyLVZd0qD0l3BSsTodkeIeGcqg
-80ZFlNtgh+gNTSb9s8dHCkTWxwL9as66VQtINMPWgMiYAK+rkIszxEwPrhcZ87vc
-KDjPfDm4140otnHu5AajhMRvWlftfhg/IEhN+XAOYEkbQ2ZzjB1ZdJH/DXBVPkBe
-ORdReARZ3HjxQ20ffL96phZw9fEnIdv6McWKsUihc+qk1lMaOZZcbE1iWNfczGaC
-9N8bgTkxmXyDsfgIv5abZz4miojlGTAKvD3FrFUXfekjd9QHwQKmvfkp6Uae2fEo
-y+thqAFuC7t1sYNLEfh+0+dfkoz9dww20dtGFZUhQNbs7dbxIvxdUVLvOtVxjY98
-Dqw8cnXlHNz5Gw9ZvAJJLPtlnM1lfDPsO9xeBxZM6TQ=
-=SNVk
+iQHNBAEBCgA3FiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmE1WREZHHJlZ29saXRo
+LmxpbnV4QGdtYWlsLmNvbQAKCRC/5xdkmlw9CAQ9DAC9yfHXj7rF+TqlmWuMFha0
+fStB+v5KZoY7R4hEiWLP/8RN9Q3okzwlFKDqTdVjczU7Ehm8354EkJYAIZn76p7m
+R8OQR/v7ot7DoNYtcuMaPsSMfLAsk8bFkIui5kbzx5t0YHoBXz2wCrgamCJ52rbl
+JHHxYkUtL/R5bHqJO3+p9RjzX3YqqkPMWOYI+cgeh4GsE9wAIHThG4+kdGFz58na
+uKV9JRewx9tunAHX/OqGdgpZBYzxrRME8uP8cqdQjH5ZQdeJ2lsqouJ3l9/19kVX
+AE2NdJVZhi+lCpbEaSkNQw4w64DU9LtWszKTZu7BvtXiHASyUNoWTGg4Q3ZCA/fL
+UsSk7asxnKBKLkulex03tlABHDBee5Q+CxBiY3D9hHzEPpo0pxj/YblwyNb3MdXg
+MGlIIDIzHqtg7HBTJB00gEqgXH5rKxVx2EcCc7vMVAKJcCRic2DZWXkTd8WL3IrV
+Fl38JmYkaMdfij9aSn/nribhZxhtamSM1O0SezhxDVQ=
+=YPXP
 -----END PGP SIGNATURE-----
