@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: buster
-Date: Sun, 05 Sep 2021 23:56:48 UTC
+Date: Mon, 06 Sep 2021 00:33:17 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
@@ -12,34 +12,34 @@ MD5Sum:
  5dcd4316194215c5e68ed6cce98957ce 61133 main/binary-arm64/Packages
  b1c8ccb64d38247ef7c72dce90b01675 14964 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- 68cec4a2c245f76e980d0cc922937c89 46035 main/source/Sources
- d5a538bf4af80587b463e3fcf915fb01 11766 main/source/Sources.gz
+ d74ab255678a9692d8fbd1171a30d725 46035 main/source/Sources
+ f2e8b415909ee2491cfb82a50bff94d2 11764 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
  2217083741219cb6d7c95303dd665cec68310f8a 61133 main/binary-arm64/Packages
  9aad0c7a8fd50b1dd9b35153b9e1551d121418f8 14964 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- d266f57fcd72ddfb45997cdb45f975ee79d19fe1 46035 main/source/Sources
- a0e540bba578cccb896b7d31a4ece0e7dc59fa87 11766 main/source/Sources.gz
+ 300f240fba981efa5d3befc2ef012876b30b4055 46035 main/source/Sources
+ f3f8bf883e3f59704d4edd63ef01b34486838105 11764 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
  fa0d1b8199a6fb010d863547316c0f8beeaed8272aadebe37a375aa135ac3dd2 61133 main/binary-arm64/Packages
  692fadc57029a5aae910ef74827b98599b1940b77b5ca4cc050009eb670a791b 14964 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- 44a01879db73ca5a4a3fcab9efb9cd8d1481fc0f6cfc133e4682dfbf273a6270 46035 main/source/Sources
- eacabfad311f807567fb8af97fc850763bca52a4f3a119445568996798adcf4e 11766 main/source/Sources.gz
+ 745bbcdc7635d515ede1454116f55259f48353cbea88ec1bb55c9fc9491b9560 46035 main/source/Sources
+ 1290d1a44ea04fcb16a7a6567ced293f805921649c8ebae2045a4f6b8214ef62 11764 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmE1WUAACgkQv+cXZJpc
-PQiVjAwAtiiAq3JBaBW84bd+CpTARC3eRoaC2AJE7KYJxsru3VMfaSL37zqCc3VD
-+yA8Gn33wpifZIKUSw4Xm2Tm8fpWZ7EqA3VARALiuLUNQ76IieqohGCH/JEPzC9Q
-ZAs5ge0RC5UBOV1E7FMoWw9GKPlZg4PgfJa/jOmxb1S6/pxYtiUw/W4CITZEo2DJ
-ZQVjNXcPdH2yUwdSylwirsol8vpXv+Hsew23pEstuqYcHhRSAtS6ZME597/CiFc7
-kB6SuWxZuL6IkNiloa0Db67pK7ZFo2wRSoxs/Svj6AV6B41L8YAcTiJ6u3T016lk
-lEDySSxw4bdmZyvBCcc0JrTP0oDoOe9KaFuTJ/+4I7myT6w33wMNk7rd9E6PTvjk
-Kj2Mi80shIKyn4o+YkMVYAKY8hZIs3zKnAodqE6cMsj3RCdTiSommAqsoR12ufZa
-2+ADEa9QnU6rV0rUwmHxVj717MwOJRzRoJ+zHTI28wHz1tE+PvomIKHYQVbFBKnN
-fpAtBgog
-=GFTb
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmE1Yc0ACgkQv+cXZJpc
+PQhY2Qv+PAai3rpNadwc9qpdpfYAfvpVqmb10rs+NkR1SYeQDQWkzKLEfccuIfA9
+UjxmWweEmML5clPusV/+sb9rsk7QZ6I+3arBXi5CMfnVZPQFgR8xQsgrmJdAjD5Y
+KxQLDLYd9/o8Kpv3y/ZCjTHbrbdEeAnIwfaa+CpAITQ6MZ0RgiH3gw6dGyvUEGSa
+IoVsbnKAUdRRS1ZSEZJYGgHnWu8TKLuVfWEXhgRh1qSdSom7lPw2capNtfsCY0SV
+byzdywumSUtdgBJtzC5U/3skzMk5op31fsCzjpPQ1XZOMIoR2vZRS3wjnkTcGzwd
+IH+DnWV3SAkeGUPqmRRWfLLVuKwBT/HydAXjualc4CWL9uRRbJzi9Kys8NIP4otu
+xR5BwO0v/mKBHs6xvm0Ojiw/TnDSJHyvRmZ3a99pTPHHYcPKGe4zVudWBRjPAqpq
+O6ewj6wLxnpAH8kXTWkvLq9oiQSX8PNyGolv27r2VN6lgnVUuBt+0u+1NtKGeuJW
+p7dxuxWw
+=er8M
 -----END PGP SIGNATURE-----
