@@ -76,8 +76,4 @@ jobs:
           git add ${{ steps.init.outputs.manifest_path }}
           git commit -am "Automated repo update"
           git pull --rebase
-      - name: Push Changes
-        if: steps.git-changes.outputs.changed == 1
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git push origin master
