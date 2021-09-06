@@ -29,6 +29,32 @@ export ARCH=amd64       # choose either 'amd64' or 'arm64'
 echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/$DISTRO/$CODENAME/$ARCH $CODENAME main | sudo tee /etc/apt/sources.list.d/regolith.list
 ```
 
+Or just copy the appropriate line below:
+
+#### Ubuntu - Focal - amd64
+
+```bash
+echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/ubuntu/focal/amd64 focal main | sudo tee /etc/apt/sources.list.d/regolith.list
+```
+
+#### Ubuntu - Hirsute - amd64
+
+```bash
+echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/ubuntu/hirsute/amd64 hirsute main | sudo tee /etc/apt/sources.list.d/regolith.list
+```
+
+#### Debian - Buster - amd64
+
+```bash
+echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/debian/buster/amd64 buster main | sudo tee /etc/apt/sources.list.d/regolith.list
+```
+
+#### Debian - Bullseye - amd64
+
+```bash
+echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/debian/bullseye/amd64 bullseye main | sudo tee /etc/apt/sources.list.d/regolith.list
+```
+
 ### Install Regolith
 
 1. Update your apt state and Install Regolith
