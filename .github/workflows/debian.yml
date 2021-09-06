@@ -68,12 +68,16 @@ jobs:
           package-list: ${{ steps.find-changed-packages.outputs.package_build_list }}
       - name: Commit Files
         if: steps.git-changes.outputs.changed == 1
-        run: |
-          git pull
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add ${{ steps.init.outputs.repo_root }}/*
-          git add ${{ steps.init.outputs.manifest_path }}
-          git commit -am "Automated repo update"
-          git pull --rebase
-          git push origin master
+        uses: nick-invision/retry@v2
+        with:
+          timeout_seconds: 2
+          max_attempts: 5
+          retry_on: error
+          command: |            
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git pull --rebase
+            git add ${{ steps.init.outputs.repo_root }}/*
+            git add ${{ steps.init.outputs.manifest_path }}
+            git commit -am "Automated repo update"
+            git push origin master
