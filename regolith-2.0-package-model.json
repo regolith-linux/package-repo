@@ -5,7 +5,7 @@
   "packages": {
     "regolith-session": {
       "source": "https://github.com/regolith-linux/regolith-session.git",
-      "branch": "ubuntu/focal"
+      "branch": "main"
     },
     "xcb-util": {
       "source": "https://git.launchpad.net/ubuntu/+source/xcb-util",
