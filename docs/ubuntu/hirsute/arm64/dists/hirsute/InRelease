@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: hirsute
-Date: Mon, 06 Sep 2021 01:00:16 UTC
+Date: Mon, 06 Sep 2021 03:54:20 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Focal
@@ -12,34 +12,34 @@ MD5Sum:
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
  68450eba271898e3ecd0b004064bc46e 166 main/binary-arm64/Release
- 764bc94989bd8098a26908d934b09258 8311 main/source/Sources
- 4573f463ae5e2bb75ab7d7b7dc4aeacb 2249 main/source/Sources.gz
+ 927e41ffac4ff2e8476a534c895cb98f 8311 main/source/Sources
+ 6a7080b35bc8b5614f0cf1c01d0a885c 2247 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
  24f2f443a3a8dc1cee758be572d977e659993f8a 166 main/binary-arm64/Release
- f68c2f9de34fe9701e052efd0af13ca82c6dfc8b 8311 main/source/Sources
- e121f4355a50ea82c7b0af01a1757a4897d81fc0 2249 main/source/Sources.gz
+ b83187a1bcc82c26ad59746d9e2abb80b5e181b6 8311 main/source/Sources
+ 405a3191c0853a0492e83f1f941d2b55e7667a92 2247 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
  2092acb604b797cb553c5455a3e4c4ae70b6f86b53af93fc396c349e0b000d79 166 main/binary-arm64/Release
- 2280d38f88967b2b9596de4212eee486aa87a2063b8fe6b20577b8535127c2ca 8311 main/source/Sources
- efd1839d6326eff26723e3131539b0fb92eaf39238ec9cd3ead557c16ad2eac8 2249 main/source/Sources.gz
+ b693f4a7280bfee91788e6ae900c30dece15c888a35210a2376d70da85693128 8311 main/source/Sources
+ d898464ac2b46459747f95954a8c546dcb744deecae6ef96c92cbb25b954b916 2247 main/source/Sources.gz
  33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmE1aCEACgkQv+cXZJpc
-PQjr3gv/dunuD1BZAIZDA5GyrtY5ggSA+A+EZolJLBww1iwOAKQRWpxEEt6fmLSY
-b/2sFwVGZtiKvbbGJc5jYG1nOqFwM0mIhO0YgWOS6hcA/sAZ9PCDIOJMCJyqcdq4
-337sxvWxEIhl8X656aDcvLOoHrRMzvIwiK5/yYMaMzAqOUIo1auQdvWPeceUEqUP
-nMmFbfe4xX9ctlhyH1AqvD829sBGTOKHwe13iZwkEKo3ax1UNlN4e8mCIh9IxBWj
-s9i9o2z1LneSJeaA3LqJGjWyjz1tlylx7AaH4iI0Bb0f+HIySx+jwia//QVAda3j
-srRn4q06BkJuhKNAbVIPtZdO1PKcGqZErIA7Ci5cHr295Z5iFCZLuc91jI7wjNtU
-zVDV4rW6X5Tx1M3vE5sFuwk1H29EKeglIwg6OWq8p7fFH4FfaAgmBP2NyyqQMAPB
-ewF9UOHdxUavRBXi5NpDibh1PLffdYio6Y5/aelfVuzslo0y853OUpFJgTLO6ybK
-f8VAY92F
-=FpNu
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmE1kOwACgkQv+cXZJpc
+PQjPewv/aCGPWCGy1X6vGnICKx+uAvvSZKJ6AX6SYANSDBAjb2YUAkYG+nB08y/7
+7W2K2OitNjnXVBoE6rGtgdis2N+OjWKHdQ/6TlUUBiPdFiBQrzL2b32wyTTfaQBW
+ub1DT2yeqm6GNpns9w3lIKv4SU2tXGJA43PdTFJqxIc+igc0eKsxQVEXaayvcXSf
+7Dx4MUIwVl1pTliWQW827FfLm7jG3iiO76Frqimeqsdbqn6UMtT+EMYPER07VY8o
+LcUUNgM0xdv7WKzSVsVQXoLqpQMVMjEAWLjzuQb4YMF9Hlet+p5WKidxkfV5tuwf
+Fhhw2SgBM2FDE3+k873DMftVq3PMUiR/+g+qeMqnCI4kKh6KIYkJSNXHDwrmi3t/
+kRaYrPSIb8QImxUDuI3vSfRtWEJEI06TV7FbYWFKIKtAzg0bArSYAQqSUgIrKP1n
+hNRmloAc68gGQZjn2uNyeMNoZTZe+TZBlSuFt+qQSslLFPa8w2EOA2izdbg8QJpD
+9cdDLyEz
+=KR+j
 -----END PGP SIGNATURE-----
