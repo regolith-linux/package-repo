@@ -1,1 +1,6 @@
-{ }
+{ 
+    "regolith-system": {
+        "source": "https://github.com/regolith-linux/regolith-distro-ubuntu.git",
+        "branch": "main"
+      }
+}
