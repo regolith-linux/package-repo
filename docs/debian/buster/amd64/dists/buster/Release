@@ -1,27 +1,27 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: buster
-Date: Mon, 06 Sep 2021 03:54:08 UTC
+Date: Sat, 11 Sep 2021 16:47:55 UTC
 Architectures: amd64
 Components: main
 Description: Regolith Debian
 MD5Sum:
- 10dfaca4660064262b25092ee9ce02ff 63105 main/binary-amd64/Packages
- a3fcebb7ca7a800963d18374817fc8b8 15304 main/binary-amd64/Packages.gz
+ 41edbfe417e5f30db5ac8d22ba90ce32 63105 main/binary-amd64/Packages
+ 25df4c88173e3819389d642085ef4b51 15303 main/binary-amd64/Packages.gz
  c3adf1e0fcbadc1a818757bc8a4fd0bb 147 main/binary-amd64/Release
  e1d1c08da4b051ff91f4eb94864d93c2 46035 main/source/Sources
  19c6fcb6486b1ec0e633db597bc8b36c 11750 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
- 5a0fcf88f52264d0d6b896893a00a2d012992292 63105 main/binary-amd64/Packages
- 57d85a6753693a1ad00d883e067d98b238663b91 15304 main/binary-amd64/Packages.gz
+ a5eb06aeeb26d4beaffb5bd7477cb02ff34037b8 63105 main/binary-amd64/Packages
+ 9bb63dca0e19a6336739d39a837e4994a1389988 15303 main/binary-amd64/Packages.gz
  e80c44b3d00c51e01b1640169c9e19b7afa153c5 147 main/binary-amd64/Release
  d1eda22dd72cf7ebc7ce5a8c9452deacb4928b22 46035 main/source/Sources
  733a96bdb9cdde405dac189693442aa356e74ecd 11750 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
- 23b6aaf9b20c50d5a098340784cc2ea776e7288b7fa8a152866137c8cb0617b9 63105 main/binary-amd64/Packages
- bd12d097536feaf49d1d5e8763fee3cf86bda33e2afd47f92f67fde27970b44b 15304 main/binary-amd64/Packages.gz
+ 6b56763fd0e67c30652dc25ca777f2d56d0d0d5c3303f4795e7c8f8bdc1b77b9 63105 main/binary-amd64/Packages
+ 5833710dfd1bac768d4c5388decab4d6d71d55f8c429dfa3e5804f9bee2b44dd 15303 main/binary-amd64/Packages.gz
  b59d7cf8062b167d940ebae14925a73b602ca55302ac19ee821b33bd17aaec86 147 main/binary-amd64/Release
  6f7ac483ecafb830f75d1f0bcc4de9565a79cadcba22099d25e1262df2e785f9 46035 main/source/Sources
  0733838c6aa9be1db51525ec7e62b4985555f6625605c757fa5f4a9973d1e109 11750 main/source/Sources.gz
