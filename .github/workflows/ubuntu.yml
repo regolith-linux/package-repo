@@ -6,8 +6,8 @@ on:
     paths:
       - 'regolith-2.0-package-model.json'
       - '.github/workflows/ubuntu.yml'
-      - 'ubuntu/focal/focal-model.json'
-      - 'ubuntu/hirsute/hirsute-model.json'
+      - 'distros/ubuntu/focal/focal-model.json'
+      - 'distros/ubuntu/hirsute/hirsute-model.json'
   repository_dispatch:
   workflow_dispatch:
 
