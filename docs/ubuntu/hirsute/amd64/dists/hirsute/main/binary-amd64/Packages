@@ -743,7 +743,7 @@ Description: utility libraries for X C Binding -- atom, aux and event
 
 Package: plymouth-theme-regolith-logo
 Source: plymouth-theme-regolith
-Version: 1.1.3-1ubuntu1-1regolith-1631384588
+Version: 1.1.3-1ubuntu1-1regolith-1631393355
 Architecture: all
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 191
@@ -752,11 +752,11 @@ Breaks: plymouth (<< 0.9.2-3ubuntu1~)
 Provides: plymouth-theme
 Priority: optional
 Section: misc
-Filename: pool/main/p/plymouth-theme-regolith/plymouth-theme-regolith-logo_1.1.3-1ubuntu1-1regolith-1631384588_all.deb
+Filename: pool/main/p/plymouth-theme-regolith/plymouth-theme-regolith-logo_1.1.3-1ubuntu1-1regolith-1631393355_all.deb
 Size: 82664
-SHA256: 0d4644811b479432ffb0ebfc4c24f072edd86c07b273f1ce3b801ef2ef19ebf8
-SHA1: 1af591258355ef2b282f2908ec0911a3e3f844e7
-MD5sum: 7217084f31d0771cfd1fb58233259d80
+SHA256: 2dcadc19d856dd91e91dcdee6264ff68f26049dec950a09fd96a5b2726f2c16c
+SHA1: 3a921e8b71034b15f7044895f176cec5be31a3d1
+MD5sum: 6d3c52b676f6101009f986d8296dbe4f
 Description: boot animation, logger and I/O multiplexer - Regolith theme
  Plymouth provides a boot-time I/O multiplexing framework - the most obvious
  use for which is to provide an attractive graphical animation in place of
@@ -945,6 +945,26 @@ SHA1: fa3784c4478fd4c97a400cf10b7b266366d08c5c
 MD5sum: 44096857fc9a5f8207b3f98481fb4ce1
 Description: metapackage for a light but functional Regolith desktop environment
  This package contains minimal packages for a functional desktop.
+
+Package: regolith-distro-ubuntu
+Version: 2.0.0-1-1regolith-1631393502
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 9
+Depends: gnome-system-tools, gsettings-ubuntu-schemas, ibus, network-manager-config-connectivity-ubuntu, regolith-desktop | regolith-desktop-meta, lightdm | x-display-manager, xinit
+Recommends: regolith-lightdm-config, plymouth-theme-regolith, libavahi-ui-gtk3-0
+Conflicts: indicator-application
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-system
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-distro-ubuntu/regolith-distro-ubuntu_2.0.0-1-1regolith-1631393502_amd64.deb
+Size: 2860
+SHA256: b22255cf3c747daa78718460e303787b6a28dcd6bdd08066485f9e6908fb1cc6
+SHA1: 04c5d7c65b558bae7f0b34ea158a9d86c4f016d5
+MD5sum: 2c0cbc3ec649df17c6b4bfd288bb01b8
+Description: Metapackage that describes a distribution with Regolith
+ This package installs a complete Regolith system on Ubuntu, used for ISO generation.
 
 Package: regolith-ftue
 Version: 2.0.5-1-1regolith-1630466407
@@ -1353,6 +1373,26 @@ Description: General purpose keybinding viewer
  Remontoire reads keybinding specifications via a specific
  string format and displays them in a one-level-deep tree
  structure suitable for tiling window managers such as i3.
+
+Package: ubiquity-slideshow-regolith
+Version: 168.6-regolith1-1regolith-1631393514
+Architecture: all
+Maintainer: Ubiquity Slideshow Team <ubiquity-slideshow@lists.launchpad.net>
+Installed-Size: 761
+Conflicts: ubiquity-slideshow
+Replaces: ubiquity-slideshow
+Provides: ubiquity-artwork-20.04.15.11, ubiquity-artwork-20.04.15.12, ubiquity-artwork-21.04.19, ubiquity-slideshow
+Homepage: https://launchpad.net/ubiquity-slideshow-ubuntu
+Priority: optional
+Section: x11
+Filename: pool/main/u/ubiquity-slideshow-regolith/ubiquity-slideshow-regolith_168.6-regolith1-1regolith-1631393514_all.deb
+Size: 348220
+SHA256: e502414d7e34f5e843781df8e29b398503881c8668d3b3193023be49b4c795f3
+SHA1: bc6fe78dfb9158f7420b9d51b287d3be487cba1c
+MD5sum: 58fa23f1f543a7f5be019e3dba7135d5
+Description: Ubiquity slideshow for Regolith
+ A slideshow intended for the Ubiquity installer, designed as a quick
+ introduction to Regolith.
 
 Package: xrescat
 Version: 1.2.1-1-1regolith-1630301411
