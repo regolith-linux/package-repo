@@ -79,3 +79,8 @@ jobs:
           git commit -am "Automated repo update"
           git pull --rebase
           git push origin master
+      - name: Broadcast ISO Build Event
+        if: steps.git-changes.outputs.changed == 1
+        run: |
+          TARGET_REPO_NAME=regolith-ubuntu-iso-builder
+          curl -XPOST -u "${{ secrets.ORG_BROADCAST_USER}}:${{secrets.ORG_BROADCAST_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/regolith-linux/$TARGET_REPO_NAME/dispatches --data '{ "event_type": "package_update"}'
