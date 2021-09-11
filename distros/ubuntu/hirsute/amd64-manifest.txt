@@ -6,7 +6,6 @@ i3-next-workspace main cb469ba
 i3-snapshot master 5135c86
 i3-wm next 73c35c87
 i3xrocks master 0c39c51
-plymouth-theme-regolith master caebe50
 python3-i3ipc master 4d16601
 regolith-compositor-compton-glx master eebe813
 regolith-compositor-none master 2391653
@@ -14,7 +13,6 @@ regolith-compositor-picom-glx master 9fe5b87
 regolith-compositor-xcompmgr master c17985c
 regolith-default-settings i3cp 3111b48
 regolith-desktop main f2f4435
-regolith-distro-ubuntu main fe6cc85
 regolith-ftue main eefcb55
 regolith-i3-config master ac206fc
 regolith-i3xrocks-config i3cp e1bd956
@@ -24,6 +22,5 @@ regolith-rofication master e45205f
 regolith-session main 59b265f
 regolith-unclutter-xfixes master e4bbaba
 remontoire master 82a5613
-ubiquity-slideshow-regolith master 826ac4b
 xcb-util applied/ubuntu/groovy 1c1982a
 xrescat master 0ac61a5
