@@ -21,6 +21,6 @@ regolith-rofi-config i3cp 80f2698
 regolith-rofication master e45205f
 regolith-session main 59b265f
 regolith-unclutter-xfixes master e4bbaba
-remontoire master 82a5613
+remontoire master 96090d5
 xcb-util applied/ubuntu/groovy 1c1982a
 xrescat master 0ac61a5
