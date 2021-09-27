@@ -662,6 +662,23 @@ Description: Indicator to display the current Wi-Fi network name.
  An i3xrocks indicator for displaying the name of the
  currently connect Wi-Fi network.
 
+Package: ilia
+Version: 0.1.0-1-1regolith-1632722722
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 50
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.16.2), libgee-0.8-2
+Homepage: https://github.com/regolith-linux/ilia
+Priority: optional
+Section: x11
+Filename: pool/main/i/ilia/ilia_0.1.0-1-1regolith-1632722722_amd64.deb
+Size: 12704
+SHA256: b1be0ce5856e126dbe398616aa35469e512461269c9853d4cc158f64b42a3515
+SHA1: 8085db0dfd5cde9278d5f613155e0d940f684f68
+MD5sum: f5998cf6468c96cdb33aa535579095ee
+Description: General purpose application launcher
+ Launch desktop apps via a simple filterable menu.
+
 Package: libxcb-util-dev
 Source: xcb-util
 Version: 0.4.0-0ubuntu3-1regolith-1629956476
