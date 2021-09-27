@@ -87,6 +87,10 @@
       "source": "https://github.com/regolith-linux/remontoire.git",
       "branch": "master"
     },
+    "ilia": {
+      "source": "https://github.com/regolith-linux/ilia.git",
+      "branch": "main"
+    },
     "regolith-rofi-config": {
       "source": "https://github.com/regolith-linux/regolith-rofi-config.git",
       "branch": "i3cp"
