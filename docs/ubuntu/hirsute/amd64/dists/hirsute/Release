@@ -1,27 +1,27 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: hirsute
-Date: Mon, 27 Sep 2021 06:21:07 UTC
+Date: Fri, 01 Oct 2021 03:42:24 UTC
 Architectures: amd64
 Components: main
 Description: Regolith packages for Ubuntu Focal
 MD5Sum:
- fd68a847b507ede2f65f13b88165177f 60213 main/binary-amd64/Packages
- ed5c63ea815f9c7a7ea8a9f66d5e5b6f 15314 main/binary-amd64/Packages.gz
+ fa3d928d66a9a84f5efc787e0de91299 60258 main/binary-amd64/Packages
+ 9e5674bac3af1bac6eba3a281f723cc0 15315 main/binary-amd64/Packages.gz
  862f9231577ed5d6a4a4be2d97ef21eb 166 main/binary-amd64/Release
  601ab2d0d23b66964b1c6551dad3dfec 49316 main/source/Sources
  01593c9e5eb89f6ea385d4362fc6a4ca 12453 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
- ee2340ebba564ee661ef7e7a176b616de817cbb4 60213 main/binary-amd64/Packages
- 729626ca9d449e5a6aaf2d5ce9d139821837b4d6 15314 main/binary-amd64/Packages.gz
+ 63de21e70ba6ebba9163a2624c90cc2cfd8dab62 60258 main/binary-amd64/Packages
+ 1e4e373652c28213310065e115c06d30783fa2b2 15315 main/binary-amd64/Packages.gz
  36ee7ad4672d71dccff2439b00f9837bd947968f 166 main/binary-amd64/Release
  ebc8f48be7957c4592549c57b37fb73f27d3a3d2 49316 main/source/Sources
  85af28759d8f2a3c7547bdf6daa4f13cb1e483f3 12453 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
- 3a446e785affb1c1dc0acd6be3b93b35cc3c9443ec9a3ac7a8f5afeb0737c8ab 60213 main/binary-amd64/Packages
- bf9bcd75b08217ecf0ff0ec3b8f04ae6688058bbc69cbdeefdbea7d316b852e1 15314 main/binary-amd64/Packages.gz
+ 6c2bc82d493e9dfe767dfcb30ccd5c2ac7758365bb572cb4d4aede37048151cd 60258 main/binary-amd64/Packages
+ 28522e8114fda2ce0f35d16645e34e61abcc49bfae432756a09fab5fe815b5d3 15315 main/binary-amd64/Packages.gz
  214e19052c889b0376dc3b50f970845fe2a226b9386e973d1864da1ba5b40d24 166 main/binary-amd64/Release
  d62aed5be4bd118c522926a2e5165b6d68fc9a1e33c5e5fc84f4c9b21b0379ff 49316 main/source/Sources
  639f098606bb4ec586a54754aa0cab33f0fb50269e45ca1684c095875e4ee848 12453 main/source/Sources.gz
