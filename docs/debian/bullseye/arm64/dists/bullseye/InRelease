@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Mon, 27 Sep 2021 06:21:38 UTC
+Date: Fri, 01 Oct 2021 03:50:34 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
@@ -12,34 +12,34 @@ MD5Sum:
  f1b9d2a6c0da5348e38fb12e0e17933f 54548 main/binary-arm64/Packages
  b5d73eb447fcfb6f1d32ff375f1d91ac 13712 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- 3e6059910ec4b16f97739cecebc3dd05 45123 main/source/Sources
- e737705b0fbf17c1fdb9e68653eee6ea 11418 main/source/Sources.gz
+ 7f4fa545c70c087cc5ec4de6cd4074ca 45123 main/source/Sources
+ c6bb71b69649ef3044309ea762383375 11426 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
  78e8bef28b24fac04d1408abf3531def6360c69a 54548 main/binary-arm64/Packages
  12b34f9057e97cba56812756178c870a2fcf8c5a 13712 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- 67e923d0892c129b76bf036d3f0fae9b06304694 45123 main/source/Sources
- d22c84145448d175f592a0eb438854ebf7ec2d9f 11418 main/source/Sources.gz
+ acda63aeb4e340c3e0e0b81866861825eabfa896 45123 main/source/Sources
+ 4e3b99dd76d8492ff79a509167f7bc1c7ae10d91 11426 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
  340be3228ade3e7b2212042f57e4ca8c9e34ad674635938fb42e7c94c5517a60 54548 main/binary-arm64/Packages
  941a45ec2f6c772e36b0b119c6012b6b9c8e77ce36598c56c37cf20e0d62141f 13712 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- ad2ae215e4f462d00c5e97b3e2adfe20ecb5418cc37bee2350e82050450c1b8e 45123 main/source/Sources
- f8e52422320c0848234800438edc84fb1f49f08c0f31200a21bc9df3d6f985d4 11418 main/source/Sources.gz
+ ec377d1d6e92086bf8b744a2ca54ea02ab9ce8fc98ad7ced12ef0efd215ef690 45123 main/source/Sources
+ 3d7784edbce6cf82f65ee201aec53e5751235ed0c557c4fd99ec8a9271423633 11426 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmFRYvIACgkQv+cXZJpc
-PQj41QwArechFWd404zuD8Tn69gOWZ72GbMj4mJi9oxZg9tgb1erby9vLHOFuyQ4
-fUhfVjt6EK+nO5J2W25KINhSVF+PU4laE0lL860CRoYK0t2BbF+KExQAYGiAloqn
-o8nyA2dIeyZNgPd6q6S02JnrZpuHUIjCZ4AQ2Ps/mM5jpvLFR0UC9/Azi63CW8J9
-oRc6JmMg3zOXz2R4yNu+iqfdEcHwJFTs7OaBPmD5rF1OnXqMiK0Oun7CDLpNYBEw
-oPmWw82Mmd8OOrSVcRR+RGBBz0cfDDEyAjfpBIdHLlGtg63JdJE4Wpsy0ncbRGTE
-xX/9mXzo8uRDe9R0akSRmENk4j+BdRHzUzmxhHY7FC3xIHfxoaNw6NMOcaSRv25z
-/v4kGN0xlrui1rEE9dWTuGcdB6C+g4g6yyJnMSJ8YDExOiSEX4p+RZoPfzNSdEv8
-6BY+UnkKH4wpPMoDrXeUBvFACk3gdKAfCNWZeo2CDDy7b2gIK58AqzWSFs3THqOJ
-JdZmcOEL
-=97ar
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmFWhYoACgkQv+cXZJpc
+PQiZjQv+PEY4uDLEN5pdQAu6oCQ2M2i25MDvA1ZzfJOTg/+7Wzrf2k2A2oAIMIjO
+CJxB2QFYAFygaq1R5if3N5ZwHVHALB261zmxNUV/ClKCZyLghBcx9sx3Qq4b7Jij
+DzfAG1afPSPX4suAY/Qsl8w+e4oEaWyc1kpKUYG9E5mxu1AwWyDyGUC5kz1EWSY6
+PVRfp0BTSzrBdI4U+f/j0UArZi2r7DhsTysMWVyf+gB62Sr5bqhjltFyHk3nAK8g
+LivwgzPB/HnmnLurGCAOlhASQBz6dm11sdqN1wu0DokV8oCLRvsEgIGTQgAXhJc8
+ZyU3N+rlY4OEM8OG+spGLDbhUJjjsW7RBZd3YO+1QQChQ0x6VxZM6mgtgKEuaKuq
+Q2slS/Z+wzaUGPxt+ODTiy5/wdHOf6XE+ztsYnE/t92s1XDfsKy+N+ywb3HHl4GM
+gwkbEJLokEYu4txh1jXja923PS1Kxz2nW/7T8/jwLq7g4YLzbuSqXSRAq7WiEIsL
+NfFfKlus
+=8OcH
 -----END PGP SIGNATURE-----
