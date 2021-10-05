@@ -1372,7 +1372,7 @@ Description: Rewrite of unclutter using the x11-xfixes extension
  details.
 
 Package: remontoire
-Version: 1.4.1-1-1regolith-1631543287
+Version: 1.4.1-1-1regolith-1633407445
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 98
@@ -1381,11 +1381,11 @@ Recommends: fonts-font-awesome
 Homepage: https://github.com/regolith-linux/remontoire
 Priority: optional
 Section: x11
-Filename: pool/main/r/remontoire/remontoire_1.4.1-1-1regolith-1631543287_amd64.deb
-Size: 23432
-SHA256: acee1f2b5e602f7e468d7bb0fe9735391a6c0d3498d65bfd618937ea0de4062e
-SHA1: 1d574219c0435851fa6d1112d44cd76061c5db1c
-MD5sum: bffb92a88fe89c2615a534d8539c5eb3
+Filename: pool/main/r/remontoire/remontoire_1.4.1-1-1regolith-1633407445_amd64.deb
+Size: 23396
+SHA256: ddcfc5a3d89b43d75f0a0cf64e1392b3b41f815dde4576b5b34eea5ef6e5cc2d
+SHA1: 9be57d19513cd38c9b35ea582508cda563dce3c3
+MD5sum: 575f2886f3d272130a690c7e9381ca19
 Description: General purpose keybinding viewer
  Remontoire reads keybinding specifications via a specific
  string format and displays them in a one-level-deep tree
