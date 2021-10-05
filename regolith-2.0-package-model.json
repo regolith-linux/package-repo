@@ -91,6 +91,10 @@
       "source": "https://github.com/regolith-linux/ilia.git",
       "branch": "main"
     },
+    "lago": {
+      "source": "https://github.com/regolith-linux/lago.git",
+      "branch": "main"
+    },
     "regolith-rofi-config": {
       "source": "https://github.com/regolith-linux/regolith-rofi-config.git",
       "branch": "i3cp"
