@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: hirsute
-Date: Fri, 01 Oct 2021 03:50:25 UTC
+Date: Wed, 06 Oct 2021 02:39:39 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Focal
@@ -12,34 +12,34 @@ MD5Sum:
  842d5ad05c4caf6b1dc65311f81f8b85 2018 main/binary-arm64/Packages
  5174067b52b9f208edb2e52cc1663158 986 main/binary-arm64/Packages.gz
  68450eba271898e3ecd0b004064bc46e 166 main/binary-arm64/Release
- e735cff82962bae279085ec750743201 17010 main/source/Sources
- 08711a21308a51b6c1bb54ee0cb09c45 4481 main/source/Sources.gz
+ b0a8517e42fff22450df8facfff14d14 18398 main/source/Sources
+ c0036a38e906440ff27fba1f2399446e 4828 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
  9de718aa51b5e62b0e83b94238d3186dc9e118a5 2018 main/binary-arm64/Packages
  76d35638fe51e50faccaa1eb05329feee14f2f46 986 main/binary-arm64/Packages.gz
  24f2f443a3a8dc1cee758be572d977e659993f8a 166 main/binary-arm64/Release
- c6a714310dea8dc18462e46b51386d2f47a42c1b 17010 main/source/Sources
- e0844eefe2efd24cfb58b1df436057c7b5c9013c 4481 main/source/Sources.gz
+ 4f6bbb8893da687612c90b06466a28a6396c403c 18398 main/source/Sources
+ 793a69a3f673eb0e4f26c8779b295a5f89c56a6c 4828 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
  cc73a65f05c082700735b98135fb9ac3e1dc863e4cdb3fc06b602331e58bd796 2018 main/binary-arm64/Packages
  b50dd6d9bab38b0235e7c97f8399664d93db27eb49c70a47da7ce19024aaeafd 986 main/binary-arm64/Packages.gz
  2092acb604b797cb553c5455a3e4c4ae70b6f86b53af93fc396c349e0b000d79 166 main/binary-arm64/Release
- fe771ccb1d1ee4f39482e3855a623d9638e054df394490187498d7fda2919658 17010 main/source/Sources
- a402bf485c56e933fd0b6e920e716e401232257f16f999522b5f4f125a84e827 4481 main/source/Sources.gz
+ 3138a3c5636bb16f34e001a37aa756b43216caa2a32163fde96d2dea51907d47 18398 main/source/Sources
+ 1b0112dead347767262fe8240b0987e6f88444f7ca5de0bee057407791f0572d 4828 main/source/Sources.gz
  33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmFWhYEACgkQv+cXZJpc
-PQhf7wv+PwdnG5YWDOjUoyDPG4bATzUxTcSeb3QPMNo+5DrQStD1mTfRAKITVaEk
-L8+aSwPuwyIkjqFI1V40Z0Zkjnlk2bvgygCvW4ee7x8RYXoBxuk4Ho97YG0By6P7
-4uzRj9GkKkn24L+jQyJE5BXtKxgjaVkp3/W9LhyFimaWiH6x8FOcWVXfddwmqK8w
-5UpNHREwyG3QBaQORLANn0aIOzv8r/qsrOiCK30NCjbkdL86PmgXMeOyxfVlA0v/
-gsTj1RhZt24HHe1iZjL24eU+3HZboeP2WLly6QBuBOrWDOedIuh4IpxBmZmu2DhF
-OqGeDpLfrY4bavQCGDFMntxdrEPiouaJ6Sen4nyEDt0fw31uS4d7MZl8z6vinp7R
-7Ptg1XarqUeFkGUz7gyipny5kMvyZmLdisfky/ZQ7XV/DIDOHNvRpPWCAJtu2kob
-lC46Z4tF4uqbhtZEwXtfZ/iGHx6ACZ6UqN1xCdZoDeSWJ+f/LFNuUl7q2fXuNnot
-MPF8JRF6
-=A7LR
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmFdDGsACgkQv+cXZJpc
+PQjXYQwA3PJgxlJWTl4qBtO5suLWHo8mA34VChj3Y2QHC2wAeshaX8X1dgzRi1x9
+zoIIMLif84kVoRO34UM7GnBFf/5uZ7E7GawGwscf+8YBY04vYQsWUKvgT0oPJV3a
+6sHSrrGdsuIXbrg64PqxzIbkQAvnACBs3GkqpZf4/y2NyDPebUBZbufvc/QHIxqp
+8cHWVRzeY7vC5X0rA116fmIObhDQHwnN/zQQJtHs33zwZN+vVWipyAwIbMTUe6b+
+t0DTXbgdtu84wrEDnKDrQcwBOsn6zi99EnRnqLFbenN015UEPKf+/DGAFe5AnNDI
+Phue23lt75DCAwfYMcF7ack3KFYSF0aAwSohkjLed7dPhUA2lVe/wA4r1fY4q5n3
+Kz7NAs91t3bEe460OkbFeQP/o6EG+lMlV80gf3L9PGG3jJ9pvYu2o0iyzqABwvt4
+G5TGyRNG5R4EOTc1LthKqf+6vg0T82tQXnN2QesOjDRevYHTKJJUx/dNvqxckhsi
+1JqkjOJj
+=Qffx
 -----END PGP SIGNATURE-----
