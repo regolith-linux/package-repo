@@ -679,6 +679,23 @@ MD5sum: a1543b22d68a96e5da6178fbf430c091
 Description: General purpose application launcher
  Launch desktop apps via a simple filterable menu.
 
+Package: lago
+Version: 0.1.0-1-1regolith-1633487789
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 46
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libjson-glib-1.0-0 (>= 0.12.0), libjsonrpc-glib-1.0-dev
+Homepage: https://github.com/regolith-linux/lago
+Priority: optional
+Section: x11
+Filename: pool/main/l/lago/lago_0.1.0-1-1regolith-1633487789_amd64.deb
+Size: 11460
+SHA256: 246ca45278fd0426105636f0664147b33de2c9646413922e90895327008078f9
+SHA1: 45a8a3d5bfae9c0d38504cb808c61ce095eb5e37
+MD5sum: 5becf1062d5100f86960405f6ea9b87c
+Description: Rofication CLI
+ Manage desktop notifications from the terminal.
+
 Package: libxcb-util-dev
 Source: xcb-util
 Version: 0.4.0-0ubuntu3-1regolith-1629956476
