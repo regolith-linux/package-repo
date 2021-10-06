@@ -8,6 +8,7 @@ i3-wm next 73c35c87
 i3xrocks master 0c39c51
 ilia main 05c0989
 json-glib HEAD a890f71
+lago main 31f495e
 python3-i3ipc master 4d16601
 regolith-compositor-compton-glx master eebe813
 regolith-compositor-none master 2391653
