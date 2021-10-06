@@ -73,14 +73,14 @@ jobs:
         if: steps.git-changes.outputs.changed == 1
         uses: nick-invision/retry@v2
         with:
-          timeout_seconds: 2
+          timeout_seconds: 10
           max_attempts: 5
           retry_on: error
           command: |            
             git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git pull --rebase
+            git config --local user.name "GitHub Action"            
             git add ${{ steps.init.outputs.repo_root }}/*
             git add ${{ steps.init.outputs.manifest_path }}
             git commit -am "Automated repo update"
+            git pull --rebase
             git push origin master
