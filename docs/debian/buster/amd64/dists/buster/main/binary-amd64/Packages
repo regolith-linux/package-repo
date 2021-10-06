@@ -733,6 +733,23 @@ Description: GLib JSON manipulation library (tools)
  This package contains the json-glib-format and json-glib-validate
  tools.
 
+Package: lago
+Version: 0.1.0-1-1regolith-1633487784
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 46
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libjson-glib-1.0-0 (>= 0.12.0), libjsonrpc-glib-1.0-dev
+Homepage: https://github.com/regolith-linux/lago
+Priority: optional
+Section: x11
+Filename: pool/main/l/lago/lago_0.1.0-1-1regolith-1633487784_amd64.deb
+Size: 11456
+SHA256: 5d1cfabe1edf55906e8f7c3ffc3802a161e15ea503e480e06f4d2505114b7495
+SHA1: 624449ca304db272d45bddfae81ff9abbc4f45b0
+MD5sum: 100dab3c9760cbb86a7d6e0ad439ba7b
+Description: Rofication CLI
+ Manage desktop notifications from the terminal.
+
 Package: libjson-glib-1.0-0
 Source: json-glib
 Version: 1.5.2-1-1regolith-1629954671
