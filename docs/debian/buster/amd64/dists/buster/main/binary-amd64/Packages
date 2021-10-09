@@ -734,7 +734,7 @@ Description: GLib JSON manipulation library (tools)
  tools.
 
 Package: lago
-Version: 0.1.0-1-1regolith-1633487784
+Version: 0.1.0-1-1regolith-1633801954
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 46
@@ -742,11 +742,11 @@ Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libjson-glib-1.0-0 (>= 0.12.0
 Homepage: https://github.com/regolith-linux/lago
 Priority: optional
 Section: x11
-Filename: pool/main/l/lago/lago_0.1.0-1-1regolith-1633487784_amd64.deb
-Size: 11456
-SHA256: 5d1cfabe1edf55906e8f7c3ffc3802a161e15ea503e480e06f4d2505114b7495
-SHA1: 624449ca304db272d45bddfae81ff9abbc4f45b0
-MD5sum: 100dab3c9760cbb86a7d6e0ad439ba7b
+Filename: pool/main/l/lago/lago_0.1.0-1-1regolith-1633801954_amd64.deb
+Size: 11584
+SHA256: 07795f003713137f7419275036f462757ca6880daa1df717be3204acd0a49432
+SHA1: 11211e391c387fe6efa48edd701d39e825bbdbf4
+MD5sum: 173779845dabe7cb2d43015915cb997b
 Description: Rofication CLI
  Manage desktop notifications from the terminal.
 
