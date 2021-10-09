@@ -7,7 +7,7 @@ i3-snapshot master 5135c86
 i3-wm next 73c35c87
 i3xrocks master 0c39c51
 ilia main fec9a81
-lago main 31f495e
+lago main 960c8a0
 python3-i3ipc master 4d16601
 regolith-compositor-compton-glx master eebe813
 regolith-compositor-none master 2391653
