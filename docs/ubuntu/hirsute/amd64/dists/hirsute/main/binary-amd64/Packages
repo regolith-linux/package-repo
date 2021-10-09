@@ -680,7 +680,7 @@ Description: General purpose application launcher
  Launch desktop apps via a simple filterable menu.
 
 Package: lago
-Version: 0.1.0-1-1regolith-1633487796
+Version: 0.1.0-1-1regolith-1633801942
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 46
@@ -688,11 +688,11 @@ Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.37.3), libjson-glib-1.0-0 (>= 0.12.0
 Homepage: https://github.com/regolith-linux/lago
 Priority: optional
 Section: x11
-Filename: pool/main/l/lago/lago_0.1.0-1-1regolith-1633487796_amd64.deb
-Size: 11464
-SHA256: 6527f92061423279be5461cae9179980c1c8a460294e038e00ad4bc5907b621c
-SHA1: ef02446069f0130d2ee916f62578d8a680395b1b
-MD5sum: 180966b2381430b5a5d0ac0a8a966b77
+Filename: pool/main/l/lago/lago_0.1.0-1-1regolith-1633801942_amd64.deb
+Size: 11584
+SHA256: 76c43a003410ab7b03162ed39c2f8202fc026d28ed99c3c322354b40950b05df
+SHA1: 61cecd5d199fe3f0e970ec38ef5d973cc7aca139
+MD5sum: 1aaddaa8917277129b7b34e208508b86
 Description: Rofication CLI
  Manage desktop notifications from the terminal.
 
