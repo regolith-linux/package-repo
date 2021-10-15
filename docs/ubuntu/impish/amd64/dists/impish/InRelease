@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: impish
+Date: Fri, 15 Oct 2021 02:40:43 UTC
+Architectures: amd64
+Components: main
+Description: Regolith packages for Ubuntu Impish
+MD5Sum:
+ 2737c164a12716cd037470d40e72f34a 58857 main/binary-amd64/Packages
+ b79b3c69eff8e36edc398f75cf76846d 15148 main/binary-amd64/Packages.gz
+ 5422cad5275ec871bd305baeb16c6fa3 167 main/binary-amd64/Release
+ c4628b6c6925ffe971474fd4d6bd9497 50774 main/source/Sources
+ 5a87164612fab091df3236c7a9dcc69e 12775 main/source/Sources.gz
+ bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
+SHA1:
+ 54dac35cd6766d6fa977ed1be5d45e2a46015f61 58857 main/binary-amd64/Packages
+ fb588f32f67f5d3d808843f9de341b25a7ed9b66 15148 main/binary-amd64/Packages.gz
+ 63a9285233842394f487072c6fa70fdc079e8b7d 167 main/binary-amd64/Release
+ 737e46f8526fb9823b17f86446fcd98e16f55b3e 50774 main/source/Sources
+ 7985a1fbf0e86224bbd85afdcb51c238e5643e58 12775 main/source/Sources.gz
+ 6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
+SHA256:
+ c2c9f14e20154aa9b382c75dc418068baea839b8a7d45ef0bcb21b454b5d83b8 58857 main/binary-amd64/Packages
+ 01d24c01e52040072160434b86360a6b873f16e619f2af3fc120794bd76bc9a2 15148 main/binary-amd64/Packages.gz
+ b8b35b92cb4c674f2350f88c744ebc0346bb9b8acd1e3281eb48514192100d86 167 main/binary-amd64/Release
+ c3386faec5179a678908e398095b4090ab150905c1e7d99676b0b823b6f5a9c2 50774 main/source/Sources
+ bbe42a7776a74fa51f38166c226bd1fd1b6df3ec37d64cce84fda394440dddf2 12775 main/source/Sources.gz
+ 5e17064a3e245f7ab2a09450cb5abbc2693d5da6b2e120960f23299ef1a79592 168 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmFo6isACgkQv+cXZJpc
+PQjLZwv/YmXGHVM4798cacHlQmd/QiGkmxlkEZDC6/KIibuHW8kpqs1nRuP5vr+5
+8hstdZP8TF2j+fbk1O/CTfnIjwJiR4RhFIu4LpQmtzwAhJux+JCq9gu9+HPANiDX
+UEb1SnWqEQz6eynhR9ULOvWxpFMvH9q97I6WSWBlU7cJd/XEKmLCm40m19fBRn1V
+hPN8A1RYX0fYwc5sE0DzCff+WtVBmMY0tpho1rxQzxyRr8rjY29Qd9p2C3ryaZn1
+cZ8MKPldOxszWYHVukLoTyi3scZ8LDHR1XhM6wK20++Qn1ORSDGxoK14bEkB1qyi
+aQYhr4SNcCyxGWhmHdX4xgqCDLgXqsokmNz6S4FDjFAAygxwoIgh8iyBk8KrQKCX
+Akwq89X1wBi8rmOs399xpT0ary16DZ0MnclALBCZBOeD27yCiXbGBQtidSApWV7A
+3mRtY2YOT2pWQFe71nHuwTMcqo8/CJOE80sqTNwZvzLUlf81V/27Zgvdmm6qdrSI
+yG/o7Mt8
+=0NBF
+-----END PGP SIGNATURE-----
