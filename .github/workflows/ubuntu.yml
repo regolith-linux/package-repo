@@ -8,6 +8,7 @@ on:
       - '.github/workflows/ubuntu.yml'
       - 'distros/ubuntu/focal/focal-model.json'
       - 'distros/ubuntu/hirsute/hirsute-model.json'
+      - 'distros/ubuntu/impish/impish-model.json'
   repository_dispatch:
   workflow_dispatch:
 
@@ -16,7 +17,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        codename: [focal, hirsute]
+        codename: [focal, hirsute, impish]
         arch: [amd64, arm64]
     steps:
       - name: Set Job Parameters
