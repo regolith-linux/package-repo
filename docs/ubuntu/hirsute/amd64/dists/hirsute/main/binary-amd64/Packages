@@ -62,20 +62,20 @@ Description: font containing Material Design Icons
 
 Package: i3
 Source: i3-wm
-Version: 4.19.3-1regolith-1regolith-1630301107
+Version: 4.20-1ubuntu1-1regolith-1634655416
 Architecture: amd64
 Maintainer: Michael Stapelberg <stapelberg@debian.org>
-Installed-Size: 20
-Depends: i3-wm (= 4.19.3-1regolith-1regolith-1630301107)
+Installed-Size: 22
+Depends: i3-wm (= 4.20-1ubuntu1-1regolith-1634655416)
 Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
 Homepage: https://i3wm.org/
 Priority: extra
 Section: x11
-Filename: pool/main/i/i3-wm/i3_4.19.3-1regolith-1regolith-1630301107_amd64.deb
-Size: 13312
-SHA256: 32e8b86698558fd51ab789b73aff8874447fd235329ba549b4721215b627617e
-SHA1: 1a587c3c89165216ed911f96a482a0c8c1c05dd6
-MD5sum: be776b98a591f24056106be1e454aae4
+Filename: pool/main/i/i3-wm/i3_4.20-1ubuntu1-1regolith-1634655416_amd64.deb
+Size: 15110
+SHA256: 957201cf981801348413064b4ff254cabf05850c627dc95a4392ec5e11eb7cb7
+SHA1: 745ad95d93c53e94f1a131d6d1848a08b8595be6
+MD5sum: 54a19941b1d9ea596e0ced51e1f1736a
 Description: metapackage (i3 window manager, screen locker, menu, statusbar)
  This metapackage installs the i3 window manager (i3-wm), the i3lock screen
  locker, i3status (for system information) and suckless-tools (for dmenu).
@@ -202,21 +202,21 @@ MD5sum: d834bf0a2eecd0e3b9ccb8627a229820
 Description: Record and restore window and workspace containment structure in i3-wm
 
 Package: i3-wm
-Version: 4.19.3-1regolith-1regolith-1630301107
+Version: 4.20-1ubuntu1-1regolith-1634655416
 Architecture: amd64
 Maintainer: Michael Stapelberg <stapelberg@debian.org>
-Installed-Size: 1864
+Installed-Size: 1871
 Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.4), libev4 (>= 1:4.04), libglib2.0-0 (>= 2.51.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre3, libstartup-notification0 (>= 0.10), libxcb-cursor0 (>= 0.0.99), libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.12), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb-xkb1, libxcb-xrm0 (>= 0.0.0), libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libyajl2 (>= 2.0.4), perl:any
 Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
 Provides: x-window-manager
 Homepage: https://i3wm.org/
 Priority: extra
 Section: x11
-Filename: pool/main/i/i3-wm/i3-wm_4.19.3-1regolith-1regolith-1630301107_amd64.deb
-Size: 1011942
-SHA256: c4850b161c9a0eb5ec446d83e4dcbb6a3a404056109756a308eb4a32b103332d
-SHA1: 94c8df9fb979c09c4ddb261f51aa99240409e8c4
-MD5sum: f8721165365d7c56ddb7d1b52ecd1268
+Filename: pool/main/i/i3-wm/i3-wm_4.20-1ubuntu1-1regolith-1634655416_amd64.deb
+Size: 1016798
+SHA256: 04614ef90409a8dcb3167e12308622cc07dfdf7abaa72f210ddab2778c2a9a84
+SHA1: 57d663476e5072ee90b363645ca477ab8247b6e2
+MD5sum: a196bc100df387e9556f5e31fbc2070c
 Description: improved dynamic tiling window manager
  Key features of i3 are good documentation, reasonable defaults (changeable in
  a simple configuration file) and good multi-monitor support. The user
@@ -228,23 +228,23 @@ Description: improved dynamic tiling window manager
 
 Package: i3-wm-dbg
 Source: i3-wm
-Version: 4.19.3-1regolith-1regolith-1630301107
+Version: 4.20-1ubuntu1-1regolith-1634655416
 Architecture: amd64
 Maintainer: Michael Stapelberg <stapelberg@debian.org>
-Installed-Size: 1383
-Depends: i3-wm (= 4.19.3-1regolith-1regolith-1630301107)
+Installed-Size: 1393
+Depends: i3-wm (= 4.20-1ubuntu1-1regolith-1634655416)
 Homepage: https://i3wm.org/
 Priority: extra
 Section: debug
-Filename: pool/main/i/i3-wm/i3-wm-dbg_4.19.3-1regolith-1regolith-1630301107_amd64.deb
-Size: 1236142
-SHA256: 52138252c860293d4f40e9eb46fcaeab39ac6233bd2688be1df47a3f36f2ca0e
-SHA1: 394e2e343ea41dd1e64547f00bba20c0e996b8af
-MD5sum: a1e7b9f21ce677ec1a1705fa7983fff1
+Filename: pool/main/i/i3-wm/i3-wm-dbg_4.20-1ubuntu1-1regolith-1634655416_amd64.deb
+Size: 1246482
+SHA256: c9d59de07b02475d7d020c7a2e50674644c4e278bdca7fbaae990b0185e9bec6
+SHA1: 92120dd74068ba7293d68aab94eddff579efac9b
+MD5sum: 89004819922514738512710c30b2f499
 Description: Debugging symbols for the i3 window manager
  Debugging symbols for the i3 window manager. Please install this to produce
  useful backtraces before creating new tickets.
-Build-Ids: 06c546b24bb2ec0fbdbb91e7686170671fd1c301 2ebbdd3ffc2e4a321b7300ff79faaa30027ea819 4522bd6a53f624fc605b4dc5920e86a7645af59e 7fd244173994147b0dd27cc7b0f287f917344a91 8c4a4bb05e38ed732b0746bbe2390fdc87ca4e0b a0f3b0b0c198b0efcf8b73004d0066c622ded714 a6f909b0995b2e7873973b8d4781aa0b0f7d0d0f
+Build-Ids: 5971900ffec9ed94952ffbd62348498d0fcb5799 88bc135ea69e8d40570213aca03b417b7f87d72d 8c0e6ecaaadc0ce64071c53fb8a65ef2d65d82e2 a8cf251f0fe7cd5fd751d2fcb5a103d939a6b2f2 cc759370e3223b60e4f67321f929b33cf83efc5d ef15e8a2d34f16089e8a0778c6e5a2d61fbc1848 f58a23603cbd2c2bf2b578623f9be462292d2d00
 
 Package: i3xrocks
 Version: 1.3.5-1-1regolith-1630301142
