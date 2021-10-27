@@ -33,7 +33,7 @@
     },
     "i3-gaps-wm": {
       "source": "https://github.com/regolith-linux/i3-gaps-wm.git",
-      "branch": "ubuntu/focal-next"
+      "branch": "main"
     },
     "regolith-i3-config": {
       "source": "https://github.com/regolith-linux/regolith-i3-config.git",
