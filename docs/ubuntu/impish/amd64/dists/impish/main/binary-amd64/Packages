@@ -119,6 +119,33 @@ SHA1: 788ce970f30738103fa470429383e0197c019fd0
 MD5sum: 61d88b4d81c087ab270f610d567d3325
 Description: Xsession for i3-gaps
 
+Package: i3-gaps-wm
+Version: 4.20-2-1regolith-1635433582
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 985
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.4), libev4 (>= 1:4.04), libglib2.0-0 (>= 2.51.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre3, libstartup-notification0 (>= 0.10), libxcb-cursor0 (>= 0.0.99), libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.12), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb-xkb1, libxcb-xrm0 (>= 0.0.0), libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libyajl2 (>= 2.0.4), perl:any
+Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
+Conflicts: i3-wm
+Replaces: i3-wm
+Provides: i3-wm, x-window-manager
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-wm_4.20-2-1regolith-1635433582_amd64.deb
+Size: 393066
+SHA256: 1b82f5bf105521fcc459c55accb3fc0da3a064e9dd53cd5f561d62a490821e6d
+SHA1: 54d265cd2387aeb15bf3c8675207b0640f05ca5f
+MD5sum: d326be4caf15f9557385c363eb18ef9a
+Description: improved dynamic tiling window manager
+ Key features of i3-gaps are good documentation, reasonable defaults (changeable in
+ a simple configuration file) and good multi-monitor support. The user
+ interface is designed for power users and emphasizes keyboard usage. i3-gaps uses
+ XCB for asynchronous communication with X11 and aims to be fast and
+ light-weight.
+ .
+ Please be aware i3-gaps is primarily targeted at advanced users and developers.
+
 Package: i3-gaps-wm-dbg
 Source: i3-gaps-wm
 Version: 4.20-unreleased-1ubuntu1-1regolith-1634265124
