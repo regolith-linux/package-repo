@@ -7,7 +7,6 @@ on:
       - 'regolith-2.0-package-model.json'
       - '.github/workflows/ubuntu.yml'
       - 'distros/ubuntu/focal/focal-model.json'
-      - 'distros/ubuntu/hirsute/hirsute-model.json'
       - 'distros/ubuntu/impish/impish-model.json'
   repository_dispatch:
   workflow_dispatch:
@@ -17,7 +16,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        codename: [focal, hirsute, impish]
+        codename: [focal, impish]
         arch: [amd64, arm64]
     concurrency: 
       group: package-repo-ubuntu
