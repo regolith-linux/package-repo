@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: buster
-Date: Sun, 31 Oct 2021 15:43:34 UTC
+Date: Sun, 31 Oct 2021 15:49:51 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
@@ -12,34 +12,34 @@ MD5Sum:
  5dcd4316194215c5e68ed6cce98957ce 61133 main/binary-arm64/Packages
  b1c8ccb64d38247ef7c72dce90b01675 14964 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- 49155d081ad9275b41a7318042377fbc 50457 main/source/Sources
- 8cba09fcab342cccfd8583a72d15dd81 12900 main/source/Sources.gz
+ 6f78d9a6e1228188b1cb958d3263b442 50397 main/source/Sources
+ 6d8dc9a3b25ce2b31c9277290f3bafe9 12889 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
  2217083741219cb6d7c95303dd665cec68310f8a 61133 main/binary-arm64/Packages
  9aad0c7a8fd50b1dd9b35153b9e1551d121418f8 14964 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- ec304baf19ec3f086eade2612762a9a62323a39b 50457 main/source/Sources
- 5d50c4cef043982e2c24ee2c0bd98cfc3826fb4b 12900 main/source/Sources.gz
+ 9aceef08cd96ab2f6ccc47eda12088e3ad27297b 50397 main/source/Sources
+ a7a0497cbd8b8759132bd1f83f4d72630d9b5d7a 12889 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
  fa0d1b8199a6fb010d863547316c0f8beeaed8272aadebe37a375aa135ac3dd2 61133 main/binary-arm64/Packages
  692fadc57029a5aae910ef74827b98599b1940b77b5ca4cc050009eb670a791b 14964 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- 3066ce734c0e777f8565615b8f8aa452e2fb1ab4cbcb0c8c4714890e8a08687c 50457 main/source/Sources
- 5e3cddf1946e50b30cfd964ddc8726e21c429a3756a2a91bfa1cf78426ed5580 12900 main/source/Sources.gz
+ dc1f5bcd82890f8b247b94c301022c5019d089f9ed79f1da2b5bdac97fa08eba 50397 main/source/Sources
+ 10532bd30d76fe20d5c3d857518a981bec8442e9084b35f6f00104b19c7bb96d 12889 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmF+uaYACgkQv+cXZJpc
-PQif3gwA1FAyl+FD505GwMjsZZy2n6nekgcKzTkNBMWMIu5N6vHIYQ+Cuh8pSOTG
-PgAA8XWkitXiz41FfLktc3kOfpF0viSlCfYy6YIAi/iuFFO/UlLsQ6quWPHrmzqY
-kyyqDnXXtmRcUI7ru4x1ZkpqHKz8QkQIUtQoBrOmwT2kXlEfE+/yxLVg1T2fOgWO
-iU5M2Y1tbA5iaRMBjpByJaasOyyiFH2rI/PbSFaNw9w5aCtibIqzi0GzcLI8tmjf
-ZjAU0MAAsJXR7uZWWRw6ceH9zi4Y32wy9KeaUW8fWQ7wmWpexDKq8LLT+WMuc/gI
-eSr4dFsyEouS75TUvBGPS4RTYjkNNHkiJch2VIRYeSB+RG+kjELcQyfbsA0a0i2+
-M9Bbz9x0GGQYhRqw6cMjlbXRQRBrTyB/3aCyYU5urP9+tZf8fnl/1Qz/5axApSGE
-5VxTLBSbB1LnEDoxTRmRj9Pbrb5O/+Lvqbi0v9NM3r94y0bqOx1jdYaBNO9w1dWL
-S+HyG/lN
-=g/me
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmF+ux8ACgkQv+cXZJpc
+PQiDzQwAmFpp3FtbFkWAbogqp8tcC96aNrYEbCOjJshuK3KNnGq/v/UOLOdM80Yv
+1w+UcJsmmjkP1UNdtk3Gky3jf5uRGEWjCByxjfspVOO3uGypWaLAStbxoPD5sI8c
+s8hsgkVrjcaYDUfhfTSc2lwpUTKIhmtsXrNlyHaASuUZJwNwopMy1QLoN7QLV1fh
+q1QMs7VqoQIvWBpKOS+3+w0F+GX/MRbpK/ak2OOzb4oEz1YsvbPjv/dinltNR20m
+tDoYHO9tjoGBXFwtqHeDQHMeO5lQwK+IVys2qvVvqt4l/hsctrwMW1AFjAb9SDyb
+eNiWN5r79/v3Z2XTPW+mNXwacDrIhWr7KiQ+0KoutAdhkFZqq+ieEoweFgK7lUjR
+SBXma/k4VIYoRANxbeBzBpLpYHBd5aNeWetJV0SYXVFA9HmnelMzj/EM88NKoLLE
+tdJvMhT4n89+lNuRaVVhIkXI0IW60LYMcAaTAtLz2ps9sGl8mrFoknPAArmOTQZF
+W39+6UiE
+=0oRq
 -----END PGP SIGNATURE-----
