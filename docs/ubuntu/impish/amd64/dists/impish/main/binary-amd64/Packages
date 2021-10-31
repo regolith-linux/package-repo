@@ -915,12 +915,11 @@ MD5sum: e9b7e846aea402099fdbc69a11b60938
 Description: Regolith default settings
 
 Package: regolith-desktop
-Version: 4.0.0-1-1regolith-1634265406
+Version: 4.1.0-1-1regolith-1635695248
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 16
 Depends: mutter-common, regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
-Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-remontoire, regolith-i3-rofi, regolith-i3-rofication, regolith-i3xrocks-config
 Suggests: update-manager, software-properties-gtk
 Conflicts: regolith-desktop-meta, unclutter-startup
 Replaces: regolith-desktop-meta
@@ -929,11 +928,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop_4.0.0-1-1regolith-1634265406_amd64.deb
-Size: 5420
-SHA256: 472c1467780732c00e31f0de3a46181b8a5259b7b8b37dbb2eb63934ddf6bcb3
-SHA1: de021d758beda71ee91d29aa9af070df1679035e
-MD5sum: 7eedae632e330451c8a0ba7124f20f15
+Filename: pool/main/r/regolith-desktop/regolith-desktop_4.1.0-1-1regolith-1635695248_amd64.deb
+Size: 5340
+SHA256: 833453af404ad327f7dfc29ca602effba5d315681b9d88b5a22eb35907414c10
+SHA1: d3192da30283e8323cb291ea8c2ce37b9ab0bca2
+MD5sum: f57ad938564b137842f4f5ec30f92d0d
 Description: metapackage for Regolith desktop environment
  This package contains a minimal set of packages for a functional desktop.
 
