@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: focal
-Date: Sun, 31 Oct 2021 15:13:39 UTC
+Date: Sun, 31 Oct 2021 15:41:54 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Focal
@@ -12,34 +12,34 @@ MD5Sum:
  61a53b35738efdc2b9cb6c194eb6db7c 2018 main/binary-arm64/Packages
  5ee448367db5b61fef493168ff5c7c25 988 main/binary-arm64/Packages.gz
  68450eba271898e3ecd0b004064bc46e 166 main/binary-arm64/Release
- 6d0614aff9db88b9219ff1cb478facd5 22420 main/source/Sources
- 5ce4c3e9364f1ee32dfd05745214ebb0 5860 main/source/Sources.gz
+ 07faa9739015b002556df5d725c48960 23948 main/source/Sources
+ ad06ea6e7ea4b30a6ed46b148e5e6c69 6210 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
  4282edef9201d53ebc6b4bd9eff066d106664a14 2018 main/binary-arm64/Packages
  aa5c5954176e3fb195e9072ee15c2c8fbb0378c2 988 main/binary-arm64/Packages.gz
  24f2f443a3a8dc1cee758be572d977e659993f8a 166 main/binary-arm64/Release
- b91566d251388fd2a7e6d852d9c5d4dad9777600 22420 main/source/Sources
- ca09c3870edb44d4ffabc6a4107eceb56418d5b0 5860 main/source/Sources.gz
+ e6535904dadbd370dc21c672fc627f07a469c63c 23948 main/source/Sources
+ aae3db9cccdaef01c10e713d62a3523c6886008f 6210 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
  07e213c4f5e17e8e53e33f9e5d90cb0b7006e227913441dd71c7435eeddf9a08 2018 main/binary-arm64/Packages
  d1362a79145456472ec0148fab5d232588a1703a8c9046d0712202c9e521ec06 988 main/binary-arm64/Packages.gz
  2092acb604b797cb553c5455a3e4c4ae70b6f86b53af93fc396c349e0b000d79 166 main/binary-arm64/Release
- 2800b172548622557a644977cc64607cbdc14783a23a6a8430e311d796c5211b 22420 main/source/Sources
- f67b3c5a102e6ad96e1e4341d4886e77199583261a8f724bd17c3ee1604bf149 5860 main/source/Sources.gz
+ ef3e6809ad9ed46fafcc534249110a6331d3a15a108966b2be3a6cf9990d17de 23948 main/source/Sources
+ 969eb655901ccdceb93b3ed6c6fd971f809621f4d2fdfa1a64cdd8e1889f87bf 6210 main/source/Sources.gz
  33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmF+sqMACgkQv+cXZJpc
-PQhCxQwAvJEo+iwF7V1OHqq5c7d2e6BceI3qGxeluEdcNq9F9MiY8j8gBbvYYZJW
-ACX0tvAt76hrhSy1TYjfBtQQb5EXJkzE0Rt76tLQkeWPyGUl8WHNM4sRpqx+9ils
-kX/a9fgr4dn2hd+DdVClGaAY96t3Klh39pGiSakt101wUUxkt/2U1JI5VFYYb0FZ
-e9P3G9gSiVcF+Ci8KrS4DEBog6gsFbIGroyCdRsUnPga6zju2POZ+dzSfplD0h1h
-9CUK1Uk/vh6S/2BFwxBuglCvvIiRrFqDAPFYCI3aP7Kj1j75FLdfdMeb0M659JeI
-UoQbGKbgVNJJeya/+mEkt9xOlYI+Yvm4f3PH7XERRa7pCNiarUTJRarnbsUxFzi7
-cjc6Kbu/ZzGOkIhMga/KWZqd0ugZDIQBdmu9P0SJfMC13CkdQEykJbbzghuucp0/
-jw9ecUZF/nPdyC1o0YxgOU7NfHs4cl8syFkSNMXFOFd7P868pC873jqxVy2r8pNQ
-EkFvKu0W
-=0NnZ
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmF+uUIACgkQv+cXZJpc
+PQiwAAwAh3sUMq1FJXWor5nm4rt7Hha91OhxU+813lh1xBrwT/hZVT/EIolfMP0x
+7BCyZcm9cM8pVs7YFX2NRdlYbuM1Hi6HMEf3uza8tsjXZAnbVN8p2czcaZ3JOMQp
+xPJclTYnPo5ksXXcK38H++SrN3H1hbuqIyIYFj+hPE6z7zXCuR1i8iAPX5B7nRVn
+K6LMAf+hb48h6xuuoD/7VG9iv2jvu0T3Sz8YyIHjtAku3YIkuG9LFDAj4NFoUzFn
+aqQT+GHr6t3YvMXHKX4qTHCa9EEw3TQ6RCmA74PY8HYnhuXJzQunWANMqy1L1GNy
+PSTBmtWc2RAUckxZr3KCj1fgrE+eL4jGnxIpt7MGjrk4ZlEpHQPuhLdmyCVG3JfR
+CuaBEVmygHoMVaI2bhlACXGnhZft1P8UC0cuYU6B2k+3FyI+JDHI0Z7QMoO5naiu
+odQVX/3HJq9aSIFXv7KUED4JDAC71SXf3PqFkCWCmnRKlXqyMd44vwY5hR0nPTPo
+cm3m+BVm
+=bCB4
 -----END PGP SIGNATURE-----
