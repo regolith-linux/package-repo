@@ -957,22 +957,22 @@ Description: metapackage for a light but functional Regolith desktop environment
  This package contains minimal packages for a functional desktop.
 
 Package: regolith-ftue
-Version: 2.0.5-1-1regolith-1630466411
+Version: 2.1.0-1-1regolith-1635718476
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 30
-Depends: remontoire, uuid-runtime
+Installed-Size: 29
+Depends: ilia, uuid-runtime
 Recommends: gnome-terminal
 Conflicts: regolith-conky-config
 Replaces: regolith-conky-config
 Homepage: https://github.com/regolith-linux/regolith-ftue
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-ftue/regolith-ftue_2.0.5-1-1regolith-1630466411_amd64.deb
-Size: 7924
-SHA256: c12ec35e6a891b33a7dd79f6d6ab97cbd435de09041571836da993bc88667ff0
-SHA1: 83dabbe565318c473e3a22732a053f89e00a2ed8
-MD5sum: 95d58ba46692a505f687b0441af6006a
+Filename: pool/main/r/regolith-ftue/regolith-ftue_2.1.0-1-1regolith-1635718476_amd64.deb
+Size: 7848
+SHA256: af6f2a56d6095ef9b5bda807180f2eb7603b3d904de81f7e7f68bd35aec46a04
+SHA1: d2f2886005625bf169c80c6633a19030b3a513ce
+MD5sum: 6ed923253cfcf25d1cd3d7f5be086dda
 Description: Regolith first time user experience
  This package includes scripts and configuration to provide help for
  first time users.
