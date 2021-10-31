@@ -1,7 +1,7 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Sun, 31 Oct 2021 01:03:19 UTC
+Date: Sun, 31 Oct 2021 15:13:18 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
@@ -9,20 +9,20 @@ MD5Sum:
  f1b9d2a6c0da5348e38fb12e0e17933f 54548 main/binary-arm64/Packages
  b5d73eb447fcfb6f1d32ff375f1d91ac 13712 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- c7e2acefb37b5a2b9ee85c4dce80acb9 46562 main/source/Sources
- 5aa1b2c1a70c242d99c823c77c46d4da 11828 main/source/Sources.gz
+ f0abcf24ad9bc290b11da65cb0dc00a9 46624 main/source/Sources
+ 247093462d50287ec79479ec58960c82 11838 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
  78e8bef28b24fac04d1408abf3531def6360c69a 54548 main/binary-arm64/Packages
  12b34f9057e97cba56812756178c870a2fcf8c5a 13712 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- 96b3e8ba30a07b1535357db53c935b7fe50352f4 46562 main/source/Sources
- 1114d8bdccaea6cae549fe553034b70d9e0dc317 11828 main/source/Sources.gz
+ bf5108a1b26b38b889152a479417568b7b0cb0df 46624 main/source/Sources
+ d9b07547dc8021a6561591d45f4b7437d13b43e6 11838 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
  340be3228ade3e7b2212042f57e4ca8c9e34ad674635938fb42e7c94c5517a60 54548 main/binary-arm64/Packages
  941a45ec2f6c772e36b0b119c6012b6b9c8e77ce36598c56c37cf20e0d62141f 13712 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- 969ce96f74f18bee8c565b5b6507a2a81261b5872e762dcf67b0f20304eeef82 46562 main/source/Sources
- c86168f97bda204d268d94eaebb399045674c6674eacde68cfe06b6de20e40e5 11828 main/source/Sources.gz
+ 6e67d4dc99d0d397d1adc6b35f0e32a1f53cb1ad439ab4b9f8a417ff302c8e2a 46624 main/source/Sources
+ b6d237f3bd9339d4d71cbe498736f46883b5563a9f6e6afbe86b7d892a0d1fa3 11838 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
