@@ -47,6 +47,10 @@
       "source": "https://github.com/regolith-linux/regolith-look-default.git",
       "branch": "master"
     },
+    "regolith-look-extra": {
+      "source": "https://github.com/regolith-linux/regolith-look-extra.git",
+      "branch": "main"
+    },
     "i3-next-workspace": {
       "source": "https://github.com/regolith-linux/i3-next-workspace.git",
       "branch": "main"
