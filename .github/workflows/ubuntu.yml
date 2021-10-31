@@ -19,6 +19,9 @@ jobs:
       matrix:
         codename: [focal, hirsute, impish]
         arch: [amd64, arm64]
+    concurrency: 
+      group: package-repo-ubuntu
+      cancel-in-progress: true
     steps:
       - name: Set Job Parameters
         id: init
