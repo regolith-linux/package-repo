@@ -1407,6 +1407,28 @@ MD5sum: ba2eb530eea57d78f5ea889b6d6ae16a
 Description: Default Look for Regolith with minimal dependencies
  A basic Regolith look optimized for minimal dependencies.
 
+Package: regolith-look-lascaille
+Source: regolith-look-extra
+Version: 0.1.0-1-1regolith-1635694903
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 21
+Depends: fonts-materialdesignicons-webfont (>= 1.6.50), fonts-dejavu-core, ayu-theme
+Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-remontoire, regolith-i3-rofi, regolith-i3-rofication, regolith-i3xrocks-config
+Conflicts: regolith-look
+Replaces: regolith-look
+Provides: regolith-look
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-look-extra/regolith-look-lascaille_0.1.0-1-1regolith-1635694903_amd64.deb
+Size: 4284
+SHA256: 4bc90f176fd15a958882ce6845131d1d5526af22f1e359d006e3b59516314cfc
+SHA1: 354fae2370472374470c6666bb28ce14d44ef4e5
+MD5sum: b770efe117b2a9c6da12b6b3668176f4
+Description: Lascaille look for Regolith.
+ A Regolith look using i3, Rofi, Remontoire, and i3-bar.
+
 Package: regolith-mobile
 Source: regolith-desktop
 Version: 4.0.0-1-1regolith-1630645951

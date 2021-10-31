@@ -20,6 +20,7 @@ regolith-ftue main eefcb55
 regolith-i3-config master 73fda78
 regolith-i3xrocks-config i3cp e1bd956
 regolith-look-default master 5cabe6e
+regolith-look-extra main 2e15aa8
 regolith-rofi-config i3cp 80f2698
 regolith-rofication master e45205f
 regolith-session main 60f5ab3
