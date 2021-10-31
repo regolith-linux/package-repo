@@ -1,7 +1,7 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: hirsute
-Date: Sun, 31 Oct 2021 15:43:59 UTC
+Date: Sun, 31 Oct 2021 15:52:13 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Focal
@@ -9,20 +9,20 @@ MD5Sum:
  842d5ad05c4caf6b1dc65311f81f8b85 2018 main/binary-arm64/Packages
  5174067b52b9f208edb2e52cc1663158 986 main/binary-arm64/Packages.gz
  68450eba271898e3ecd0b004064bc46e 166 main/binary-arm64/Release
- 6ddd5698e7f6db596b0da6745b3d0e6f 23948 main/source/Sources
- ec8f3917d3c0b4713a74455d018e9041 6203 main/source/Sources.gz
+ ea44ae0666b9581bce355588e1259c32 23888 main/source/Sources
+ e301bf69171446e7e2a2c50a44e0e70e 6197 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
  9de718aa51b5e62b0e83b94238d3186dc9e118a5 2018 main/binary-arm64/Packages
  76d35638fe51e50faccaa1eb05329feee14f2f46 986 main/binary-arm64/Packages.gz
  24f2f443a3a8dc1cee758be572d977e659993f8a 166 main/binary-arm64/Release
- e0cc64d7c3eaae6bd1fa23bc7af8a9f76b6f7262 23948 main/source/Sources
- 466a33309b8d15436407833032c635cd04fccd97 6203 main/source/Sources.gz
+ dfd77cf5686337e9a454a252aa38e42b60cd569f 23888 main/source/Sources
+ 6fcee02543d274082fffc4870a2e08e84b757025 6197 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
  cc73a65f05c082700735b98135fb9ac3e1dc863e4cdb3fc06b602331e58bd796 2018 main/binary-arm64/Packages
  b50dd6d9bab38b0235e7c97f8399664d93db27eb49c70a47da7ce19024aaeafd 986 main/binary-arm64/Packages.gz
  2092acb604b797cb553c5455a3e4c4ae70b6f86b53af93fc396c349e0b000d79 166 main/binary-arm64/Release
- 20962302a48e193ef33a529eed579f5ee3a934bfe6fe867c4d0c59fe4e4b62d4 23948 main/source/Sources
- 6c770c4a2f8b4318dcdce364f7fb70dc3950a538b8e2ed693ee3d701248b404f 6203 main/source/Sources.gz
+ 056dbbf9d5bc5fe8594b1688c9d17033ebaab153e54841db0bd12c30c3b7f1eb 23888 main/source/Sources
+ 04645fb98e9026bee9e85075261b1ff8e1d8b6b0da87de4808ecc0149f5bf6d1 6197 main/source/Sources.gz
  33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release
