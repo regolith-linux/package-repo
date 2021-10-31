@@ -21,7 +21,7 @@ jobs:
         arch: [amd64, arm64]
     concurrency: 
       group: package-repo-ubuntu
-      cancel-in-progress: true
+      cancel-in-progress: false
     steps:
       - name: Set Job Parameters
         id: init
