@@ -18,7 +18,7 @@ regolith-default-settings i3cp 3111b48
 regolith-desktop main f2f4435
 regolith-distro-ubuntu main fe6cc85
 regolith-ftue main eefcb55
-regolith-i3-config master ac206fc
+regolith-i3-config master 73fda78
 regolith-i3xrocks-config i3cp e1bd956
 regolith-look-default master 5cabe6e
 regolith-rofi-config i3cp 80f2698
