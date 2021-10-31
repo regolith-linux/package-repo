@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Tue, 19 Oct 2021 15:00:54 UTC
+Date: Sun, 31 Oct 2021 01:03:19 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
@@ -12,34 +12,34 @@ MD5Sum:
  f1b9d2a6c0da5348e38fb12e0e17933f 54548 main/binary-arm64/Packages
  b5d73eb447fcfb6f1d32ff375f1d91ac 13712 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- f75054dc6b2f6ba8ad499369afe6c3c5 46481 main/source/Sources
- 0b7c8daae9bc9a8b9b50e133440e2178 11802 main/source/Sources.gz
+ c7e2acefb37b5a2b9ee85c4dce80acb9 46562 main/source/Sources
+ 5aa1b2c1a70c242d99c823c77c46d4da 11828 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
  78e8bef28b24fac04d1408abf3531def6360c69a 54548 main/binary-arm64/Packages
  12b34f9057e97cba56812756178c870a2fcf8c5a 13712 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- 157f9510fa3c19a8cc9f0f8d218db9a187cc5853 46481 main/source/Sources
- 6d71b874c3ec752569e041f3304d2d3ae99a4d9e 11802 main/source/Sources.gz
+ 96b3e8ba30a07b1535357db53c935b7fe50352f4 46562 main/source/Sources
+ 1114d8bdccaea6cae549fe553034b70d9e0dc317 11828 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
  340be3228ade3e7b2212042f57e4ca8c9e34ad674635938fb42e7c94c5517a60 54548 main/binary-arm64/Packages
  941a45ec2f6c772e36b0b119c6012b6b9c8e77ce36598c56c37cf20e0d62141f 13712 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- b12d110393738ea0f71af22973cf7fc4b96dc92cbacefa09df87f709ea290156 46481 main/source/Sources
- 7a1b9902fb879281077587cd3a9091130c186801ff3fe8cae8634ee76c2c21d6 11802 main/source/Sources.gz
+ 969ce96f74f18bee8c565b5b6507a2a81261b5872e762dcf67b0f20304eeef82 46562 main/source/Sources
+ c86168f97bda204d268d94eaebb399045674c6674eacde68cfe06b6de20e40e5 11828 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmFu3aYACgkQv+cXZJpc
-PQhElwv/Sc69qVQX+0OeNaLPnzRbar50RyEOg495KWW0yiCMXoR4ui0df627qk1B
-MMMPMbOTcFtCu4VggePpE8D6V2JRHriim9hWh5F+us5pHsppCiTMZJUFX4MMohU4
-mwsbQ/4XyIok3to4AjUEMiX58wBtvQ6ZKz7sOFjcq7MH0rs1aqOk6vSxanHSEkfq
-PSH4IWrXe5/nUhBavmp6ZDLgTJyA2vTkrk3IaDSybKK8+w0Ig+YQzbVutq8Y6QnK
-xDScFiXvYPEVCIIv6z+25Oxajk6mOWYThAN+VgvdjJY71+U2ZTd/MjBSNJYIC/kq
-cXELy9EYuet5ajvz/LzVr1LOUkOVtCzJLjtWwBF/TKWMzjF8rHDk0mfRDz19Ovec
-F/NdYV4kxU/1sc1MDQj7erxJluZ8ralxlHyji6I2pcZWlsXjrrHavDuVFdlLMQGq
-9jHHw4xe+VP8MEi5DOmizsiNIbF+ZeDq00d9lUHgShG0Eqt/rRFFyAAd3oDm6Suo
-/MoBLYMO
-=MSu9
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmF961cACgkQv+cXZJpc
+PQjFCQv5AZFDsS+qr1/wI7umciG165AJSzs90tZPyuEs0g/VxUcUlfbXG2yR7yg/
+WrUyViHLD8Cp48/1KgtxCGoIJbY2e2MNqfpebrkVnXdAcK1kYlwTJ8UHCJbROQ0w
+nGcuT6J7dYb7G7uMdeQeIfratutrWHPoDrf9yab8e0IQHrHF8x5eJb01ubpoF81/
+TS19DuZyEYrH+Z3nM17tE5Pp5XmPKEyW2Er7ksQOte2aLch5ifybQNSQgPxs49Pr
+gQakR5B16zcmmf5BUHh2StCVyDjk9kgB1dIeHmMbdb251C9qn668vyWsuYFJWmL4
+MNxhBQZE9rg3nbmFH45JJtdnMadEAMfowKlJqLqvnobW4Zk9b8xwyfPpbs6M4c9Y
+HPqCCdQfBa/rmbevtAQsO6T4G2l6Eli63/cA00eZkILzX+sSp9rQOvgSV+wEHfBW
+OAoPht953LQ9lY4UsutgZqyOC1y5rSbszIotmIkh2iWrYi7AWcYGMX6EtHG0UmyH
+VuM9W68c
+=JDNY
 -----END PGP SIGNATURE-----
