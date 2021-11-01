@@ -10,13 +10,12 @@ on:
       - 'distros/ubuntu/impish/impish-model.json'
   repository_dispatch:
   workflow_dispatch:
-concurrency: 
-  group: package-repo-ubuntu
-  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-20.04
     strategy:
+      max-parallel: 1
       matrix:
         codename: [focal, impish]
         arch: [amd64, arm64]
