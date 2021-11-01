@@ -1001,7 +1001,7 @@ Description: Metapackage that describes a distribution with Regolith
  This package installs a complete Regolith system on Ubuntu, used for ISO generation.
 
 Package: regolith-ftue
-Version: 2.1.0-1-1regolith-1635718499
+Version: 2.1.0-1-1regolith-1635741862
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 29
@@ -1012,11 +1012,11 @@ Replaces: regolith-conky-config
 Homepage: https://github.com/regolith-linux/regolith-ftue
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-ftue/regolith-ftue_2.1.0-1-1regolith-1635718499_amd64.deb
-Size: 7840
-SHA256: 20b804340f1cb38ce89d2923aab4ddd091502b8aa62266b9b2a5b26d8d6b85c5
-SHA1: f43e46201f3b8eaa84d8c54106368c5fda51762a
-MD5sum: ff88c41c2ed5d5b20f1207665d4591e3
+Filename: pool/main/r/regolith-ftue/regolith-ftue_2.1.0-1-1regolith-1635741862_amd64.deb
+Size: 7848
+SHA256: f981724bd2812950a1761efd85d03058749fb02ed4b4f523c89784813fe2ee04
+SHA1: 10a6a99da63b3fdef03d3341230f278d29841c5b
+MD5sum: 1792627db6dcda4f89516eade12a0261
 Description: Regolith first time user experience
  This package includes scripts and configuration to provide help for
  first time users.
