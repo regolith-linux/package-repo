@@ -60,7 +60,7 @@ jobs:
           echo "Updated packages: $PKG_LIST"
       - name: Update Repo
         if: steps.git-changes.outputs.changed == 1
-        uses: kgilmer/ingest-debian-reprepro-action@v0.7
+        uses: kgilmer/ingest-debian-reprepro-action@v0.8
         with: 
           package-model-path: /tmp/model.json
           repo-root: ${{ steps.init.outputs.repo_root }}
@@ -72,12 +72,8 @@ jobs:
           package-list: ${{ steps.find-changed-packages.outputs.package_build_list }}
       - name: Commit Files
         if: steps.git-changes.outputs.changed == 1
-        uses: nick-invision/retry@v2
-        with:
-          timeout_seconds: 10
-          max_attempts: 5
-          retry_on: error
-          command: |            
+        run: |      
+            git pull
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"            
             git add ${{ steps.init.outputs.repo_root }}/*
