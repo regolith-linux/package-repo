@@ -1,27 +1,27 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Mon, 01 Nov 2021 04:57:32 UTC
+Date: Fri, 05 Nov 2021 02:14:46 UTC
 Architectures: amd64
 Components: main
 Description: Regolith Debian
 MD5Sum:
- 9a65dbb1a285ca6f7aa24ead1971f626 59633 main/binary-amd64/Packages
- 3d08dfe2ed6bdb7e17f3c48b5a95c14f 14854 main/binary-amd64/Packages.gz
+ 87219db80c17fd8d8ed7b4c4d5d99f6d 59633 main/binary-amd64/Packages
+ 898b7fe7cce06c7f4f08433901c7c11b 14854 main/binary-amd64/Packages.gz
  c3adf1e0fcbadc1a818757bc8a4fd0bb 147 main/binary-amd64/Release
  2cd4f1a784c47d7b9094787a4c2dcc13 48092 main/source/Sources
  11da4616ec561bee0a2fb272b520b130 12147 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
- ede8e16b22a19708966d89956bc32c43d33de269 59633 main/binary-amd64/Packages
- 9eb0ea78ad554ea21670472062fb1e2542ceee8c 14854 main/binary-amd64/Packages.gz
+ e643dede1ef72d28584a1a3ec829a3b3d8efaa88 59633 main/binary-amd64/Packages
+ 85e16cdef0188ee1cc8605e8b1040b3c10b61e2a 14854 main/binary-amd64/Packages.gz
  e80c44b3d00c51e01b1640169c9e19b7afa153c5 147 main/binary-amd64/Release
  d859808f3a4fd28ab62d806be259ac4e56b5c832 48092 main/source/Sources
  64b362d3cca238be4db2d0ffbd4f9bb08783f6f5 12147 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
- 51493c6140eea7f98feed126ce0525e1fe79bcf63a7bdd12004699880503bb16 59633 main/binary-amd64/Packages
- d83cf651cc482d74fd744e42c524f7afddc5beedf0d78cdb9e0aa5451260952f 14854 main/binary-amd64/Packages.gz
+ 5d898bb63c638d25c6a82d3c970d3d93317bf5daacf66c8079af94b8d198bc84 59633 main/binary-amd64/Packages
+ c271bcd7fdbb36e17472cb2facb42f51dabcb1d355989093616631878c27f559 14854 main/binary-amd64/Packages.gz
  b59d7cf8062b167d940ebae14925a73b602ca55302ac19ee821b33bd17aaec86 147 main/binary-amd64/Release
  4d862c0e745e286f0020dad6d59b6f8df5bd8c10af3cb142bfe8ea3de3607232 48092 main/source/Sources
  5c06970a80ad0bc269987b2168c36e170a709de8ce573a4d0cb12adae77ad2b9 12147 main/source/Sources.gz
