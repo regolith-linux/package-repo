@@ -914,6 +914,28 @@ SHA1: a6c7cc51bef1e17ad700cefb8d9df46fffacfe1f
 MD5sum: de783b177e6df649540d327b7787bbe3
 Description: Regolith default settings
 
+Package: regolith-desktop
+Version: 4.1.0-1-1regolith-1636232938
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 16
+Depends: mutter-common, regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
+Suggests: update-manager, software-properties-gtk
+Conflicts: regolith-desktop-meta, unclutter-startup
+Replaces: regolith-desktop-meta
+Provides: regolith-desktop-meta
+Multi-Arch: foreign
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-desktop/regolith-desktop_4.1.0-1-1regolith-1636232938_amd64.deb
+Size: 5340
+SHA256: b540cf76178de08fd9ffd8e6b884aa9d07f175967cc3fde8dd78e1c4d02c55b5
+SHA1: a5e8c6c109620304d3f4014944d135b7648588b7
+MD5sum: d02f8e37a28315d06263a5910bcb94a7
+Description: metapackage for Regolith desktop environment
+ This package contains a minimal set of packages for a functional desktop.
+
 Package: regolith-distro-ubuntu
 Version: 2.0.0-1-1regolith-1631393471
 Architecture: amd64
@@ -933,6 +955,27 @@ SHA1: 05db2610cf4bd263a673ec2a0e6f881c46848134
 MD5sum: 3d61632113da0ead1702c020bf53beec
 Description: Metapackage that describes a distribution with Regolith
  This package installs a complete Regolith system on Ubuntu, used for ISO generation.
+
+Package: regolith-ftue
+Version: 2.1.0-1-1regolith-1636233107
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 29
+Depends: ilia, uuid-runtime
+Recommends: gnome-terminal
+Conflicts: regolith-conky-config
+Replaces: regolith-conky-config
+Homepage: https://github.com/regolith-linux/regolith-ftue
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-ftue/regolith-ftue_2.1.0-1-1regolith-1636233107_amd64.deb
+Size: 7848
+SHA256: f0132bd6b3164e9f5faf5074670388d88165734f1b022001e78829e08fa6176f
+SHA1: d01fe272b8f142312002c6067f12e9f33c0ab33f
+MD5sum: 4af38f0256d69154ca4298ff9d536340
+Description: Regolith first time user experience
+ This package includes scripts and configuration to provide help for
+ first time users.
 
 Package: regolith-i3-compositor
 Source: regolith-i3-config
