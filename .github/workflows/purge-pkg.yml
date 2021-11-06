@@ -28,9 +28,11 @@ jobs:
           if [ "$distro" == "ubuntu" ]; then
             codenames=( focal impish )
             echo ::set-output name=valid::"true"
+            valid="true"
           elif [ "$distro" == "debian" ]; then
             codenames=( buster bullseye )
             echo ::set-output name=valid::"true"
+            valid="true"
           else
             echo "Unknown distro: $distro"
             valid="false"
