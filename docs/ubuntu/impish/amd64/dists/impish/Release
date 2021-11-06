@@ -1,28 +1,28 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: impish
-Date: Sat, 06 Nov 2021 21:19:01 UTC
+Date: Sat, 06 Nov 2021 21:41:05 UTC
 Architectures: amd64
 Components: main
 Description: Regolith packages for Ubuntu Impish
 MD5Sum:
- c1e278f4706a1e0dd1b1907eed229f5b 59815 main/binary-amd64/Packages
- f55a74f07c5614d558a6c43b9a263464 15326 main/binary-amd64/Packages.gz
+ 810d89aa9cf785e5e5c94dfdbdf6f597 59619 main/binary-amd64/Packages
+ 9b50bbd2b178d0604b3878876cf09c4e 15328 main/binary-amd64/Packages.gz
  5422cad5275ec871bd305baeb16c6fa3 167 main/binary-amd64/Release
- e32c38901affdb67b56c48dac54fec22 52175 main/source/Sources
- 7e568efe86823dd1e2136a035594303e 13134 main/source/Sources.gz
+ 1389d8ed5d9453c1407eca50baa6cfb5 52105 main/source/Sources
+ cb4cd676e1c1ec5f1884e15f6b8a243f 13134 main/source/Sources.gz
  bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
 SHA1:
- e834844d3f65ebc65f36f7895740eeacd3708fb3 59815 main/binary-amd64/Packages
- 94b64197102202ec78985b367a8aebf443aa708e 15326 main/binary-amd64/Packages.gz
+ 285689709a4691e0a038a648f0d04cc245b1bd9b 59619 main/binary-amd64/Packages
+ 6dce1f8a677202ea6861dcebbce265f55988f341 15328 main/binary-amd64/Packages.gz
  63a9285233842394f487072c6fa70fdc079e8b7d 167 main/binary-amd64/Release
- ffb0928959309b776d70f998f4e3463bc7977771 52175 main/source/Sources
- 092e11371197f8402a39bc5a6a6752568fb6b82a 13134 main/source/Sources.gz
+ bc7a22bbd121c822dffb90d13e0a2ecac69f61b3 52105 main/source/Sources
+ 3607c9651f9bdc74f7989a91e5eca2bc21a4a018 13134 main/source/Sources.gz
  6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
 SHA256:
- e7c9b3df8cbe0c4fdc95f824168b83f4475eec39ef930a2498cbd94f1717055d 59815 main/binary-amd64/Packages
- fa2f3531b50d6be9cb67c183b88efcb9b9881599721bbbfd7517f514846b1af9 15326 main/binary-amd64/Packages.gz
+ 33d3f12a91a21c9a4dd4ddc24f609cba6d822272dde3532892dc5d2155e32c08 59619 main/binary-amd64/Packages
+ ff91690ec566fcd0773907fb15ec3ba3a70f7250f98b757e4ee9012af31c8207 15328 main/binary-amd64/Packages.gz
  b8b35b92cb4c674f2350f88c744ebc0346bb9b8acd1e3281eb48514192100d86 167 main/binary-amd64/Release
- 4e7d0855a6dd2b91018ce286942371a2eccab889b40ea600e5b0fc2ca51d95a0 52175 main/source/Sources
- 2ba26a9b3747b5e446cd487da262a091f30abaacc4b39e1648e26621f4c31c2d 13134 main/source/Sources.gz
+ 14f9ade733902771363b17a6031f3b4ad951b58286d3624c65a41f9af9b0c693 52105 main/source/Sources
+ 72fb1935e110cdd75e9ea19313294bea6825328a77a4d6dec8aa8bdbd480aad0 13134 main/source/Sources.gz
  5e17064a3e245f7ab2a09450cb5abbc2693d5da6b2e120960f23299ef1a79592 168 main/source/Release
