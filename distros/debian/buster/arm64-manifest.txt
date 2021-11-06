@@ -16,7 +16,6 @@ regolith-compositor-picom-glx master 9fe5b87
 regolith-compositor-xcompmgr master c17985c
 regolith-default-settings debian/buster 3dbacf2
 regolith-desktop main 47f96a8
-regolith-ftue main 07cc9d6
 regolith-i3-config master 22815c6
 regolith-i3xrocks-config i3cp e1bd956
 regolith-look-default master 0cc844b
