@@ -1,7 +1,7 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: impish
-Date: Sun, 31 Oct 2021 22:16:04 UTC
+Date: Sat, 06 Nov 2021 20:55:15 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Impish
@@ -9,20 +9,20 @@ MD5Sum:
  f35bfddcb518bdf96cb70d45762bca96 3985 main/binary-arm64/Packages
  21fa152028603de190e3aa152ea9db6b 1800 main/binary-arm64/Packages.gz
  a2cea3d76d26226d2adfc8e4d6c63fd4 167 main/binary-arm64/Release
- 6dc368f3d9e7249b06b801f5a687a96f 52355 main/source/Sources
- a6d02ba71a9b4531924e311688807a17 13166 main/source/Sources.gz
+ cbd665304964e2af96f98d77eca586c5 50991 main/source/Sources
+ 27681f2718d2436cffca0828d9dca6de 12816 main/source/Sources.gz
  bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
 SHA1:
  678a27f0a23be17cfbb45a93148177aef28442dd 3985 main/binary-arm64/Packages
  7b9cdc9f088fdca383628c769b387049d8ce1244 1800 main/binary-arm64/Packages.gz
  27be168726efed96ba0e20c9a5c5f149de8e2303 167 main/binary-arm64/Release
- db49b8f045bb15b931536cda528b3ab817753a9b 52355 main/source/Sources
- f70690b1d296e447c3e45a8b8e4f801df0db5903 13166 main/source/Sources.gz
+ 1ec5eb816282c0554274efa8d22ecf36ba788ee5 50991 main/source/Sources
+ 174f0b305a9f7d00cddfa1108b07c34815c154f5 12816 main/source/Sources.gz
  6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
 SHA256:
  81436f6f13ca98c56c524fc069647ea628deb9e507b086071fc75f4f9f25ff70 3985 main/binary-arm64/Packages
  4458a22a784dbbd99e38866e38e81d1b94a0de8df6c98a47b61074d9aba305be 1800 main/binary-arm64/Packages.gz
  bd4dfd248cbc5c1114605ac38a7175fe56bbd5d655fb64655fabd0827849fc59 167 main/binary-arm64/Release
- 459954092e51ac8b5fd9eacaa8117793063d22ef554fe17ddb615f8ca5315199 52355 main/source/Sources
- 8488220d9fbbe926aba8d7a4224e25414077c31160b3a61ca39fa0a23da19d89 13166 main/source/Sources.gz
+ 92839b88d99ec6a398a0f741df0cccc575397c960e0aba54549da65c35eec50a 50991 main/source/Sources
+ e71d4c1883caf3d0ac4d84cad57e4a2c27e0f2acdd8346b0be30c8768acc930b 12816 main/source/Sources.gz
  5e17064a3e245f7ab2a09450cb5abbc2693d5da6b2e120960f23299ef1a79592 168 main/source/Release
