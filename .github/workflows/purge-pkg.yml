@@ -19,11 +19,15 @@ jobs:
         run: |
           sudo apt update
           sudo apt install -y devscripts reprepro
+          mkdir -p ~/.gnupg/
+          printf "${{ secrets.PACKAGE_PRIVATE_KEY }}" | base64 --decode > ~/.gnupg/private.key
+          gpg --batch --import ~/.gnupg/private.key          
       - name: Purge Package
         id: purge
         run: |  
           set -x
-          
+          export DEBEMAIL=regolith.linux@gmail.com
+          export DEBFULLNAME="Regolith Linux"
           pkg_name=${{ github.event.inputs.package }}
           distro=${{ github.event.inputs.distro }}   
 
