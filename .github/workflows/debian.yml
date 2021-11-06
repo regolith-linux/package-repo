@@ -6,8 +6,7 @@ on:
     paths:
       - 'regolith-2.0-package-model.json'
       - '.github/workflows/debian.yml'
-      - 'debian/bullseye/bullseye-model.json'
-      - 'debian/buster/buster-model.json'
+      - 'distros/debian/*'
   repository_dispatch:
   workflow_dispatch:
 

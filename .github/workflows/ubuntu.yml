@@ -6,8 +6,7 @@ on:
     paths:
       - 'regolith-2.0-package-model.json'
       - '.github/workflows/ubuntu.yml'
-      - 'distros/ubuntu/focal/focal-model.json'
-      - 'distros/ubuntu/impish/impish-model.json'
+      - 'distros/ubuntu/*'
   repository_dispatch:
   workflow_dispatch:
 
