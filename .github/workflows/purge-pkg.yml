@@ -37,7 +37,7 @@ jobs:
             echo ::set-output name=valid::"false"
           fi
 
-          if [ "$valid" == "true" ]; then 
+          if [ "$valid" == 'true' ]; then 
             for arch in "${architectures[@]}"
             do
               for codename in "${codenames[@]}"
@@ -51,7 +51,7 @@ jobs:
             done
           fi
       - name: Commit Changes
-        if: steps.purge.outputs.valid == "true"
+        if: steps.purge.outputs.valid == 'true'
         run: |
           set -x
           git pull
