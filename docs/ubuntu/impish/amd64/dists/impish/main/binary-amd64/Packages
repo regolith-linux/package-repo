@@ -914,28 +914,6 @@ SHA1: e103eeac1719dc47661f9800b39c82c740cec77e
 MD5sum: e9b7e846aea402099fdbc69a11b60938
 Description: Regolith default settings
 
-Package: regolith-desktop
-Version: 4.1.0-1-1regolith-1635695248
-Architecture: amd64
-Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 16
-Depends: mutter-common, regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
-Suggests: update-manager, software-properties-gtk
-Conflicts: regolith-desktop-meta, unclutter-startup
-Replaces: regolith-desktop-meta
-Provides: regolith-desktop-meta
-Multi-Arch: foreign
-Homepage: https://github.com/regolith-linux/regolith-desktop
-Priority: optional
-Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop_4.1.0-1-1regolith-1635695248_amd64.deb
-Size: 5340
-SHA256: 833453af404ad327f7dfc29ca602effba5d315681b9d88b5a22eb35907414c10
-SHA1: d3192da30283e8323cb291ea8c2ce37b9ab0bca2
-MD5sum: f57ad938564b137842f4f5ec30f92d0d
-Description: metapackage for Regolith desktop environment
- This package contains a minimal set of packages for a functional desktop.
-
 Package: regolith-distro-ubuntu
 Version: 2.0.0-1-1regolith-1634265417
 Architecture: amd64
@@ -1255,26 +1233,6 @@ SHA1: 2cefec0b64404d54c540f0e922d7c2500543aef9
 MD5sum: 6a833b6a993523dd55eb22c2fb73134e
 Description: Lascaille look for Regolith.
  A Regolith look using i3, Rofi, Remontoire, and i3-bar.
-
-Package: regolith-mobile
-Source: regolith-desktop
-Version: 4.0.0-1-1regolith-1634265406
-Architecture: amd64
-Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 12
-Depends: regolith-desktop
-Recommends: i3xrocks-battery
-Multi-Arch: foreign
-Homepage: https://github.com/regolith-linux/regolith-desktop
-Priority: optional
-Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-mobile_4.0.0-1-1regolith-1634265406_amd64.deb
-Size: 5080
-SHA256: 352936a9f2b2c5289015a015377a2a93fbf733909581a00de96ee1776daac33b
-SHA1: cabf2c6d95adbef2dba14be4569a8a15e3df7088
-MD5sum: d813dc015fb1c09ff40f26d881f1a185
-Description: A package for Regolith on mobile devices
- This package extends regolith-desktop to provide additional functionality for laptops.
 
 Package: regolith-rofi-config
 Version: 1.4.1-1-1regolith-1634265481
