@@ -1,0 +1,64 @@
+name: Purge Package
+
+on: 
+  workflow_dispatch:
+    inputs:
+      distro:
+        description: 'Distro (debian, ubuntu)'     
+        required: true
+      package:
+        description: 'Package Name'     
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Purge Package
+        id: purge
+        run: |  
+          set -x
+          
+          pkg_name=${{ github.event.inputs.package }}
+          distro=${{ github.event.inputs.distro }}   
+
+          architectures=( arm64 amd64 )
+
+          if [ "$distro" == "ubuntu" ]; then
+            codenames=( focal impish )
+            echo ::set-output name=valid::"true"
+          elif [ "$distro" == "debian" ]; then
+            codenames=( buster bullseye )
+            echo ::set-output name=valid::"true"
+          else
+            echo "Unknown distro: $distro"
+            valid="false"
+            echo ::set-output name=valid::"false"
+          fi
+
+          if [ "$valid" == "true" ]; then 
+            for arch in "${architectures[@]}"
+            do
+              for codename in "${codenames[@]}"
+                do
+                  # Remove package from debian repo
+                  reprepro --basedir docs/$distro/$codename/$arch/ removesrc $codename $pkg_name
+
+                  # Remove package manifest entry (causes rebuild)
+                  sed -i /^$pkg_name/d distros/$distro/$codename/${arch}-manifest.txt
+                done
+            done
+          fi
+      - name: Commit Changes
+        if: steps.purge.outputs.valid == "true"
+        run: |
+          set -x
+          git pull
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add docs/*
+          git add distros/*
+          git commit -am "Automated package purge for ${{ github.event.inputs.package }}"
+          git push origin ${{ github.ref }}
+          
