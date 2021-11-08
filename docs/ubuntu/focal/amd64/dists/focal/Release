@@ -1,27 +1,27 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: focal
-Date: Sun, 07 Nov 2021 04:03:13 UTC
+Date: Mon, 08 Nov 2021 03:10:54 UTC
 Architectures: amd64
 Components: main
 Description: Regolith packages for Ubuntu Focal
 MD5Sum:
- b6c06afa18be6fd3b374ccd7937dec52 59605 main/binary-amd64/Packages
- 6e9e6acb69abe5a4285e75b98bef54e1 15343 main/binary-amd64/Packages.gz
+ 94eec20741787bdb2b59864acc5093c3 59605 main/binary-amd64/Packages
+ b1dd1079a4402e29a250bd22fce0c050 15348 main/binary-amd64/Packages.gz
  862f9231577ed5d6a4a4be2d97ef21eb 166 main/binary-amd64/Release
  2518eff714823afe142d4f4ee55b9eec 52035 main/source/Sources
  8e3e2410f22ff4e81a75543b24a2681c 13167 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
- aaadd4b5becc37bbe8cca5be514c8b4a08489327 59605 main/binary-amd64/Packages
- 8cc187204e7f95474104935978d5a4280f4233fe 15343 main/binary-amd64/Packages.gz
+ 4c0eb2ca7a393901493c3e74c3099148234a4cfb 59605 main/binary-amd64/Packages
+ 34426f6fb4a22a34443244b099cd978927056227 15348 main/binary-amd64/Packages.gz
  36ee7ad4672d71dccff2439b00f9837bd947968f 166 main/binary-amd64/Release
  92b937bb421b63ac454244fdb5a4fd1eacdbc1b9 52035 main/source/Sources
  401ae3ddb5076cd0520f56877558b402e1858607 13167 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
- 7072e3a1f876d938aede5e98dc6192acd4741edd3a546b9583831110a02dc965 59605 main/binary-amd64/Packages
- 14a580e38c406864a267af2ed6eba73efc7acbc26c0a8c33ffe1a371bcfa15d5 15343 main/binary-amd64/Packages.gz
+ 67bfd2ee614b8d2b0b134f00341cf600aec0806a3cd1497b38f9bdf61dfc61e1 59605 main/binary-amd64/Packages
+ 4679d2431fac2f98b2e80c037d9ef83e740a71ee4ce208607ad02a9f65c8f95f 15348 main/binary-amd64/Packages.gz
  214e19052c889b0376dc3b50f970845fe2a226b9386e973d1864da1ba5b40d24 166 main/binary-amd64/Release
  155ade54205004327fad078a19747c1a81c081c95e6698e7d24769d3bc56c209 52035 main/source/Sources
  0c39ce8dd6ec57eef1bee7bbbe72009a1c10bc963bb1420a901f64fb77ef0cbd 13167 main/source/Sources.gz
