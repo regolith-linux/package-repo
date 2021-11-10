@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Tue, 09 Nov 2021 05:22:06 UTC
+Date: Wed, 10 Nov 2021 03:34:42 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
@@ -12,34 +12,34 @@ MD5Sum:
  10cccbbf3b1d7ab6e108c30a66750313 53804 main/binary-arm64/Packages
  1e4da70e6a9a3c7c0cf795558521d5e3 13512 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- 9e30ea0915ac90d16dd58359487a8d78 48092 main/source/Sources
- f5d2b0ab23a25fa404baaef83c6cad2a 12175 main/source/Sources.gz
+ f109fff5b64eeaff8e926a7a1dc0d140 48092 main/source/Sources
+ 3ab3161035bf99da7053e9225886f85d 12177 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
  d375cdddb05ceaea5852ae2d183bdc02933e8ee6 53804 main/binary-arm64/Packages
  48026e2387c794ddb0f5d155f2f3259564daffe0 13512 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- ac0d2fd8337f2aa41116ef0689324ae44be86c53 48092 main/source/Sources
- 16d3a165b3bf7d8fed7571b4563813f8fa9de49b 12175 main/source/Sources.gz
+ b18ca400ef1124ca2f1fe5920f7dc1a5d1ad40e1 48092 main/source/Sources
+ cbb5ef9a2782914402112c20b6c9e62291ee3a30 12177 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
  f065ae74ffa77858cba6fb56ed47d7ed2cdb57c77220e418dc641d3fccf3b556 53804 main/binary-arm64/Packages
  c68a56c0964ce8e90f14fa2358b6e1075e238305413d8d2de77fb0ebcf6d7cec 13512 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- 2cc26f211f8d12a66392841523301a149ad2cb9cb825013fab62a4aa2fa10050 48092 main/source/Sources
- cddc4de5fea88366741c815a18256b7e1e7e829f30665419cac2f3fad71c779b 12175 main/source/Sources.gz
+ 98887631d89197d58114374a905df887395248c17563ff8a4d3b2fb24719efa9 48092 main/source/Sources
+ d48acfa644d62c28e114ed8008b6b0933bfde893b52a5c152a0964cad2e90c19 12177 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGKBX4ACgkQv+cXZJpc
-PQilKQv+IAG8qhr7uzpWjKakmOnd34DIrMutIM/W+4GBWG8a5cepFfpvNp6HQqrC
-jFLAAEZWFD9SGUUi11frHAOIOyY5Lr6fvTdzPqxiV0f5NYV22bh89+ZlK61FJf23
-N6ZjAEmVjztZTNh5trtH0e0bcGNyA/z/MyVgfZZ62roTRKpAaIsiMd4tnoELF7ZS
-RgMHiuJuugGexVeagrNjRKGDHsh6YC/dVIO59HvXf4ZcKpYM4z68cuyxX0i6LLqs
-8c5G1VVF1xgvztfp8wBE1vS99dh13npVQ8D8izEITfj6YWoMP5GxgIJqgBowynfw
-oXvJLN0crtykiNxNJvirruiC5RnWR4FqYGW5QH6/IipG1FVabiqPq1JCUdNBR3fk
-f4rO8pwiIQ1zOixBTSLsFzjxuUVPXp4aC1/RiUbEmzCRhAnSnLFcFTmmQkinTHAl
-mpywIaiCKGiLsZXMcPi843p+bD2/XLxQ0rafEespd9ngmWCqSqppf9Nm7751pPlS
-JxHgfiv9
-=EhDb
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGLPdIACgkQv+cXZJpc
+PQh2yAv8D0iW2y2rLh600wbQCq8YUi7leAxuOrbDFlYuYM4/zFrVXabNcDiNO0Dp
+ZVmDH/hgESJqltZoMmIlEyqjmcH5F9cNIAgoSy2zFaL/r6Js0wjXPa0q904Q97/k
+ligiM7vL+cucEfs0L88PcnEHUVxe0dt+rwXOnp6OyjHGdT78ObWFve9INo4XwWnq
+R0etxEL4Lxl/VmS8d3ZfKyBjK00t6uIH6/XwxpcTLSMy6XntWuVGmKUkJteCxybe
+ISOXIqYuG8cys7iUJg8ZLBQ/QN8MRDImF0900qZZ3ofXT0qaALUqE9z2vCjH29F4
+EPV1/Fjd6HfKSiw1u2XJ90H1iUPuLpwjyhw17Z0YOmrvXMBtDza0jtBd6W7nTPXM
+ZwFBKtXpZOpLuTxAretlS0S1XzNslXuiTO75JBym1g8xJkxCaTmtA3seEQseh+v2
+MkAnqgx9ed9f8c8dSP+G0SFPHJrq5qdkLCF6qgJzj9Kjg8ocVJMxEE213M6y2fyJ
+Tv+DzUuO
+=ZRxd
 -----END PGP SIGNATURE-----
