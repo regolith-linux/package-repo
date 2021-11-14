@@ -1296,10 +1296,10 @@ Description: Regolith configuration for rofi launcher
  perhaps other utilities in the future.
 
 Package: regolith-rofication
-Version: 1.4.1-1-1regolith-1636819860
+Version: 1.4.2-1-1regolith-1636856621
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 54
+Installed-Size: 55
 Depends: python3-dbus (>= 1.2.6), python3-gi (>= 3.26.1), python3:any (>= 3.6~), i3xrocks, regolith-i3xrocks-config, gnome-flashback
 Conflicts: dunst, notify-osd
 Breaks: i3xrocks-rofication (<< 3.5.3)
@@ -1308,11 +1308,11 @@ Provides: notification-daemon
 Homepage: https://github.com/regolith-linux/regolith-rofication
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-rofication/regolith-rofication_1.4.1-1-1regolith-1636819860_amd64.deb
-Size: 10696
-SHA256: 948ec0431da903c495e730526134c40d118deef82414e7d01809b68d44d8ee39
-SHA1: 18ddfb37614090287f05e104fb80e22e4a02bdee
-MD5sum: 0d9e01ee45e81f10399bf1def58d23d9
+Filename: pool/main/r/regolith-rofication/regolith-rofication_1.4.2-1-1regolith-1636856621_amd64.deb
+Size: 10780
+SHA256: 58872ee159f1ade2492ed58f677843d5f8299af43250f5c105f23ded6b8d9bdb
+SHA1: c55ef864b0f2ef332a2dd7a7d7cefb6a17fad4b7
+MD5sum: 034483b2f2ed93c13f9fe35053cd0a00
 Description: Rofication notification system
  Rofication provides an unobtrusive notification system based on a rofi frontend.
 
