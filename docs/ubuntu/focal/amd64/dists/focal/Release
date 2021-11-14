@@ -1,28 +1,28 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: focal
-Date: Sun, 14 Nov 2021 02:18:42 UTC
+Date: Sun, 14 Nov 2021 03:19:21 UTC
 Architectures: amd64
 Components: main
 Description: Regolith packages for Ubuntu Focal
 MD5Sum:
- 3508da84137eac7702382cfc77a5e533 59619 main/binary-amd64/Packages
- 406c94fa5b3a9eae3962b22e7b811540 15347 main/binary-amd64/Packages.gz
+ 599028dadad588f83ab5c2dc50f75dbb 59605 main/binary-amd64/Packages
+ 2ad78a02a774a31c5fed8f749842f0e4 15344 main/binary-amd64/Packages.gz
  862f9231577ed5d6a4a4be2d97ef21eb 166 main/binary-amd64/Release
- f8fb7a7ace8465038cb7c23de7043900 52105 main/source/Sources
- 29369f43e47626b0d2d5eeb988baeaf8 13185 main/source/Sources.gz
+ 4345b634b24dc5758c2c18feaaf43e5d 52035 main/source/Sources
+ 27cbf52e4dabdab945b2777ee9f8f6e7 13179 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
- be130d54dad781eb626eeade02ca5e899e34ff6b 59619 main/binary-amd64/Packages
- 1bd8a76c014292b6858a2ccdbe8194c8e76b1ce9 15347 main/binary-amd64/Packages.gz
+ 3f91c67fdd17c11c7749e264af5afa77d0e3017c 59605 main/binary-amd64/Packages
+ 4ce9e94e6cd08bbb4413acd160cc1f0412f161b3 15344 main/binary-amd64/Packages.gz
  36ee7ad4672d71dccff2439b00f9837bd947968f 166 main/binary-amd64/Release
- e11ca6966af09e5e6ba00ea624f2afe402cbdce3 52105 main/source/Sources
- ce646afa1e6d82cd83d01d9a39452b26f82a471e 13185 main/source/Sources.gz
+ f4e569d6a14bc28fb8b951d8cc29dd98c247df3a 52035 main/source/Sources
+ 5c91e1bfcab092492038d6c6faab3a8ac999a98e 13179 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
- 120a084ef08c622b6cc44b40ba7597c1bfe819f805421249b17523d3ab9caae1 59619 main/binary-amd64/Packages
- b9e5b6100d730fed9d663cb850dcc3cce4210c73a773640e46aaef782f9f3b9b 15347 main/binary-amd64/Packages.gz
+ 707e7735b5c2a3a7c36e7b9902e4490fd23ccd6d3e6cc4fc5a60326902128073 59605 main/binary-amd64/Packages
+ f5b4f7f9146b11199292fd42a6d8c87205f832a7951cd28a126c288e025c56b1 15344 main/binary-amd64/Packages.gz
  214e19052c889b0376dc3b50f970845fe2a226b9386e973d1864da1ba5b40d24 166 main/binary-amd64/Release
- d562a439914991bdf758e7b85d3887f932a10f61786d23368ef32b989ae0f71c 52105 main/source/Sources
- 3eb1a9829c7674526ad2cb61a3f23440992623d92f6b6cb77ac2b661a6b49f4a 13185 main/source/Sources.gz
+ e6503d872490b84097d9833b3b6902d11c35338f2421da910e9af2bb8c18840e 52035 main/source/Sources
+ 011b4fb797c3568df09284eba5ba6fe682f3b6a00a541c065f96bedefe26b4f3 13179 main/source/Sources.gz
  33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release

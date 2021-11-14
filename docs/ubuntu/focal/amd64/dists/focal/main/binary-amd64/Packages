@@ -663,19 +663,19 @@ Description: Indicator to display the current Wi-Fi network name.
  currently connect Wi-Fi network.
 
 Package: ilia
-Version: 0.6.1-1ubuntu1-1regolith-1636427262
+Version: 0.6.2-1-1regolith-1636859767
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 158
+Installed-Size: 162
 Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.12.0), dconf-gsettings-backend | gsettings-backend
 Homepage: https://github.com/regolith-linux/ilia
 Priority: optional
 Section: x11
-Filename: pool/main/i/ilia/ilia_0.6.1-1ubuntu1-1regolith-1636427262_amd64.deb
-Size: 41492
-SHA256: 36baacd1c81c033fb739f2c50ea22464fc77b90f829785ee3bd7348a08d5feab
-SHA1: b99b70eb330424301e032aefa8a48202ab409fc9
-MD5sum: c121da39753c4adc92773a63e1c41de8
+Filename: pool/main/i/ilia/ilia_0.6.2-1-1regolith-1636859767_amd64.deb
+Size: 42132
+SHA256: 14d9756c2ec019a3e96263ed9dbe64bc5553edc765fdc604b8262a49f0d92271
+SHA1: d6ed531dfbd208f35869df0d2ce527b194412000
+MD5sum: cd6a9a5a6dbf087d3466cf20cee75459
 Description: General purpose desktop executor
  Invoke actions upon apps, commands, notifications,
  and keybindings via a simple filterable menu.
@@ -1296,7 +1296,7 @@ Description: Regolith configuration for rofi launcher
  perhaps other utilities in the future.
 
 Package: regolith-rofication
-Version: 1.4.2-1-1regolith-1636856128
+Version: 1.4.2-1-1regolith-1636859938
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 55
@@ -1308,11 +1308,11 @@ Provides: notification-daemon
 Homepage: https://github.com/regolith-linux/regolith-rofication
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-rofication/regolith-rofication_1.4.2-1-1regolith-1636856128_amd64.deb
+Filename: pool/main/r/regolith-rofication/regolith-rofication_1.4.2-1-1regolith-1636859938_amd64.deb
 Size: 10780
-SHA256: 5ddc6193506ccfb27449d3d7ab9915a77eddfd99f0bf90de4a3a4d039cd8b3a4
-SHA1: 1f43fa2bfe197bb40e577a96952a718d9a9ffd83
-MD5sum: f7545998a4aa8a2b55cb4b8af763377a
+SHA256: 5492dd570701b3509607c638cca2f111243377aea911de29ea3ec6a1e56138b7
+SHA1: eb0d01c5b6714a99daa46f9349f980a4856d7a9e
+MD5sum: 4dd007ff564f7b1834d623fd8a2fd302
 Description: Rofication notification system
  Rofication provides an unobtrusive notification system based on a rofi frontend.
 
