@@ -891,11 +891,11 @@ MD5sum: ebbb4657dd206b8bc17d302d5279a9ef
 Description: Regolith default settings
 
 Package: regolith-desktop
-Version: 4.1.0-1-1regolith-1635695249
+Version: 4.1.1-1-1regolith-1637375894
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 16
-Depends: mutter-common, regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
+Depends: regolith-default-settings, regolith-session-flashback | regolith-desktop-session, x-terminal-emulator, xorg
 Suggests: update-manager, software-properties-gtk
 Conflicts: regolith-desktop-meta, unclutter-startup
 Replaces: regolith-desktop-meta
@@ -904,11 +904,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-desktop/regolith-desktop_4.1.0-1-1regolith-1635695249_amd64.deb
-Size: 5336
-SHA256: fa89d5c7ddf7d53e307f90ef1e935bc1a037c6b0a1ec18c92533bb289e9895f5
-SHA1: 9f6640fa2860da26fe20dade1cf17c049767020d
-MD5sum: 2d4797edaa50f11a811feb2eaa1f7cc8
+Filename: pool/main/r/regolith-desktop/regolith-desktop_4.1.1-1-1regolith-1637375894_amd64.deb
+Size: 5368
+SHA256: 2afa6fc2ae7d6cb245a2c93ae77da8c0b401f2ae64589e1722cd006bff38c164
+SHA1: be993dac00406ffa3f693af873978cf44b25dc29
+MD5sum: b55df21a7dc47a3ad3983f2d1e7e4af5
 Description: metapackage for Regolith desktop environment
  This package contains a minimal set of packages for a functional desktop.
 
