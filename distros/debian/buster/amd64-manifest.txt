@@ -23,7 +23,7 @@ regolith-look-default master 0cc844b
 regolith-look-extra main 2e15aa8
 regolith-rofi-config i3cp 80f2698
 regolith-rofication master 5c0c988
-regolith-session main 60f5ab3
+regolith-session main daf7368
 regolith-unclutter-xfixes master e4bbaba
 remontoire master f72a575
 xcb-util applied/ubuntu/groovy 1c1982a
