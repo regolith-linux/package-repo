@@ -14,7 +14,7 @@ regolith-compositor-none master 2391653
 regolith-compositor-picom-glx master 9fe5b87
 regolith-compositor-xcompmgr master c17985c
 regolith-default-settings i3cp 3111b48
-regolith-desktop main 47f96a8
+regolith-desktop debian fdc114d
 regolith-ftue main 07cc9d6
 regolith-i3-config master 118f557
 regolith-i3xrocks-config i3cp e1bd956
