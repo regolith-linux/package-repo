@@ -7,6 +7,10 @@
     "regolith-default-settings": {
       "source": "https://github.com/regolith-linux/regolith-default-settings.git",
       "branch": "debian/buster"
+    },
+    "regolith-desktop": {
+      "source": "https://github.com/regolith-linux/regolith-desktop.git",
+      "branch": "debian"
     }
   }
 }
