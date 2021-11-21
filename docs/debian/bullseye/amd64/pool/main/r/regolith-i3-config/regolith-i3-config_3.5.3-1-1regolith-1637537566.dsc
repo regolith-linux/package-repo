@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: regolith-i3-config
 Binary: regolith-i3-config, regolith-i3-gaps-partial, regolith-i3-snapshot, regolith-i3-ftue, regolith-i3-remontoire, regolith-i3-compositor, regolith-i3-unclutter, regolith-i3-rofi, regolith-i3-ilia, regolith-i3-rofication, regolith-i3-gnome, regolith-i3-next-workspace, regolith-i3-i3xrocks, regolith-i3-networkmanager
 Architecture: any
-Version: 3.5.2-1-1regolith-1636434991
+Version: 3.5.3-1-1regolith-1637537566
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Standards-Version: 4.1.3
@@ -26,26 +26,26 @@ Package-List:
  regolith-i3-snapshot deb x11 optional arch=any
  regolith-i3-unclutter deb x11 optional arch=any
 Checksums-Sha1:
- fc4306bf05ed42076ea26ccd481745b7b1364807 8063 regolith-i3-config_3.5.2-1-1regolith.orig.tar.gz
- f07914f32a2f97c8754b0c23947efb1629ae6da4 6500 regolith-i3-config_3.5.2-1-1regolith-1636434991.debian.tar.xz
+ 5422056180f908cea93f7c9c1366500671e8bd4a 8172 regolith-i3-config_3.5.3-1-1regolith.orig.tar.gz
+ b5ee3a4551e4dd2a30e1ebd977fa1ed7d5ed265e 6520 regolith-i3-config_3.5.3-1-1regolith-1637537566.debian.tar.xz
 Checksums-Sha256:
- f953649eb1fa33ae7b2542d2ce358f243791545a3f4518606fd011b387323628 8063 regolith-i3-config_3.5.2-1-1regolith.orig.tar.gz
- 0b7443a811db6a719e19b426a9c77bac5d8a141d905f6ba459578c6873044ee6 6500 regolith-i3-config_3.5.2-1-1regolith-1636434991.debian.tar.xz
+ 1a92fba123da4a1e02f7199d10bb93b90e6954771b2cfecab37a12044cb12190 8172 regolith-i3-config_3.5.3-1-1regolith.orig.tar.gz
+ 6399719cb29bf403ef1b139867aba6931345ea44b5fea1f1316ab59ba454cb6e 6520 regolith-i3-config_3.5.3-1-1regolith-1637537566.debian.tar.xz
 Files:
- 91b34008b2275dfb7e9223c41e70ae44 8063 regolith-i3-config_3.5.2-1-1regolith.orig.tar.gz
- b4b7626c79b570bd996b670f0ff45388 6500 regolith-i3-config_3.5.2-1-1regolith-1636434991.debian.tar.xz
+ f6ae05aae734e9c24e71fe0957bf6396 8172 regolith-i3-config_3.5.3-1-1regolith.orig.tar.gz
+ c9a994a3aacbc94030754fbefc864d39 6520 regolith-i3-config_3.5.3-1-1regolith-1637537566.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQHNBAEBCgA3FiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGKBGQZHHJlZ29saXRo
-LmxpbnV4QGdtYWlsLmNvbQAKCRC/5xdkmlw9CMIhC/9sQ/qIf+tfOjkR81p7+wIg
-zr63L1UQBijSKo3Pt9MWrkJTZUQnDuG4TQ6Jow0p5gFy5YXmpKAaSFOFLQBj11AI
-3aVY+yB2E1NwDMviRocsHaBjR8rN71ZtYxw3EiRG+KB5me0n2j8p6T//OEUAI6gZ
-anc4vsRvZtVKu9b9GkytpRd4VEDhqqZAXr0WXTGI+hdPjCIz8OFouPbo1B5WYrKh
-XCagDVXNK3CdXVjpRQlBm3syoGzhLYHHg3nlj4o1RTPLEwIRR2tVPJ5V4F8QKVQf
-CWHUf3XCSEDhPl6ATDAz714Vy/VcyF5m5+tJvWP10EvOSqtQeSQAa0eSOGDiJIVg
-HE6wZ9Syec3Jn6K9sM1rnWVjwH3hFM4QZKqyhI2QejFHNUz44Qzo7GLQr1yxoCj0
-YRreOiphq4K1kL+VLV0gHLylDsS4vTU7/jYSd2ttTPGbMKwdi3TDqhYRnsnna9kh
-8oPFCl0djNoK2W4MBE2viapt/UnwxhVkJFswnJQvxhM=
-=YZSu
+iQHNBAEBCgA3FiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGa110ZHHJlZ29saXRo
+LmxpbnV4QGdtYWlsLmNvbQAKCRC/5xdkmlw9CF1lDAC82OJjgvSDD8WrBILZjWVo
+MbC2VoUkKlMNLoIrlp1dk+CvMjKok0A3nu/LRSMNYcT5Qhf8x9Bfsh/C2VnKkAO4
+VuJpnJVnMXgkjFSsLE9T4tOsw8xj2cwK+O7QmcRXs5eGVvdkd8sH6rG6CDZVN2n6
+kniFPNknmXlG+QfruRSxBCxs2U4nD10tBHqXCCAblzbrPKbWNm/Jh5n6iDbpFU8v
+6rdINe4zCFRWJoKjPSmSoQzq7YxB1DKCV+QPip/4xIiCDM170tLpjVmm0ASq0vpE
+LlRO32h6EyjTZWjyv7sShW8vjfBJtoIW1Kn+Nr1Qdla3OiGx4V6iI6nbgciZoEgj
+yNn2mM4BB+oerixltW0mcHJjhnjPVRWhVtGO6ghsYDaRjRIfdb1y/6Y3QAZPAExf
+yp1FzUVbasVxMAjvGZpPAVJHRk43GcJ93AMHZSbpBfdTXN9qVp7f+KA2AGb61LGI
+mwfdcFpXFs6NL+MQ+OGa4pvaB95mUtqRW1lRGviMLAw=
+=ZJwI
 -----END PGP SIGNATURE-----
