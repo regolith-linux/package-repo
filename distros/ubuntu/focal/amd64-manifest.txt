@@ -6,7 +6,7 @@ i3-next-workspace main cb469ba
 i3-snapshot master 5135c86
 i3-wm next bf425ae9
 i3xrocks master 0c39c51
-ilia main a72ffc4
+ilia main cfa437d
 lago main 960c8a0
 plymouth-theme-regolith master caebe50
 python3-i3ipc master 4d16601
