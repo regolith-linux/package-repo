@@ -1,7 +1,7 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: impish
-Date: Sun, 28 Nov 2021 17:44:12 UTC
+Date: Sun, 28 Nov 2021 19:32:58 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Impish
@@ -9,20 +9,20 @@ MD5Sum:
  f35bfddcb518bdf96cb70d45762bca96 3985 main/binary-arm64/Packages
  21fa152028603de190e3aa152ea9db6b 1800 main/binary-arm64/Packages.gz
  a2cea3d76d26226d2adfc8e4d6c63fd4 167 main/binary-arm64/Release
- e2511c8435ba2a954eb4a4dd2a417394 52312 main/source/Sources
- c65e82d8e35a9829aec131d8172d0579 13190 main/source/Sources.gz
+ 68bb5e7786e16cec8a33f64af6a22e60 52396 main/source/Sources
+ ab0c1f6995f2189f0fa542570aa14b74 13192 main/source/Sources.gz
  bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
 SHA1:
  678a27f0a23be17cfbb45a93148177aef28442dd 3985 main/binary-arm64/Packages
  7b9cdc9f088fdca383628c769b387049d8ce1244 1800 main/binary-arm64/Packages.gz
  27be168726efed96ba0e20c9a5c5f149de8e2303 167 main/binary-arm64/Release
- 2ac52e05fdeca4bc1264346338a16980ba388805 52312 main/source/Sources
- 5439162c2870d1b928e8e259b1411311ce84c524 13190 main/source/Sources.gz
+ e01e50b3942c6109c522426adb0397f1b9d12f2b 52396 main/source/Sources
+ 910b1d6e0c1cc8423395cd2fb193d290b5c252af 13192 main/source/Sources.gz
  6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
 SHA256:
  81436f6f13ca98c56c524fc069647ea628deb9e507b086071fc75f4f9f25ff70 3985 main/binary-arm64/Packages
  4458a22a784dbbd99e38866e38e81d1b94a0de8df6c98a47b61074d9aba305be 1800 main/binary-arm64/Packages.gz
  bd4dfd248cbc5c1114605ac38a7175fe56bbd5d655fb64655fabd0827849fc59 167 main/binary-arm64/Release
- 57b5381b7d08773ad012f1ad06b3cb7605b58ea839d22e777836007d3dbb9f91 52312 main/source/Sources
- d7ec893668fade0c33b4df538e9e7eb5cedae35e19fb54f922971375c10d5f82 13190 main/source/Sources.gz
+ 8675aef545fa4db3f9e45a6d747cb7104f4cd25cdb8e27d6caa4ba7b550a65a3 52396 main/source/Sources
+ 9a0b18eaf7acf263f5d2ea6b33fd0dc2b3a1e525733366018c0e515dcfa758b6 13192 main/source/Sources.gz
  5e17064a3e245f7ab2a09450cb5abbc2693d5da6b2e120960f23299ef1a79592 168 main/source/Release
