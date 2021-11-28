@@ -17,7 +17,7 @@ regolith-compositor-xcompmgr master c17985c
 regolith-default-settings debian/buster 3dbacf2
 regolith-desktop debian fdc114d
 regolith-ftue main 07cc9d6
-regolith-i3-config master 1c23f65
+regolith-i3-config master bf61321
 regolith-i3xrocks-config i3cp e1bd956
 regolith-look-default master 0cc844b
 regolith-look-extra main 2e15aa8
