@@ -1404,23 +1404,23 @@ Description: Regolith configuration for i3xrocks launcher
  A Regolith configuration for the i3xrocks launcher
 
 Package: regolith-look-default
-Version: 0.4.0-1-1regolith-1635696145
+Version: 0.4.1-1-1regolith-1638127799
 Architecture: amd64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 17
 Depends: fonts-materialdesignicons-webfont (>= 1.6.50), fonts-dejavu-core, ayu-theme
-Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-ilia, regolith-i3xrocks-config
+Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-ilia, regolith-i3-rofication-ilia, regolith-i3xrocks-config
 Conflicts: regolith-look
 Replaces: regolith-look
 Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-default/regolith-look-default_0.4.0-1-1regolith-1635696145_amd64.deb
-Size: 3740
-SHA256: ff32ea1cf12e85d597750602580c7c15735e1349c8140d90379c899904c4b8db
-SHA1: 2aacf9874dc001f575847f9080fb36f9f9423e1f
-MD5sum: 062a09b86a75b450c68a4a14d758acfc
+Filename: pool/main/r/regolith-look-default/regolith-look-default_0.4.1-1-1regolith-1638127799_amd64.deb
+Size: 3772
+SHA256: 06547e4322e114fa79532f890089dea1c7f4bb3ae14fc205319bc1b4b5137918
+SHA1: 142ff121379fdfa166718e5d88fb57ed7e0365ad
+MD5sum: 5e97a6076bd4cc7a42826c0b583ce70a
 Description: Default Look for Regolith with minimal dependencies
  A basic Regolith look optimized for minimal dependencies.
 
