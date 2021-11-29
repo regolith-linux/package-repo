@@ -662,24 +662,6 @@ Description: Indicator to display the current Wi-Fi network name.
  An i3xrocks indicator for displaying the name of the
  currently connect Wi-Fi network.
 
-Package: ilia
-Version: 0.9.1-1ubuntu1-1regolith-1638127127
-Architecture: amd64
-Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 203
-Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.12.0), libtracker-sparql-2.0-0 (>= 0.10.0), dconf-gsettings-backend | gsettings-backend
-Homepage: https://github.com/regolith-linux/ilia
-Priority: optional
-Section: x11
-Filename: pool/main/i/ilia/ilia_0.9.1-1ubuntu1-1regolith-1638127127_amd64.deb
-Size: 52664
-SHA256: 40f9cd421c40a9410ab9d059f5c90b8e91b89c6bf1ed433eb772f21014584906
-SHA1: 8bc591db1ea9f8ac525b05eab5951822ef54d472
-MD5sum: 9e073028f30734455997346c5554f1eb
-Description: General purpose desktop executor
- Invoke actions upon apps, commands, notifications,
- and keybindings via a simple filterable menu.
-
 Package: lago
 Version: 0.1.0-1-1regolith-1634264812
 Architecture: amd64
