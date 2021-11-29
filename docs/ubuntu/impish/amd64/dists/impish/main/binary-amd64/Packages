@@ -662,6 +662,24 @@ Description: Indicator to display the current Wi-Fi network name.
  An i3xrocks indicator for displaying the name of the
  currently connect Wi-Fi network.
 
+Package: ilia
+Version: 0.9.1-1ubuntu1-1regolith-1638155725
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 203
+Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.12.0), libtracker-sparql-2.0-0 (>= 0.10.0), dconf-gsettings-backend | gsettings-backend
+Homepage: https://github.com/regolith-linux/ilia
+Priority: optional
+Section: x11
+Filename: pool/main/i/ilia/ilia_0.9.1-1ubuntu1-1regolith-1638155725_amd64.deb
+Size: 52320
+SHA256: 9f3bfe5bb6b7cf263ac123e5040ecb757fe2f46a4095ffea892d0b2add4f933b
+SHA1: 6feeab89564ece6fb0582a9f0f2a68312d7ef98a
+MD5sum: 16f314a3691af066be8de8897cc53d76
+Description: General purpose desktop executor
+ Invoke actions upon apps, commands, notifications,
+ and keybindings via a simple filterable menu.
+
 Package: lago
 Version: 0.1.0-1-1regolith-1634265303
 Architecture: amd64
@@ -1234,23 +1252,23 @@ Description: Regolith configuration for i3xrocks launcher
  A Regolith configuration for the i3xrocks launcher
 
 Package: regolith-look-default
-Version: 0.4.0-1-1regolith-1635695916
+Version: 0.4.1-1-1regolith-1638155819
 Architecture: amd64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 17
 Depends: fonts-materialdesignicons-webfont (>= 1.6.50), fonts-dejavu-core, ayu-theme
-Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-ilia, regolith-i3xrocks-config
+Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-ilia, regolith-i3-rofication-ilia, regolith-i3xrocks-config
 Conflicts: regolith-look
 Replaces: regolith-look
 Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-default/regolith-look-default_0.4.0-1-1regolith-1635695916_amd64.deb
-Size: 3736
-SHA256: 95d2e4e6410a7995f1f7b46b3652572b77246cebc1f311225a865ddaa5c2b19a
-SHA1: f8567f53808bfbba6919d5f026b069ce330bd226
-MD5sum: cabf08c0a820c464fc3fe9c5cff47656
+Filename: pool/main/r/regolith-look-default/regolith-look-default_0.4.1-1-1regolith-1638155819_amd64.deb
+Size: 3772
+SHA256: 77ba96314e68edf4d7c65079b370e6299f749fff1383ea647b8c71ba2f628459
+SHA1: 11a4c45ca24e22c27bc1926b46eb65d59f225e4b
+MD5sum: a694541070271cc6941ea9c2f7b0ff50
 Description: Default Look for Regolith with minimal dependencies
  A basic Regolith look optimized for minimal dependencies.
 
