@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Mon, 29 Nov 2021 02:57:07 UTC
+Date: Mon, 29 Nov 2021 04:11:34 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
@@ -12,34 +12,34 @@ MD5Sum:
  10cccbbf3b1d7ab6e108c30a66750313 53804 main/binary-arm64/Packages
  1e4da70e6a9a3c7c0cf795558521d5e3 13512 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- 99548888f7dd27b4e05036be99aa118e 46702 main/source/Sources
- 06e9a609217932090e9cf22eed948d30 11809 main/source/Sources.gz
+ 495709926a60f671dbe25a0a81c128b5 48203 main/source/Sources
+ 47f0003c875dc0f292b441114b925ef9 12209 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
  d375cdddb05ceaea5852ae2d183bdc02933e8ee6 53804 main/binary-arm64/Packages
  48026e2387c794ddb0f5d155f2f3259564daffe0 13512 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- ccfc735814091acd207a6dff6991817b34b8210a 46702 main/source/Sources
- b03df1c665ff6180fb406eac8dfe368498fbd728 11809 main/source/Sources.gz
+ 6b48a977ce7402f5522c79ac763d3fb08ed42580 48203 main/source/Sources
+ d08b417a974fc2acc6f1618b730e4f4558b6a9bb 12209 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
  f065ae74ffa77858cba6fb56ed47d7ed2cdb57c77220e418dc641d3fccf3b556 53804 main/binary-arm64/Packages
  c68a56c0964ce8e90f14fa2358b6e1075e238305413d8d2de77fb0ebcf6d7cec 13512 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- d93ba738c7df4106a19efcb2db2acdb5c1f80218fcf47c3ad04f220da73be7f1 46702 main/source/Sources
- 7e20692a2bd76f29e30df984ebe04cd281cb05383b0aaa1ff62e93375d3f175f 11809 main/source/Sources.gz
+ 9cf23079994d22c481ce9f8d3b4e4aaac9b909983455afcbad4c109b0a9b7dc8 48203 main/source/Sources
+ 2e566cdd7ed5e59c0580751f469243b338fc2eb73db5211918fe9e0279c078aa 12209 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGkQYMACgkQv+cXZJpc
-PQi/RAwApf//ny+vZc7rsWvc/cYGLDm9y07OwLXOTthTnBofqKFyrXv1SeRdSVy5
-EObfdMg7/McSKNJHYDBh/Ou0nl6vh1rWuTKAzaFnQ+RQa3ce2r03NJaxvsyLywi/
-acp2mWmb6VPeYuyH0idSF1Cm/GUxw1VGXHbPE4eZecFjENxEatX1OkvFzR6TnNHX
-Zf6oW0E9JoqpTy8mlrtDmrIfIgsET7sfJ7CL9VXQevAaAMObRSh+Px1Q36ZyMv4Z
-dh0ZBVzB4QzEzeKmSf+1tN3dR8TVBKq2D4izOPViTlMWF07+GgHgNR1B5GshehXm
-yoNRF0D9RoYhTASkLncR0nKnGTLMeTHlTnnphCPdNLKDRUlVR86PDr5b0nhVxpUr
-v2+W/P8pUHuQaWz7dykiofv3JfTovHxgOfeWrbMYI4yBMW6doEL249lj4YuIGDMj
-MnXptNndpFLB9GpPZ4DUvmlAAEYhe2Phdgwv0EYOwge8Yd2Ks0kMpHePC5WsCvos
-bGtu3zEz
-=yW9U
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGkUvYACgkQv+cXZJpc
+PQiyRgv/WTmLXfMKFpOeMhFo/RQtuULmXfjoqFKvd6LL6gZtXJLRyBs1Ln5FCcB/
+wjr2X0zUbhrdpPnvf5GH8PhYO9WZVVSpYHZ64eX05/bnMSDPDXrkXf8fOMd3PWvd
+1UAGeknRDakzl7zcOjFZxaPY3r0JYWUDW5McnW/DgIVowkz5kHGzc8sje3v2QJqK
+cXeAzUSND39SJ+L0JeyE6nTl4/qgEid7D4/0Z4BkiLTABofPYjdO5AnY+Gj5GFef
+Pr39cC5utU1BLXWDM1ngLo8SXcZFKyaBhkETKl+H3GtNNmO9BfagbAG8rGGnOBDY
+o+Irs/p2WKZ1gu8lCXjDwyQplhblNG7jImK9T8DIsTQLGk/Pd4QvBYVeTl2Xp50v
+SaJbDP+tNG2bbvAq/dwaOrzwV8lhcxUMRjCB4oipDwWW2vzpZ/v1NLIBHY++hUm7
+6Fabccd7+OnkUdUjacLQP4WOdx9pcHrnGliq4KC1NS/IPZh3WOpE0MygQW9J+FCE
+2e+vrkDS
+=lJ7S
 -----END PGP SIGNATURE-----
