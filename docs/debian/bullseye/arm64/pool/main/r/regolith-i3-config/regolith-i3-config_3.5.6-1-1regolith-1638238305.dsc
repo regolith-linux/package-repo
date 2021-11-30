@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: regolith-i3-config
 Binary: regolith-i3-config, regolith-i3-gaps-partial, regolith-i3-snapshot, regolith-i3-ftue, regolith-i3-remontoire, regolith-i3-compositor, regolith-i3-unclutter, regolith-i3-rofi, regolith-i3-ilia, regolith-i3-rofication, regolith-i3-rofication-ilia, regolith-i3-gnome, regolith-i3-next-workspace, regolith-i3-i3xrocks, regolith-i3-networkmanager
 Architecture: any
-Version: 3.5.5-1-1regolith-1638127938
+Version: 3.5.6-1-1regolith-1638238305
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Standards-Version: 4.1.3
@@ -27,26 +27,26 @@ Package-List:
  regolith-i3-snapshot deb x11 optional arch=any
  regolith-i3-unclutter deb x11 optional arch=any
 Checksums-Sha1:
- 3900bca17d8e6175450aa8593415babd93543e14 8266 regolith-i3-config_3.5.5-1-1regolith.orig.tar.gz
- ca0dfefce4e28e9c2b3a61e222cdef1ac64988ee 6616 regolith-i3-config_3.5.5-1-1regolith-1638127938.debian.tar.xz
+ b13222192fb2a03151908dd06e95335477788861 8264 regolith-i3-config_3.5.6-1-1regolith.orig.tar.gz
+ 2e9deb8ad1c336a4fd5ee30613153b705cd5e5f9 6664 regolith-i3-config_3.5.6-1-1regolith-1638238305.debian.tar.xz
 Checksums-Sha256:
- 24d86e417d4a06ab30fe90b9e760ea1febd5e8c479599053869df75cbcdfd806 8266 regolith-i3-config_3.5.5-1-1regolith.orig.tar.gz
- 5c275aa48fa0e040ed9fb663a58878820d7a4d2324ae061ad4b12a91060e07f8 6616 regolith-i3-config_3.5.5-1-1regolith-1638127938.debian.tar.xz
+ 59c6ca7f2023f8b557f7e08b65bd8e452cf19b0bdda8b41415b096360a024682 8264 regolith-i3-config_3.5.6-1-1regolith.orig.tar.gz
+ 726415bf388a67ab438d58d5683b29cda091758f98a52e9ecb51ed9d002af9e2 6664 regolith-i3-config_3.5.6-1-1regolith-1638238305.debian.tar.xz
 Files:
- a94713ccda1edc0abae8e7eaa16399dd 8266 regolith-i3-config_3.5.5-1-1regolith.orig.tar.gz
- f16de5b560ee14225b8e801cbfc17a86 6616 regolith-i3-config_3.5.5-1-1regolith-1638127938.debian.tar.xz
+ 37d7120c9403832f756d31ad8c673a18 8264 regolith-i3-config_3.5.6-1-1regolith.orig.tar.gz
+ c30e1fa7c813fb31e55f8364b1404562 6664 regolith-i3-config_3.5.6-1-1regolith-1638238305.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQHNBAEBCgA3FiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGj2UcZHHJlZ29saXRo
-LmxpbnV4QGdtYWlsLmNvbQAKCRC/5xdkmlw9CCrjC/0RLRFZ8IK8cswnYlFU8mV1
-Xwdh7rGAk4fNmvxJ6DHDase3nhMyo5zcz6x5ZuVy9sqkXyV1wi83xcEWc0OgrERF
-VJrenZWj230LtLXcyyPTeL/L9S96rRcz86H/4EvD6SRusP31Fp0KRKgM/0IJ6wUj
-OpoIzryXmAk+aJwCRorEgZLMjfZYq7xkBRtz5HuZ9bxVEM4wnOoSTzonnFzkuiT3
-dZOKPgiHwBOU2TBPyUgFRbDrtmIeScH+SVuLvWD7NEke/0Eh37O6mkzIUUqvMkR3
-hBkF7s1D6zz+W7JsaK6IIMFnv0HOnYgWypBwgb9eoXWXfrEc6juZaioLzt+NOgO2
-moiFiR5tx06GyrIdK8teCsHU5gmseRJOQzNLxVArU2cF8l6Q3221NSg3Ea8Rk0Xe
-v9nJgB/a+CDezNJbcgZ+QPDPazc65Vw12en2xd5ASyoPC+nnNcEq7WG/TYcgYL69
-fXVjhKuE5Y2ZZdf24C6JSV4SR1vqCc04FsrCWujNI50=
-=KAzh
+iQHNBAEBCgA3FiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGliOoZHHJlZ29saXRo
+LmxpbnV4QGdtYWlsLmNvbQAKCRC/5xdkmlw9COZMDADHiM9Ujba5dddzk039kMzf
+hbEaG6Y6lfs7LTWUfHgGQKDjmBkBSBQdVMpEmIftPhcxI7iXqu9HMTtcqwIISMUh
+iu2Hrinfepn7N1sbvWGoWkAbTZduJrVoPt5cIO7UVf6WSTKHBXI2Ljgg951UkkIQ
+4F/vEU2tawb3kkOGD4/w0AknrY3aiw13ZZO/1+G7lkapl5fIt3r/+DHkPOJkMas7
+15zj61YuHTgKQJgnLKf2xb5hHPH4Ldh0FwAkMmuzSbQI2i9HD/zX+tIawANeGmiJ
+QsGOX6h2fupPgM4ZnMOojJRIRi8RRrE8zKYhaiGXgvXZvWiZaRpQJey3SCPPmDXA
+wIVLixv07Oz5QslLoHSnYlid87V9VAeGezGSgbqlja3n4Pi+h5PKwsJYZ4KRTX7N
+W5cZC5L/+RuS1miZK3FvWLAyaGyL5DS1HVRRybUM9wJki2Pzug4NGsn5xl5AHm/1
+F6QyJVxeXdmT9OA/WGokQYZ2fKfvHj5tySDZtTXqCjY=
+=F6mi
 -----END PGP SIGNATURE-----
