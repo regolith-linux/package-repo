@@ -60,6 +60,34 @@ Description: font containing Material Design Icons
  This package also provides Css, Scss and LESS files to use webfonts from this
  package.
 
+Package: gir1.2-json-1.0
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638651138
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: gir1.2-glib-2.0 (>= 0.9.12), libjson-glib-1.0-0 (= 1.5.2-1-1regolith-1638651138)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: introspection
+Filename: pool/main/j/json-glib/gir1.2-json-1.0_1.5.2-1-1regolith-1638651138_amd64.deb
+Size: 12816
+SHA256: 977d7c8ce9ed4bfbeeda9da421e5a99ce40dc7505c1a707b736df4f146a93e3c
+SHA1: 352c175e5a948bf1270e625d6ff4379b9d5b93d5
+MD5sum: 0b29ac62bf1e81a0815a814b7a85e626
+Description: GLib JSON manipulation library (introspection data)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains introspection data.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
 Package: i3
 Source: i3-wm
 Version: 4.20-1ubuntu1-1regolith-1634655405
@@ -680,6 +708,32 @@ Description: General purpose desktop executor
  Invoke actions upon apps, commands, notifications,
  and keybindings via a simple filterable menu.
 
+Package: json-glib-tools
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638651138
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 52
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2), libjson-glib-1.0-0 (= 1.5.2-1-1regolith-1638651138)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: devel
+Filename: pool/main/j/json-glib/json-glib-tools_1.5.2-1-1regolith-1638651138_amd64.deb
+Size: 13852
+SHA256: 3e59031712fa748f140c8ed2cac658e17b5e72538c1e90359a13578e8c91895d
+SHA1: a611a6427f50435704967269d6dc4fc34e9e80fc
+MD5sum: 6917b8748f0d6a35d6a94154af031672
+Description: GLib JSON manipulation library (tools)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the json-glib-format and json-glib-validate
+ tools.
+
 Package: lago
 Version: 0.1.0-1-1regolith-1633801936
 Architecture: amd64
@@ -696,6 +750,104 @@ SHA1: 21f7f43e3d6f63910193d97504489e07e24301a0
 MD5sum: 47531b512ffc38309a3100f8d03d0dd7
 Description: Rofication CLI
  Manage desktop notifications from the terminal.
+
+Package: libjson-glib-1.0-0
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638651138
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 209
+Depends: libjson-glib-1.0-common (>= 1.5.2-1-1regolith-1638651138), libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: libs
+Filename: pool/main/j/json-glib/libjson-glib-1.0-0_1.5.2-1-1regolith-1638651138_amd64.deb
+Size: 64920
+SHA256: c92d06e132404feb28026c7a0ceb3eb6aab92268293549c2282a5e36bf2993e8
+SHA1: 2e371c267e4185ddec6d4ad32b18b9060fe77494
+MD5sum: 5b02c591c4971a2f24022c8558a20007
+Description: GLib JSON manipulation library
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+
+Package: libjson-glib-1.0-common
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638651138
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 455
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: libs
+Filename: pool/main/j/json-glib/libjson-glib-1.0-common_1.5.2-1-1regolith-1638651138_all.deb
+Size: 55512
+SHA256: 9e5a5a3bdc6cf03df92aa2867a737921bacbc8a0f7355a1b7ac4711563568b27
+SHA1: ce9649bfa665ab11667cfaf8e218a636edf1b3bd
+MD5sum: d7ef18122eecb8f240b5cd69576aaf3b
+Description: GLib JSON manipulation library (common files)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the translations files.
+
+Package: libjson-glib-dev
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638651138
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 817
+Depends: gir1.2-json-1.0 (= 1.5.2-1-1regolith-1638651138), libglib2.0-dev, libjson-glib-1.0-0 (= 1.5.2-1-1regolith-1638651138), pkg-config, libc6 (>= 2.4), libglib2.0-0 (>= 2.55.2)
+Suggests: libjson-glib-doc
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: libdevel
+Filename: pool/main/j/json-glib/libjson-glib-dev_1.5.2-1-1regolith-1638651138_amd64.deb
+Size: 91572
+SHA256: 30190841d5abc530494a6bab48bb8e22de3464d576c298c7e2e2c228e77d06c8
+SHA1: cb197dc4fb5cd56ac52e28b5b1dd2b8a02fc8065
+MD5sum: bfb5d4053e8944a6bb69b89a6c307ce8
+Description: GLib JSON manipulation library (development files)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the development files.
+
+Package: libjson-glib-doc
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638651138
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 901
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: doc
+Filename: pool/main/j/json-glib/libjson-glib-doc_1.5.2-1-1regolith-1638651138_all.deb
+Size: 59744
+SHA256: 73245c8d418b074fa5b0ba6240c8140bc49a601755e66c4f67dc513e62a46692
+SHA1: 2832d1de202535fa38b8a697e88687924f78cdbe
+MD5sum: 00222c16533a6387d78e04d7aa2d9206
+Description: GLib JSON manipulation library (documentation)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the documentation.
 
 Package: libxcb-util-dev
 Source: xcb-util
