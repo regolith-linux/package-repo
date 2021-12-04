@@ -577,6 +577,55 @@ Description: Indicator to display the current Wi-Fi network name.
  An i3xrocks indicator for displaying the name of the
  currently connect Wi-Fi network.
 
+Package: libjson-glib-1.0-common
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638651352
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 455
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: libs
+Filename: pool/main/j/json-glib/libjson-glib-1.0-common_1.5.2-1-1regolith-1638651352_all.deb
+Size: 55520
+SHA256: 798765e03e1748f14f062649232964a3fe7220739c7387372b9b0b99b617b7f8
+SHA1: 37fdc33f847a2ed047d61c7559b098b1cc59f407
+MD5sum: abf33b4bf0a101d3a98de18a52322273
+Description: GLib JSON manipulation library (common files)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the translations files.
+
+Package: libjson-glib-doc
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638651352
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 901
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: doc
+Filename: pool/main/j/json-glib/libjson-glib-doc_1.5.2-1-1regolith-1638651352_all.deb
+Size: 59760
+SHA256: b947624b7f1afca385b1cc250d153249df8e6bd5f58e9cf4168f7d81d122f9d6
+SHA1: 36b20daafbe89a5907667ca789eff6509bf31591
+MD5sum: ab9db002afb9fb987b8aac9137f4b6db
+Description: GLib JSON manipulation library (documentation)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the documentation.
+
 Package: libxcb-util-dev
 Source: xcb-util
 Version: 0.4.0-0ubuntu3-1regolith-1629992889
