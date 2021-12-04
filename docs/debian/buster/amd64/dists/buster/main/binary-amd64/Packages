@@ -109,6 +109,91 @@ Description: metapackage (i3 window manager, screen locker, menu, statusbar)
  locker, i3status (for system information) and suckless-tools (for dmenu).
  These are all the tools you need to use the i3 window manager efficiently.
 
+Package: i3-gaps
+Source: i3-gaps-wm
+Version: 4.20-2-1regolith-1638643798
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 22
+Depends: i3-gaps-wm (= 4.20-2-1regolith-1638643798), i3-gaps-session (= 4.20-2-1regolith-1638643798)
+Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps_4.20-2-1regolith-1638643798_amd64.deb
+Size: 15324
+SHA256: debbde25c5f94d2b170dfb33c6958a917ba0df9f3a8dfadbcef3f3e05c22066d
+SHA1: a0168144a5373bfcc03eed766308aa782755ee6b
+MD5sum: 4a62c327b775c314277a34e50ebad01f
+Description: metapackage (i3-gaps window manager, screen locker, menu, statusbar)
+ This metapackage installs the i3-gaps window manager (i3-gaps-wm), xsession, the i3lock screen
+ locker, i3status (for system information) and suckless-tools (for dmenu).
+ These are all the tools you need to use the i3-gaps window manager efficiently.
+
+Package: i3-gaps-session
+Source: i3-gaps-wm
+Version: 4.20-2-1regolith-1638643798
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 25
+Depends: i3-gaps-wm (= 4.20-2-1regolith-1638643798)
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-session_4.20-2-1regolith-1638643798_amd64.deb
+Size: 15464
+SHA256: 1dd8dbdb51730cccf57e7735ed8e41bc138f0aad4d3d7f10851d8078a5cec8a2
+SHA1: 7f4c7a988da88164d2f39bb4f18a632dc9f8f0e8
+MD5sum: 41af1a85530b50758d81a6c8bd5ea8c4
+Description: Xsession for i3-gaps
+
+Package: i3-gaps-wm
+Version: 4.20-2-1regolith-1638643798
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 985
+Depends: libc6 (>= 2.28), libcairo2 (>= 1.14.4), libev4 (>= 1:4.04), libglib2.0-0 (>= 2.51.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.22.0), libpcre3, libstartup-notification0 (>= 0.10), libxcb-cursor0 (>= 0.0.99), libxcb-icccm4 (>= 0.4.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.12), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xinerama0, libxcb-xkb1, libxcb-xrm0 (>= 0.0.0), libxcb1 (>= 1.6), libxkbcommon-x11-0 (>= 0.5.0), libxkbcommon0 (>= 0.5.0), libyajl2 (>= 2.0.4), perl:any
+Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
+Conflicts: i3-wm
+Replaces: i3-wm
+Provides: i3-wm, x-window-manager
+Homepage: https://i3wm.org/
+Priority: extra
+Section: x11
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-wm_4.20-2-1regolith-1638643798_amd64.deb
+Size: 393076
+SHA256: e5d2ea2e98a0772a3688c3f4676e539aa0b561f38c5340d668a29fa137e3bf37
+SHA1: 705c2d3c7e1fdf567ccafb9f7be6658e78817d83
+MD5sum: 0dd77076397c27f9a8c6ad1addaa3fcc
+Description: improved dynamic tiling window manager
+ Key features of i3-gaps are good documentation, reasonable defaults (changeable in
+ a simple configuration file) and good multi-monitor support. The user
+ interface is designed for power users and emphasizes keyboard usage. i3-gaps uses
+ XCB for asynchronous communication with X11 and aims to be fast and
+ light-weight.
+ .
+ Please be aware i3-gaps is primarily targeted at advanced users and developers.
+
+Package: i3-gaps-wm-dbg
+Source: i3-gaps-wm
+Version: 4.20-2-1regolith-1638643798
+Architecture: amd64
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Installed-Size: 1413
+Depends: i3-gaps-wm (= 4.20-2-1regolith-1638643798)
+Homepage: https://i3wm.org/
+Priority: extra
+Section: debug
+Filename: pool/main/i/i3-gaps-wm/i3-gaps-wm-dbg_4.20-2-1regolith-1638643798_amd64.deb
+Size: 1265720
+SHA256: 41f7dbcca465e3a6137b3b175bad39bed01c907e87b99d7758c03ddaa5c8054f
+SHA1: 67e88aea5b42e2ead846a6e87e9d549de8c0138e
+MD5sum: c762b75974c1e737dc7da16b57174b75
+Description: Debugging symbols for the i3-gaps window manager
+ Debugging symbols for the i3-gaps window manager. Please install this to produce
+ useful backtraces before creating new tickets.
+Build-Ids: 1d65d3140ac03c04648393f7bcb841f4b1d5f329 637215ff52938c4e6f4e20ef183db59ed1b5831c 6a18664b3a848739b05df0a35229e91e8e93def7 8c0e6ecaaadc0ce64071c53fb8a65ef2d65d82e2 a4671132282a753583d3bd9726cf83c72a5d889c a48afcca59ef373bbf93c3b8ec7210e1693ab32c cc759370e3223b60e4f67321f929b33cf83efc5d
+
 Package: i3-next-workspace
 Version: 1.0.1-1-1regolith-1629954582
 Architecture: amd64
