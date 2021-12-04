@@ -1,7 +1,6 @@
 ayu-theme master ac812de
 fonts-jetbrains-mono master 6fe0e76
 fonts-materialdesignicons-webfont master 72e4dfc
-i3-gaps-wm main 248bf436
 i3-next-workspace main cb469ba
 i3-snapshot master 5135c86
 i3-wm next bf425ae9
