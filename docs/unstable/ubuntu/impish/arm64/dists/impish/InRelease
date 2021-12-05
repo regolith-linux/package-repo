@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: impish
+Date: Sun, 05 Dec 2021 22:37:58 UTC
+Architectures: arm64
+Components: main
+Description: Regolith packages for Ubuntu Impish
+MD5Sum:
+ 0d25578066e16db757d9e59f15438cbe 3985 main/binary-arm64/Packages
+ dd0ad10495ca262f7ae562fa9fbbffa5 1795 main/binary-arm64/Packages.gz
+ a2cea3d76d26226d2adfc8e4d6c63fd4 167 main/binary-arm64/Release
+ 74713fc662fdac8c8a40e98c3b3de1a8 52219 main/source/Sources
+ 84e717fdd46351b9f3715ec5f9b722da 13160 main/source/Sources.gz
+ bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
+SHA1:
+ af1beb185692e60e872389fc2876a14965d6166d 3985 main/binary-arm64/Packages
+ cb78bd7d9a8592b646fc23599b37b250fe6f9d7d 1795 main/binary-arm64/Packages.gz
+ 27be168726efed96ba0e20c9a5c5f149de8e2303 167 main/binary-arm64/Release
+ 65599ba1d68465966dd1fba13504f461e8aa6e98 52219 main/source/Sources
+ eee9f20df1ff3bcd274e29f53dbbfac2fbc25fba 13160 main/source/Sources.gz
+ 6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
+SHA256:
+ 05f2a7029c8f807a4685cad8d07c241d59d1c473cc77e5fb8149a1c32fc1a294 3985 main/binary-arm64/Packages
+ 157c0998c0fba691113e04421b350060840f85e3f174e21cd2a92e890ddd3fc4 1795 main/binary-arm64/Packages.gz
+ bd4dfd248cbc5c1114605ac38a7175fe56bbd5d655fb64655fabd0827849fc59 167 main/binary-arm64/Release
+ df13c3456f7a4927880325f5389cd0558538d1d9bf6ed4a7f2daadb0dedb36b8 52219 main/source/Sources
+ 7c1c68542b44f2c4b488d84e757de5248c04836e33921e6d900f0c2b17ab96fa 13160 main/source/Sources.gz
+ 5e17064a3e245f7ab2a09450cb5abbc2693d5da6b2e120960f23299ef1a79592 168 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmGtP0YACgkQv+cXZJpc
+PQiH5wv9F6GEaHGYkR/ncmLqOE/m3Clc+DpUa1SO5XwsnPo4zp/KhDk0g2nx/Unj
+dlJnypXtmuKeEL6uDiYX7RIaaOPteS6j6jCZr2F/EANaYjVGcWRTTS4YxKcRTFtY
+cjF4X4wL7/G9V6Dr7q5fDStIADqtE+drhkpovvA7Of2SyLp3nTdIby7FYPHFxhxH
+uebmPndoiDYx7tDYTcTTEH7IrtZ6mHcmogfzlcsfHXCeDJbBXfak9DRUifdGRV7l
+luTPWpgPs9/8Lvi1j9G7wZfGrKIzI+BEoD6KG5e1JVtpbGVq3uZ1/CtPJ/3Nd9Gz
+84YSWVKlzgP1JRq2C22RK/VrwXlDqaHTwbbSMnbQyKBRHGutJWnv2sBLwsQZfGPR
+bcd4/+zv6NRaAOdXT8aiktWX1j/XnO4E1KW2hk9ApRUKnm544lNLs2mlomo6Hfnh
+EQX0gff7+9mg8dJbeFQGLRSrHWBA4pDffczFwByKDJ0u9/DxSuZkEuHqDGdgCsvd
+T5HUixZs
+=3hzt
+-----END PGP SIGNATURE-----
