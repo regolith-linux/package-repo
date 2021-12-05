@@ -1,0 +1,28 @@
+name: Build Debian
+
+on:
+  push:
+    branches: master
+    paths:
+      - 'regolith-2.0-package-model.json'
+      - '.github/workflows/debian.yml'
+      - 'distros/debian/*'
+  repository_dispatch:
+  workflow_dispatch:
+
+jobs:
+  call-workflow-passing-data:
+    runs-on: ubuntu-20.04
+      strategy:
+        max-parallel: 1
+        matrix:
+          codename: [buster, bullseye]
+          arch: [amd64, arm64]
+    uses: regolith-linux/package-repo/.github/workflows/build-pkg-workflow@master
+    with:
+      model-path: regolith-2.0-package-model.json
+      distro-name: debian
+      codename: ${{ matrix.codename }}
+      arch: ${{ matrix.arch }}
+    secrets:
+      PACKAGE_PRIVATE_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}

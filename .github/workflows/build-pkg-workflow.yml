@@ -1,0 +1,86 @@
+name: Build Package
+
+on:
+  workflow_call:
+    inputs:
+      model-path:
+        required: true
+        type: string
+      distro-name:
+        required: true
+        type: string
+      codename:
+        required: true
+        type: string
+      arch:
+        required: true
+        type: string
+    secrets:
+      PACKAGE_PRIVATE_KEY:
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Set Job Parameters
+        id: init
+        env:
+          DISTRO: ${{ inputs.distro-name }}
+          CODENAME: ${{ inputs.codename }}
+          PACKAGE_MODEL: ${{ inputs.model-path }}
+          CPU_ARCH: ${{ matrix.arch }}
+        run: |
+          echo ::set-output name=codename::${{ env.CODENAME }}
+          echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
+          echo ::set-output name=manifest_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}-manifest.txt"
+          echo ::set-output name=setup_script_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/setup.sh"
+          echo ::set-output name=repo_root::"./docs/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CPU_ARCH }}"
+          echo ::set-output name=root_model_path::"${{ env.PACKAGE_MODEL }}"
+      - uses: actions/checkout@v2
+      - name: Optional Setup
+        run: |
+          if [[ -f ${{ steps.init.outputs.setup_script_path }} ]]; then
+            echo "Running custom script ${{ steps.init.outputs.setup_script_path }}"
+            source ${{ steps.init.outputs.setup_script_path }}
+          fi
+      - id: generate-model-manifest
+        name: Generate Model and Manifest
+        uses: kgilmer/build-model-manifest-action@v0.5
+        with:
+          common-model-path: ${{ steps.init.outputs.root_model_path }}
+          custom-model-path: ${{ steps.init.outputs.model_path }}
+          generated-manifest-path: ${{ steps.init.outputs.manifest_path }}
+          generated-model-path: /tmp/model.json
+      - id: git-changes
+        name: Check for Changes
+        uses: kgilmer/simple-git-has-changes-action@v0.3
+      - id: find-changed-packages
+        name: Find changed packages
+        run: |
+          PKG_LIST=$(git diff --diff-filter=AM | grep '^[+|-][^+|-]' | cut -d" " -f1 | cut -c2- | uniq | sort)
+          echo ::set-output name=package_build_list::$PKG_LIST
+          echo "Updated packages: $PKG_LIST"
+      - name: Update Repo
+        if: steps.git-changes.outputs.changed == 1
+        uses: kgilmer/ingest-debian-reprepro-action@v0.8
+        with: 
+          package-model-path: /tmp/model.json
+          repo-root: ${{ steps.init.outputs.repo_root }}
+          builder-email: regolith.linux@gmail.com
+          builder-name: Regolith Linux
+          repo-codename: ${{ steps.init.outputs.codename }}
+          private-key: ${{ secrets.PACKAGE_PRIVATE_KEY }}
+          package-arch: ${{ matrix.arch }},all
+          package-list: ${{ steps.find-changed-packages.outputs.package_build_list }}
+      - name: Commit Files
+        if: steps.git-changes.outputs.changed == 1
+        run: |      
+            git pull
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"            
+            git add ${{ steps.init.outputs.repo_root }}/*
+            git add ${{ steps.init.outputs.manifest_path }}
+            git commit -am "Automated repo update"
+            git pull --rebase
+            git push origin master
