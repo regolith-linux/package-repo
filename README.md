@@ -4,7 +4,7 @@ This repository hosts repositories containing Regolith packages for Ubuntu and D
 
 ## Status
 
-This repository and the packages it hosts are in active development.  We appriciate bug reports if issues are found.  If you are looking for the stable or release version of Regolith go to https://regolith-linux.org/download.
+This repository and the packages it hosts are in active development.  We appreciate bug reports if issues are found.  If you are looking for the stable or release version of Regolith go to https://regolith-linux.org/download.
 
 ## How To Install Packages - Debian and Ubuntu
 
