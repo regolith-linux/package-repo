@@ -18,7 +18,7 @@ jobs:
       matrix:
         codename: [buster, bullseye]
         arch: [amd64, arm64]
-    uses: regolith-linux/package-repo/.github/workflows/build-pkg-workflow@master
+    uses: regolith-linux/package-repo/.github/workflows/build-pkg-workflow.yml@master
     with:
       model-path: regolith-2.0-package-model.json
       distro-name: debian
