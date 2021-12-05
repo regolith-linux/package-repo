@@ -29,7 +29,7 @@ jobs:
           DISTRO: ${{ inputs.distro-name }}
           CODENAME: ${{ inputs.codename }}
           PACKAGE_MODEL: ${{ inputs.model-path }}
-          CPU_ARCH: ${{ matrix.arch }}
+          CPU_ARCH: ${{ inputs.arch }}
         run: |
           echo ::set-output name=codename::${{ env.CODENAME }}
           echo ::set-output name=model_path::"./distros/${{ env.DISTRO }}/${{ env.CODENAME }}/${{ env.CODENAME }}-model.json"
@@ -71,7 +71,7 @@ jobs:
           builder-name: Regolith Linux
           repo-codename: ${{ steps.init.outputs.codename }}
           private-key: ${{ secrets.PACKAGE_PRIVATE_KEY }}
-          package-arch: ${{ matrix.arch }},all
+          package-arch: ${{ inputs.arch }},all
           package-list: ${{ steps.find-changed-packages.outputs.package_build_list }}
       - name: Commit Files
         if: steps.git-changes.outputs.changed == 1
