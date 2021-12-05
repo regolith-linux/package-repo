@@ -6,6 +6,15 @@ This repository hosts repositories containing Regolith packages for Ubuntu and D
 
 This repository and the packages it hosts are in active development.  We appreciate bug reports if issues are found.  If you are looking for the stable or release version of Regolith go to https://regolith-linux.org/download.
 
+## Terms
+
+* `distro` - A global-level name referring to a Linux distribution (eg: `debian`, `slack`)
+* `codename` - The name of a given release of a distro (eg: `focal`, `bullseye`)
+* `arch` - The system architecture of target machines (eg: `amd64`, `arm64`)
+* `stage` - May be one of `unstable`, `testing`, `release`. Modeled from [Debian releases](https://www.debian.org/releases/).
+* `repository` - A collection of packages for a given `distro`+`codename`+`arch`+`stage`
+* `manifest` - A file containing lists of built package touples of (`package name`, `source ref`, `commit id`)
+
 ## How To Install Packages - Debian and Ubuntu
 
 ### Add Regolith's Public Key to local Apt
