@@ -3,7 +3,7 @@ name: Build Package Workflow
 on:
   workflow_call:
     inputs:
-      model-path:
+      model-name:
         required: true
         type: string
       distro-name:
@@ -31,7 +31,7 @@ jobs:
         env:
           DISTRO: ${{ inputs.distro-name }}
           CODENAME: ${{ inputs.codename }}
-          PACKAGE_MODEL: ${{ inputs.model-path }}
+          PACKAGE_MODEL: ${{ inputs.model-name }}
           CPU_ARCH: ${{ inputs.arch }}
           STAGE: ${{ inputs.stage }}
         run: |

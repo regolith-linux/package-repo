@@ -1,0 +1,25 @@
+name: Ubuntu Impish arm64 unstable
+
+on:
+  push:
+    branches: master
+    paths:
+      - 'stages/unstable/*'
+      - '.github/workflows/build-debian.yml'
+      - '.github/workflows/build-pkg-workflow.yml'
+      - 'distros/debian/bullseye/bullseye-model.yml'
+      - 'distros/debian/bullseye/setup.sh'
+  repository_dispatch:
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: regolith-linux/package-repo/.github/workflows/build-pkg-workflow.yml@master
+    with:
+      model-name: regolith-2.0-package-model.json
+      distro-name: ubuntu
+      codename: impish
+      arch: arm64
+      stage: unstable
+    secrets:
+      PACKAGE_PRIVATE_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}
