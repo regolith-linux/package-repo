@@ -11,18 +11,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-workflow-passing-data:
-    runs-on: ubuntu-20.04
-    strategy:
-      max-parallel: 1
-      matrix:
-        codename: [buster, bullseye]
-        arch: [amd64, arm64]
+  build:
     uses: regolith-linux/package-repo/.github/workflows/build-pkg-workflow.yml@master
     with:
       model-path: regolith-2.0-package-model.json
       distro-name: debian
-      codename: ${{ matrix.codename }}
-      arch: ${{ matrix.arch }}
+      codename: bullseye
+      arch: amd64
     secrets:
       PACKAGE_PRIVATE_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}
