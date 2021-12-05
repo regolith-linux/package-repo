@@ -1,4 +1,4 @@
-name: Build Debian
+name: Debian Bullseye amd64
 
 on:
   push:
