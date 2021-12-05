@@ -1,12 +1,12 @@
-name: Debian Bullseye amd64
+name: Debian Bullseye amd64 unstable
 
 on:
   push:
     branches: master
     paths:
-      - 'regolith-2.0-package-model.json'
-      - '.github/workflows/debian.yml'
-      - 'distros/debian/*'
+      - 'stages/unstable/*'
+      - '.github/workflows/build-debian.yml'
+      - 'distros/debian/**'
   repository_dispatch:
   workflow_dispatch:
 
@@ -18,5 +18,6 @@ jobs:
       distro-name: debian
       codename: bullseye
       arch: amd64
+      stage: unstable
     secrets:
       PACKAGE_PRIVATE_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}
