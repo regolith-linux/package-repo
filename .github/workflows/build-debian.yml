@@ -6,7 +6,9 @@ on:
     paths:
       - 'stages/unstable/*'
       - '.github/workflows/build-debian.yml'
-      - 'distros/debian/**'
+      - '.github/workflows/build-pkg-workflow.yml'
+      - 'distros/debian/bullseye/bullseye-model.yml'
+      - 'distros/debian/bullseye/setup.sh'
   repository_dispatch:
   workflow_dispatch:
 
