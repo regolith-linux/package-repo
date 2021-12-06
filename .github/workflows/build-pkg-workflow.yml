@@ -27,7 +27,6 @@ jobs:
     runs-on: ubuntu-20.04
     concurrency: 
       group: package-build
-      cancel-in-progress: true
     steps:
       - name: Set Job Parameters
         id: init
