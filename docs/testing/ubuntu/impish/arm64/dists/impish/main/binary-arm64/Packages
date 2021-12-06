@@ -1,0 +1,91 @@
+Package: fonts-jetbrains-mono
+Version: 1.0.1-1regolith1-1regolith-1638775486
+Architecture: all
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3848
+Multi-Arch: foreign
+Homepage: https://jetbrains.com/lp/mono
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1638775486_all.deb
+Size: 420184
+SHA256: ad76236d9d5cf8aba755eaa0cfafbd4c604e09a723fa7c1c9e31a8ab2d96892d
+SHA1: 3c52d5c2a31ce4900c1a0167093dc806e9af97a7
+MD5sum: 634035398d9a646518304f03bf139bbc
+Description: Jetbrains Monon Typeface
+ See https://www.jetbrains.com/lp/mono/
+ .
+ The packaging is informal. I do not plan to upload this to Debian as
+ I am unsure about the copyright status of the toolchain. The
+ packaging also a somewhat hackish shortcut by extracting the files
+ from the released file obtained from the github repo.
+ .
+ I would be happy for another maintainer (or the fonts team) to take
+ it over as well.
+
+Package: fonts-materialdesignicons-webfont
+Version: 1.6.50-3regolith1-1regolith-1638775498
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 2781
+Multi-Arch: foreign
+Homepage: https://github.com/Templarian/MaterialDesign-Webfont
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1638775498_all.deb
+Size: 552612
+SHA256: cb097db4cab9afcbac0017c46e5cbe5e38efa746a1343a0fb61b4760b8508d48
+SHA1: ae01714154f410326231868a04deaa16a4f24d14
+MD5sum: d50f700c7284f33ce19188e4069b2fec
+Description: font containing Material Design Icons
+ Material Design Icons' growing icon collection allows designers and developers
+ targeting various platforms to download icons in the format, color and size
+ they need for any project. This font contains icons form this collection.
+ .
+ This package also provides Css, Scss and LESS files to use webfonts from this
+ package.
+
+Package: plymouth-theme-regolith-logo
+Source: plymouth-theme-regolith
+Version: 1.1.3-1ubuntu1-1regolith-1638775701
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 191
+Depends: plymouth, plymouth-label
+Breaks: plymouth (<< 0.9.2-3ubuntu1~)
+Provides: plymouth-theme
+Priority: optional
+Section: misc
+Filename: pool/main/p/plymouth-theme-regolith/plymouth-theme-regolith-logo_1.1.3-1ubuntu1-1regolith-1638775701_all.deb
+Size: 82652
+SHA256: b050c12bd0246b47fd915d90fdb5775ddab93a6a3c84fff39bab3b1667d89072
+SHA1: 1ea6a1a7c11a985b78dd5ab7f492cb0cae8562f3
+MD5sum: 2f54104915a9886f11817edea4fdff71
+Description: boot animation, logger and I/O multiplexer - Regolith theme
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+
+Package: ubiquity-slideshow-regolith
+Version: 168.6-regolith1-1regolith-1638775939
+Architecture: all
+Maintainer: Ubiquity Slideshow Team <ubiquity-slideshow@lists.launchpad.net>
+Installed-Size: 761
+Conflicts: ubiquity-slideshow
+Replaces: ubiquity-slideshow
+Provides: ubiquity-artwork-20.04.15.11, ubiquity-artwork-20.04.15.12, ubiquity-artwork-21.04.19, ubiquity-slideshow
+Homepage: https://launchpad.net/ubiquity-slideshow-ubuntu
+Priority: optional
+Section: x11
+Filename: pool/main/u/ubiquity-slideshow-regolith/ubiquity-slideshow-regolith_168.6-regolith1-1regolith-1638775939_all.deb
+Size: 348232
+SHA256: a64e2ea5c09a2a2ff097d6612ed399a27b698348f8593b1b87f9674c7a5650fa
+SHA1: 2f135ddc028384c6161f0c549cfdad0b098a2f84
+MD5sum: c1d1d14cdcbdf40a52ded17c739713fc
+Description: Ubiquity slideshow for Regolith
+ A slideshow intended for the Ubiquity installer, designed as a quick
+ introduction to Regolith.
+
