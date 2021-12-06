@@ -1,4 +1,4 @@
-name: Debian Bullseye arm64 unstable
+name: unstable debian bullseye arm64
 
 on:
   push:

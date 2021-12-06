@@ -1,4 +1,4 @@
-name: Ubuntu Focal amd64 testing
+name: testing ubuntu focal amd64
 
 on:
   push:

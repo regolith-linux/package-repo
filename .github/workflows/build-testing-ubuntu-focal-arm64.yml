@@ -1,4 +1,4 @@
-name: Ubuntu Focal arm64 testing
+name: testing ubuntu focal arm64
 
 on:
   push:

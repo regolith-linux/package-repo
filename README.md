@@ -13,7 +13,7 @@ This repository and the packages it hosts are in active development.  We appreci
 * `arch` - The system architecture of target machines (eg: `amd64`, `arm64`)
 * `stage` - May be one of `unstable`, `testing`, `release`. Modeled from [Debian releases](https://www.debian.org/releases/).
 * `repository` - A collection of packages for a given `distro`+`codename`+`arch`+`stage`
-* `manifest` - A file containing lists of built package touples of (`package name`, `source ref`, `commit id`)
+* `manifest` - A file containing lists of built package sets of: `<package name> <source ref> <commit id>`
 
 ## How To Install Packages - Debian and Ubuntu
 

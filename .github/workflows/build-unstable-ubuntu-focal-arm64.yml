@@ -1,4 +1,4 @@
-name: Ubuntu Focal arm64 unstable
+name: unstable ubuntu focal arm64
 
 on:
   push:

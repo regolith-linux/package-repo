@@ -1,4 +1,4 @@
-name: Ubuntu Impish arm64 testing
+name: testing ubuntu impish arm64
 
 on:
   push:

@@ -1,4 +1,4 @@
-name: Debian Bullseye amd64 testing
+name: testing debian bullseye amd64
 
 on:
   push:
