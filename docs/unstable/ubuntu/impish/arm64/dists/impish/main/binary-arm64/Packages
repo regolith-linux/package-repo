@@ -1,5 +1,5 @@
 Package: fonts-jetbrains-mono
-Version: 1.0.1-1regolith1-1regolith-1638743388
+Version: 1.0.1-1regolith1-1regolith-1638774760
 Architecture: all
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Installed-Size: 3848
@@ -7,11 +7,11 @@ Multi-Arch: foreign
 Homepage: https://jetbrains.com/lp/mono
 Priority: optional
 Section: fonts
-Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1638743388_all.deb
-Size: 420008
-SHA256: e7b29b477ddee8f18e16124601ddde10225b295d504f01de1de339247eb98b3d
-SHA1: bca1ba9c875127dc5c47fdcfbf283e02862d5884
-MD5sum: 42695d29cb12e0d0e59f46f6ed0e4162
+Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1638774760_all.deb
+Size: 419928
+SHA256: 7ecaf55078a6455211c5be8369c47f0af17a7e8d966ee0f05841a1b0bed98e8f
+SHA1: 5e0a80d20a873cd026349acac6d23194d49edb1d
+MD5sum: a3ba7d8a4c2eb079f2332b3668134857
 Description: Jetbrains Monon Typeface
  See https://www.jetbrains.com/lp/mono/
  .
@@ -24,7 +24,7 @@ Description: Jetbrains Monon Typeface
  it over as well.
 
 Package: fonts-materialdesignicons-webfont
-Version: 1.6.50-3regolith1-1regolith-1638743399
+Version: 1.6.50-3regolith1-1regolith-1638774771
 Architecture: all
 Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
 Installed-Size: 2781
@@ -32,11 +32,11 @@ Multi-Arch: foreign
 Homepage: https://github.com/Templarian/MaterialDesign-Webfont
 Priority: optional
 Section: fonts
-Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1638743399_all.deb
-Size: 552772
-SHA256: bc21a14bd847fcfca14d8616c2b16f28806e3cae13a0de74c4bdd8cc240dbccf
-SHA1: d2282bff7d99adf407adbe3819338a2592759f89
-MD5sum: b2bbf4f0659f08f8f303efa41c98ec32
+Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1638774771_all.deb
+Size: 552796
+SHA256: 0358e6fa5328072335419cb31ef09b39c278b9f9eaa4569fc2c4735b26577ed2
+SHA1: 080a3f044dfba8091c41cb2827d4b069ec672024
+MD5sum: 309cde62dcdf6ebef50714276206cd1b
 Description: font containing Material Design Icons
  Material Design Icons' growing icon collection allows designers and developers
  targeting various platforms to download icons in the format, color and size
@@ -47,7 +47,7 @@ Description: font containing Material Design Icons
 
 Package: plymouth-theme-regolith-logo
 Source: plymouth-theme-regolith
-Version: 1.1.3-1ubuntu1-1regolith-1638743587
+Version: 1.1.3-1ubuntu1-1regolith-1638774963
 Architecture: all
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 191
@@ -56,11 +56,11 @@ Breaks: plymouth (<< 0.9.2-3ubuntu1~)
 Provides: plymouth-theme
 Priority: optional
 Section: misc
-Filename: pool/main/p/plymouth-theme-regolith/plymouth-theme-regolith-logo_1.1.3-1ubuntu1-1regolith-1638743587_all.deb
-Size: 82652
-SHA256: b016cdf17d2f22258c48d08e608f936f8ed2d3c7f622b3895191ab14288bd50f
-SHA1: 7a7bf3a65795c8968ee9782aa74eb645af19f091
-MD5sum: cfb5ee3f4641757b9aba4302bd441f77
+Filename: pool/main/p/plymouth-theme-regolith/plymouth-theme-regolith-logo_1.1.3-1ubuntu1-1regolith-1638774963_all.deb
+Size: 82664
+SHA256: dfb2248f706ad97c7379c8b460ce29f307e95d47071342b3011909c4211e4131
+SHA1: 31b75f50de25ead8a3a690e653a39e392ae51237
+MD5sum: b36c109b334dce354560605ed7c2ef78
 Description: boot animation, logger and I/O multiplexer - Regolith theme
  Plymouth provides a boot-time I/O multiplexing framework - the most obvious
  use for which is to provide an attractive graphical animation in place of
@@ -70,7 +70,7 @@ Description: boot animation, logger and I/O multiplexer - Regolith theme
  password prompts for encrypted file systems.
 
 Package: ubiquity-slideshow-regolith
-Version: 168.6-regolith1-1regolith-1638743809
+Version: 168.6-regolith1-1regolith-1638775184
 Architecture: all
 Maintainer: Ubiquity Slideshow Team <ubiquity-slideshow@lists.launchpad.net>
 Installed-Size: 761
@@ -80,11 +80,11 @@ Provides: ubiquity-artwork-20.04.15.11, ubiquity-artwork-20.04.15.12, ubiquity-a
 Homepage: https://launchpad.net/ubiquity-slideshow-ubuntu
 Priority: optional
 Section: x11
-Filename: pool/main/u/ubiquity-slideshow-regolith/ubiquity-slideshow-regolith_168.6-regolith1-1regolith-1638743809_all.deb
-Size: 348192
-SHA256: 5d90e6b37e2689611283fe93356fe3d292fbc9676084c1ca1aa939389a3b1d7b
-SHA1: fe7bdade5c3b7927ee566951ad947ca0facacbf3
-MD5sum: 16cfd9d43c8fca0ed7a4efde6ca0e9f2
+Filename: pool/main/u/ubiquity-slideshow-regolith/ubiquity-slideshow-regolith_168.6-regolith1-1regolith-1638775184_all.deb
+Size: 348236
+SHA256: 70a4c264b3a7457b8e3f07b9dd409f1306c68b6482faca45afcdc3bffa8b138d
+SHA1: 7398a51a2bae8efab5a5826ee776f7ab953fe0d5
+MD5sum: 5d5ffc0dd02e1769834095b0f715c6a0
 Description: Ubiquity slideshow for Regolith
  A slideshow intended for the Ubiquity installer, designed as a quick
  introduction to Regolith.
