@@ -7,8 +7,8 @@ on:
       - 'stages/unstable/*'
       - '.github/workflows/build-debian.yml'
       - '.github/workflows/build-pkg-workflow.yml'
-      - 'distros/debian/bullseye/bullseye-model.yml'
-      - 'distros/debian/bullseye/setup.sh'
+      - 'distros/ubuntu/impish/impish-model.yml'
+      - 'distros/ubuntu/impish/setup.sh'
   repository_dispatch:
   workflow_dispatch:
 

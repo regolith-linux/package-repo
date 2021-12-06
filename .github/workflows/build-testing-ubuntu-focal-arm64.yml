@@ -1,14 +1,14 @@
-name: Ubuntu Impish amd64 unstable
+name: Ubuntu Focal arm64 testing
 
 on:
   push:
     branches: master
     paths:
-      - 'stages/unstable/*'
+      - 'stages/testing/*'
       - '.github/workflows/build-debian.yml'
       - '.github/workflows/build-pkg-workflow.yml'
-      - 'distros/ubuntu/impish/impish-model.yml'
-      - 'distros/ubuntu/impish/setup.sh'
+      - 'distros/ubuntu/focal/focal-model.yml'
+      - 'distros/ubuntu/focal/setup.sh'
   repository_dispatch:
   workflow_dispatch:
 
@@ -18,8 +18,8 @@ jobs:
     with:
       model-name: regolith-2.0-package-model.json
       distro-name: ubuntu
-      codename: impish
-      arch: amd64
-      stage: unstable
+      codename: focal
+      arch: arm64
+      stage: testing
     secrets:
       PACKAGE_PRIVATE_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}
