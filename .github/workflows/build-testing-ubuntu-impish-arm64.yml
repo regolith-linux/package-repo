@@ -7,7 +7,7 @@ on:
       - 'stages/testing/*'
       - '.github/workflows/build-debian.yml'
       - '.github/workflows/build-pkg-workflow.yml'
-      - 'distros/ubuntu/impish/bullseye-model.yml'
+      - 'distros/ubuntu/impish/impish-model.yml'
       - 'distros/ubuntu/impish/setup.sh'
   repository_dispatch:
   workflow_dispatch:
@@ -20,6 +20,6 @@ jobs:
       distro-name: ubuntu
       codename: impish
       arch: arm64
-      stage: unstable
+      stage: testing
     secrets:
       PACKAGE_PRIVATE_KEY: ${{ secrets.PACKAGE_PRIVATE_KEY }}

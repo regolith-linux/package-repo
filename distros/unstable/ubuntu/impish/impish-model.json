@@ -1,0 +1,16 @@
+{
+    "packages": {
+        "regolith-distro-ubuntu": {
+            "source": "https://github.com/regolith-linux/regolith-distro-ubuntu.git",
+            "branch": "main"
+        },
+        "plymouth-theme-regolith": {
+            "source": "https://github.com/regolith-linux/plymouth-theme-regolith.git",
+            "branch": "master"
+        },
+        "ubiquity-slideshow-regolith": {
+            "source": "https://github.com/regolith-linux/ubiquity-slideshow-regolith.git",
+            "branch": "master"
+        }
+    }
+}

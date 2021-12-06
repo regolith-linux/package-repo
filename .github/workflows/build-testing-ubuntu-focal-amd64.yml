@@ -7,7 +7,7 @@ on:
       - 'stages/testing/*'
       - '.github/workflows/build-debian.yml'
       - '.github/workflows/build-pkg-workflow.yml'
-      - 'distros/ubuntu/focal/bullseye-model.yml'
+      - 'distros/ubuntu/focal/focal-model.yml'
       - 'distros/ubuntu/focal/setup.sh'
   repository_dispatch:
   workflow_dispatch:
