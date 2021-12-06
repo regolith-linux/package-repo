@@ -5,7 +5,7 @@ on:
     branches: master
     paths:
       - 'stages/unstable/**'
-      - '.github/workflows/build-debian.yml'
+      - '.github/workflows/build-unstable-debian-bullseye-amd64.yml'
       - '.github/workflows/build-pkg-workflow.yml'
       - 'distros/debian/bullseye/bullseye-model.yml'
       - 'distros/debian/bullseye/setup.sh'

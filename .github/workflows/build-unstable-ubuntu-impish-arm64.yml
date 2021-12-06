@@ -5,7 +5,7 @@ on:
     branches: master
     paths:
       - 'stages/unstable/**'
-      - '.github/workflows/build-debian.yml'
+      - '.github/workflows/build-unstable-ubuntu-impish-arm64.yml'
       - '.github/workflows/build-pkg-workflow.yml'
       - 'distros/ubuntu/impish/impish-model.yml'
       - 'distros/ubuntu/impish/setup.sh'
