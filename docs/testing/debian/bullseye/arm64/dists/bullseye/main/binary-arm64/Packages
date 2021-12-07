@@ -1,0 +1,96 @@
+Package: fonts-jetbrains-mono
+Version: 1.0.1-1regolith1-1regolith-1638854501
+Architecture: all
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Installed-Size: 3848
+Multi-Arch: foreign
+Homepage: https://jetbrains.com/lp/mono
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-jetbrains-mono/fonts-jetbrains-mono_1.0.1-1regolith1-1regolith-1638854501_all.deb
+Size: 420344
+SHA256: d2e7fbda936c7427832a0e9b1465558181cf8efb880e50d922a51b567e933545
+SHA1: 3cc708af5b5b875738b786c3be7402d7910448b0
+MD5sum: 7f103e1ff61a766b0d6c8882eab6709f
+Description: Jetbrains Monon Typeface
+ See https://www.jetbrains.com/lp/mono/
+ .
+ The packaging is informal. I do not plan to upload this to Debian as
+ I am unsure about the copyright status of the toolchain. The
+ packaging also a somewhat hackish shortcut by extracting the files
+ from the released file obtained from the github repo.
+ .
+ I would be happy for another maintainer (or the fonts team) to take
+ it over as well.
+
+Package: fonts-materialdesignicons-webfont
+Version: 1.6.50-3regolith1-1regolith-1638854514
+Architecture: all
+Maintainer: Debian OpenStack <team+openstack@tracker.debian.org>
+Installed-Size: 2781
+Multi-Arch: foreign
+Homepage: https://github.com/Templarian/MaterialDesign-Webfont
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-materialdesignicons-webfont/fonts-materialdesignicons-webfont_1.6.50-3regolith1-1regolith-1638854514_all.deb
+Size: 552596
+SHA256: 3e788cf64a308314ed0fd9d2cf7b590e76cec8706cc1ae78de9f0a3fb5070d69
+SHA1: 027da250eb2cbd480f6c8fa17f267550e643e098
+MD5sum: 2b1f404cf9c097aa899464ccc8dace0b
+Description: font containing Material Design Icons
+ Material Design Icons' growing icon collection allows designers and developers
+ targeting various platforms to download icons in the format, color and size
+ they need for any project. This font contains icons form this collection.
+ .
+ This package also provides Css, Scss and LESS files to use webfonts from this
+ package.
+
+Package: libjson-glib-1.0-common
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638854712
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 455
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: libs
+Filename: pool/main/j/json-glib/libjson-glib-1.0-common_1.5.2-1-1regolith-1638854712_all.deb
+Size: 55504
+SHA256: 0de8791ed7390d88a2b22983771da6596cdfd4d893d83f09a979d2140e1f05b1
+SHA1: 39207e903b57701160fbad7091931c410682aa90
+MD5sum: fa10ca9341b804781c2900fbbef35dc0
+Description: GLib JSON manipulation library (common files)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the translations files.
+
+Package: libjson-glib-doc
+Source: json-glib
+Version: 1.5.2-1-1regolith-1638854712
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 901
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Priority: optional
+Section: doc
+Filename: pool/main/j/json-glib/libjson-glib-doc_1.5.2-1-1regolith-1638854712_all.deb
+Size: 59752
+SHA256: 32267e77766300cc3f3fe74847c0a27aec4bf484a02b496128d35890965d5ea5
+SHA1: c205eaa24fc62321dfa9003045c1291a86722c1f
+MD5sum: f11cd283519cc87151ffe9c636b5311a
+Description: GLib JSON manipulation library (documentation)
+ JSON-GLib is a library for parsing, generating and manipulating JavaScript
+ Object Notation (JSON) data streams using the GLib type system. It allows
+ manipulating JSON data types with a Document Object Model API. It also
+ allows serializing and deserializing simple or complex GObjects to and
+ from JSON data types.
+ .
+ This package contains the documentation.
+

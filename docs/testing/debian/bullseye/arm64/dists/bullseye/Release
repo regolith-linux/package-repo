@@ -1,0 +1,28 @@
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: bullseye
+Date: Tue, 07 Dec 2021 05:30:46 UTC
+Architectures: arm64
+Components: main
+Description: Regolith Debian
+MD5Sum:
+ dc6a9b15a401d273b0324cece8ddf00d 3986 main/binary-arm64/Packages
+ b258926c276cc5a9515537230d325404 1575 main/binary-arm64/Packages.gz
+ eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
+ bb341b0ed0487effbf69380bc2ffc4f9 50311 main/source/Sources
+ 9c3b4d288a772495daa44d233686ca8d 12868 main/source/Sources.gz
+ de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
+SHA1:
+ 777b3d3bb5eaa69f87b3c55d24890860dede59eb 3986 main/binary-arm64/Packages
+ dd2ce8a9c671c914d33161a80fd0bc75dbfcd3b8 1575 main/binary-arm64/Packages.gz
+ 448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
+ bbc9b5b43eadaf413a1135fa4d2eb2767d76a49a 50311 main/source/Sources
+ 2679b67ac2a62bc0fdc2265337dd2e3e21b3cf34 12868 main/source/Sources.gz
+ 450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
+SHA256:
+ 3c9f0bf597bdc048a33417477d7ba2fc5d11b3bdb72ddbe0a3f6a5458456331f 3986 main/binary-arm64/Packages
+ a40c1a48f634f3fb71478daeb3a5a7ae1b83463422377c419d31336b512c6e7f 1575 main/binary-arm64/Packages.gz
+ 663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
+ 53f715d4fa17f812b44de9524e8273335a4540a106d14df84e1fa7df0217cf4f 50311 main/source/Sources
+ 47a540eeeee122a99293d376109c68a137473d82faf5940c6144e3df8adda470 12868 main/source/Sources.gz
+ 538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
