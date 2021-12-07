@@ -22,9 +22,6 @@ on:
       PACKAGE_PRIVATE_KEY:
         required: true
 
-concurrency: 
-  group: package-build
-
 jobs:
   build:
     runs-on: ubuntu-20.04
