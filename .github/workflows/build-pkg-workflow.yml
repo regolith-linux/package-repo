@@ -22,11 +22,12 @@ on:
       PACKAGE_PRIVATE_KEY:
         required: true
 
+concurrency: 
+  group: package-build
+
 jobs:
   build:
     runs-on: ubuntu-20.04
-    concurrency: 
-      group: package-build
     steps:
       - name: Set Job Parameters
         id: init
@@ -87,6 +88,6 @@ jobs:
             git config --local user.name "GitHub Action"            
             git add ${{ steps.init.outputs.repo_root }}/*
             git add ${{ steps.init.outputs.manifest_path }}
-            git commit -am "Automated repo update"
+            git commit -am "Built ${{ steps.find-changed-packages.outputs.package_build_list }} on ${{ inputs.distro-name }} - ${{ steps.init.outputs.codename }}"
             git pull --rebase
             git push origin master
