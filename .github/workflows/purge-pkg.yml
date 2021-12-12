@@ -6,6 +6,9 @@ on:
       distro:
         description: 'Distro (debian, ubuntu)'     
         required: true
+      stage:
+        description: 'Stage (unstable, testing, release)'     
+        required: true
       package:
         description: 'Package Name'     
         required: true
@@ -29,7 +32,8 @@ jobs:
           export DEBEMAIL=regolith.linux@gmail.com
           export DEBFULLNAME="Regolith Linux"
           pkg_name=${{ github.event.inputs.package }}
-          distro=${{ github.event.inputs.distro }}   
+          distro=${{ github.event.inputs.distro }}  
+          stage=${{ github.event.inputs.stage }}   
 
           architectures=( arm64 amd64 )
 
@@ -53,10 +57,10 @@ jobs:
               for codename in "${codenames[@]}"
                 do
                   # Remove package from debian repo
-                  reprepro --basedir docs/$distro/$codename/$arch/ removesrc $codename $pkg_name
+                  reprepro --basedir docs/$stage/$distro/$codename/$arch/ removesrc $codename $pkg_name
 
                   # Remove package manifest entry (causes rebuild)
-                  sed -i /^$pkg_name[[:space:]]/d distros/$distro/$codename/${arch}-manifest.txt
+                  sed -i /^$pkg_name[[:space:]]/d distros/$stage/$distro/$codename/${arch}-manifest.txt
                 done
             done
           fi
