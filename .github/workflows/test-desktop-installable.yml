@@ -6,10 +6,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  test-ubuntu-amd64:
-    runs-on: ubuntu-20.04
+  test-ubuntu:
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        os: [ubuntu-20.04, self-hosted]
         stage: [unstable, testing ] #TODO add 'release' 
     steps:
       - name: setup
