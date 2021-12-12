@@ -6,7 +6,7 @@ on:
     paths:
       - 'stages/testing/**'
       - '.github/workflows/build-testing-debian-bullseye-arm64.yml'
-      - '.github/workflows/build-pkg-workflow.yml'
+      - '.github/workflows/build-pkg-workflow-amd64.yml'
       - 'distros/debian/bullseye/bullseye-model.yml'
       - 'distros/debian/bullseye/setup.sh'
   repository_dispatch:

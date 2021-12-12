@@ -6,7 +6,7 @@ on:
     paths:
       - 'stages/unstable/**'
       - '.github/workflows/build-unstable-ubuntu-focal-amd64.yml'
-      - '.github/workflows/build-pkg-workflow.yml'
+      - '.github/workflows/build-pkg-workflow-amd64.yml'
       - 'distros/ubuntu/focal/focal-model.yml'
       - 'distros/ubuntu/focal/setup.sh'
   repository_dispatch:
@@ -14,7 +14,7 @@ on:
 
 jobs:
   build:
-    uses: regolith-linux/package-repo/.github/workflows/build-pkg-workflow.yml@master
+    uses: regolith-linux/package-repo/.github/workflows/build-pkg-workflow-arm64.yml@master
     with:
       model-name: regolith-2.0-package-model.json
       distro-name: ubuntu
