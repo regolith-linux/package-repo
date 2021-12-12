@@ -68,6 +68,14 @@ For build host mutation, if the file `setup.sh` ([example](distros/release/debia
 | `/docs` | The HTTP root of the package archive, hosted by GitHub Pages |
 | `/.github/workflows` | The build system.  Start at build-pkg-workflow.yml |
 
+##### Build Triggers
+
+Package builds are launched via GitHub workflow triggers.  The following events are supported:
+* Check manifest and build new packages upon
+  * Git repo push to `master`
+  * Manually start build via `Actions` tab
+  * Repository notification event. 1P packages specify GitHub workflows that signal `package-repo` of a change. ([example](https://github.com/regolith-linux/regolith-desktop/blob/master/.github/workflows/pkg-change-broadcast.yml))
+
 ### HOWTO
 
 #### Implement a Package Builder
