@@ -24,7 +24,7 @@ on:
 
 jobs:
   build:
-    runs-on: rabbit
+    runs-on: [self-hosted, Linux, ARM64]
     steps:
       - name: Set Job Parameters
         id: init
