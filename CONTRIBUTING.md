@@ -45,9 +45,18 @@ For the case that changes are found, for each package that has changed is built 
 
 #### Praxis
 
-An "abstract" [GitHub workflow](https://github.com/regolith-linux/package-repo/blob/master/.github/workflows/build-pkg-workflow.yml) implements the abstract execution of manifest generation, diff checking, package building, and committing those changes back to the repo.  The workflow delegates to discrete, independent actions ([manifest generation](https://github.com/kgilmer/build-model-manifest-action), [Debian package building](https://github.com/kgilmer/ingest-debian-reprepro-action)) to perform the package-specific logic.  This is done with the hopes that additional package formats may be added in the future.  
+An "abstract" [GitHub workflow](https://github.com/regolith-linux/package-repo/blob/master/.github/workflows/build-pkg-workflow.yml) implements the abstract execution of manifest generation, diff checking, package building, and committing those changes back to the repo.  The workflow delegates to discrete, independent actions ([manifest generation](https://github.com/kgilmer/build-model-manifest-action), [Debian package building](https://github.com/kgilmer/ingest-debian-reprepro-action)) to perform the package-specific logic. This is done with the hopes that additional package formats may be added in the future.  
 
 The abstract workflow is then used in concrete build scripts ([example](https://github.com/regolith-linux/package-repo/blob/master/.github/workflows/build-testing-debian-bullseye-arm64.yml)) that are particular to a given target OS, package format, stage, etc..
+
+##### Repo Layout
+
+|Path   |Description   |
+|---|---|
+| `/stages` | General package model per `stage` |
+| `/distros` | Distribution specific configuration and model |
+| `/docs` | The HTTP root of the package archive, hosted by GitHub Pages |
+| `/.github/workflows` | The build system.  Start at build-pkg-workflow.yml |
 
 ### HOWTO
 
