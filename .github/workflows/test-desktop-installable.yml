@@ -17,7 +17,7 @@ jobs:
           set -x
           set -e
           wget -qO - https://regolith-linux.github.io/package-repo/regolith.key | sudo apt-key add -
-          export STAGE=${{ matrix.node }} 
+          export STAGE=${{ matrix.stage }} 
           export DISTRO=ubuntu    # choose either 'ubuntu' or 'debian' here depending on system installing into
           export CODENAME=focal # choose either 'focal' or 'impish' for ubuntu or 'bullseye' for debian
           export ARCH=amd64       # choose either 'amd64' or 'arm64'
