@@ -7,8 +7,8 @@ on:
       - 'stages/testing/**'
       - '.github/workflows/build-testing-ubuntu-focal-amd64.yml'
       - '.github/workflows/build-pkg-workflow-amd64.yml'
-      - 'distros/ubuntu/focal/focal-model.yml'
-      - 'distros/ubuntu/focal/setup.sh'
+      - 'distros/testing/ubuntu/focal/focal-model.yml'
+      - 'distros/testing/ubuntu/focal/setup.sh'
   repository_dispatch:
   workflow_dispatch:
 

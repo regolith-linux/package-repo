@@ -7,8 +7,8 @@ on:
       - 'stages/unstable/**'
       - '.github/workflows/build-unstable-debian-bullseye-amd64.yml'
       - '.github/workflows/build-pkg-workflow-amd64.yml'
-      - 'distros/debian/bullseye/bullseye-model.yml'
-      - 'distros/debian/bullseye/setup.sh'
+      - 'distros/unstable/debian/bullseye/bullseye-model.yml'
+      - 'distros/unstable/debian/bullseye/setup.sh'
   repository_dispatch:
   workflow_dispatch:
 

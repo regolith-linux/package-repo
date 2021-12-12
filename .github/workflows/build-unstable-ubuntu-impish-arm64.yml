@@ -7,8 +7,8 @@ on:
       - 'stages/unstable/**'
       - '.github/workflows/build-unstable-ubuntu-impish-arm64.yml'
       - '.github/workflows/build-pkg-workflow-amd64.yml'
-      - 'distros/ubuntu/impish/impish-model.yml'
-      - 'distros/ubuntu/impish/setup.sh'
+      - 'distros/unstable/ubuntu/impish/impish-model.yml'
+      - 'distros/unstable/ubuntu/impish/setup.sh'
   repository_dispatch:
   workflow_dispatch:
 
