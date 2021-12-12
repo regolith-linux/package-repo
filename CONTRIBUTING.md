@@ -5,7 +5,7 @@ This repo provides two functions:
 1. A package builder using GitHub workflows to update the repositories when changes are available.  
 2. A package repository that uses GitHub Pages to provide HTTP access to the built packages.
 
-It can be considered a complete system for building and hosting packages for Debian-based systems.
+It can be considered a general-purpose system for building and hosting packages for Debian-based systems.
 
 ## Terms
 
@@ -48,6 +48,16 @@ For the case that changes are found, for each package that has changed is built 
 An "abstract" [GitHub workflow](https://github.com/regolith-linux/package-repo/blob/master/.github/workflows/build-pkg-workflow.yml) implements the abstract execution of manifest generation, diff checking, package building, and committing those changes back to the repo.  The workflow delegates to discrete, independent actions ([manifest generation](https://github.com/kgilmer/build-model-manifest-action), [Debian package building](https://github.com/kgilmer/ingest-debian-reprepro-action)) to perform the package-specific logic. This is done with the hopes that additional package formats may be added in the future.  
 
 The abstract workflow is then used in concrete build scripts ([example](https://github.com/regolith-linux/package-repo/blob/master/.github/workflows/build-testing-debian-bullseye-arm64.yml)) that are particular to a given target OS, package format, stage, etc..
+
+##### Customization
+
+Package builds can be customized in a few ways.  Customization is specified at the `/distro/<stage>/<distro-name>/<codename>/` level.  There are two forms of customization: module mutation and build host mutation.  In the former, a JSON file may be specified that becomes merged with the general package model before manifest generation.  This merging allows for: 
+
+1. Additional packages to be specified for a given `stage`/`distro`/`codename`.
+2. Existing packages to specify an alternate source (git url, branch, commit ref).
+3. Remove a package from the general model.  This is useful when a given distro already supplies a dependency natively.
+
+For build host mutation, if the file `setup.sh` ([example](distros/release/debian/bullseye/setup.sh)) is present in the directory it is executed on the docker build host before manifest merging begins.
 
 ##### Repo Layout
 
