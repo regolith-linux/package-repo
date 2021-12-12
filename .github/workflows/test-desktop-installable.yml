@@ -12,10 +12,14 @@ jobs:
       matrix:
         stage: [unstable, testing ] #TODO add 'release' 
     steps:
+      - name: setup
+        run: |
+          wget https://raw.githubusercontent.com/regolith-linux/package-repo/master/.github/scripts/install-regolith.sh
+          chmod u+x install-regolith.sh
       - name: install
         run: |
           set -x
           pwd
           find .
-          "${GITHUB_WORKSPACE}/.github/scripts/install-regolith.sh ${{ matrix.stage }} ubuntu focal amd64"
+          ./install-regolith.sh ${{ matrix.stage }} ubuntu focal amd64"
           
