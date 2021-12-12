@@ -1,7 +1,9 @@
 
 ## Introduction
 
-This repo provides two functions: 
+The Regolith Desktop project is consumed by users via Linux packages.  These packages are built and hosted in this repository.
+
+`package-repo` provides two functions: 
 1. A package builder using GitHub workflows to update the repositories when changes are available.  
 2. A package repository that uses GitHub Pages to provide HTTP access to the built packages.
 
