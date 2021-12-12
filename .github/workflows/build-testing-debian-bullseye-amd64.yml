@@ -14,7 +14,6 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
     uses: regolith-linux/package-repo/.github/workflows/build-pkg-workflow.yml@master
     with:
       model-name: regolith-2.0-package-model.json
