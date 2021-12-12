@@ -14,5 +14,8 @@ jobs:
     steps:
       - name: install
         run: |
+          set -x
+          pwd
+          ls "${GITHUB_WORKSPACE}/.github/scripts"
           "${GITHUB_WORKSPACE}/.github/scripts/install-regolith.sh ${{ matrix.stage }} ubuntu focal amd64"
           
