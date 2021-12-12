@@ -20,5 +20,10 @@ jobs:
       - name: install
         run: |
           set -x
-          ./install-regolith.sh ${{ matrix.stage }} ubuntu focal amd64
+          if [ ${{ matrix.os }} == "self-hosted" ]; then
+            ARCH=arm64
+          else
+            ARCH=amd64
+          fi            
+          ./install-regolith.sh ${{ matrix.stage }} ubuntu focal $ARCH
           
