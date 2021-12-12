@@ -16,6 +16,6 @@ jobs:
         run: |
           set -x
           pwd
-          ls "${GITHUB_WORKSPACE}/.github/scripts"
+          find .
           "${GITHUB_WORKSPACE}/.github/scripts/install-regolith.sh ${{ matrix.stage }} ubuntu focal amd64"
           
