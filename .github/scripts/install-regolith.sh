@@ -12,3 +12,4 @@ wget -qO - https://regolith-linux.github.io/package-repo/regolith.key | sudo apt
 echo "deb [arch=amd64] https://regolith-linux.github.io/package-repo/$STAGE/$DISTRO/$CODENAME/$ARCH $CODENAME main" | sudo tee /etc/apt/sources.list.d/regolith.list
 sudo apt update
 sudo apt install -y regolith-desktop
+sudo rm /etc/apt/sources.list.d/regolith.list
