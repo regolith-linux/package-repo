@@ -1,0 +1,28 @@
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: focal
+Date: Mon, 13 Dec 2021 06:00:32 UTC
+Architectures: arm64
+Components: main
+Description: Regolith packages for Ubuntu Focal
+MD5Sum:
+ 83cc31f47a3d58a7bd5e2d7973c09ff4 60422 main/binary-arm64/Packages
+ d8cba94a9107154981ef33ea66dad773 15431 main/binary-arm64/Packages.gz
+ 68450eba271898e3ecd0b004064bc46e 166 main/binary-arm64/Release
+ e7d3fecd03a693ced3ffed0b40441bc7 52219 main/source/Sources
+ 0729e1e00f4cc62ea47412ea3acaddbc 13150 main/source/Sources.gz
+ 4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
+SHA1:
+ 91cc3245cd24d411627055c4a6fa774b7543806c 60422 main/binary-arm64/Packages
+ 35d5e690299d2866af67ec94096ce844a3a22012 15431 main/binary-arm64/Packages.gz
+ 24f2f443a3a8dc1cee758be572d977e659993f8a 166 main/binary-arm64/Release
+ a328902e52f5b41f009ccbb173830877f7de16e3 52219 main/source/Sources
+ 0e26384ad5ce12845d38e37b32a87c5a470e7c5b 13150 main/source/Sources.gz
+ 5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
+SHA256:
+ 1238691a32a68d15af0a8330513dc3946301ea942579760772212b2c7ea3bf86 60422 main/binary-arm64/Packages
+ 38d55107c7b7d884970a7b3231e1c065ed6ab654ee64fd4d16b6071961a66678 15431 main/binary-arm64/Packages.gz
+ 2092acb604b797cb553c5455a3e4c4ae70b6f86b53af93fc396c349e0b000d79 166 main/binary-arm64/Release
+ 986c4f2026319c54cf72aa7ea03080aa96cbac2c5d3e09bfe15631d14f1e1e5a 52219 main/source/Sources
+ 3314b1ca4eb5d027e1c55871a68c7a71bd5fc3ce388dc94d4f38adbd643fa1d2 13150 main/source/Sources.gz
+ 33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release
