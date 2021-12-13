@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: bullseye
+Date: Mon, 13 Dec 2021 07:45:23 UTC
+Architectures: arm64
+Components: main
+Description: Regolith Debian
+MD5Sum:
+ 4964255768486596d84c49ce1cd27aed 64014 main/binary-arm64/Packages
+ 4ec3cfbcc0e3a6f5e296c869d816451b 15711 main/binary-arm64/Packages.gz
+ eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
+ e97d9b9b88e90870addd0191034994ef 50311 main/source/Sources
+ 565dbcb0d8f6ec09f8974ce1e66d5fb1 12855 main/source/Sources.gz
+ de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
+SHA1:
+ 54ac55bbd12b6830ca37b99bcfb5be3d5714186e 64014 main/binary-arm64/Packages
+ 0ab8ff9d5ba94a1dc93015420edbc6e96fe0d435 15711 main/binary-arm64/Packages.gz
+ 448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
+ 07fc513b1927b9ecd76b6588c1f1dd99288dff0b 50311 main/source/Sources
+ a1094e35a013e884c2a20475563de0a36fa52e91 12855 main/source/Sources.gz
+ 450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
+SHA256:
+ d43aa747f1d9a42640d47d6bf131ab75fd48ee2e2605d234ba2568b6dda49bb0 64014 main/binary-arm64/Packages
+ 24ef9442f5bce0dff3df13c16d6e9592617377899a40938fe53a8f2baddb1f53 15711 main/binary-arm64/Packages.gz
+ 663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
+ 4a860520d059f9f9dc933dc206d2f427930c184133069c1cce10889e709ab0a0 50311 main/source/Sources
+ 1dc3dd621825fc22e4e74ce8ecbeeb2ddce5e961f4610b1ed3cc84a998efdc43 12855 main/source/Sources.gz
+ 538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmG2+hMACgkQv+cXZJpc
+PQgsxAv/SozA/AXUgsKTdXj53x0qBKLYRnaDGs/uggp4/5D5lXvpAtNfJCk65MVh
+Eur0DJ4XOU02wUA+km46gzKjKPk23sjbD+t0j2/QRBGVVFX5UyDlVTCzoDX9Oold
+vGxbunps6sXRtlkAlnfI9eTIf8OK0jF7pbTU/PGJbQ2c6H6ajpYQ1O+eOVEmySgN
+EMdK7Te4agO806f/AH22wDhJ+yX20sMw/BYkE9IIED81dWsuO6sWXa/9DE8O/XkI
++Cg3EeMzSdEMFJAZm1/I12iq8+7GvRvA4cZ87b3e4wv+GmhDMRKCyWGJy4yoBWFr
+8KMoX7t2J1aOuih2Zo0wW7c8mEKBRIV21yedxkOhyLWq5VDK+cpsVav1BM9c+O+I
+jO94dxsdXnFyWLbYM/wNK4lbv8J7pxUAdovC2+Fgfcs3dTCgM82NBrTMXzrzxuPS
+/hTjdjNjuVVuLHFk8i58bZsJbYy1zgubdgOyKHM8FFS/Zw8VjFXE6l1JzydElQra
+TUUdql3v
+=Mesj
+-----END PGP SIGNATURE-----
