@@ -1,0 +1,28 @@
+Origin: regolith-linux.github.io/package-repo
+Label: Regolith Desktop Environment
+Codename: impish
+Date: Mon, 13 Dec 2021 06:52:23 UTC
+Architectures: arm64
+Components: main
+Description: Regolith packages for Ubuntu Impish
+MD5Sum:
+ 52ba4679443772b4f8542552f4326a76 60422 main/binary-arm64/Packages
+ b1f82d34da742921708f404fbdca1f14 15423 main/binary-arm64/Packages.gz
+ a2cea3d76d26226d2adfc8e4d6c63fd4 167 main/binary-arm64/Release
+ 440ae10e42a2bbc4ec3f7fb398fe9cb6 52219 main/source/Sources
+ 464761b218951281f58da138547738fb 13158 main/source/Sources.gz
+ bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
+SHA1:
+ 563c09149b3ac8dc5d22b51ddf17b31a7420337e 60422 main/binary-arm64/Packages
+ 8b080e369a40446660f6f961f72b5b79ff3e1668 15423 main/binary-arm64/Packages.gz
+ 27be168726efed96ba0e20c9a5c5f149de8e2303 167 main/binary-arm64/Release
+ 6db97cb8953f789cf3b8037bd2690107d4e62abc 52219 main/source/Sources
+ c3f57413d1f2a6b6ff21c60a5a610d2ceb9e6364 13158 main/source/Sources.gz
+ 6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
+SHA256:
+ 85e99a9f7b1ab415bd4e9268116808d69047672eb27b1f32d14089baadeceadb 60422 main/binary-arm64/Packages
+ dbdb26c17dbfc9c6a06e4603ec73f4b907b3e67a3c306a4b21004c3e31d213e3 15423 main/binary-arm64/Packages.gz
+ bd4dfd248cbc5c1114605ac38a7175fe56bbd5d655fb64655fabd0827849fc59 167 main/binary-arm64/Release
+ 6bf4fa759fa6aa4d7517fd8c57717a4d1ffe4a1968ea9311109f931a9f598204 52219 main/source/Sources
+ bb7da1a1d0cf2c41514a0a49f62ca65f9681dcf6568044377c68221b0dbdb427 13158 main/source/Sources.gz
+ 5e17064a3e245f7ab2a09450cb5abbc2693d5da6b2e120960f23299ef1a79592 168 main/source/Release
