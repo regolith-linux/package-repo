@@ -1315,7 +1315,7 @@ Description: Regolith configuration for rofi launcher
  perhaps other utilities in the future.
 
 Package: regolith-rofication
-Version: 1.4.2-1-1regolith-1639374917
+Version: 1.4.2-1-1regolith-1639493174
 Architecture: arm64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 55
@@ -1327,11 +1327,11 @@ Provides: notification-daemon
 Homepage: https://github.com/regolith-linux/regolith-rofication
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-rofication/regolith-rofication_1.4.2-1-1regolith-1639374917_arm64.deb
-Size: 10772
-SHA256: 6ad8a26cbe3951e80ebfd4966dd823c09b426726a2f568be1845b824f807f2a7
-SHA1: 9497121ea6e566ddc234b04588369e0441c03002
-MD5sum: 28ea422b202b286da5b4bdda9f8d0eeb
+Filename: pool/main/r/regolith-rofication/regolith-rofication_1.4.2-1-1regolith-1639493174_arm64.deb
+Size: 10776
+SHA256: 2d37f8b36ac0f9df6269a5035a721a7afea12701d0e47cefa47faf22c2e9a04c
+SHA1: 914686a25d0c9a5d152c6b6517099a8b9d93e870
+MD5sum: 3ea70d402f9a169f35f67a9cbb4f5c76
 Description: Rofication notification system
  Rofication provides an unobtrusive notification system based on a rofi frontend.
 
