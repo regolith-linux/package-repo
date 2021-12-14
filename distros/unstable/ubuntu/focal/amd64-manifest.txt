@@ -23,7 +23,7 @@ regolith-i3xrocks-config i3cp e1bd956
 regolith-look-default master d778c94
 regolith-look-extra main 2e15aa8
 regolith-rofi-config i3cp 80f2698
-regolith-rofication master 5c0c988
+regolith-rofication master a75b21a
 regolith-session main daf7368
 regolith-unclutter-xfixes master e4bbaba
 remontoire master f72a575
