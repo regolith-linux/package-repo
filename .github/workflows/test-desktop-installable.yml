@@ -7,23 +7,18 @@ on:
 
 jobs:
   test-ubuntu:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
-        os: [ubuntu-20.04, self-hosted]
-        stage: [unstable, testing ] #TODO add 'release' 
+        stage: [ unstable, testing ] #TODO add 'release' 
+        arch: [ amd64 ]
+        distro: [ ubuntu ]
+        codename: [ focal ]
     steps:
-      - name: setup
-        run: |
-          wget https://raw.githubusercontent.com/regolith-linux/package-repo/master/.github/scripts/install-regolith.sh
-          chmod u+x install-regolith.sh
-      - name: install
-        run: |
-          set -x
-          if [ ${{ matrix.os }} == "self-hosted" ]; then
-            ARCH=arm64
-          else
-            ARCH=amd64
-          fi            
-          ./install-regolith.sh ${{ matrix.stage }} ubuntu focal $ARCH
+      - name: Test Ubuntu 20.04
+        uses: kgilmer/test-ubuntu-20.04-action@v1
+        with:
+          apt-key-url: https://regolith-linux.github.io/package-repo/regolith.key
+          apt-repo-line: "deb [arch=${{ matrix.arch }}] https://regolith-linux.github.io/package-repo/${{ matrix.stage }}/${{ matrix.distro }}/${{ matrix.codename }}/${{ matrix.arch }} ${{ matrix.codename }} main"
+          target-package: "regolith-desktop"
           
