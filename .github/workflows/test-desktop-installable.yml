@@ -16,7 +16,7 @@ jobs:
         codename: [ focal ]
     steps:
       - name: Test Ubuntu 20.04
-        uses: kgilmer/test-ubuntu-20.04-action@v1.1.3
+        uses: kgilmer/test-ubuntu-20.04-action@v1.1.4
         with:
           apt-key-url: https://regolith-linux.github.io/package-repo/regolith.key
           apt-repo-line: "deb [arch=${{ matrix.arch }}] https://regolith-linux.github.io/package-repo/${{ matrix.stage }}/${{ matrix.distro }}/${{ matrix.codename }}/${{ matrix.arch }} ${{ matrix.codename }} main"
