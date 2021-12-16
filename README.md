@@ -10,9 +10,6 @@ This repository and the packages it hosts are in active development.  We appreci
 
 [![](http://github-actions.40ants.com/regolith-linux/package-repo/matrix.svg)](https://github.com/regolith-linux/package-repo)
 
-(https://github.com/regolith-linux/package-repo/actions/workflows/test-desktop-installable.yml/badge.svg)
-
-
 ## How To Install Packages - Debian and Ubuntu
 
 WARNING: Packages consumed from `unstable` repositories are untested and may break your system if you install them.

@@ -6,12 +6,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  test-ubuntu:
+  test-ubuntu-amd64:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
         stage: [ unstable, testing ] #TODO add 'release' 
-        arch: [ amd64, arm64 ]
+        arch: [ amd64 ]
         distro: [ ubuntu ]
         codename: [ focal ]
     steps:
@@ -21,4 +21,18 @@ jobs:
           apt-key-url: https://regolith-linux.github.io/package-repo/regolith.key
           apt-repo-line: "deb [arch=${{ matrix.arch }}] https://regolith-linux.github.io/package-repo/${{ matrix.stage }}/${{ matrix.distro }}/${{ matrix.codename }}/${{ matrix.arch }} ${{ matrix.codename }} main"
           target-package: "regolith-desktop"
-          
+  test-ubuntu-arm64:
+    runs-on: [self-hosted, Linux, ARM64]
+    strategy:
+      matrix:
+        stage: [ unstable, testing ] #TODO add 'release' 
+        arch: [ arm64 ]
+        distro: [ ubuntu ]
+        codename: [ focal ]
+    steps:
+      - name: Test Ubuntu 20.04
+        uses: kgilmer/test-ubuntu-20.04-action@v1.1.5
+        with:
+          apt-key-url: https://regolith-linux.github.io/package-repo/regolith.key
+          apt-repo-line: "deb [arch=${{ matrix.arch }}] https://regolith-linux.github.io/package-repo/${{ matrix.stage }}/${{ matrix.distro }}/${{ matrix.codename }}/${{ matrix.arch }} ${{ matrix.codename }} main"
+          target-package: "regolith-desktop"
