@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         stage: [ unstable, testing ] #TODO add 'release' 
-        arch: [ amd64 ]
+        arch: [ amd64, arm64 ]
         distro: [ ubuntu ]
         codename: [ focal ]
     steps:
