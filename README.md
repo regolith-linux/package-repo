@@ -66,5 +66,5 @@ export STAGE=release # choose 'unstable', 'testing', or 'release'
 export DISTRO=ubuntu    # choose either 'ubuntu' or 'debian' here depending on system installing into
 export CODENAME=impish # choose either 'focal' or 'impish' for ubuntu or 'bullseye' for debian
 export ARCH=amd64       # choose either 'amd64' or 'arm64'
-echo deb [arch=amd64] https://regolith-linux.github.io/package-repo/$STAGE/$DISTRO/$CODENAME/$ARCH $CODENAME main | sudo tee /etc/apt/sources.list.d/regolith.list
+echo deb [arch=$ARCH] https://regolith-linux.github.io/package-repo/$STAGE/$DISTRO/$CODENAME/$ARCH $CODENAME main | sudo tee /etc/apt/sources.list.d/regolith.list
 ```
