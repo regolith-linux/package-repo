@@ -1,3 +1,4 @@
+arc-icon-theme main 58b53b3
 ayu-theme master ac812de
 fonts-jetbrains-mono master 6fe0e76
 fonts-materialdesignicons-webfont master 72e4dfc
