@@ -1,3 +1,20 @@
+Package: arc-icon-theme
+Version: 20161122-1-1regolith-1639940776
+Architecture: amd64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 14775
+Depends: moka-icon-theme
+Homepage: https://github.com/horst3180/arc-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/a/arc-icon-theme/arc-icon-theme_20161122-1-1regolith-1639940776_amd64.deb
+Size: 3655620
+SHA256: 49b158c41c7b9cedb35e0878c1a3df7bd2d2af27c44ed6bb6815718d21fc78a9
+SHA1: ae5adb197e0da88547109003059fb41552bb8597
+MD5sum: 77dbbd57ba4070f8421008955c0c9817
+Description: Arc Icon Theme
+ A nice flat icon theme, depends on moka-icon-theme.
+
 Package: ayu-theme
 Version: 0.2.2-1-1regolith-1638848712
 Architecture: amd64
