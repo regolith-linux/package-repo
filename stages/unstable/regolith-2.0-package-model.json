@@ -118,6 +118,10 @@
     "regolith-unclutter-xfixes": {
       "source": "https://github.com/regolith-linux/regolith-unclutter-xfixes.git",
       "branch": "master"
+    },
+    "arc-icon-theme": {
+      "source": "https://github.com/regolith-linux/arc-icon-theme.git",
+      "branch": "main"
     }
   }
 }
