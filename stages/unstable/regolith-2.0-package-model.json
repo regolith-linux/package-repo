@@ -124,7 +124,7 @@
       "branch": "main"
     },
     "nordic": {
-      "source": "https://github.com/regolith-linux/Nordic.git",
+      "source": "https://github.com/regolith-linux/nordic.git",
       "branch": "main"
     }
   }
