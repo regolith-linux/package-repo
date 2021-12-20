@@ -1,3 +1,20 @@
+Package: arc-icon-theme
+Version: 20161122-1-1regolith-1639964579
+Architecture: arm64
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 14775
+Depends: moka-icon-theme
+Homepage: https://github.com/horst3180/arc-icon-theme
+Priority: optional
+Section: x11
+Filename: pool/main/a/arc-icon-theme/arc-icon-theme_20161122-1-1regolith-1639964579_arm64.deb
+Size: 3655764
+SHA256: b50b55de2dd267efc189f167b242c1e10f22a1163fed36a9c38c87ad06430ac9
+SHA1: a4342059faa1127122d8d2533c9b41411434aed9
+MD5sum: 80c0e8c2afc3a8124651bc155589c170
+Description: Arc Icon Theme
+ A nice flat icon theme, depends on moka-icon-theme.
+
 Package: ayu-theme
 Version: 0.2.2-1-1regolith-1639408903
 Architecture: arm64
@@ -1297,7 +1314,7 @@ Description: Lascaille look for Regolith.
  A Regolith look using i3, Rofi, Remontoire, and i3-bar.
 
 Package: regolith-rofi-config
-Version: 1.4.1-1-1regolith-1639409993
+Version: 1.4.1-1-1regolith-1639964713
 Architecture: arm64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 15
@@ -1305,11 +1322,11 @@ Depends: mlocate, xdg-utils
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-rofi-config/regolith-rofi-config_1.4.1-1-1regolith-1639409993_arm64.deb
+Filename: pool/main/r/regolith-rofi-config/regolith-rofi-config_1.4.1-1-1regolith-1639964713_arm64.deb
 Size: 4164
-SHA256: f6ac908bfe049de3f33657c5e16341c7e808e262f665be13709522e5192cedc3
-SHA1: 768f559f0de98016576f8e77dbd55c72ea1f4dde
-MD5sum: 9d30916a1bdb2b40bbdcf37d8e6f45c5
+SHA256: 7773016a4b88e795e046674cd67207ef2cf07609cd14e91d43d2d599a7836ffc
+SHA1: 87231d0120569b96135bd6b63ea9b75c70c7a258
+MD5sum: 5f4cfb6878db2e05144e44aeb69b0484
 Description: Regolith configuration for rofi launcher
  This package adds scripts to Rofi for file search and
  perhaps other utilities in the future.
