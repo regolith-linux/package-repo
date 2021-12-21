@@ -126,6 +126,10 @@
     "nordic": {
       "source": "https://github.com/regolith-linux/nordic.git",
       "branch": "main"
+    },
+    "fonts-source-code-pro-ttf": {
+      "source": "https://github.com/regolith-linux/fonts-source-code-pro-ttf.git",
+      "branch": "main"
     }
   }
 }
