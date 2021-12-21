@@ -77,6 +77,25 @@ Description: font containing Material Design Icons
  This package also provides Css, Scss and LESS files to use webfonts from this
  package.
 
+Package: fonts-source-code-pro-ttf
+Version: 1.010-0ubuntu1~ppa2-1regolith-1640091370
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 2684
+Suggests: fontconfig
+Multi-Arch: foreign
+Homepage: https://github.com/adobe-fonts/source-code-pro
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-source-code-pro-ttf/fonts-source-code-pro-ttf_1.010-0ubuntu1~ppa2-1regolith-1640091370_all.deb
+Size: 601348
+SHA256: 5a52f49070d1a275b1f7d66e03b1b3e1095aee23963a8b0748ad8e2c01cf0de1
+SHA1: ba4b36fc076e94a3b3fa683f4dd86df9701a67af
+MD5sum: fa0a314e7770ea5735af7502ee1de432
+Description: monospace font for pretty code listings and for the terminal
+ Source Code Pro is a set of OpenType fonts that have been designed to work well
+ in user interface (UI) environments.
+
 Package: i3
 Source: i3-wm
 Version: 4.20-1ubuntu1-1regolith-1638854634
