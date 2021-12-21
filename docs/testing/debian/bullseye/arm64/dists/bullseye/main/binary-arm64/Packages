@@ -1405,6 +1405,27 @@ MD5sum: 37102904033c8d5dc94eda2607f2ce7e
 Description: Lascaille look for Regolith.
  A Regolith look using i3, Rofi, Remontoire, and i3-bar.
 
+Package: regolith-look-nord
+Source: regolith-look-extra
+Version: 0.2.0-1-1regolith-1640101676
+Architecture: arm64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 687
+Depends: arc-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
+Conflicts: regolith-look
+Replaces: regolith-look
+Provides: regolith-look
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.0-1-1regolith-1640101676_arm64.deb
+Size: 680500
+SHA256: 390864825162855b6693413185ffcbad584a7638b12ec714bdfc2c2ab7cd908e
+SHA1: 7190d02d0b1de946d7eb4217520c0973532a9962
+MD5sum: ce6e283134ec88c0f62e494b8171fa9f
+Description: Nord look for Regolith
+ Nord Look with fontawesome and sourcecode pro
+
 Package: regolith-rofi-config
 Version: 1.4.1-1-1regolith-1639381210
 Architecture: arm64
