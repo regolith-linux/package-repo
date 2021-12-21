@@ -2,6 +2,7 @@ arc-icon-theme main 58b53b3
 ayu-theme master ac812de
 fonts-jetbrains-mono master 6fe0e76
 fonts-materialdesignicons-webfont master 72e4dfc
+fonts-source-code-pro-ttf main 2fd5dfd
 i3-gaps-wm main 248bf436
 i3-next-workspace main cb469ba
 i3-snapshot master 5135c86
