@@ -793,6 +793,73 @@ Description: utility libraries for X C Binding -- atom, aux and event
  libraries also provide client-side code which is not strictly part of
  the X protocol but which have traditionally been provided by Xlib.
 
+Package: nordic
+Version: 2.1.0-1-1regolith-1640059712
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 4732
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: https://github.com/EliverLara/Nordic
+Priority: optional
+Section: gnome
+Filename: pool/main/n/nordic/nordic_2.1.0-1-1regolith-1640059712_all.deb
+Size: 591048
+SHA256: b5ccee7eddb5dac3022ac8d80b6d5ae5eb24789a431ecbce8456afee6503b6e3
+SHA1: 32ab301a128a9c35c75c1eb03842a018c8971306
+MD5sum: e147bf149a0cebae7eb2902c845d264f
+Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete.
+
+Package: nordic-bluish-accent
+Source: nordic
+Version: 2.1.0-1-1regolith-1640059712
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 4987
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: https://github.com/EliverLara/Nordic
+Priority: optional
+Section: gnome
+Filename: pool/main/n/nordic/nordic-bluish-accent_2.1.0-1-1regolith-1640059712_all.deb
+Size: 850308
+SHA256: 302a5f635fc34f7da5a9bf82c906ad429ab91ccda4dd61196a9310f00641db67
+SHA1: d81902549b96b5a97f029341ca595667212f2a7d
+MD5sum: 86244354cf10c1c2d29f99af36edf060
+Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete.
+
+Package: nordic-darker
+Source: nordic
+Version: 2.1.0-1-1regolith-1640059712
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 4986
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: https://github.com/EliverLara/Nordic
+Priority: optional
+Section: gnome
+Filename: pool/main/n/nordic/nordic-darker_2.1.0-1-1regolith-1640059712_all.deb
+Size: 849728
+SHA256: e21d2f58867886e960f244eea5e1fa7e19ae58587c20a50bb6c537f63340949c
+SHA1: 56fc9b7edd5509d8fe5f086281d49d74a2e2c738
+MD5sum: 822077467f32cebfa7f2f85b2382b0b3
+Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete.
+
+Package: nordic-polar
+Source: nordic
+Version: 2.1.0-1-1regolith-1640059712
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 4989
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: https://github.com/EliverLara/Nordic
+Priority: optional
+Section: gnome
+Filename: pool/main/n/nordic/nordic-polar_2.1.0-1-1regolith-1640059712_all.deb
+Size: 853884
+SHA256: aef57a054e5430f42e28c8a650d5769b08b549aa6f975b7596e81b91f2f0e9f6
+SHA1: 5acee064b8b58244dc184ca46054bad4215d4996
+MD5sum: 207e2c7bf6eb898e3b93e00c4b192cc6
+Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete.
+
 Package: plymouth-theme-regolith-logo
 Source: plymouth-theme-regolith
 Version: 1.1.3-1ubuntu1-1regolith-1639409535
@@ -1332,7 +1399,7 @@ Description: Regolith configuration for rofi launcher
  perhaps other utilities in the future.
 
 Package: regolith-rofication
-Version: 1.4.2-1-1regolith-1639493027
+Version: 1.4.2-1-1regolith-1640059815
 Architecture: arm64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 55
@@ -1344,11 +1411,11 @@ Provides: notification-daemon
 Homepage: https://github.com/regolith-linux/regolith-rofication
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-rofication/regolith-rofication_1.4.2-1-1regolith-1639493027_arm64.deb
-Size: 10780
-SHA256: 38fd67ec503889b500aaeac75a88224c8335c255fe8a7d50bb8da6ebfa2afdb9
-SHA1: d55a069b161b1b95d14e05b1359859c0daa0a171
-MD5sum: f5dfa6a71b18adc0ba841753d96bbe8b
+Filename: pool/main/r/regolith-rofication/regolith-rofication_1.4.2-1-1regolith-1640059815_arm64.deb
+Size: 10784
+SHA256: dbf2ccd6100a835c00ce1e8a5fa2c8a905eeb445d5537b2a8cea70bf8ddde600
+SHA1: 7087eb7b9e4c0d0c79ac5c30a73839417d6cea78
+MD5sum: 3d644d27b928f41205c5dc9aa3fffb90
 Description: Rofication notification system
  Rofication provides an unobtrusive notification system based on a rofi frontend.
 
