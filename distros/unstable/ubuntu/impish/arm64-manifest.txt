@@ -9,6 +9,7 @@ i3-wm next bf425ae9
 i3xrocks master 0c39c51
 ilia main cfa437d
 lago main 960c8a0
+nordic main 0c7b9af
 plymouth-theme-regolith master caebe50
 python3-i3ipc master 4d16601
 regolith-compositor-compton-glx master eebe813

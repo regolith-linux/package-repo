@@ -793,6 +793,73 @@ Description: utility libraries for X C Binding -- atom, aux and event
  libraries also provide client-side code which is not strictly part of
  the X protocol but which have traditionally been provided by Xlib.
 
+Package: nordic
+Version: 2.1.0-1-1regolith-1640059978
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 4732
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: https://github.com/EliverLara/Nordic
+Priority: optional
+Section: gnome
+Filename: pool/main/n/nordic/nordic_2.1.0-1-1regolith-1640059978_all.deb
+Size: 591032
+SHA256: 8795b288f1c17e888d7dd9802ddfb467e3fb252661ffe4bbe94f9f4ebc0554f3
+SHA1: 880d7f84c676f03c474fc3af9278bcda3f2a0da1
+MD5sum: f69e83806c4104abeb229cf642707c28
+Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete.
+
+Package: nordic-bluish-accent
+Source: nordic
+Version: 2.1.0-1-1regolith-1640059978
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 4987
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: https://github.com/EliverLara/Nordic
+Priority: optional
+Section: gnome
+Filename: pool/main/n/nordic/nordic-bluish-accent_2.1.0-1-1regolith-1640059978_all.deb
+Size: 850296
+SHA256: e33489ed85e384515796c60b759e3e2ab5970fdebefcaea60ebaba52b4a686c4
+SHA1: 34432477c301e23c9bb6b2bb3f4d1bdfe496abb5
+MD5sum: fac2350abefabb4e9a935954e4c771cd
+Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete.
+
+Package: nordic-darker
+Source: nordic
+Version: 2.1.0-1-1regolith-1640059978
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 4986
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: https://github.com/EliverLara/Nordic
+Priority: optional
+Section: gnome
+Filename: pool/main/n/nordic/nordic-darker_2.1.0-1-1regolith-1640059978_all.deb
+Size: 849728
+SHA256: ec1935dfb5b21f3bedc36473432512a4295170572cf7665a653ebef0502a1b0e
+SHA1: b5f700bcbf96e4a1525dd53b4508ab89bbafb577
+MD5sum: e91270e658f02c5defc69413732f4515
+Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete.
+
+Package: nordic-polar
+Source: nordic
+Version: 2.1.0-1-1regolith-1640059978
+Architecture: all
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Installed-Size: 4989
+Depends: gtk2-engines-murrine, gtk2-engines-pixbuf
+Homepage: https://github.com/EliverLara/Nordic
+Priority: optional
+Section: gnome
+Filename: pool/main/n/nordic/nordic-polar_2.1.0-1-1regolith-1640059978_all.deb
+Size: 853820
+SHA256: 8cb75b4c7859681930ff4f95cf34eb435c913bf82de1966e3fc56909e2787c89
+SHA1: ce6d85747d4a16393448e56ca94f52f575269022
+MD5sum: 5fbf6999b51ad82c9eaaa082178d5b13
+Description: Dark Gtk3.20+ theme created using the awesome Nord color pallete.
+
 Package: plymouth-theme-regolith-logo
 Source: plymouth-theme-regolith
 Version: 1.1.3-1ubuntu1-1regolith-1639377540
