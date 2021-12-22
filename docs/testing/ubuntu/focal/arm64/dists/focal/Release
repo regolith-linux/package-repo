@@ -1,28 +1,28 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: focal
-Date: Tue, 21 Dec 2021 16:00:46 UTC
+Date: Wed, 22 Dec 2021 15:48:02 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Focal
 MD5Sum:
- 4105f54c5d03ee681d946adeb95bcfb4 61213 main/binary-arm64/Packages
- 8712d5655ee0b9423d77ceb7dec9b94f 15620 main/binary-arm64/Packages.gz
+ 9bd5920c69ae9fce04e664d996f9c1b7 61906 main/binary-arm64/Packages
+ fa03e437f8a5cc697f9acfe2c2e56e0b 15821 main/binary-arm64/Packages.gz
  68450eba271898e3ecd0b004064bc46e 166 main/binary-arm64/Release
- a302f4ee753596105660e0943493ba64 52215 main/source/Sources
- 9b1c37316e9526124d061f8958861886 13149 main/source/Sources.gz
+ 88ec9a46191b2f252b18b710312c0b2f 52215 main/source/Sources
+ 2462139e069ab47421e985d800295cae 13157 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
- 5fcbf62fb414c9abb5d0d834fccb05fd1bf6d871 61213 main/binary-arm64/Packages
- 60e4af19306d45b93c61f37e37b0c19fcbd5cf27 15620 main/binary-arm64/Packages.gz
+ 6eb1a4c28c2b494de55dcf1c69239355e1737bc3 61906 main/binary-arm64/Packages
+ 3f8bd200e2dfa345230368efdf0857b1d89f051a 15821 main/binary-arm64/Packages.gz
  24f2f443a3a8dc1cee758be572d977e659993f8a 166 main/binary-arm64/Release
- 8bd0f946780ae51ac632acad9b903c6ce99b1385 52215 main/source/Sources
- 931eab004b180c5e2feb64a4f2bc5721c140178f 13149 main/source/Sources.gz
+ 9e97a6007ddab23ccb81ba88fe9f83f50ce51aa5 52215 main/source/Sources
+ ed389bbf827057d6206c40ce543c1e1e993f5655 13157 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
- 37fe62ff8b64b6d2abd204e9c50b327e903fb05cb922ecd43cce1533b09b3997 61213 main/binary-arm64/Packages
- 16693a5d46f6426e5de2426ccf9d5baad105139013fb7beaff437ac792d2f795 15620 main/binary-arm64/Packages.gz
+ ac40380d9c21451f15346bf2528b5fa0245d2fe185d7e907fdf49fee913f59be 61906 main/binary-arm64/Packages
+ fcd038c291903a9748537acbd2ad9ead96a6fbaae29cbf8f8ab190ef15cb33f6 15821 main/binary-arm64/Packages.gz
  2092acb604b797cb553c5455a3e4c4ae70b6f86b53af93fc396c349e0b000d79 166 main/binary-arm64/Release
- 615c06eb87d6ed6f84747f2030549540a904ff239d154e37e4337665d3c63d03 52215 main/source/Sources
- 1a73a9c7dd645acd1a65622ce6ca66d1ed0900e660f9061a850ddc854c7d528b 13149 main/source/Sources.gz
+ 9cafb51ba54eaa2f97c97609f491622c72c7ddcb5e500515d03275197a381647 52215 main/source/Sources
+ cef8cbf6525828a0e026c3ebb8aae903eb45a88e62abece2cfc1357706907727 13157 main/source/Sources.gz
  33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release

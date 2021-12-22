@@ -1254,25 +1254,42 @@ Description: Regolith configuration for i3xrocks launcher
  A Regolith configuration for the i3xrocks launcher
 
 Package: regolith-look-default
-Version: 0.4.1-1-1regolith-1639374829
+Version: 0.4.2-1-1regolith-1640188024
 Architecture: arm64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 17
 Depends: fonts-materialdesignicons-webfont (>= 1.6.50), fonts-dejavu-core, ayu-theme
 Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-ilia, regolith-i3-rofication-ilia, regolith-i3xrocks-config
-Conflicts: regolith-look
-Replaces: regolith-look
 Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-default/regolith-look-default_0.4.1-1-1regolith-1639374829_arm64.deb
-Size: 3768
-SHA256: a1032dc8b37d4f3499a50851a1869386b037134e6b6784071d30899d3b8516de
-SHA1: 50f6fc461408ccaf113faaf4051c51100a93e841
-MD5sum: 2316c10117463451cf982a80a4af9fdb
+Filename: pool/main/r/regolith-look-default/regolith-look-default_0.4.2-1-1regolith-1640188024_arm64.deb
+Size: 3804
+SHA256: d9ba698d499d668a72999ba339f80e69fa15d9f8b80198db5ba0d451423d9878
+SHA1: 365102f35364c6702321718a63bd3d75aa44c8e6
+MD5sum: 19c4c68cdcb6332b1110d9627b2239cf
 Description: Default Look for Regolith with minimal dependencies
  A basic Regolith look optimized for minimal dependencies.
+
+Package: regolith-look-gruvbox
+Source: regolith-look-extra
+Version: 0.2.0-1-1regolith-1640188054
+Architecture: arm64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 10
+Depends: regolith-styles, gruvbox-gtk, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
+Provides: regolith-look
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-look-extra/regolith-look-gruvbox_0.2.0-1-1regolith-1640188054_arm64.deb
+Size: 2536
+SHA256: 280244d199a1813ff94b52327c80bc62ee1502fb0d491cd0cb4346185ec039c6
+SHA1: 43ea6af41a72b87a2213f6e24e9767b9a1dd892d
+MD5sum: e012c1181298284ed85d4f10bd0a10df
+Description: User contributed gruvbox theme
+ Colors based on https://github.com/morhetz/gruvbox
 
 Package: regolith-look-lascaille
 Source: regolith-look-extra
@@ -1298,22 +1315,20 @@ Description: Lascaille look for Regolith.
 
 Package: regolith-look-nord
 Source: regolith-look-extra
-Version: 0.2.0-1-1regolith-1640102414
+Version: 0.2.0-1-1regolith-1640188054
 Architecture: arm64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 687
 Depends: arc-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
-Conflicts: regolith-look
-Replaces: regolith-look
 Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.0-1-1regolith-1640102414_arm64.deb
+Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.0-1-1regolith-1640188054_arm64.deb
 Size: 680488
-SHA256: 1ab89116ca9406abc68bc1f9023fd4e0516b58e83b7bc7655d93136b2d1ebfca
-SHA1: 91d842ea7acdae83c1706b9c718ef77016315559
-MD5sum: b0ff9e9975267db4d988735a99776591
+SHA256: 0c344b612022ca5f277d78c549966976837806b939866b80c06ca53999ffff06
+SHA1: f58510fff5f3b021d85d1c34385bc6a131f5e009
+MD5sum: 0322eb5118221d3a46a463d96a49a90b
 Description: Nord look for Regolith
  Nord Look with fontawesome and sourcecode pro
 
