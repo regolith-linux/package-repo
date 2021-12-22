@@ -1,27 +1,27 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: impish
-Date: Tue, 21 Dec 2021 15:50:34 UTC
+Date: Wed, 22 Dec 2021 14:34:18 UTC
 Architectures: amd64
 Components: main
 Description: Regolith packages for Ubuntu Impish
 MD5Sum:
- b9c10050aa64c923ed94238f3e3bc15c 61207 main/binary-amd64/Packages
- 65f8a7281ca4c3227314c6a065f0b743 15626 main/binary-amd64/Packages.gz
+ 219c0615702515fe1ff45416a4a6dfa5 61949 main/binary-amd64/Packages
+ 78997b6c98ffd6702e3c271ff3dd4e33 15820 main/binary-amd64/Packages.gz
  5422cad5275ec871bd305baeb16c6fa3 167 main/binary-amd64/Release
  4f0f3deeb0311354c98296666a8833de 52215 main/source/Sources
  4e452bec483e2a91c86b73c0f26480b2 13131 main/source/Sources.gz
  bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
 SHA1:
- eb0ab0c50fd37b727587f33950a6d0dd4992204e 61207 main/binary-amd64/Packages
- 724f5f14a743e2033aa9ee6fb9666bf77f4f7823 15626 main/binary-amd64/Packages.gz
+ 1cfb68439f329c15ae612b93429642aa28ebcfa0 61949 main/binary-amd64/Packages
+ 461001e928d3afb02247022651338d038a7cc86f 15820 main/binary-amd64/Packages.gz
  63a9285233842394f487072c6fa70fdc079e8b7d 167 main/binary-amd64/Release
  9120b97a451bd78a6ade851d3d5561f44b1bf0f8 52215 main/source/Sources
  a0e92667d118a7fdf4bf85937924b36d3c78e4fc 13131 main/source/Sources.gz
  6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
 SHA256:
- 8eb3a26ce5146cc2f08b9bc2de3865c488f5c2824bcc162dbafa16f07e55f3bd 61207 main/binary-amd64/Packages
- 0b6b68e910a80f9cd759d8dd0bfdd127fe3f816e9d7fa5fe1bcc0fe5c219ee7b 15626 main/binary-amd64/Packages.gz
+ 6fef6589a4b23ff609ae3d9f98a2dc0d25c6fa45dc71a40fa5c6ef9bb1d015db 61949 main/binary-amd64/Packages
+ 8dfe9f2ea54e8dccc929f75566c8955a0b0d837ea6a1aa9b2203dc3abbd3952e 15820 main/binary-amd64/Packages.gz
  b8b35b92cb4c674f2350f88c744ebc0346bb9b8acd1e3281eb48514192100d86 167 main/binary-amd64/Release
  d6db68a257634bfac1c3838c3fc2c501b93e92085d938f01f01401a1c5029177 52215 main/source/Sources
  8530677a55826d138d33891a111ec2845b68ae563216235b6e609048baa012a5 13131 main/source/Sources.gz
