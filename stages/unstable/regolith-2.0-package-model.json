@@ -45,7 +45,7 @@
     },
     "regolith-look-default": {
       "source": "https://github.com/regolith-linux/regolith-look-default.git",
-      "branch": "master"
+      "branch": "main"
     },
     "regolith-look-extra": {
       "source": "https://github.com/regolith-linux/regolith-look-extra.git",
