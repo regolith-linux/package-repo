@@ -4,42 +4,42 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: focal
-Date: Wed, 22 Dec 2021 14:42:40 UTC
+Date: Thu, 23 Dec 2021 19:05:17 UTC
 Architectures: amd64
 Components: main
 Description: Regolith packages for Ubuntu Focal
 MD5Sum:
- a63dfb5740b4794afcbd5325f411eabb 61900 main/binary-amd64/Packages
- aef3abd97675d68eb401395e6bae01c5 15808 main/binary-amd64/Packages.gz
+ 48eec8ed4a9280c2303370257c47cf20 61886 main/binary-amd64/Packages
+ 8cbd3d5199c7bf8d4368f33fff8fe26a 15809 main/binary-amd64/Packages.gz
  862f9231577ed5d6a4a4be2d97ef21eb 166 main/binary-amd64/Release
- 525ce22635c9dc7492ccf557bb23f696 52215 main/source/Sources
- 77c8caedd9d187048da84a72a580e3fa 13146 main/source/Sources.gz
+ a13e6bba0a2a22fe9dac2250e71dbb38 52145 main/source/Sources
+ 068c9e4f63366804652a92fc1b02285e 13148 main/source/Sources.gz
  4f2c491543c8916e50f2cbfa78902ff5 167 main/source/Release
 SHA1:
- 5fd7dd92246a7212c70b3b029dfb7a3a9997bbb6 61900 main/binary-amd64/Packages
- 746207a89894aa079f8478546c4a78667aced794 15808 main/binary-amd64/Packages.gz
+ 164dfe45a82846721ed308b0c068394a81365244 61886 main/binary-amd64/Packages
+ 8c89418597558368c62884df7fc97d1aaf23d418 15809 main/binary-amd64/Packages.gz
  36ee7ad4672d71dccff2439b00f9837bd947968f 166 main/binary-amd64/Release
- 1168cd93a2ed8af78d7cd52c4dc355744c17b882 52215 main/source/Sources
- 93b11ae4f5f6549c4725e1f34a144356c620d5ba 13146 main/source/Sources.gz
+ 9b8a6baa6baf91541c3c2c9111c5442802e2447e 52145 main/source/Sources
+ 532267c51ee8f0036cba6aad63f3b784c1ffc6ec 13148 main/source/Sources.gz
  5e5f8cdb999ee226eb71dc5fed0d7a4921304c33 167 main/source/Release
 SHA256:
- 011a4d716cc878770a28312613a5ec57d735118bec0195eda4f9d8d91508d885 61900 main/binary-amd64/Packages
- a3bf8b7f4158443779921c4f38432bdd927886c8d24ac9c1fc1fca0df84cc79c 15808 main/binary-amd64/Packages.gz
+ e83ec69e6c6ba7acb802c35f9f3c9fe717f85711169850911137de262d38149a 61886 main/binary-amd64/Packages
+ f14345703299fa37afbb4edbb52b81d2d32ca01641e9d1c4bf6576330318db87 15809 main/binary-amd64/Packages.gz
  214e19052c889b0376dc3b50f970845fe2a226b9386e973d1864da1ba5b40d24 166 main/binary-amd64/Release
- 613bb7fca479ac99ddab97fd4bf76372de6d741a1cc52a2c7ef810fb97d89a6d 52215 main/source/Sources
- 1e8dbd4bd9411e6b35162bdcf594c8d74432611456cbd9c1737a4a526668267c 13146 main/source/Sources.gz
+ d27115a48b801658f938bef7289cd761696ecf3b169a567c6a0b190c793089f5 52145 main/source/Sources
+ 4a018b2e8e6c1c7c8c570c7acde77d73b5cc2cf3263b39a4e7b5b0da8d27c779 13148 main/source/Sources.gz
  33a18d674e863fd708c8b00666ce60d16f9a5c544709a89fc207550216229755 167 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmHDOWAACgkQv+cXZJpc
-PQhjagwAn7i4wyPI2ovpRnzkj8JzAql1YgTAyjQpiTiGYNK6ys/zV4IycoEr6TL8
-D5bPhvIQaDiT5SKa2RM8jJhm31u6K+NIwngOWnbztZY8ciQbvs6Q6o0Sq7loelfY
-pJfqL8M2FkrsId3z0u7qq1ZdeTMLOatiDKJ+/ZwfWJrPYi5jZcYD0XbNSpNDKiB3
-U9w6h6h/eCN2ugjj4vRLhoVJ60PLVYE7NCQRnji1wFMtbgxn7r3NbJ+X0I5QFI6V
-j5RZcma//C7d44FkOUwXrYo/BdKatiFjgpyH/jKAl7Kv3ZgJE0XMZQ9AjnRbD+CN
-Jyn8TtgN20oIT8PDqZa8bMLGGJdq24wxkpJGvj13Ui71DLsetFiA37ZBJ+aXCghb
-mKtckwkXoOZSXngNC0hIUN1Vcw99BXSrqQNfXu4ChBtIiZI3bzzIXdZP0yesPoRO
-GqS4fF96ZCoohQ3ur2/Olm+wsCDQ+3ajVZ+38zz7GYV0hzkIlWNluIPioYeh5Y2H
-eQ6JGK5p
-=vfdD
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmHEyG0ACgkQv+cXZJpc
+PQjPfgv/Vqj+3i6Hxbmo86xcDA10LPtY61AI4FWA1WuAGkerDujL3UPxI3YumUi+
+MA/zFpMAcGXLCupQlKY4Z8JMqmwPB7PlXE3TseEsNu/9dhZkQR+YehksX8H4C3jD
+SPQE15WsBsyUNnw5lqVEYozWtodMv1bVa/4y+O6AYd4QhHQgpKWvA8V5ETA27iDH
+xZpaZatgMCfFGCVHoglES4MGqwpas/WF7olAd/44zR9Q0z0V7yqJXkn81rLmuXK7
+eGq04xYEWGbwX8sGXshMWyH5dgmXhm7SSBLGtMuEC+xvXjmK2/c9+yrQ+D8M69gl
+uCSiddK3qUn1bF0OwZKj2aQeYi05W9AiNaFkN8+CgfjSlARYZRXigcdUJZ/CsuQs
+NXZrtmeZdLx1UzWcsVQxBwt2Gyq3LtLQbfiB0euVuSsyE305JN06Jx+OrFTeRyGA
+j9rdB/QVyWdZwvQK2r6GRrEqtDI1B3XMMwWgLz+3aeU3qbv+yi0rhEAK5429qpPD
+9BHrT42C
+=KISu
 -----END PGP SIGNATURE-----
