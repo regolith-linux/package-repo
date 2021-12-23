@@ -699,19 +699,19 @@ Description: Indicator to display the current Wi-Fi network name.
  currently connect Wi-Fi network.
 
 Package: ilia
-Version: 0.9.1-1ubuntu1-1regolith-1638854685
+Version: 0.9.2-1-1regolith-1640285394
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 203
+Installed-Size: 199
 Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.12.0), libtracker-sparql-2.0-0 (>= 0.10.0), dconf-gsettings-backend | gsettings-backend
 Homepage: https://github.com/regolith-linux/ilia
 Priority: optional
 Section: x11
-Filename: pool/main/i/ilia/ilia_0.9.1-1ubuntu1-1regolith-1638854685_amd64.deb
-Size: 52024
-SHA256: 074b7c5c4365b3c705334bee205b7453ed3bb1e2399c47a0ca4e7e195b70b187
-SHA1: 6ee31be7818b3e7ba8962689936c714be8ca834c
-MD5sum: 966eebc545c27190ea45a443fe85fceb
+Filename: pool/main/i/ilia/ilia_0.9.2-1-1regolith-1640285394_amd64.deb
+Size: 52124
+SHA256: e407899475821fdda9eb4aa47e891ed08bfb11bed83e8f64880445d191ef2aa2
+SHA1: a18ba04c7d03669f03b1d026d00863f984691589
+MD5sum: fcb303701699d7e4a37a3358f33de1ed
 Description: General purpose desktop executor
  Invoke actions upon apps, commands, notifications,
  and keybindings via a simple filterable menu.
