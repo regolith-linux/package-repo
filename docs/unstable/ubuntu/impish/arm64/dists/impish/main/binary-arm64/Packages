@@ -1375,6 +1375,44 @@ MD5sum: c3ad37b7eb11981205bc1251a73f5545
 Description: Default Look for Regolith with minimal dependencies
  A basic Regolith look optimized for minimal dependencies.
 
+Package: regolith-look-gruvbox
+Source: regolith-look-extra
+Version: 0.2.1-1-1regolith-1640385454
+Architecture: arm64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 10
+Depends: regolith-styles, gruvbox-gtk, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
+Provides: regolith-look
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-look-extra/regolith-look-gruvbox_0.2.1-1-1regolith-1640385454_arm64.deb
+Size: 2592
+SHA256: 82d74b1220265630c2c671b401fb01709b3448e2a15d06e8c93bbe878b61e184
+SHA1: 8e0d7e719b29375bb88317e2ea8eb9d422be2168
+MD5sum: e4224cda13a638a0e792ec064453b36d
+Description: User contributed gruvbox theme
+ Colors based on https://github.com/morhetz/gruvbox
+
+Package: regolith-look-nord
+Source: regolith-look-extra
+Version: 0.2.1-1-1regolith-1640385454
+Architecture: arm64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 687
+Depends: arc-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
+Provides: regolith-look
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.1-1-1regolith-1640385454_arm64.deb
+Size: 680508
+SHA256: 25f14798af7195ad448195b12dbb93fce17c092bd003bc2e8b682234f0d1ac5c
+SHA1: d25dda4f955f42ee7b34e9a563ba7cbe2914e2ec
+MD5sum: 5bbcccbd207b7c9eb7d6f6a48ca8843f
+Description: Nord look for Regolith
+ Nord Look with fontawesome and sourcecode pro
+
 Package: regolith-rofi-config
 Version: 1.4.1-1-1regolith-1639377997
 Architecture: arm64
