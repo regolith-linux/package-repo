@@ -1,28 +1,28 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: impish
-Date: Thu, 23 Dec 2021 19:04:17 UTC
+Date: Fri, 24 Dec 2021 17:15:45 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Impish
 MD5Sum:
- 42c061f168c6afd6045c55218b91e641 61892 main/binary-arm64/Packages
- 12b6cc42c8287c90775fe20acbbf0356 15834 main/binary-arm64/Packages.gz
+ 246a9e1f56414f71719ed619720e5e3a 61892 main/binary-arm64/Packages
+ f2043487de58c0ec25c607a5f6a53a84 15834 main/binary-arm64/Packages.gz
  a2cea3d76d26226d2adfc8e4d6c63fd4 167 main/binary-arm64/Release
- d004b918d2cf181655b1014d1e66bb08 52145 main/source/Sources
- 4d179185221543c4dda1e5ca05be3cea 13129 main/source/Sources.gz
+ f48a18af50961b83b9669869f3e0c4ec 52217 main/source/Sources
+ c41c4e6a712c77b34d3ac5523f008e3c 13155 main/source/Sources.gz
  bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
 SHA1:
- 7155b343573263ddcf7d57e0057262934daf788a 61892 main/binary-arm64/Packages
- 4e3e7f64a10c3ea2cf14a92aba510d550a6d6656 15834 main/binary-arm64/Packages.gz
+ 3aa38df6c0d8bf4b0517cfb7493888f4f175328d 61892 main/binary-arm64/Packages
+ ad858189fea5bfb0a12d9a23694c83f7f419dee3 15834 main/binary-arm64/Packages.gz
  27be168726efed96ba0e20c9a5c5f149de8e2303 167 main/binary-arm64/Release
- 0cac5f79c19f4d90a7e5396bbee27c2b22c41702 52145 main/source/Sources
- bf2d92c99cd500cdbfd06ab45200144400269c83 13129 main/source/Sources.gz
+ 0ec16e8a7f7e88fe02277c84158563e2dc2b0fbf 52217 main/source/Sources
+ b4868960ed470171eaffc8b412693fbdedd3bb4d 13155 main/source/Sources.gz
  6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
 SHA256:
- 8c21e9708563bb6b5b68ca56e30a3e2a1c6b917ea7198e868699c868dce3f819 61892 main/binary-arm64/Packages
- 4964736dc3a25b648938a6bc6e2b866d45ec6e081351f78996b5077443ee7665 15834 main/binary-arm64/Packages.gz
+ a496ac28b1dc3883b7afbd8667afdda9517a062371a24315b1c2f1c55feae798 61892 main/binary-arm64/Packages
+ dbbefeb03a92eafe4963d31e966cd9d6cef902e7cd34e89f367d7fe05ed9f1d3 15834 main/binary-arm64/Packages.gz
  bd4dfd248cbc5c1114605ac38a7175fe56bbd5d655fb64655fabd0827849fc59 167 main/binary-arm64/Release
- c050343ede1f7e4b4acefe6c1e9bdb38044b0df93f49bb51b6bf317baa6c0b5c 52145 main/source/Sources
- 1271c99692b3aa9a248b49411a8eeb008ee020806f13b5d19d7fcd3becb4b8f6 13129 main/source/Sources.gz
+ 3330f12a42c0b4829d3c8147d55e8d94d69a9da984277c3999e8634110dfc2c5 52217 main/source/Sources
+ 54b9ec695c3e1a37a2727644d8da09b3a91e34e71ed173107f06ee88b8a03dd4 13155 main/source/Sources.gz
  5e17064a3e245f7ab2a09450cb5abbc2693d5da6b2e120960f23299ef1a79592 168 main/source/Release

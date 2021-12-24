@@ -1274,7 +1274,7 @@ Description: Default Look for Regolith with minimal dependencies
 
 Package: regolith-look-gruvbox
 Source: regolith-look-extra
-Version: 0.2.0-1-1regolith-1640187409
+Version: 0.2.1-1-1regolith-1640366083
 Architecture: arm64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 10
@@ -1283,11 +1283,11 @@ Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-gruvbox_0.2.0-1-1regolith-1640187409_arm64.deb
-Size: 2536
-SHA256: dc277ee4b9e9f4b50a6b01c9c1db1fc1d3df40d80927a8b6098c53147439f7af
-SHA1: 2fb552b1734e726e69feac24c3930ed14421843b
-MD5sum: 44f03e0ec3eda98bce0b6639e33bbdde
+Filename: pool/main/r/regolith-look-extra/regolith-look-gruvbox_0.2.1-1-1regolith-1640366083_arm64.deb
+Size: 2584
+SHA256: d8feb4734c23111bbab1a35ed4af2ba755b55c1a476dccf622f3094693068c10
+SHA1: 40786339c154ac120d662c183f9969864e39f0ec
+MD5sum: b46a14ae1fb7ec095c9f33e6081d6ad3
 Description: User contributed gruvbox theme
  Colors based on https://github.com/morhetz/gruvbox
 
@@ -1315,7 +1315,7 @@ Description: Lascaille look for Regolith.
 
 Package: regolith-look-nord
 Source: regolith-look-extra
-Version: 0.2.0-1-1regolith-1640187409
+Version: 0.2.1-1-1regolith-1640366083
 Architecture: arm64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 687
@@ -1324,11 +1324,11 @@ Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.0-1-1regolith-1640187409_arm64.deb
-Size: 680480
-SHA256: 29477137a66b83036b703859dd998e9f55f9629c1b841da8ff7302c054ec279d
-SHA1: 07c486b3241aa4f37690542029dba0730661445f
-MD5sum: 807c7c05e746e9d33071bc5aea141f11
+Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.1-1-1regolith-1640366083_arm64.deb
+Size: 680508
+SHA256: 8443fcea1534eff867339259139f8c80c1dd4af5b0aea12776906e22c0ddff52
+SHA1: 74666e57cb6e86be2eb1f97a8216e7eba6a00250
+MD5sum: 19957c43c90d9468e8900f2068725284
 Description: Nord look for Regolith
  Nord Look with fontawesome and sourcecode pro
 
@@ -1373,7 +1373,7 @@ Description: Rofication notification system
 
 Package: regolith-session-flashback
 Source: regolith-session
-Version: 0.4.1-1-1regolith-1639376515
+Version: 0.4.2-1-1regolith-1640366117
 Architecture: arm64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 36
@@ -1385,11 +1385,11 @@ Provides: regolith-desktop-session
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-session/regolith-session-flashback_0.4.1-1-1regolith-1639376515_arm64.deb
-Size: 7036
-SHA256: 61536ae49227968ae2a223e626a4051054949aede3f547c7cd8e76fb8c2f7791
-SHA1: c6adf7de016d15c7b9f9954308b5d04abcadca5d
-MD5sum: d1193be4b733bc00418b9508d8c255ac
+Filename: pool/main/r/regolith-session/regolith-session-flashback_0.4.2-1-1regolith-1640366117_arm64.deb
+Size: 7132
+SHA256: 7d886df60056f815b7c5fc10aedfbf2038193455425663ca25a84f13036dbc0c
+SHA1: 861b2e2b9278713f4b85dc2bb92201cc29d871e4
+MD5sum: 66aec0e1c09662820da8a4ac0c5c3b3a
 Description: Regolith customized gnome-flashback session
  This package contains the desktop and xsession configuration
  necessary to start a Regolith gnome-flashback / i3 desktop session.
