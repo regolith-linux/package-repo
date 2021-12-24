@@ -4,42 +4,42 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Thu, 23 Dec 2021 18:50:57 UTC
+Date: Fri, 24 Dec 2021 17:07:22 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
 MD5Sum:
- a858aba8c6e3e1327b12916ebe0f1655 69365 main/binary-arm64/Packages
- f77d45d89310dcc8feb4a0926f7fb958 17162 main/binary-arm64/Packages.gz
+ 59b2f8fe06e6fd9df2f20627a0f04048 69365 main/binary-arm64/Packages
+ 4561811a7a35cae49800cdbf0dec2873 17168 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- 91a50e2da0d535455f9c44805f19de6a 54764 main/source/Sources
- 8e9cd439fb55e9ce3286ff0d461a6b2e 14051 main/source/Sources.gz
+ 01335eda7054000baab8f2824970c0bf 54836 main/source/Sources
+ 9ead004db09688ddfa700207d878c19f 14069 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
- ac61b824e0c658b2c6e6d1ddf3e495f74598be88 69365 main/binary-arm64/Packages
- 74ee4c261acafca4394d1a183b294a0f14452a9b 17162 main/binary-arm64/Packages.gz
+ 543590531726baa87715e5e31a17618feade6f57 69365 main/binary-arm64/Packages
+ 81cb4a9689c850705fdd6d530aacbbbd2f2641fb 17168 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- 625458ca50e19730c28411253096c8c7a4201897 54764 main/source/Sources
- bb91d38d13f9334f4566fbe4063470f3aa4146c0 14051 main/source/Sources.gz
+ 756c9498c5e9fe02a0b3731f369b0af894b70092 54836 main/source/Sources
+ a6d0babfe167020b9075c371ab1816862d4bdc51 14069 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
- d1e1456cc1884195dc0c7f05f606e68faf86267a1c73023d2b450dbc79bab3a1 69365 main/binary-arm64/Packages
- 90f89c8f9578ba482201e1feb8ee392fc71e8676ec314e0744ec09dca57f1fad 17162 main/binary-arm64/Packages.gz
+ 77fb68b78b00fdbf95a1ce0e2cef63387a48a83bc16754f3fdbb8509fd193da9 69365 main/binary-arm64/Packages
+ 9fad65a1c419a8c1fae03baac732fccd04fb1cf68165187172458c230813d97d 17168 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- 68e05206d6f26f3e6aa60e25c429235b0cc7508eda0287e8a669b70a5571fb05 54764 main/source/Sources
- 8f054909df19be47749f7d84675957eee9313a608bbffab672bab0b8d8384fbc 14051 main/source/Sources.gz
+ a98bcd7d7a1f71efec40f2a2139fbdc89098098cf0b9fb654c655d89d4a74ec6 54836 main/source/Sources
+ 32f99bcdb9ee1133c60eda4969fa3432ac61bae2ffc22e28715423b9eea2aade 14069 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmHExREACgkQv+cXZJpc
-PQiIYgwA1UB9kl9hkR8Y3id9SQt1vR3XQHquA+4MYTysIeK80csjfB/vqpFhN2Be
-vQnwQI1EFfw9pHck5ryBo45ACxH//hkvLVYiaGR6a6nRAsYrYONkNq/5Pede4S2Q
-PuVkSCxzOUF5nb0U+FP4+KhOPV02ETUwcguWhZ/CYQSGuwm0xF/jSRRmmOY24UGS
-IbbB/I0K/TH7HocKvFN3GrRBa29T2wAmR5N9BZJ5LaeObL+DwVDm8tEWP6cquIPZ
-TmAILpObqAXeNFjc87gSOCOKX/4g7bYz2k7EItx5OU0MbleNkvk/TatgNaWo9Y7q
-cYXxidPIFCPTVAhHg15z1LCnFq0jMXns7Z49yyLqEBVPmR30D/ZrRP2FEcOqPv6O
-fEV58IYpJd+LyBT9EitTS4WZF2hxfnoBsAIm8956rLemFxRDKHWaANwVB2RWSgoN
-qatiN8ppPPDUtOVeLiKlYKAKMj6udXc+Vzrrxuk+L9bzun8WkT8jgRmvs6XSGIVP
-bTjTb6Qv
-=HYbz
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmHF/koACgkQv+cXZJpc
+PQg9lgwAyRgakxBoo/p8VRiKyRlkh1EM84T24dHVKAkvdWPa6OxUB46PVwqAUvXr
+UVJl/xtDS0YpY6JsWNrduMSJGtCA7clGvVfChctl4qoZ8rZ4yDe+hFP9bA4sHQWA
+Q6DObaFEafK1TqQnh+TQoQYFA1ggyq8Sq/3LUHZlOo3lWXlPJhwyB4+ahva2kYSq
+HfvM4aZuGQg8hje4huBM+FXntumeYZBaSiLBGbi5yIG/7sFQoM7SmC24D3RZ5zck
+KUhx3jaGN905stU/YuEKn1P/oJSxAL8pba6gWF/D7cUah7iyTu+NFYDwUz2GSB2F
+7qRGTBhmwzTVtRUTmE2scz23hmcTTmyrqpbR0b84zDnKj/rXUaV+bHuFzEu9b+0k
+4rXAMCxKfWuDq5zTDl2fcmb1YSQtb0EgyCAfn8N5zOCnu8N10LV5S6eOJwU1o++R
+P/XozZpshVOe6ygCXxMTf4RGnFGI6RCK28IyJLAjOj924GqRCgrQCb3KZJ53JdS6
+SLEgUQZ2
+=d9zg
 -----END PGP SIGNATURE-----
