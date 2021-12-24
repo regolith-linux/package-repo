@@ -1375,66 +1375,6 @@ MD5sum: 800b9ff1477ee5bea6a23dcb29f73aec
 Description: Default Look for Regolith with minimal dependencies
  A basic Regolith look optimized for minimal dependencies.
 
-Package: regolith-look-gruvbox
-Source: regolith-look-extra
-Version: 0.2.1-1-1regolith-1640365255
-Architecture: arm64
-Maintainer: Regolith Linux <regolith.linux@gmail.com>
-Installed-Size: 10
-Depends: regolith-styles, gruvbox-gtk, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
-Provides: regolith-look
-Homepage: https://github.com/regolith-linux/regolith-desktop
-Priority: optional
-Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-gruvbox_0.2.1-1-1regolith-1640365255_arm64.deb
-Size: 2584
-SHA256: f0a1868fc4528f1e3020917aadb44afd186a796eb4d83893219a2d529c010449
-SHA1: 596cc1cfd19e0d1f4e7d2a5e8c73960224b72c36
-MD5sum: 8e01d331b9488fd1264b82c4afb8563e
-Description: User contributed gruvbox theme
- Colors based on https://github.com/morhetz/gruvbox
-
-Package: regolith-look-lascaille
-Source: regolith-look-extra
-Version: 0.1.0-1-1regolith-1639409962
-Architecture: arm64
-Maintainer: Regolith Linux <regolith.linux@gmail.com>
-Installed-Size: 21
-Depends: fonts-materialdesignicons-webfont (>= 1.6.50), fonts-dejavu-core, ayu-theme
-Recommends: i3-next-workspace, i3xrocks-cpu-usage, i3xrocks-net-traffic, i3xrocks-time, regolith-i3-compositor, regolith-i3-ftue, regolith-i3-gaps-partial, regolith-i3-gnome, regolith-i3-i3xrocks, regolith-i3-remontoire, regolith-i3-rofi, regolith-i3-rofication, regolith-i3xrocks-config
-Conflicts: regolith-look
-Replaces: regolith-look
-Provides: regolith-look
-Homepage: https://github.com/regolith-linux/regolith-desktop
-Priority: optional
-Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-lascaille_0.1.0-1-1regolith-1639409962_arm64.deb
-Size: 4284
-SHA256: 17ff6cf5d70c1c961166552de1fedb7647c1c61ce6b5864ee704f3247eb84e07
-SHA1: 002a2e2074228951ace68e336d61e8416bbe5ec7
-MD5sum: 5b1ae5b3bd4c09d2a75e4515c14ee254
-Description: Lascaille look for Regolith.
- A Regolith look using i3, Rofi, Remontoire, and i3-bar.
-
-Package: regolith-look-nord
-Source: regolith-look-extra
-Version: 0.2.1-1-1regolith-1640365255
-Architecture: arm64
-Maintainer: Regolith Linux <regolith.linux@gmail.com>
-Installed-Size: 687
-Depends: arc-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
-Provides: regolith-look
-Homepage: https://github.com/regolith-linux/regolith-desktop
-Priority: optional
-Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.1-1-1regolith-1640365255_arm64.deb
-Size: 680512
-SHA256: af78d77a69ba3dd50663e3efc5ae997b1f587bcd5ffbed22dfbb1c0245c41449
-SHA1: 0b953011be34cf508a66aef390b520bdb70a589c
-MD5sum: 744b7738cf01fa8065f6da2591f2a48d
-Description: Nord look for Regolith
- Nord Look with fontawesome and sourcecode pro
-
 Package: regolith-rofi-config
 Version: 1.4.1-1-1regolith-1639964713
 Architecture: arm64
