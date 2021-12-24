@@ -1375,6 +1375,44 @@ MD5sum: e3355680ff6f968ed52e6a17710fba0c
 Description: Default Look for Regolith with minimal dependencies
  A basic Regolith look optimized for minimal dependencies.
 
+Package: regolith-look-gruvbox
+Source: regolith-look-extra
+Version: 0.2.1-1-1regolith-1640385445
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 10
+Depends: regolith-styles, gruvbox-gtk, moka-icon-theme, fonts-materialdesignicons-webfont, fonts-jetbrains-mono
+Provides: regolith-look
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-look-extra/regolith-look-gruvbox_0.2.1-1-1regolith-1640385445_amd64.deb
+Size: 2592
+SHA256: 6aea7c42c0f330a60e72d616e897f33b4084f980e0bcbc589ed45687645193fc
+SHA1: 1c2adb750bd44367ad06b150d9bfd2bfbb2beaaa
+MD5sum: e5aa6459480689bdc558444f1f34f3fe
+Description: User contributed gruvbox theme
+ Colors based on https://github.com/morhetz/gruvbox
+
+Package: regolith-look-nord
+Source: regolith-look-extra
+Version: 0.2.1-1-1regolith-1640385445
+Architecture: amd64
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Installed-Size: 687
+Depends: arc-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
+Provides: regolith-look
+Homepage: https://github.com/regolith-linux/regolith-desktop
+Priority: optional
+Section: x11
+Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.1-1-1regolith-1640385445_amd64.deb
+Size: 680524
+SHA256: fb06a5438402124e52497bdb84b389fdaa83e906ef0a017b4b55cd75bcd2d9b1
+SHA1: a6748902c8e1174d4e1a9c11b3da45b8a680ad45
+MD5sum: ac46c91b4e93fae60b8596032c04afcc
+Description: Nord look for Regolith
+ Nord Look with fontawesome and sourcecode pro
+
 Package: regolith-rofi-config
 Version: 1.4.1-1-1regolith-1638854895
 Architecture: amd64
@@ -1416,7 +1454,7 @@ Description: Rofication notification system
 
 Package: regolith-session-flashback
 Source: regolith-session
-Version: 0.4.1-1-1regolith-1638854920
+Version: 0.4.2-1-1regolith-1640385507
 Architecture: amd64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 36
@@ -1428,11 +1466,11 @@ Provides: regolith-desktop-session
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-session/regolith-session-flashback_0.4.1-1-1regolith-1638854920_amd64.deb
-Size: 7052
-SHA256: 2905e00d0e43f3f6fdeea07694061b7f8566486e1a6e64d3f1917c22dd2b9e3f
-SHA1: 32cf0fba1bf4804423c7bebcb9749c95fc237bd7
-MD5sum: 61b461da456aec7162db0e4824318127
+Filename: pool/main/r/regolith-session/regolith-session-flashback_0.4.2-1-1regolith-1640385507_amd64.deb
+Size: 7132
+SHA256: fa8e30901e28d755f7db9cc3bcecb42eed3c0b4ad30f3fcac5f9e5c43629af60
+SHA1: 14684eef61029601eb5c5e2a86ad73ea6daa5b08
+MD5sum: 2140dd79b0ebdec8a4952b4fa5701c9b
 Description: Regolith customized gnome-flashback session
  This package contains the desktop and xsession configuration
  necessary to start a Regolith gnome-flashback / i3 desktop session.
