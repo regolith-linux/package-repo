@@ -1377,7 +1377,7 @@ Description: Default Look for Regolith with minimal dependencies
 
 Package: regolith-look-gruvbox
 Source: regolith-look-extra
-Version: 0.2.0-1-1regolith-1640183593
+Version: 0.2.1-1-1regolith-1640365247
 Architecture: amd64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 10
@@ -1386,11 +1386,11 @@ Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-gruvbox_0.2.0-1-1regolith-1640183593_amd64.deb
-Size: 2536
-SHA256: 0e34deabb03178bcf7154ee51325f964d15428e44ce0bbfe6257c6980b219ca3
-SHA1: b9729e1e9074afab2781216a215b545af6d639a5
-MD5sum: f5a713fbcf47489774aabd1ae4f3e933
+Filename: pool/main/r/regolith-look-extra/regolith-look-gruvbox_0.2.1-1-1regolith-1640365247_amd64.deb
+Size: 2584
+SHA256: 729988e8eb51587391ee8ad686f9feb02a47c55c01a3284078ad84f5b09edea3
+SHA1: 00d680b5bef40058e32287f3cd68f78420262d8d
+MD5sum: 8f04cd16bdb80100011cc4a27ed6306b
 Description: User contributed gruvbox theme
  Colors based on https://github.com/morhetz/gruvbox
 
@@ -1418,7 +1418,7 @@ Description: Lascaille look for Regolith.
 
 Package: regolith-look-nord
 Source: regolith-look-extra
-Version: 0.2.0-1-1regolith-1640183593
+Version: 0.2.1-1-1regolith-1640365247
 Architecture: amd64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
 Installed-Size: 687
@@ -1427,11 +1427,11 @@ Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.0-1-1regolith-1640183593_amd64.deb
-Size: 680480
-SHA256: c60bf097a028121eaaa6d5e305e868673578878575fe861caeafc025be9d1043
-SHA1: 74741b297212da36292a39cc782ce91e538b280f
-MD5sum: 6d7590ff66696ff3d1e211318349158e
+Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.1-1-1regolith-1640365247_amd64.deb
+Size: 680500
+SHA256: 24ddacf164714ed6cd57215d351446bdc239ec63319180e8a9f8d2faeed19d78
+SHA1: e5a332bc300383a883b24843aad7abe35245f57d
+MD5sum: 5f1f93047847dac2214ec0d51b04b3ae
 Description: Nord look for Regolith
  Nord Look with fontawesome and sourcecode pro
 
