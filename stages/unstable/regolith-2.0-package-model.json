@@ -130,6 +130,10 @@
     "fonts-source-code-pro-ttf": {
       "source": "https://github.com/regolith-linux/fonts-source-code-pro-ttf.git",
       "branch": "main"
+    },
+    "i3status-rust": {
+      "source": "https://github.com/cfsmp3/i3status-rust.git",
+      "branch": "v0.20.7deb"
     }
   }
 }
