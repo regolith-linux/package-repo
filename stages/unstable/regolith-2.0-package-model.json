@@ -133,7 +133,7 @@
     },
     "regolith-i3status-rust": {
       "source": "https://github.com/cfsmp3/regolith-i3status-rust.git",
-      "branch": "debian-source"
+      "branch": "debian_source"
     }
   }
 }
