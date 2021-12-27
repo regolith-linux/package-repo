@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: regolith-i3-config
 Binary: regolith-i3-config, regolith-i3-gaps-partial, regolith-i3-snapshot, regolith-i3-ftue, regolith-i3-remontoire, regolith-i3-compositor, regolith-i3-unclutter, regolith-i3-rofi, regolith-i3-ilia, regolith-i3-rofication, regolith-i3-rofication-ilia, regolith-i3-gnome, regolith-i3-next-workspace, regolith-i3-i3xrocks, regolith-i3-networkmanager
 Architecture: any
-Version: 3.5.6-1-1regolith-1639376287
+Version: 3.5.7-1-1regolith-1640567831
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Standards-Version: 4.1.3
@@ -27,26 +27,26 @@ Package-List:
  regolith-i3-snapshot deb x11 optional arch=any
  regolith-i3-unclutter deb x11 optional arch=any
 Checksums-Sha1:
- d8a0fd188a26567b8146f0ba239a3421fe6f571a 8328 regolith-i3-config_3.5.6-1-1regolith.orig.tar.gz
- 724cffd3232b1f4e85cffaf2747eee5c459bdd7f 6668 regolith-i3-config_3.5.6-1-1regolith-1639376287.debian.tar.xz
+ 9a1d1ec672e1faf5af4aa9b46dc3ef658cbebd4c 8353 regolith-i3-config_3.5.7-1-1regolith.orig.tar.gz
+ 5f0bcec4e19d829f0facd5a2e176d53002f8e454 6704 regolith-i3-config_3.5.7-1-1regolith-1640567831.debian.tar.xz
 Checksums-Sha256:
- c55b652ae44c2bee6796b8044bbaca72ef82d7ff114c6c40116f8037b788fc0a 8328 regolith-i3-config_3.5.6-1-1regolith.orig.tar.gz
- 5fea0e917a4586df887ff5cee11242a9091805a1dfb034a4a54a96a939c9a5ce 6668 regolith-i3-config_3.5.6-1-1regolith-1639376287.debian.tar.xz
+ fd48102238eb22dbd528f8c88db08cad4d19bf097e13b86499b5e1f87aba2fb3 8353 regolith-i3-config_3.5.7-1-1regolith.orig.tar.gz
+ dd5907126ac80f4bd37e52b49951496812f32f953dc173691861dd3b24c0774e 6704 regolith-i3-config_3.5.7-1-1regolith-1640567831.debian.tar.xz
 Files:
- c2a586dafee313abe72a8a9068235db2 8328 regolith-i3-config_3.5.6-1-1regolith.orig.tar.gz
- 1361f1fceb1c6733ad964556dc2bd4c7 6668 regolith-i3-config_3.5.6-1-1regolith-1639376287.debian.tar.xz
+ 9123444d0ef2c9cb05015f2c26d38ace 8353 regolith-i3-config_3.5.7-1-1regolith.orig.tar.gz
+ 21ac9a0880cc9ac6061a44d2cb2dd392 6704 regolith-i3-config_3.5.7-1-1regolith-1640567831.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQHNBAEBCgA3FiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmG25awZHHJlZ29saXRo
-LmxpbnV4QGdtYWlsLmNvbQAKCRC/5xdkmlw9CKlJDADFCEPIPplTp21CTXwvLmAZ
-Go4CHQ99zz0YM1CWB3sR5AEnMv6xMuvUGGsKM1LTzana4Sq0wGCmhIXnLelD7TIr
-B3K+gHYqeaSq2bJzltCIWymSG5wVJ3PDUK4LF/hzm/HyR/8g+hF0+alogwUbd4Of
-7QtBHyUQx6F/LXAVeS14wOd9kFwnD0MVet0A3cSVOud3C6pzyBPHpplH1YOwkNId
-KyfdlQUC3yKLiKOMLfh/fUKveu1+Cw8FfKUy5GXhFngxrML4Lxso16BTe3EiqQE4
-eu6pELnDiFwhpwg9/fLXd7HBU1REGTNLAJ3StxqyjrQYHN7bgIz/p4mZkVIACnrR
-7kWUn69UQuPWKuIze0Rr4vHn4c7RFtFWIOFyYkNkkt9CI8A5ltU6ohAPi6+gvOEX
-UgfqWN0NmOfgtCY7uqICoPdtGha52ARVqZ3MA8JKmtUUrnN+cYPpL0N3dU79HLti
-n8xP+h4kUTNnFlh+qyJ1nkdQG7QZ2BQEu0Aod3mhmlY=
-=FD7a
+iQHNBAEBCgA3FiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmHJFCQZHHJlZ29saXRo
+LmxpbnV4QGdtYWlsLmNvbQAKCRC/5xdkmlw9COqfC/9mNzaL3t/A8Km/P/LAlX9Y
+wPUZQL56pd+yC6oPQpeccnenXzL0W6V9ozwHZRLRpHT/sC83fsiTOO4ocoUBs50R
+FnwLoxPuv2t8tkBuhHxFO4KahEnI/zDfhAmElRu6JNh7rWqf3geV+bnnT2HlC6PF
+gl9jpHIB7+3fZo/OPMjKmzvZv+UeTuMFv81MvMWIdkVsn1NjqQuhSoyuQBJ8oSnd
+Bf+kNi0peRSjVuHC8XIisPb9EPoq6lDHyJdTIEeu4HwYq4d6LpNF/DfgjW2fRg35
+cjAqCExRmEOwwNUY3e8CloN5QDOQt1yTZwkfpuTReEmtUYiTXHhMy+6Bwxu/BBu/
+QxNbLruAS29WO2jBGAFekJb7bimvxVwXKA4CZYfcLOxztTMhCHvnMTvut8AM33S1
+o4KMvhAW+ae7tLxw4+wj3d9k/d/oUZgIA795dC9qwUJEqAcjPdo8hjcTHIS+Dzeu
+8bQIKpayL0JPi9Vg48x9few36DFRDoozwkwpQMpMkqY=
+=KXt3
 -----END PGP SIGNATURE-----
