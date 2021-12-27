@@ -979,7 +979,7 @@ Description: Regolith first time user experience
 
 Package: regolith-i3-compositor
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -987,35 +987,35 @@ Depends: regolith-compositor-none | regolith-compositor
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-compositor_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7228
-SHA256: 64050d5984cda6725088e85d865237697ea3870fe3b6ae3979cd601dd806f8a9
-SHA1: d7c730047ee7c70cab1dcd2e3ddaba00730632cc
-MD5sum: f5af7cfa1311e5d347d997691c35d80e
+Filename: pool/main/r/regolith-i3-config/regolith-i3-compositor_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7248
+SHA256: aaf29d9faa024fde1575a8a1ddc8f389c9b6467b794cf9f59dabf2e5e3eb1128
+SHA1: 8f8bb38a80379030c1b2e6bd4dc161a7a234d7bd
+MD5sum: 63febcf7c3b888289968969efefab239
 Description: Integration of compositor into i3
 
 Package: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Installed-Size: 54
+Installed-Size: 55
 Depends: i3-wm, xdg-utils, xdotool
 Conflicts: regolith-i3-wm
 Replaces: regolith-i3-wm
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-config_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 12108
-SHA256: 72d74f127c56020227a51fe01d8aeb8b7bce4eedbafeccc68f7265e6592dc15b
-SHA1: 7a92d954ef63a7697b602fef560972e1cf985200
-MD5sum: 3fe0b73a26da2383d01d032bf5effeb2
+Filename: pool/main/r/regolith-i3-config/regolith-i3-config_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 12148
+SHA256: 24692a8d08a946c29b33f5bb42cbefbea3847ba7b72a72309576bad60d52c4cc
+SHA1: fda2f1c38a24475bec81c39b854b92d1d744236c
+MD5sum: c3cf511fe7a415b310da99991f9d6641
 Description: Regolith i3 config file
  This is the i3 config file for the Regolith desktop environment.
 
 Package: regolith-i3-ftue
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -1023,16 +1023,16 @@ Depends: regolith-ftue, regolith-i3-config, remontoire
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-ftue_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7220
-SHA256: ed7ce38860559ecded65350c4582e749ff7fa376e07527c6d40d4b2e7d96a0af
-SHA1: 95f0646dff93e0c511f0bc2180061d2427f5b8f3
-MD5sum: b96e2e19dab9b203e4855ff84c972126
+Filename: pool/main/r/regolith-i3-config/regolith-i3-ftue_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7248
+SHA256: 3c99945b923cc3be1e125acb1c4e01c75e8e4d34807ef387fdd93ed47e8e65f9
+SHA1: 78433dbe3c0e868e242c4c87ef3e53bdf553e067
+MD5sum: 35eba0392924fbee5f2f9c1a1026bf53
 Description: Help for new users
 
 Package: regolith-i3-gaps-partial
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 21
@@ -1040,16 +1040,16 @@ Depends: regolith-i3-config, i3-gaps-wm, i3-snapshot
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-gaps-partial_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7476
-SHA256: 1e1c60520d39ec877c93dc01c6067efb8357c526469d39a3cf72a01d0baa010c
-SHA1: 111df44043b286e5707ef1b7be479d62f9bf8239
-MD5sum: 47d05453b7d86c0cd070e55752104307
+Filename: pool/main/r/regolith-i3-config/regolith-i3-gaps-partial_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7500
+SHA256: 5c63bd4964a4ba959665a59011ca62b1843b824fe9c72283f82ea10e5523dca5
+SHA1: afd2e0272671d9d2a6eb9f557394ccaa97b16d3f
+MD5sum: 1b99492362c272456dbbb84f42ae90f1
 Description: Save and restore in-session window layouts in i3
 
 Package: regolith-i3-gnome
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 21
@@ -1057,16 +1057,16 @@ Depends: regolith-i3-config, gnome-control-center, gnome-settings-daemon
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-gnome_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7492
-SHA256: f55a5315ddd2734f0df93c4babdbf738fb258dc0ac524366db3e480533831517
-SHA1: 3707dcc276dc6ddc99a5446988676fb63ea877ab
-MD5sum: 88ce6fb77a25732a92a7b421fd9ff8ac
+Filename: pool/main/r/regolith-i3-config/regolith-i3-gnome_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7520
+SHA256: 0617f6e1ba210003d8d17bf07bf3f22f8a4e3da62e69429abe9c57fb83a6f4f8
+SHA1: 0c38fee1f7b0b4a09646578c68dff46e5a28b892
+MD5sum: a6d8c00287a317a68bf9ce2fda26802c
 Description: gnome integrations for system management
 
 Package: regolith-i3-i3xrocks
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 22
@@ -1074,16 +1074,16 @@ Depends: regolith-i3-config, i3xrocks, regolith-i3xrocks-config
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-i3xrocks_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7684
-SHA256: 9d93e3e1227cd2ec38b252a7144a6ff0fb040d06fc330174e5f8e5aed9d2ff43
-SHA1: ba5beaf9005bc31b9de6e7b10dc1e8ee31acc7ab
-MD5sum: 4ee1978f5a0213833f14aebe1ca11af9
+Filename: pool/main/r/regolith-i3-config/regolith-i3-i3xrocks_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7708
+SHA256: ff0de963e6268bc6101566addec385c689dc48ef69ca0a4a6eed7eeca88ad5f6
+SHA1: adfb8a6da8dde4c8e8e2bf029fc2e4ccde71e271
+MD5sum: f4a1cc57fcfe576727d1b2be03c16d2e
 Description: regolith default bar and status indicators
 
 Package: regolith-i3-ilia
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 21
@@ -1091,16 +1091,16 @@ Depends: ilia, regolith-i3-config
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-ilia_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7484
-SHA256: 6262f63c2a213f51dd1aca3f4935cb14ddcaed7d749a70d933148d6c93accc9b
-SHA1: 8fccd210e247abb7f33946ad1d6b373db0a4d359
-MD5sum: fab64f9c5ffa71a624c870c4a6db40ad
+Filename: pool/main/r/regolith-i3-config/regolith-i3-ilia_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7512
+SHA256: b4630791375af2a39a9d7be1c5b588724083e88c34b8b2e8dc476be725bc830f
+SHA1: 3c5b56d4a998052bcd3833730f9d0a00be0ff1a6
+MD5sum: 379db5e662cb59952d809d26ebcc286c
 Description: Desktop executor
 
 Package: regolith-i3-networkmanager
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -1108,16 +1108,16 @@ Depends: regolith-i3-config, network-manager-gnome
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-networkmanager_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7248
-SHA256: 5410c49b15030cee599b6d0bafda52af37d4aab84e77f16361870471aee381b3
-SHA1: 3a3f345e2c1a80b58121116354d1b56974d548df
-MD5sum: 02386923337d2be04b32a2ad4068c6b2
+Filename: pool/main/r/regolith-i3-config/regolith-i3-networkmanager_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7276
+SHA256: eb7dc354761ff912c7592af48e14fe68b68dfe80c5740db580cb08ce2b13a8c2
+SHA1: 9695caae8756f2c33418c5e99b0ee2ef0e244322
+MD5sum: ccfebed3743007e28c756a0e85f98a8b
 Description: nm-applet integration with i3
 
 Package: regolith-i3-next-workspace
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -1125,16 +1125,16 @@ Depends: regolith-i3-config, i3-next-workspace
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-next-workspace_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7332
-SHA256: 5cc12597d00efb0f17621654ce03923d24a179874fc62f00cf59b7f7b1ecaa58
-SHA1: b89bb0610ac81d495a6bc4b3f90e6e70b00944c3
-MD5sum: c11766dbca9ad4b7dee6289e09c329ad
+Filename: pool/main/r/regolith-i3-config/regolith-i3-next-workspace_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7356
+SHA256: 3abd991fe47d94fa950338cd7a24aaa5d6600fe0a5cf5bf64af1e33beaa98584
+SHA1: ea7fd6e4d1b619aa5e106301c1465833c35e73d7
+MD5sum: beccf5bb702e1b25cd62ba1ef7b068b6
 Description: easy i3 workspace creation
 
 Package: regolith-i3-remontoire
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -1142,16 +1142,16 @@ Depends: regolith-i3-config, remontoire
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-remontoire_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7368
-SHA256: 23db99856ce38911b63df0d8d9e7eee7d278e575cb76ec5cdaf8c47aa6851abc
-SHA1: c4cb8cde63f1790043a5ac6329ea8146fbecb1b6
-MD5sum: c5d83adf0451faec1047382bc28b2bea
+Filename: pool/main/r/regolith-i3-config/regolith-i3-remontoire_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7396
+SHA256: 351fe3ab4ec25e74f3386f667243dcd4a8abf50b30ea7a43eba89ed11df6f376
+SHA1: 8cff1c7147c969a676ee04326383850a7af082f9
+MD5sum: b4b68cd5106bee63c29d33994bcf9ada
 Description: Help for new users
 
 Package: regolith-i3-rofi
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 21
@@ -1159,16 +1159,16 @@ Depends: rofi, regolith-i3-config, regolith-rofi-config
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-rofi_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7492
-SHA256: 6241071ac97f07e251bba0b9b99af3ffb5ac11e425d5b8a7dfd593d8f787c9a3
-SHA1: c88936d807c63adc4a43074a29e9bb72b0d128e2
-MD5sum: b5b13d225b699deb5d093cbfb8f745b8
+Filename: pool/main/r/regolith-i3-config/regolith-i3-rofi_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7524
+SHA256: 3ca0e9498eedfc4ecdf4f2551bb4595f3dd6a20e830bd96488787f02f7c25710
+SHA1: 47d640fc9e892bda058fee93df504bd6e73cc0e5
+MD5sum: 9d28cdee812b011d9023b30e96d0808e
 Description: Global menu system
 
 Package: regolith-i3-rofication
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -1177,16 +1177,16 @@ Conflicts: regolith-i3-rofication-ilia
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-rofication_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7296
-SHA256: c9986b96ad775b571283585a163e69a7bd2f3e2166251be1e45edbc41c76a930
-SHA1: 9b3da30264eff9ed1f935293e6ddbe95ed0f6ac4
-MD5sum: e3b51d80bed1ea5d1af15bdc5bd4d530
+Filename: pool/main/r/regolith-i3-config/regolith-i3-rofication_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7320
+SHA256: 5bd1eaec19d2374a291b956af664a6ddba586dbaa2de818b3c0d594805f53dd0
+SHA1: 01fb5c7e4c6ec356a2912a5260befd85e7905212
+MD5sum: 4d173abe3525a2498fe202d3fdc8e417
 Description: Rofi based notifications
 
 Package: regolith-i3-rofication-ilia
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -1195,16 +1195,16 @@ Conflicts: regolith-i3-rofication
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-rofication-ilia_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7300
-SHA256: cc5e150f0af866bb135224f3a9c5bd9e8bb592b9df4aa303a7c50e7c3341eb7d
-SHA1: de90c2130925b95237c6903b760755ff0f40ca16
-MD5sum: 7c0296c02a168906499cb451677b43dd
+Filename: pool/main/r/regolith-i3-config/regolith-i3-rofication-ilia_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7332
+SHA256: 5459949f778c7889a439c26afdf3f17c1b060d149c33fec9537848a347ff0e01
+SHA1: b07f1738371c36ab94f5fc9cefeaeb08416cc641
+MD5sum: 7898aa90f949eaea87c687e31f900624
 Description: Rofi based notifications
 
 Package: regolith-i3-snapshot
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -1212,16 +1212,16 @@ Depends: regolith-i3-config, i3-snapshot
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-snapshot_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7300
-SHA256: 398e04026f5570e02e7d4435cd2f2de85dcf739353126b1ee07513c8a02b978b
-SHA1: 7b654e2c789bb7102cf5646dfd506dc5a8978ed0
-MD5sum: 95adc709351162bc5f78186108594b17
+Filename: pool/main/r/regolith-i3-config/regolith-i3-snapshot_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7324
+SHA256: a497ec4fd3ed31d1905c2d575ac31fb57aaa777070b859d76a379272c4a2c15d
+SHA1: e2372413bf1b86a69a62a59d264e1a1454bd3d3d
+MD5sum: efa6394321884e982bb613fdd6f4a17d
 Description: Save and restore in-session window layouts in i3
 
 Package: regolith-i3-unclutter
 Source: regolith-i3-config
-Version: 3.5.6-1-1regolith-1638848022
+Version: 3.5.7-1-1regolith-1640564044
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 20
@@ -1229,11 +1229,11 @@ Depends: regolith-i3-config, regolith-unclutter-xfixes
 Homepage: https://github.com/regolith-linux/regolith-i3-gaps-config
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-i3-config/regolith-i3-unclutter_3.5.6-1-1regolith-1638848022_amd64.deb
-Size: 7244
-SHA256: adbd2587f846feca777a61aa23696c11f7b9d6e267fcaf118dfac14c9127a72d
-SHA1: 9b6b32488741ef214cad27e9b97b7194f8327d48
-MD5sum: a939d3c56bbcb9ae26fcb6ed48b13f27
+Filename: pool/main/r/regolith-i3-config/regolith-i3-unclutter_3.5.7-1-1regolith-1640564044_amd64.deb
+Size: 7264
+SHA256: e93d33a8e4ea0a7527fe71078f08988a6c7fba7cb64a0f102ffeeecd062ec40c
+SHA1: 4a88108d8194f4cb82e3ac005b0eaab87a0adf08
+MD5sum: 563b5e052bb42d5443c4665001fb3029
 Description: Hide the mouse cursor if not used
 
 Package: regolith-i3xrocks-config
@@ -1315,20 +1315,20 @@ Description: Lascaille look for Regolith.
 
 Package: regolith-look-nord
 Source: regolith-look-extra
-Version: 0.2.1-1-1regolith-1640365253
+Version: 0.2.2-1-1regolith-1640564118
 Architecture: amd64
 Maintainer: Regolith Linux <regolith.linux@gmail.com>
-Installed-Size: 687
+Installed-Size: 691
 Depends: arc-icon-theme, nordic, fonts-font-awesome, fonts-source-code-pro-ttf
 Provides: regolith-look
 Homepage: https://github.com/regolith-linux/regolith-desktop
 Priority: optional
 Section: x11
-Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.1-1-1regolith-1640365253_amd64.deb
-Size: 680504
-SHA256: 6268f2a24bb161d3cc0a72b438ff40a58823baef90fba2524a0d920b107887b0
-SHA1: 913a52ad2579c3803986d0942171b5f9849bdc68
-MD5sum: 9913238b7b13f5eed64cf6da85d4e4ed
+Filename: pool/main/r/regolith-look-extra/regolith-look-nord_0.2.2-1-1regolith-1640564118_amd64.deb
+Size: 681184
+SHA256: 8fa266fc111bf2ab220f39f03fbc76689dd8d7e058cf22485dd32f347b9cb4b4
+SHA1: 5e84df29ef4994a67274e3a9e796f3c74caa3de5
+MD5sum: 83eb347f60b7f92017bb828ffea539b0
 Description: Nord look for Regolith
  Nord Look with fontawesome and sourcecode pro
 
