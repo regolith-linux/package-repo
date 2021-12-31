@@ -20,7 +20,7 @@ regolith-compositor-xcompmgr master c17985c
 regolith-default-settings i3cp 3111b48
 regolith-desktop debian d123b59
 regolith-ftue main 0f17be4
-regolith-i3-config master 72a3636
+regolith-i3-config master 8e50f48
 regolith-i3xrocks-config i3cp e1bd956
 regolith-look-default main 27e5ed0
 regolith-look-extra main 965eac1
