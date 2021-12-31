@@ -8,7 +8,7 @@ i3-next-workspace main cb469ba
 i3-snapshot master 5135c86
 i3-wm next bf425ae9
 i3xrocks master 0c39c51
-ilia main c1434d0
+ilia main 47dfe97
 lago main 960c8a0
 nordic main 0c7b9af
 plymouth-theme-regolith master caebe50
