@@ -727,7 +727,7 @@ Description: Indicator to display the current Wi-Fi network name.
  currently connect Wi-Fi network.
 
 Package: ilia
-Version: 0.9.3-1-1regolith-1640968202
+Version: 0.9.4-1-1regolith-1640982323
 Architecture: amd64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 203
@@ -735,11 +735,11 @@ Depends: libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3)
 Homepage: https://github.com/regolith-linux/ilia
 Priority: optional
 Section: x11
-Filename: pool/main/i/ilia/ilia_0.9.3-1-1regolith-1640968202_amd64.deb
-Size: 52708
-SHA256: a1a123574a678a7676674ec8ffa2a5cd9bf717927e2fb056d476a8c8f445d742
-SHA1: 6c24a1e88500c2f24e6bc3739895373e2fb624c5
-MD5sum: 51a837c4c8b38cddf62eea2593a4ec05
+Filename: pool/main/i/ilia/ilia_0.9.4-1-1regolith-1640982323_amd64.deb
+Size: 53024
+SHA256: 70d5584bfaa4fa49599b15771b041e314835214e7c820248e11f3735d4fe90b2
+SHA1: 5edd3d091807d370a817b146e0b86fb6ad038b60
+MD5sum: 97e702c8bd3fc908417b9c62b319be13
 Description: General purpose desktop executor
  Invoke actions upon apps, commands, notifications,
  and keybindings via a simple filterable menu.
