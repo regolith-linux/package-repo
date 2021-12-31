@@ -1,28 +1,28 @@
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: bullseye
-Date: Mon, 27 Dec 2021 01:15:21 UTC
+Date: Fri, 31 Dec 2021 16:30:46 UTC
 Architectures: arm64
 Components: main
 Description: Regolith Debian
 MD5Sum:
- bdd901bd664e414d91371dee6a32a656 65484 main/binary-arm64/Packages
- 5a6877ab04ddbd6099223b6072a492ac 16155 main/binary-arm64/Packages.gz
+ 33d41613ee16a08845ee550862149bb0 65482 main/binary-arm64/Packages
+ 08855f4e917f81b53b808421db0ed3d7 16148 main/binary-arm64/Packages.gz
  eb4612bceb135af3120030d35a2be7f0 147 main/binary-arm64/Release
- 2aab94b0eb81c0dc2a7675229c1f6200 50237 main/source/Sources
- e5b9b2bd05356367cb5d09bf2ce7763c 12896 main/source/Sources.gz
+ 547037ced6732850ea02ce42d7c722bb 50237 main/source/Sources
+ ca017717ea7fc072703422293d604709 12891 main/source/Sources.gz
  de510260efac2966f60d3b03bc6e05d2 148 main/source/Release
 SHA1:
- 5a62ac7f3f75ecdd2a8fe865675126e5f79617d7 65484 main/binary-arm64/Packages
- 7c9e3f37de53aee45b80940383fae094c23ac22f 16155 main/binary-arm64/Packages.gz
+ 395e9aa5c25e54c6d669d173750f8fdd6aa355a4 65482 main/binary-arm64/Packages
+ ea0acbedaaa49fc385cc47a8115f223c70aa847b 16148 main/binary-arm64/Packages.gz
  448a7c55ac5192ee49f926109efa27a2db39242d 147 main/binary-arm64/Release
- 03a7fa9134a4933e49bb4658d48c14ef90970ccd 50237 main/source/Sources
- 69ac98650e4895276e3a9b68dc964cd360e283b8 12896 main/source/Sources.gz
+ 27120de88f596ee174534576416b7faf2aab1ea5 50237 main/source/Sources
+ 3003e15e359e94cf1777a03c1f96bcb6db9b81d9 12891 main/source/Sources.gz
  450ce45aa3db79f1aae27feaef4eb0f31de52dc9 148 main/source/Release
 SHA256:
- 9c463495928f29fdf0338a12200e9cc6220e26a0928f52f9b0f6b16e3a6db554 65484 main/binary-arm64/Packages
- b404f095e8350c109bdf8a5c69410645440e580306db5620bbb7a5dcafeb6e06 16155 main/binary-arm64/Packages.gz
+ 6063cb513c7fa2a3a1aef72988c07c58e776176cb02ff95f16dc3382df375f84 65482 main/binary-arm64/Packages
+ 5a7361be4fe8230c0955ab0a1e4b90da26181d2909db17b7305c86b2ce6f9a01 16148 main/binary-arm64/Packages.gz
  663977e86745ddae227f774723ec92236256ce7b1f6e8be73078cabf3256584c 147 main/binary-arm64/Release
- ef1f30e2d34b31e405c8ff89f8ad02f79fb2f09aa9764125408202cd3b2e0138 50237 main/source/Sources
- 0f718cff9774fbe5c3ff20da0d55d430c0aab106b39dd52e27dbacb51dfd38e4 12896 main/source/Sources.gz
+ 6f31b3c540f726cb4d4f75874c4ce7cd231cdceb6fe8733fff9b0fc92ca1091d 50237 main/source/Sources
+ 43ed4d835e7e5cf2e8586fd3c0657ada692441e1817642a765261cd8edbfdbb1 12891 main/source/Sources.gz
  538e8eebee7e2128def9fa7f48cefd65d4b51a8694ef30687365f5c289aa2fd7 148 main/source/Release
