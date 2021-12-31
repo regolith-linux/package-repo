@@ -4,42 +4,42 @@ Hash: SHA512
 Origin: regolith-linux.github.io/package-repo
 Label: Regolith Desktop Environment
 Codename: impish
-Date: Fri, 31 Dec 2021 21:02:55 UTC
+Date: Fri, 31 Dec 2021 21:17:05 UTC
 Architectures: arm64
 Components: main
 Description: Regolith packages for Ubuntu Impish
 MD5Sum:
- f274a2926232097023aeed5a5c825f38 54788 main/binary-arm64/Packages
- dd24ec90e40b8901fec57137e8e37548 14656 main/binary-arm64/Packages.gz
+ 688a2eeb32c0b893a65ff95c6163d9c0 64663 main/binary-arm64/Packages
+ 9868e31f5fa96e534365a3395769e854 16730 main/binary-arm64/Packages.gz
  a2cea3d76d26226d2adfc8e4d6c63fd4 167 main/binary-arm64/Release
- 15a12a3fbcbea37b95afc73d2d90f42c 54223 main/source/Sources
- 54edbcc23f409ec750274fa02f22d6cf 13840 main/source/Sources.gz
+ 5a1c93a1b511cbb350efc8a2cda74e3e 56672 main/source/Sources
+ f104053d1375a9147bea6ab7d01c8d9a 14385 main/source/Sources.gz
  bbdbcf973049e24ceb0cf7f719b4c72b 168 main/source/Release
 SHA1:
- b1bcedabdeb628b3ce74e14e4f1ff9ece476e855 54788 main/binary-arm64/Packages
- 21a017965b78fd1fdc640cd9841127e5619981d8 14656 main/binary-arm64/Packages.gz
+ f687304ed5d6e119edcf9c5200e063016af18db7 64663 main/binary-arm64/Packages
+ a90f58cd16840bf63e1311608aa74f6041daef6f 16730 main/binary-arm64/Packages.gz
  27be168726efed96ba0e20c9a5c5f149de8e2303 167 main/binary-arm64/Release
- 46c3ad72e1570394c1fb2d42d05d63c73a25a2ae 54223 main/source/Sources
- 33761acc1beff6bffe3181bcc0876fc65bd111ff 13840 main/source/Sources.gz
+ e0fee9aacc014d7073e831dc6abc111b96e080c5 56672 main/source/Sources
+ d3ca41fd266940353531dd07db82b1ab49bcded8 14385 main/source/Sources.gz
  6df7508895b49fc7f070257be21b88ff81e64923 168 main/source/Release
 SHA256:
- e076e1401539e5e0250780a4d041e95551bb367c7a88a3fc44633eb2fec1e9e3 54788 main/binary-arm64/Packages
- 36477d8ad076afc7475dd09e3912c3538799d4a4d0d39cad2ea418897d37001e 14656 main/binary-arm64/Packages.gz
+ 7855b19f019f3de4fe28d6c559a9479b68d3090154ad1bd5ac67ac46619c7b7a 64663 main/binary-arm64/Packages
+ 8d9c7cc64d7eac448224a5f7e323f284e8e7a6a7e71317aebf1beece40436134 16730 main/binary-arm64/Packages.gz
  bd4dfd248cbc5c1114605ac38a7175fe56bbd5d655fb64655fabd0827849fc59 167 main/binary-arm64/Release
- 0aed6e27e025e3af593756a4cf995722dd3a659eda77e98234f79bd0f9ee8d4e 54223 main/source/Sources
- e84a6239e909e6099d85d176dcbf147eabfc03a5b0a2315f31b7b003ae91706a 13840 main/source/Sources.gz
+ 954e43d98cf25e044895ac530725b9d720143ccf4177ede4248366229d58bc9b 56672 main/source/Sources
+ 7a7859cf6663f044a72af363ff86b0f4f019bd9a30efb926f7b43b7110299cdf 14385 main/source/Sources.gz
  5e17064a3e245f7ab2a09450cb5abbc2693d5da6b2e120960f23299ef1a79592 168 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmHPb/8ACgkQv+cXZJpc
-PQgENgwAgdupFZy/4lvubbGWOc/zDmrN3PNAIXM29DSkkMFnFZFn1xtjkIZLdJGq
-xKdjun+Dn8pgTAZEE483rJJWLL4mlZu3LBooCF+DEDkMGmUGf+kEpzRebR2chOy1
-ThZqG6ZqhyHDRPL7dw7vU6YGZlvlGfJ+CKtedrZ5sm4rfyFlcLSASYqpBl/ywZLo
-WXQTvdfeD7I32MN800b6aBlM7cAL5/v2riCk1WfaWC5S3RsrD8uXEwj1oCzKnE+6
-rIMUT0985OgSgtsEtz7+yLiG1XvsB1xv1g+UtEyeIbojM9dpd1ReEAQVstExlRVv
-ShPq3m0U/mAsf/fdFr59K+EI9PlMgveDJpMPfZ2YTRCcpITJX84obQ4t+Cc0yFG4
-ud0XEa/9KHex3e8kQLhinltEoGfAA4id42Gz2FVpilJzyHnA+cY7rgqzVzpeATRn
-ZSWSKBRStgq3msmhn/kD0HxPvl1S/4QjQ6ncW7BsJ8h5I27tip1pbBIFQ48dttdt
-MHYeXiXd
-=aQrQ
+iQGzBAEBCgAdFiEE+5zuZW8wT/zHpxn5v+cXZJpcPQgFAmHPc1EACgkQv+cXZJpc
+PQh2vAv/TzFDoSMX86RS9EN99c0AN3prGmCD15yOFxMN8rHiMVTFzZ9ITDj++uGR
+S9QTANLHk3WZMVGM1FdyX7aMPoMrWg0RE/lqIkvNr0gIqLiJzolA6EeIgSs2k3pq
+PYvH+rF0h5elhyWSBnWoOTNNL0QWrb3Ulopso3DHPLKr8H5/5EGnrKxKHHcxDID1
+TE6CAnXwObXJQud1BHaAs2NJM6taLQx2UYgvujfTXO/8QVXG+fuKXRPidb0Hcl62
++JI/3Gt51RivVlpQjEZNWS2L/QPTBrfl7Nl/B+HHOc0+cUypWATGUCXjPCK6dCci
+TSr4ymRyOvPCo/6DHqIXE0bVuPzZEJGHAILCjXmIkFvhctG/kBGKXezc1VsGzKab
+6B82mOTUBTH8IkkAEth0b4xGR7J83J+CNQuQn28hjppEBmaskc6YTe0Lk6yrGGa3
+iC6oy6+N/qFproehD30HLy+eWuqyCXE5ITTSIUFpwQzBB5D93tPy5y+raRR7T5Zh
+gJ1blVyV
+=HPjK
 -----END PGP SIGNATURE-----
