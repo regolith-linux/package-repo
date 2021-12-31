@@ -663,19 +663,19 @@ Description: Indicator to display the current Wi-Fi network name.
  currently connect Wi-Fi network.
 
 Package: ilia
-Version: 0.9.2-1-1regolith-1640286204
+Version: 0.9.3-1-1regolith-1640968360
 Architecture: arm64
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Installed-Size: 191
-Depends: libc6 (>= 2.17), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.16.2), libjson-glib-1.0-0 (>= 0.12.0), libtracker-sparql-2.0-0 (>= 0.10.0), dconf-gsettings-backend | gsettings-backend
+Depends: libc6 (>= 2.17), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee-0.8-2 (>= 0.8.3), libglib2.0-0 (>= 2.43.92), libgtk-3-0 (>= 3.22), libjson-glib-1.0-0 (>= 0.12.0), libtracker-sparql-2.0-0 (>= 0.10.0), dconf-gsettings-backend | gsettings-backend
 Homepage: https://github.com/regolith-linux/ilia
 Priority: optional
 Section: x11
-Filename: pool/main/i/ilia/ilia_0.9.2-1-1regolith-1640286204_arm64.deb
-Size: 48780
-SHA256: 0f28e617f48cadd8b5399c7ebbc448335ee82f616aa8a1736f30213d99f039b1
-SHA1: 92bdd67974d2b67434cbde630d16e387f8920c92
-MD5sum: 5181a13c798d0838663a9f61875c22ee
+Filename: pool/main/i/ilia/ilia_0.9.3-1-1regolith-1640968360_arm64.deb
+Size: 49180
+SHA256: 3daf342cc5ff2472a7959cb14dfb70d26b92f61efbf9fe31dd9aaba5363a8e74
+SHA1: 7257c2d01000e8ef70d804c53ea3996240e9e653
+MD5sum: 0ba4450d50b1eb251a12207fb51db3e7
 Description: General purpose desktop executor
  Invoke actions upon apps, commands, notifications,
  and keybindings via a simple filterable menu.
