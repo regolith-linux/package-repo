@@ -6,7 +6,7 @@ i3-next-workspace main cb469ba
 i3-snapshot master 5135c86
 i3-wm next bf425ae9
 i3xrocks master 0c39c51
-ilia main c1434d0
+ilia main 47dfe97
 json-glib HEAD a890f71
 lago main 960c8a0
 python3-i3ipc master 4d16601
@@ -17,10 +17,10 @@ regolith-compositor-xcompmgr master c17985c
 regolith-default-settings i3cp 3111b48
 regolith-desktop debian d123b59
 regolith-ftue main 0f17be4
-regolith-i3-config master b9072d5
+regolith-i3-config master 72a3636
 regolith-i3xrocks-config i3cp e1bd956
 regolith-look-default main 27e5ed0
-regolith-look-extra main 4503a80
+regolith-look-extra main 965eac1
 regolith-rofi-config i3cp 80f2698
 regolith-rofication master a75b21a
 regolith-session main e89a150
