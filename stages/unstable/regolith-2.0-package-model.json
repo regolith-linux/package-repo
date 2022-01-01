@@ -131,8 +131,8 @@
       "source": "https://github.com/regolith-linux/fonts-source-code-pro-ttf.git",
       "branch": "main"
     },
-    "nerd-fonts": {
-      "source": "https://github.com/regolith-linux/nerd-fonts.git",
+    "fonts-nerd-fonts": {
+      "source": "https://github.com/regolith-linux/fonts-nerd-fonts.git",
       "branch": "debian"
     }
   }
