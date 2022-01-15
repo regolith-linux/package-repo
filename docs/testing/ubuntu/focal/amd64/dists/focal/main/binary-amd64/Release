@@ -1,5 +1,0 @@
-Component: main
-Origin: regolith-linux.github.io/package-repo
-Label: Regolith Desktop Environment
-Architecture: amd64
-Description: Regolith packages for Ubuntu Focal
